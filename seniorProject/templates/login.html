@@ -12,7 +12,7 @@
     <!-- Main css -->
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
-<body  style="background-image: url('../static/images/blur-hospital.jpg');">
+<body style="background-image: url('../static/images/blur-hospital.jpg');">
 
     <div class="main">
 
@@ -40,9 +40,9 @@
                     {% for message in messages %}
                         <p id="messages">{{message}}</p>
                     {% endfor %}
-                    <p class="loginhere">
-                        Have already an account ? <a href="{% url 'register' %}" class="loginhere-link">Signup here</a>
-                    </p>
+<!--                    <p class="loginhere">-->
+<!--                        Have already an account ? <a href="" class="loginhere-link">Signup here</a>-->
+<!--                    </p>-->
                 </div>
             </div>
         </section>

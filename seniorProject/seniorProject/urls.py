@@ -20,6 +20,8 @@ from clinicApp import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url('register/', views.registerPage, name="register"),
-    url('login/', views.loginPage, name="login"),
+    url('register-patient/', views.registerPatientPage, name="register-patient"),
+    url('register-doctor/', views.registerDoctorPage, name="register-doctor"),
+    path('login/<str:t>/', views.loginPage, name="login"),
+    path('', views.welcomePage, name="welcome"),
 ]

@@ -2,10 +2,18 @@ from django.shortcuts import render, redirect
 
 # Create your views here.
 
-def registerPage(request):
+def welcomePage(request):
+    context = {}
+    return render(request, 'welcome.html', context)
+
+def registerPatientPage(request):
     context = {}
     return render(request, 'register_patient.html', context)
 
-def loginPage(request):
+def registerDoctorPage(request):
+    context = {}
+    return render(request, 'register_doctor.html', context)
+
+def loginPage(request, t):
     context = {}
     return render(request, 'login.html', context)

@@ -1,0 +1,90 @@
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet"
+    type="text/css"/>
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet"
+    type="text/css"/>
+    <link href="{% static 'css/bootstrap.css.map' %}" rel="stylesheet"
+    type="text/css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="{% static 'fonts/material-icon/css/material-design-iconic-font.min.css' %}">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing:border-box;
+        }
+
+        .column{
+            background: white;
+            border-radius: 30px;
+        }
+
+        img{
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+        }
+        a{
+            text-decoration: none;
+            color:white;
+        }
+
+    </style>
+</head>
+<body style="background-image: url('../static/images/blur-hospital.jpg');">
+
+    <section class="Form my-4 mx-5"> <!--my for margin top bottom, mx left and right-->
+        <div class="container">
+            <div class="column no-gutters"> <!--no-gutters to remove paddings in the row-->
+                <div class="row-sm">
+                    <img src="../static/images/welcomee.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="row-lg-7 pt-3 px-5">
+                    <h1 class="font-weight-bold py-3" align="center">WELCOME</h1>
+                    <hr>
+                    <center><form>
+                        <div class="form-row">
+                           <div class="col-md-6">
+                            <a href="{% url 'register-doctor' %}" class="btn btn-info btn-block my-2 p-3">Register as a Doctor</a>
+                           </div>
+                           <div class="col-md-6">
+
+                               <a href="{% url 'register-patient' %}" class="btn btn-info btn-block my-2 p-3">Register as a Patient</a>
+                           </div>
+                        </div>
+                         <div class="form-row">
+                           <div class="col-md-6">
+                                <a href="{% url 'login' 'dr' %}" class="btn btn-info btn-block my-2 p-3"> Login as a Doctor</a>
+                           </div>
+                           <div class="col-md-6">
+                                <a href="{% url 'login' 'pt' %}" class="btn btn-info btn-block my-2 p-3">Login as a Patient</a>
+                           </div>
+                        </div>
+                    </form></center>
+                    <h6 class="font-weight-bold py-3" align="center">ENJOY YOUR HEALTHY JOURNEY</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script type="text/javascript" src="{% static 'js/jquery.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+</body>
+</html>
