@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 class Speciality(models.Model):
     specialityName       = models.CharField(max_length=200, null=True)
-    description          = models.CharField(max_length=200, null=True)
+    description          = models.CharField(max_length=500, null=True)
 
     def __str__(self):
         return self.specialityName
@@ -15,7 +15,9 @@ class Doctor(models.Model):
     email                = models.CharField(max_length=200, null=True)
     address              = models.CharField(max_length=200, null=True)
     phone                = models.CharField(max_length=200, null=True)
-    specialityName       = models.ForeignKey(Speciality, null=True, on_delete=models.SET_NULL)
+    specialityName       = models.CharField(max_length=200, null=True)
+    password             = models.CharField(max_length=200, null=True)
+    re_password          = models.CharField(max_length=200, null=True)
     created_at           = models.DateTimeField(auto_now_add=True,  null=True)
     updated_at           = models.DateTimeField(auto_now_add=True,  null=True)
 
@@ -30,6 +32,8 @@ class Patient(models.Model):
     address              = models.CharField(max_length=200, null=True)
     phone                = models.CharField(max_length=200, null=True)
     gender               = models.CharField(max_length=200, null=True)
+    password             = models.CharField(max_length=200, null=True)
+    re_password          = models.CharField(max_length=200, null=True)
     created_at           = models.DateTimeField(auto_now_add=True,  null=True)
     updated_at           = models.DateTimeField(auto_now_add=True,  null=True)
 

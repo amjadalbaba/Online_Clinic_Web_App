@@ -22,6 +22,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url('register-patient/', views.registerPatientPage, name="register-patient"),
     url('register-doctor/', views.registerDoctorPage, name="register-doctor"),
-    path('login/<str:t>/', views.loginPage, name="login"),
+    path('login-p/', views.loginPatientPage, name="login_p"),
+    path('login-d/', views.loginDoctorPage, name="login_d"),
     path('', views.welcomePage, name="welcome"),
 ]

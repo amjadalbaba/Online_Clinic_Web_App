@@ -31,31 +31,44 @@
             box-sizing:border-box;
         }
 
-        .column{
+        body{
+            background: #e3e3e3; /*#18A2B8*/
+        }
+
+        .row{ /*column*/
             background: white;
             border-radius: 30px;
+            box-shadow: 12px 12px 22px grey;
         }
 
         img{
             border-top-left-radius: 30px;
-            border-top-right-radius: 30px;
-        }
+            border-bottom-left-radius: 30px;
+          }
+
         a{
             text-decoration: none;
             color:white;
         }
 
+        @media only screen and (max-width: 400px){
+            img{
+            border-top-right-radius: 30px;
+            border-top-left-radius: 30px;
+          }
+        }
     </style>
 </head>
-<body style="background-image: url('../static/images/blur-hospital.jpg');">
+<body>
+
 
     <section class="Form my-4 mx-5"> <!--my for margin top bottom, mx left and right-->
         <div class="container">
-            <div class="column no-gutters"> <!--no-gutters to remove paddings in the row-->
-                <div class="row-sm">
-                    <img src="../static/images/welcomee.jpg" class="img-fluid" alt="Responsive image">
+            <div class="row no-gutters"><!--col no-glutters--> <!--no-gutters to remove paddings in the row-->
+                <div class="col-lg-5">
+                    <img src="../static/images/wel.jpg" class="img-fluid" alt="Responsive image">
                 </div>
-                <div class="row-lg-7 pt-3 px-5">
+                <div class="col-lg-7 pt-3 px-5"><!--row-lg-7-->
                     <h1 class="font-weight-bold py-3" align="center">WELCOME</h1>
                     <hr>
                     <center><form>
@@ -70,14 +83,14 @@
                         </div>
                          <div class="form-row">
                            <div class="col-md-6">
-                                <a href="{% url 'login' 'dr' %}" class="btn btn-info btn-block my-2 p-3"> Login as a Doctor</a>
+                                <a href="{% url 'login_d' %}" class="btn btn-info btn-block my-2 p-3"> Login as a Doctor</a>
                            </div>
                            <div class="col-md-6">
-                                <a href="{% url 'login' 'pt' %}" class="btn btn-info btn-block my-2 p-3">Login as a Patient</a>
+                                <a href="{% url 'login_p' %}" class="btn btn-info btn-block my-2 p-3">Login as a Patient</a>
                            </div>
                         </div>
                     </form></center>
-                    <h6 class="font-weight-bold py-3" align="center">ENJOY YOUR HEALTHY JOURNEY</h6>
+                    <h6 class="font-weight-bold py-2" align="center">ENJOY YOUR HEALTHY JOURNEY</h6>
                 </div>
             </div>
         </div>
