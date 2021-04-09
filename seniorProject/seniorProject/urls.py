@@ -24,5 +24,6 @@ urlpatterns = [
     url('register-doctor/', views.registerDoctorPage, name="register-doctor"),
     path('login-p/', views.loginPatientPage, name="login_p"),
     path('login-d/', views.loginDoctorPage, name="login_d"),
+    path('home/', views.home, name="home"),
     path('', views.welcomePage, name="welcome"),
 ]
