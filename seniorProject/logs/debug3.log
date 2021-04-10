@@ -1,0 +1,31 @@
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 2391
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+INFO "POST /login-d/ HTTP/1.1" 302 0
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Doctor successful login
+INFO "POST /login-d/ HTTP/1.1" 302 0
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Doctor successful login
+INFO "POST /login-d/ HTTP/1.1" 302 0
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO Doctor successful login
+INFO "POST /login-d/ HTTP/1.1" 302 0
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO login.html
+INFO "POST /login-d/ HTTP/1.1" 200 2391
+INFO list index out of range
+INFO "POST /login-d/ HTTP/1.1" 200 2271
+INFO Doctor successful login
+INFO "POST /login-d/ HTTP/1.1" 302 0
+INFO "GET /home/ HTTP/1.1" 200 123

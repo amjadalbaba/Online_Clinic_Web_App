@@ -129,3 +129,27 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
     '/var/www/static/',
 ]
+
+LOGGING= {
+    'version' : 1,
+    'loggers' : {
+        'django' : {
+            'handlers' : ['file'],
+            'level' : 'DEBUG'
+        }
+    },
+    'handlers' : {
+        'file': {
+            'level': 'INFO',
+            'class': 'logging.FileHandler',
+            'filename': './logs/debug3.log',
+            'formatter' : 'simple',
+        }
+    },
+    'formatters' : {
+        'simple' : {
+            'format' : '{levelname} {message}',
+            'style' : '{',
+        }
+    }
+}

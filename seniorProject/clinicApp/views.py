@@ -4,9 +4,15 @@ from .models import *
 from django.contrib import messages
 from django.contrib.auth.hashers import make_password, check_password
 from django.contrib.auth import authenticate, login, logout
+from django.views.decorators.cache import never_cache
+
+import logging
+
+from .logic import patientRegistration, doctorRegistration
 
 
 
+logger = logging.getLogger('django')
 
 # Create your views here.
 
@@ -15,43 +21,19 @@ def welcomePage(request):
     return render(request, 'welcome.html', context)
 
 def registerPatientPage(request):
-    form = PatientForm()
-    if request.method == 'POST':
-        if request.POST.get('password') != request.POST.get('re_password'):
-            messages.info(request, "Please enter the same password in both fields")
-            return render(request, 'register_patient.html')
-        else:
-            form = PatientForm(request.POST)
-            if form.is_valid():
-                form.save()
-                return redirect('login_p')
 
-    context = {'form': form}
+    patientRegistration(request)
+    context = {}
     return render(request, 'register_patient.html', context)
 
-def registerDoctorPage(request):
-    form = DoctorForm()
-    if request.method == 'POST':
-        if request.POST.get('password') != request.POST.get('re_password'):
-            messages.info(request, "Please enter the same password in both fields")
-            return render(request, 'register_doctor.html')
-        else:
-            form = DoctorForm(request.POST)
-            if form.is_valid():
-                password = request.POST['password']
-                #re_password = request.POST['re_password']
-                f1 = form.save(commit=False)
-                f1.password = make_password(password)
-                f1.re_password = f1.password
-                f1.save()
-                # if check_password(request.POST['password'], f1.password):
-                #     print("successful")
-                return redirect('login_d')
 
+
+def registerDoctorPage(request):
+
+    doctorRegistration(request)
     specialities = Speciality.objects.only('specialityName')
 
     context = {
-        'form' : form,
         'specialities' : specialities
                }
     return render(request, 'register_doctor.html', context)
@@ -61,20 +43,20 @@ def loginPatientPage(request):
         email = request.POST.get('email')
         password = request.POST.get('password')
 
-        userAuth = Doctor.objects.filter(email = email).values_list('password', flat=True)
-        r = userAuth[0]
-        print(r)
+        userAuth = Patient.objects.filter(email = email).values_list('password', flat=True)
+
         # pwdAuth = Doctor.objects.get(password = password)
-        if check_password(password, r):
-            print("unsuccessful")
+        if check_password(password, userAuth[0]):
+            logger.info('Patient successful login')
+            return redirect('home')
         #patient = authenticate(request, email=email, password=password)
 
         # if patient is not None:
         #     login(request, patient)
         #     return redirect('home')
-        # else:
-        #     messages.info(request, "username or password is incorrect")
-        #     return render(request, 'login.html')
+        else:
+            messages.info(request, "Email or password is incorrect")
+            return render(request, 'login.html')
 
 
     context = {}
@@ -86,12 +68,16 @@ def loginDoctorPage(request):
         password = request.POST.get('password')
 
         userAuth = Doctor.objects.filter(email = email).values_list('password', flat=True)
-        r = userAuth[0]
-        print(r)
-        if check_password(password, r):
-            print("successful")
-            return redirect('home')
 
+        try:
+            if check_password(password, userAuth[0]):
+                logger.info('Doctor successful login')
+                return redirect('home')
+            else:
+                messages.info(request, "Email or password is incorrect")
+                return render(request, 'login.html')
+        except Exception as e:
+            logger.info(e)
     context = {}
     return render(request, 'login_doctor.html', context)
 

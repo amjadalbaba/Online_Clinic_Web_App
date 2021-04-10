@@ -20,6 +20,91 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <link rel="stylesheet" href="{% static 'css/custom.css' %}">
 
+
+    <script>
+        function validateMyForm(){
+
+                    if(f.firstName.value.length==0) {
+
+                        d1.style.visibility="visible";
+                        return false;
+                    }
+                    else document.getElementById("d1").style.display = "none";
+
+                    if(f.middleName.value.length==0) {
+
+                        d2.style.visibility="visible";
+                        return false;
+                    }
+                    else document.getElementById("d2").style.display = "none";
+
+
+                    if(f.lastName.value.length==0) {
+
+                        d3.style.visibility="visible";
+                        return false;
+                    }
+                    else document.getElementById("d3").style.display = "none";
+
+                    if(f.address.value.length==0) {
+
+                        d4.style.visibility="visible";
+                        return false;
+                    }
+                    else document.getElementById("d4").style.display = "none";
+
+                    if(f.phone.value.length==0 || f.phone.value.length<8 || f.phone.value.length>8) {
+
+                        d5.style.visibility="visible";
+                        return false;
+                    }
+                    else document.getElementById("d5").style.display = "none";
+
+                    if(f.email.value.length==0 || f.email.value.indexOf('@')==-1 || f.email.value.indexOf('.com')==-1) {
+
+                        d6.style.visibility="visible";
+                        return false;
+                    }
+                    else document.getElementById("d6").style.display = "none";
+
+
+                    if(f.specialityName.value.length==0) {
+
+                        d7.style.visibility="visible";
+                        return false;
+                    }
+                    else document.getElementById("d7").style.display = "none";
+
+                    if(f.password.value.length==0) {
+
+                        d8.style.visibility="visible";
+                        return false;
+                    }
+                    else document.getElementById("d8").style.display = "none";
+
+                    re=/[A-Z][0-9][a-z]/;
+                    if(!re.test(f.pass.value)){
+
+                        d8.style.visibility="visible";
+                        f.pass.focus();
+                        return false;
+
+                    }
+                    else document.getElementById("d8").style.display = "none";
+
+                    re=/[0-9]/;
+                    if(!re.test(f.phone.value)){
+
+                        d5.style.visibility="visible";
+                        f.phone.focus();
+                        return false;
+                    }
+
+                    else return true;
+            }
+
+
+    </script>
 </head>
 <body style="background-image: url('../static/images/blur-hospital.jpg');">
     <div class="main">
@@ -28,27 +113,33 @@
             <!-- <img src="images/signup-bg.jpg" alt=""> -->
             <div class="container">
                 <div class="signup-content">
-                    <form method="POST" id="signup-form" class="signup-form">
+                    <form method="POST" id="signup-form" class="signup-form" name="f" onsubmit="validateMyForm();">
                         {% csrf_token %}
                         <h2 class="form-title">Create account</h2>
                         <div class="form-group">
-                            <input type="text" class="form-input" name="firstName" id="name" placeholder="Your First Name"/>
+                            <input type="text" class="form-input" name="firstName" id="fName" placeholder="Your First Name"/>
                         </div>
+                        <div id="d1" style="visibility:hidden; color:red"><i>enter your first name</i></div>
                         <div class="form-group">
                             <input type="text" class="form-input" name="middleName" id="mName" placeholder="Your Middle Name"/>
                         </div>
+                        <div id="d2" style="visibility:hidden; color:red"><i>enter your middle name</i></div>
                         <div class="form-group">
                             <input type="text" class="form-input" name="lastName" id="lName" placeholder="Your Last Name"/>
                         </div>
+                        <div id="d3" style="visibility:hidden; color:red"><i>enter your last name</i></div>
                         <div class="form-group">
                             <input type="text" class="form-input" name="address" id="address" placeholder="Your Address"/>
                         </div>
+                        <div id="d4" style="visibility:hidden; color:red"><i>enter your address</i></div>
                          <div class="form-group">
                             <input type="text" class="form-input" name="phone" id="phone" placeholder="Your Phone Number"/>
                         </div>
+                        <div id="d5" style="visibility:hidden; color:red"><i>phone number must contain 8 digits</i></div>
                         <div class="form-group">
                             <input type="email" class="form-input" name="email" id="email" placeholder="Your Email"/>
                         </div>
+                        <div id="d6" style="visibility:hidden; color:red"><i>enter your email</i></div>
                         <div class="form-group">
                               <select class="form-select" aria-label="Default select example" style="border: 1px solid white" name="specialityName">
                                       <option selected>Select your speciality</option>
@@ -57,23 +148,23 @@
                                   {% endfor %}
                               </select>
                         </div>
+                        <div id="d7" style="visibility:hidden; color:red"><i>enter your speciality</i></div>
                         <div class="form-group">
                             <input type="text" class="form-input" name="password" id="password" placeholder="Password"/>
                             <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
                         </div>
-                        <div class="form-group">
-                            <input type="password" class="form-input" name="re_password" id="re_password" placeholder="Repeat your password"/>
-                        </div>
+                        <div id="d8" style="visibility:hidden; color:red"><i>password must contain a number,at least one capital and small letters</i></div>
+
 <!--                        <div class="form-group">-->
 <!--                            <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />-->
 <!--                            <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>-->
 <!--                        </div>-->
                         <div class="form-group">
-                            <input type="submit" name="submit" id="submit" class="form-submit" value="Sign Up"/>
+                            <input type="submit" name="submit" id="submitButton" class="form-submit" value="Sign Up"/>
                         </div>
                     </form>
                     {% for message in messages %}
-                        <p id="messages">{{message}}</p>
+                        <p id="messages" style="color:#ff0000">{{message}}</p>
                     {% endfor %}
 <!--                    <p class="loginhere">-->
 <!--                        Have already an account ? <a href="" class="loginhere-link">Login here</a>-->

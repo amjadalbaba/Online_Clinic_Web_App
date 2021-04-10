@@ -17,7 +17,6 @@ class Doctor(models.Model):
     phone                = models.CharField(max_length=200, null=True)
     specialityName       = models.CharField(max_length=200, null=True)
     password             = models.CharField(max_length=200, null=True)
-    re_password          = models.CharField(max_length=200, null=True)
     created_at           = models.DateTimeField(auto_now_add=True,  null=True)
     updated_at           = models.DateTimeField(auto_now_add=True,  null=True)
 
@@ -33,7 +32,6 @@ class Patient(models.Model):
     phone                = models.CharField(max_length=200, null=True)
     gender               = models.CharField(max_length=200, null=True)
     password             = models.CharField(max_length=200, null=True)
-    re_password          = models.CharField(max_length=200, null=True)
     created_at           = models.DateTimeField(auto_now_add=True,  null=True)
     updated_at           = models.DateTimeField(auto_now_add=True,  null=True)
 
