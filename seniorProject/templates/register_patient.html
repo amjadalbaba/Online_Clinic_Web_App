@@ -33,35 +33,35 @@
                         {% csrf_token %}
                         <h2 class="form-title">Create account</h2>
                         <div class="form-group">
-                            <input type="text" class="form-input" name="firstName" id="name" placeholder="Your First Name"/>
+                            <input type="text" class="form-input" name="firstName" id="name" required="required" placeholder="Your First Name"/>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-input" name="middleName" id="mName" placeholder="Your Middle Name"/>
+                            <input type="text" class="form-input" name="middleName" id="mName" required="required" placeholder="Your Middle Name"/>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-input" name="lastName" id="lName" placeholder="Your Last Name"/>
+                            <input type="text" class="form-input" name="lastName" id="lName" required="required" placeholder="Your Last Name"/>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-input" name="address" id="address" placeholder="Your Address"/>
+                            <input type="text" class="form-input" name="address" id="address" required="required" placeholder="Your Address"/>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-input" name="phone" id="phone" placeholder="Your Phone Number"/>
+                            <input type="text" class="form-input" name="phone" id="phone" required="required" placeholder="Your Phone Number"/>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-input" name="email" id="email" placeholder="Your Email"/>
+                            <input type="email" class="form-input" name="email" id="email" required="required" placeholder="Your Email"/>
                         </div>
                         <div class="form-group">
                             <div class="form-check form-check-inline">
-                              <input class="form-check-input" type="radio" name="gender" id="inlineRadio1" value="Male">
+                              <input class="form-check-input" type="radio" required="required" name="gender" id="inlineRadio1" value="Male">
                               <label class="form-check-label" for="inlineRadio1">Male</label>
                             </div>
                             <div class="form-check form-check-inline">
-                              <input class="form-check-input" type="radio" name="gender" id="inlineRadio2" value="Female">
+                              <input class="form-check-input" type="radio" required="required" name="gender" id="inlineRadio2" value="Female">
                               <label class="form-check-label" for="inlineRadio2">Female</label>
                             </div>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-input" name="password" id="password" placeholder="Password"/>
+                            <input type="text" class="form-input" name="password" id="password" required="required" placeholder="Password"/>
                             <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
                         </div>
 

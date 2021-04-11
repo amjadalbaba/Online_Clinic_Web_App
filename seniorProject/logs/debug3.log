@@ -29,3 +29,201 @@ INFO "POST /login-d/ HTTP/1.1" 200 2271
 INFO Doctor successful login
 INFO "POST /login-d/ HTTP/1.1" 302 0
 INFO "GET /home/ HTTP/1.1" 200 123
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+INFO "GET /static/images/wel.jpg HTTP/1.1" 304 0
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+INFO "GET /static/images/wel.jpg HTTP/1.1" 304 0
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+INFO "GET /register-doctor/ HTTP/1.1" 200 10867
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 304 0
+INFO "GET /register-doctor/ HTTP/1.1" 200 10887
+INFO "GET /register-doctor/ HTTP/1.1" 200 10907
+INFO "GET /register-doctor/ HTTP/1.1" 200 11027
+INFO "GET /register-doctor/ HTTP/1.1" 200 11031
+INFO "GET /register-doctor/ HTTP/1.1" 200 11038
+INFO "GET /register-doctor/ HTTP/1.1" 200 11038
+INFO "GET /register-doctor/ HTTP/1.1" 200 11038
+INFO "GET /register-doctor/ HTTP/1.1" 200 11022
+INFO "GET /register-doctor/ HTTP/1.1" 200 11022
+INFO "GET /register-doctor/ HTTP/1.1" 200 11038
+INFO "GET /register-doctor/ HTTP/1.1" 200 11022
+INFO "GET /register-doctor/ HTTP/1.1" 200 11015
+INFO "GET /register-doctor/ HTTP/1.1" 200 11043
+INFO "POST /register-doctor/ HTTP/1.1" 200 11043
+INFO "POST /register-doctor/ HTTP/1.1" 200 11043
+INFO "GET /register-doctor/ HTTP/1.1" 200 11043
+INFO "GET /register-doctor/ HTTP/1.1" 200 11024
+INFO "GET /register-doctor/ HTTP/1.1" 200 11047
+INFO "GET /register-doctor/ HTTP/1.1" 200 11047
+INFO "GET /register-doctor/ HTTP/1.1" 200 11018
+INFO "GET /register-doctor/ HTTP/1.1" 200 11019
+INFO "GET /register-doctor/ HTTP/1.1" 200 11000
+INFO "GET /register-doctor/ HTTP/1.1" 200 11019
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /register-patient/ HTTP/1.1" 200 5592
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /login-d/ HTTP/1.1" 200 2311
+INFO "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO "GET /login-p/ HTTP/1.1" 200 2310
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/css/custom.css HTTP/1.1" 200 212
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+INFO "GET /static/js/main.js HTTP/1.1" 304 0
+INFO "GET /static/images/wel.jpg HTTP/1.1" 304 0
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2744
+INFO "GET /register-doctor/ HTTP/1.1" 200 11019
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 304 0
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+INFO "GET /register-patient/ HTTP/1.1" 200 5592
+INFO "POST /register-patient/ HTTP/1.1" 200 5592
+INFO "GET /login-p/ HTTP/1.1" 200 2310
+INFO Patient successful login
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /register-doctor/ HTTP/1.1" 200 11019
+INFO "POST /register-doctor/ HTTP/1.1" 200 11019
+INFO "GET /login-d/ HTTP/1.1" 200 2311
+INFO Doctor successful login
+INFO "POST /login-d/ HTTP/1.1" 302 0
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO Doctor successful login
+INFO "POST /login-d/ HTTP/1.1" 302 0
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO login.html
+INFO "POST /login-d/ HTTP/1.1" 200 2431
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO login.html
+INFO "POST /login-d/ HTTP/1.1" 200 2311
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /login-d/ HTTP/1.1" 200 2311
+INFO login.html
+INFO "POST /login-d/ HTTP/1.1" 200 2311
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 2311
+INFO list index out of range
+INFO "POST /login-d/ HTTP/1.1" 200 2311
+INFO login.html
+INFO "POST /login-d/ HTTP/1.1" 200 2431
+INFO "GET /login-p/ HTTP/1.1" 200 2310
+INFO login.html
+INFO "POST /login-p/ HTTP/1.1" 200 2430
+INFO login.html
+INFO "POST /login-p/ HTTP/1.1" 200 2430
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /register-doctor/ HTTP/1.1" 200 11019
+INFO "GET /register-patient/ HTTP/1.1" 200 5592
+ERROR Internal Server Error: /register-patient/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 25, in registerPatientPage
+    Registration(request, PatientForm, "register-patient")
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 12, in Registration
+    em = request.POST.get['email']
+TypeError: 'method' object is not subscriptable
+ERROR "POST /register-patient/ HTTP/1.1" 500 64254
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /register-patient/ HTTP/1.1" 200 5592
+ERROR Internal Server Error: /register-patient/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 25, in registerPatientPage
+    Registration(request, PatientForm, "register-patient")
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 12, in Registration
+    em = request.POST.get['email']
+TypeError: 'method' object is not subscriptable
+ERROR "POST /register-patient/ HTTP/1.1" 500 64252
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /register-patient/ HTTP/1.1" 200 5592
+ERROR Internal Server Error: /register-patient/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 25, in registerPatientPage
+    Registration(request, PatientForm, 'register-patient')
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 12, in Registration
+    em = request.POST.get['email']
+TypeError: 'method' object is not subscriptable
+ERROR "POST /register-patient/ HTTP/1.1" 500 64254
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /login-d/ HTTP/1.1" 200 2311
+INFO list index out of range
+INFO "POST /login-d/ HTTP/1.1" 200 2311
+INFO login.html
+INFO "POST /login-d/ HTTP/1.1" 200 2431
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 2311
+INFO login.html
+INFO "POST /login-d/ HTTP/1.1" 200 2551
+INFO list index out of range
+INFO "POST /login-d/ HTTP/1.1" 200 2431
+INFO "GET /login-d/ HTTP/1.1" 200 2312
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 2312
+INFO "GET /login-d/ HTTP/1.1" 200 2312
+INFO "GET /login-d/ HTTP/1.1" 200 2312
+WARNING Not Found: /l
+WARNING "GET /l HTTP/1.1" 404 2714
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2744
+INFO "GET / HTTP/1.1" 200 3509
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /register-patient/ HTTP/1.1" 200 5592
+INFO "POST /register-patient/ HTTP/1.1" 200 5592
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader

@@ -83,7 +83,7 @@
                     else document.getElementById("d8").style.display = "none";
 
                     re=/[A-Z][0-9][a-z]/;
-                    if(!re.test(f.pass.value)){
+                    if(!re.test(f.password.value)){
 
                         d8.style.visibility="visible";
                         f.pass.focus();
@@ -113,35 +113,35 @@
             <!-- <img src="images/signup-bg.jpg" alt=""> -->
             <div class="container">
                 <div class="signup-content">
-                    <form method="POST" id="signup-form" class="signup-form" name="f" onsubmit="validateMyForm();">
+                    <form method="POST" id="signup-form" class="signup-form" name="f">
                         {% csrf_token %}
                         <h2 class="form-title">Create account</h2>
                         <div class="form-group">
-                            <input type="text" class="form-input" name="firstName" id="fName" placeholder="Your First Name"/>
+                            <input type="text" class="form-input" name="firstName" id="fName" required="required" placeholder="Your First Name"/>
                         </div>
                         <div id="d1" style="visibility:hidden; color:red"><i>enter your first name</i></div>
                         <div class="form-group">
-                            <input type="text" class="form-input" name="middleName" id="mName" placeholder="Your Middle Name"/>
+                            <input type="text" class="form-input" name="middleName" id="mName" required="required" placeholder="Your Middle Name"/>
                         </div>
                         <div id="d2" style="visibility:hidden; color:red"><i>enter your middle name</i></div>
                         <div class="form-group">
-                            <input type="text" class="form-input" name="lastName" id="lName" placeholder="Your Last Name"/>
+                            <input type="text" class="form-input" name="lastName" id="lName" required="required" placeholder="Your Last Name"/>
                         </div>
                         <div id="d3" style="visibility:hidden; color:red"><i>enter your last name</i></div>
                         <div class="form-group">
-                            <input type="text" class="form-input" name="address" id="address" placeholder="Your Address"/>
+                            <input type="text" class="form-input" name="address" id="address" required="required" placeholder="Your Address"/>
                         </div>
                         <div id="d4" style="visibility:hidden; color:red"><i>enter your address</i></div>
                          <div class="form-group">
-                            <input type="text" class="form-input" name="phone" id="phone" placeholder="Your Phone Number"/>
+                            <input type="text" class="form-input" name="phone" id="phone" required="required" placeholder="Your Phone Number"/>
                         </div>
                         <div id="d5" style="visibility:hidden; color:red"><i>phone number must contain 8 digits</i></div>
                         <div class="form-group">
-                            <input type="email" class="form-input" name="email" id="email" placeholder="Your Email"/>
+                            <input type="email" class="form-input" name="email" id="email" required="required" placeholder="Your Email"/>
                         </div>
                         <div id="d6" style="visibility:hidden; color:red"><i>enter your email</i></div>
                         <div class="form-group">
-                              <select class="form-select" aria-label="Default select example" style="border: 1px solid white" name="specialityName">
+                              <select class="form-select" aria-label="Default select example" style="border: 1px solid white" required="required" name="specialityName">
                                       <option selected>Select your speciality</option>
                                   {% for s in specialities %}
                                       <option value="{{s}}">{{s}}</option>
@@ -150,7 +150,7 @@
                         </div>
                         <div id="d7" style="visibility:hidden; color:red"><i>enter your speciality</i></div>
                         <div class="form-group">
-                            <input type="text" class="form-input" name="password" id="password" placeholder="Password"/>
+                            <input class="form-input" name="password" id="password" required="required" placeholder="Password"/>
                             <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
                         </div>
                         <div id="d8" style="visibility:hidden; color:red"><i>password must contain a number,at least one capital and small letters</i></div>
@@ -160,7 +160,7 @@
 <!--                            <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>-->
 <!--                        </div>-->
                         <div class="form-group">
-                            <input type="submit" name="submit" id="submitButton" class="form-submit" value="Sign Up"/>
+                            <input type="submit" name="submit" id="submitButton" class="form-submit" value="Sign Up" onsubmit="validateMyForm();"/>
                         </div>
                     </form>
                     {% for message in messages %}

@@ -8,7 +8,7 @@ from django.views.decorators.cache import never_cache
 
 import logging
 
-from .logic import patientRegistration, doctorRegistration
+from .logic import *
 
 
 
@@ -22,7 +22,7 @@ def welcomePage(request):
 
 def registerPatientPage(request):
 
-    patientRegistration(request)
+    Registration(request, PatientForm)
     context = {}
     return render(request, 'register_patient.html', context)
 
@@ -30,7 +30,7 @@ def registerPatientPage(request):
 
 def registerDoctorPage(request):
 
-    doctorRegistration(request)
+    Registration(request, DoctorForm)
     specialities = Speciality.objects.only('specialityName')
 
     context = {
@@ -46,21 +46,19 @@ def loginPatientPage(request):
         userAuth = Patient.objects.filter(email = email).values_list('password', flat=True)
 
         # pwdAuth = Doctor.objects.get(password = password)
-        if check_password(password, userAuth[0]):
-            logger.info('Patient successful login')
-            return redirect('home')
-        #patient = authenticate(request, email=email, password=password)
-
-        # if patient is not None:
-        #     login(request, patient)
-        #     return redirect('home')
-        else:
-            messages.info(request, "Email or password is incorrect")
-            return render(request, 'login.html')
-
+        try:
+            if check_password(password, userAuth[0]):
+                logger.info('Doctor successful login')
+                return redirect('home')
+            else:
+                messages.info(request, "Email or password is incorrect")
+                return render(request, 'login.html')
+        except Exception as e:
+            logger.info(e)
 
     context = {}
     return render(request, 'login_patient.html', context)
+
 
 def loginDoctorPage(request):
     if request.method == 'POST':
@@ -78,6 +76,7 @@ def loginDoctorPage(request):
                 return render(request, 'login.html')
         except Exception as e:
             logger.info(e)
+
     context = {}
     return render(request, 'login_doctor.html', context)
 

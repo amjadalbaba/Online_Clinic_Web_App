@@ -26,11 +26,11 @@
                         {% csrf_token %}
                         <h2 class="form-title">Sign IN</h2>
                         <div class="form-group">
-                            <input type="text" class="form-input" name="email" id="name" placeholder="Your Email"/>
+                            <input type="email" class="form-input" name="email" id="name" required="required" placeholder="Your Email"/>
                         </div>
 
                         <div class="form-group">
-                            <input type="text" class="form-input" name="password" id="password" placeholder="Password"/>
+                            <input type="text" class="form-input" name="password" required="required" id="password" placeholder="Password"/>
                             <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
                         </div>
 
