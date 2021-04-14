@@ -227,3 +227,1733 @@ INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py change
 INFO Watching for file changes with StatReloader
 INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
 INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/images/wel.jpg HTTP/1.1" 304 0
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+INFO "GET /static/js/main.js HTTP/1.1" 304 0
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2807
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 2771
+INFO "GET /login-d/ HTTP/1.1" 200 2312
+INFO "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 304 0
+INFO login.html
+INFO "POST /login-d/ HTTP/1.1" 200 2432
+INFO Doctor successful login
+INFO "POST /login-d/ HTTP/1.1" 302 0
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Doctor unsuccessful login beacuase of wrong email or password
+INFO login.html
+INFO "POST /login-d/ HTTP/1.1" 200 2432
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 2311
+INFO Doctor successful login
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home/ HTTP/1.1" 200 123
+WARNING Not Found: /l
+WARNING "GET /l HTTP/1.1" 404 2714
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /login-p/ HTTP/1.1" 200 2311
+INFO Patient unsuccessful login beacuase of wrong email or password
+INFO login.html
+INFO "POST /login-p/ HTTP/1.1" 200 2431
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 2311
+INFO Patient unsuccessful login beacuase of wrong email or password
+INFO login.html
+INFO "POST /login-p/ HTTP/1.1" 200 2431
+INFO Doctor successful login
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home/ HTTP/1.1" 200 123
+WARNING Not Found: /schoolboard-laravel
+WARNING "GET /schoolboard-laravel HTTP/1.1" 404 2768
+WARNING Not Found: /schoolboard-laravel
+WARNING "GET /schoolboard-laravel HTTP/1.1" 404 2768
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2744
+INFO "GET / HTTP/1.1" 200 3509
+WARNING Not Found: /l
+WARNING "GET /l HTTP/1.1" 404 2714
+INFO "GET /login-d/ HTTP/1.1" 200 2312
+INFO "GET /login-p/ HTTP/1.1" 200 2311
+INFO "GET /login-p/ HTTP/1.1" 200 2311
+INFO "GET /login-d/ HTTP/1.1" 200 2312
+INFO Doctor unsuccessful login beacuase of wrong email or password
+INFO login.html
+INFO "POST /login-d/ HTTP/1.1" 200 2432
+INFO "GET /login-d/ HTTP/1.1" 200 2312
+INFO "GET /login-d/ HTTP/1.1" 200 2312
+WARNING Not Found: /login/
+WARNING "GET /login/ HTTP/1.1" 404 2729
+INFO "GET /login-d/ HTTP/1.1" 200 2312
+WARNING Not Found: /l
+WARNING "GET /l HTTP/1.1" 404 2714
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /login-p/ HTTP/1.1" 200 2311
+INFO "GET /login-d/ HTTP/1.1" 200 2312
+INFO Doctor unsuccessful login beacuase of wrong email or password
+INFO login.html
+INFO "POST /login-d/ HTTP/1.1" 200 2432
+INFO Doctor successful login
+INFO "POST /login-d/ HTTP/1.1" 302 0
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO "GET /login-p/ HTTP/1.1" 200 2311
+INFO Patient unsuccessful login beacuase of wrong email or password
+INFO login.html
+INFO "POST /login-p/ HTTP/1.1" 200 2431
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /login-d/ HTTP/1.1" 200 2312
+INFO Doctor successful login
+INFO "POST /login-d/ HTTP/1.1" 302 0
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO "GET /login-p/ HTTP/1.1" 200 2311
+INFO Patient unsuccessful login beacuase of wrong email or password
+INFO login.html
+INFO "POST /login-p/ HTTP/1.1" 200 2431
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 2311
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET / HTTP/1.1" 200 3509
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 2312
+INFO list index out of range
+INFO "POST /login-d/ HTTP/1.1" 200 2312
+INFO "GET /login-p/ HTTP/1.1" 200 2311
+INFO list index out of range
+INFO "POST /login-p/ HTTP/1.1" 200 2311
+INFO Patient unsuccessful login beacuase of wrong email or password
+INFO login.html
+INFO "POST /login-p/ HTTP/1.1" 200 2431
+INFO Patient successful login
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/css/bootstrap.css HTTP/1.1" 200 192348
+INFO "GET /static/css/style.css HTTP/1.1" 200 10093
+INFO "GET /static/css/custom.css HTTP/1.1" 200 212
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 200 93101
+INFO "GET /static/fonts/material-icon/css/material-design-iconic-font.min.css HTTP/1.1" 200 70815
+INFO "GET /static/js/main.js HTTP/1.1" 200 353
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/js/bootstrap.min.js HTTP/1.1" 200 58072
+INFO "GET /static/css/bootstrap.min.css HTTP/1.1" 200 155758
+INFO "GET /static/images/wel.jpg HTTP/1.1" 200 2319473
+INFO "GET /static/fonts/montserrat/Montserrat-Regular.ttf HTTP/1.1" 200 263192
+INFO "GET / HTTP/1.1" 200 3509
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2807
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 2771
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2744
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2807
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 2771
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2744
+INFO "GET / HTTP/1.1" 200 3509
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2807
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 2771
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2744
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2807
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 2771
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2744
+INFO "GET /register-doctor/ HTTP/1.1" 200 11019
+INFO "GET /static/css/bootstrap.css HTTP/1.1" 200 192348
+INFO "GET /static/css/custom.css HTTP/1.1" 200 212
+INFO "GET /static/css/style.css HTTP/1.1" 200 10093
+INFO "GET /static/fonts/material-icon/css/material-design-iconic-font.min.css HTTP/1.1" 200 70815
+INFO "GET /static/js/main.js HTTP/1.1" 200 353
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 200 93101
+INFO "GET /static/css/bootstrap.min.css HTTP/1.1" 200 155758
+INFO "GET /static/js/bootstrap.min.js HTTP/1.1" 200 58072
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0 HTTP/1.1" 200 38384
+INFO "GET /static/fonts/montserrat/Montserrat-Regular.ttf HTTP/1.1" 200 263192
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 200 3114963
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING Not Found: /favicon.ico
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2807
+WARNING "GET /favicon.ico HTTP/1.1" 404 2744
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 2771
+INFO "GET /register-patient/ HTTP/1.1" 200 5592
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2744
+INFO "GET /register-patient/ HTTP/1.1" 200 5592
+INFO "GET /register-patient/ HTTP/1.1" 200 5592
+INFO "GET /register-patient/ HTTP/1.1" 200 5592
+INFO "GET /register-patient/ HTTP/1.1" 200 5592
+INFO "GET /register-patient/ HTTP/1.1" 200 5592
+INFO "GET /register-patient/ HTTP/1.1" 200 5592
+INFO "GET /static/css/custom.css HTTP/1.1" 200 0
+INFO "GET /static/css/style.css HTTP/1.1" 200 10093
+INFO "GET /static/js/main.js HTTP/1.1" 200 353
+INFO "GET /static/css/bootstrap.css HTTP/1.1" 200 192348
+INFO "GET /static/fonts/material-icon/css/material-design-iconic-font.min.css HTTP/1.1" 200 70815
+INFO "GET /static/css/bootstrap.min.css HTTP/1.1" 200 155758
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/fonts/montserrat/Montserrat-Bold.ttf HTTP/1.1" 200 261588
+INFO "GET /static/fonts/montserrat/Montserrat-Medium.ttf HTTP/1.1" 200 260236
+INFO "GET /static/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0 HTTP/1.1" 200 38384
+INFO "GET /static/fonts/montserrat/Montserrat-Regular.ttf HTTP/1.1" 200 263192
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 200 3114963
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2807
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 2771
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2744
+INFO "GET /register-patient/ HTTP/1.1" 200 5592
+INFO "GET /static/css/custom.css HTTP/1.1" 200 212
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 200 93101
+INFO "GET /static/js/bootstrap.min.js HTTP/1.1" 200 58072
+INFO "GET /static/images/wel.jpg HTTP/1.1" 200 2319473
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2744
+INFO "GET /login-d/ HTTP/1.1" 200 2312
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+INFO "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 200 86929
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2744
+INFO "GET /login-p/ HTTP/1.1" 200 2311
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2744
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/css/bootstrap.css HTTP/1.1" 200 192348
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/custom.css HTTP/1.1" 200 212
+INFO "GET /static/css/style.css HTTP/1.1" 200 10093
+INFO "GET /static/js/main.js HTTP/1.1" 200 353
+INFO "GET /static/fonts/material-icon/css/material-design-iconic-font.min.css HTTP/1.1" 200 70815
+INFO "GET /static/js/bootstrap.min.js HTTP/1.1" 200 58072
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 200 93101
+INFO "GET /static/css/bootstrap.min.css HTTP/1.1" 200 155758
+INFO "GET /static/images/wel.jpg HTTP/1.1" 200 2319473
+INFO "GET /static/fonts/montserrat/Montserrat-Regular.ttf HTTP/1.1" 200 263192
+INFO "GET /register-doctor/ HTTP/1.1" 200 11019
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2744
+INFO "GET /login-d/ HTTP/1.1" 200 2312
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+INFO "GET /register-patient/ HTTP/1.1" 200 5592
+INFO "GET /register-doctor/ HTTP/1.1" 200 11787
+INFO "POST /register-doctor/ HTTP/1.1" 200 11787
+INFO Watching for file changes with StatReloader
+INFO "GET /register-doctor/ HTTP/1.1" 200 11787
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /register-doctor/ HTTP/1.1" 200 11787
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /register-doctor/ HTTP/1.1" 200 11787
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /register-doctor/ HTTP/1.1" 200 11506
+INFO "POST /register-doctor/ HTTP/1.1" 200 11506
+INFO "GET /register-doctor/ HTTP/1.1" 200 11506
+INFO "GET /register-doctor/ HTTP/1.1" 200 11506
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/images/wel.jpg HTTP/1.1" 304 0
+INFO "GET /static/images/wel.jpg HTTP/1.1" 304 0
+INFO Watching for file changes with StatReloader
+INFO "GET /register-doctor/ HTTP/1.1" 200 11506
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /login-d/ HTTP/1.1" 200 2312
+INFO "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO list index out of range
+INFO "POST /login-d/ HTTP/1.1" 200 2312
+INFO Doctor unsuccessful login beacuase of wrong email or password
+INFO login.html
+INFO "POST /login-d/ HTTP/1.1" 200 2432
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Doctor successful login
+INFO "POST /login-d/ HTTP/1.1" 302 0
+INFO "GET /home/ HTTP/1.1" 200 123
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2744
+WARNING Doctor unsuccessful login because of wrong email or password
+INFO login.html
+INFO "POST /login-d/ HTTP/1.1" 200 2432
+INFO "GET /static/css/style.css.map HTTP/1.1" 200 6880
+WARNING Doctor unsuccessful login because of wrong email or password
+INFO login.html
+INFO "POST /login-d/ HTTP/1.1" 200 2432
+WARNING Doctor unsuccessful login because of wrong email or password
+INFO login.html
+INFO "POST /login-d/ HTTP/1.1" 200 2432
+WARNING Doctor unsuccessful login because of wrong email or password
+INFO login.html
+INFO "POST /login-d/ HTTP/1.1" 200 2432
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2194
+INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2138
+INFO "GET /static/admin/css/base.css HTTP/1.1" 200 16307
+INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO "GET /static/admin/css/responsive.css HTTP/1.1" 200 18344
+INFO "GET /static/admin/css/login.css HTTP/1.1" 200 1185
+INFO "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3072
+INFO "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO "GET /api/login-d HTTP/1.1" 301 0
+INFO "GET /api/login-d/ HTTP/1.1" 200 2312
+WARNING Not Found: /api/static/images/blur-hospital.jpg
+WARNING "GET /api/static/images/blur-hospital.jpg HTTP/1.1" 404 3144
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3072
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/ HTTP/1.1" 405 5820
+INFO "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3072
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/ HTTP/1.1" 405 5820
+INFO "GET /api/login-p?email=s@g.com&password=sar234 HTTP/1.1" 301 0
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 405 5922
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3072
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO list index out of range
+INFO "GET /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 200 2311
+WARNING Not Found: /api/static/images/blur-hospital.jpg
+WARNING "GET /api/static/images/blur-hospital.jpg HTTP/1.1" 404 3144
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 405 5922
+INFO list index out of range
+INFO "POST /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 200 2311
+WARNING Not Found: /api/static/images/blur-hospital.jpg
+WARNING "GET /api/static/images/blur-hospital.jpg HTTP/1.1" 404 3144
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 405 5922
+INFO Patient successful login
+INFO "POST /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 200 6120
+INFO "OPTIONS /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 200 6200
+INFO "OPTIONS /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 200 6200
+INFO "OPTIONS /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 200 6200
+INFO "OPTIONS /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 200 6200
+INFO "OPTIONS /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 200 6200
+INFO "OPTIONS /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 200 6200
+INFO "OPTIONS /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 200 6200
+INFO "OPTIONS /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 200 6200
+INFO "OPTIONS /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 200 6200
+INFO "OPTIONS /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 200 6200
+INFO "OPTIONS /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 200 6200
+INFO "OPTIONS /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 200 6200
+INFO "OPTIONS /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 200 6200
+INFO "OPTIONS /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 200 6200
+WARNING Bad Request: /api/login-p/
+WARNING "POST /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 400 5973
+WARNING Bad Request: /api/login-p/
+WARNING "POST /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 400 5973
+WARNING Bad Request: /api/login-p/
+WARNING "POST /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 400 5973
+INFO list index out of range
+INFO "POST /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 200 2311
+WARNING Not Found: /api/static/images/blur-hospital.jpg
+WARNING "GET /api/static/images/blur-hospital.jpg HTTP/1.1" 404 3144
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 405 5922
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/serializers.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 405 5922
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 405 5922
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 405 5922
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 405 5922
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 405 5922
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 405 5922
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 405 5922
+WARNING Bad Request: /api/login-p/
+WARNING "POST /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 400 5973
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 405 5922
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 405 5922
+INFO "OPTIONS /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 200 6200
+INFO "OPTIONS /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 200 6200
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/ HTTP/1.1" 405 5820
+INFO list index out of range
+INFO "POST /api/login-p/ HTTP/1.1" 200 2311
+WARNING Not Found: /api/static/images/blur-hospital.jpg
+WARNING "GET /api/static/images/blur-hospital.jpg HTTP/1.1" 404 3144
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 5980
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/ HTTP/1.1" 405 5820
+INFO list index out of range
+INFO "POST /api/login-p/ HTTP/1.1" 200 2311
+WARNING Not Found: /api/static/images/blur-hospital.jpg
+WARNING "GET /api/static/images/blur-hospital.jpg HTTP/1.1" 404 3144
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 5980
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 405 5922
+INFO "OPTIONS /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 200 6200
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/ HTTP/1.1" 405 5820
+WARNING Bad Request: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 400 5856
+INFO list index out of range
+INFO "POST /api/login-p/ HTTP/1.1" 200 2311
+WARNING Not Found: /api/static/images/blur-hospital.jpg
+WARNING "GET /api/static/images/blur-hospital.jpg HTTP/1.1" 404 3144
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 5980
+WARNING Bad Request: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 400 5838
+INFO "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+INFO "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/ HTTP/1.1" 405 5646
+INFO list index out of range
+INFO "POST /api/login-p/ HTTP/1.1" 200 2311
+WARNING Not Found: /api/static/images/blur-hospital.jpg
+WARNING "GET /api/static/images/blur-hospital.jpg HTTP/1.1" 404 3144
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 5806
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/ HTTP/1.1" 405 5646
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 405 5748
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 405 5748
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 405 5748
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 405 5748
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET / HTTP/1.1" 200 3509
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 405 5748
+WARNING Not Found: /api
+WARNING "GET /api HTTP/1.1" 404 3042
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3066
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/?email=s@g.com&password=sar234 HTTP/1.1" 405 5748
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/ HTTP/1.1" 405 5646
+INFO "GET /api/login-p HTTP/1.1" 301 0
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/ HTTP/1.1" 405 5646
+INFO "OPTIONS /api/login-p/ HTTP/1.1" 200 5924
+INFO list index out of range
+INFO "POST /api/login-p/ HTTP/1.1" 200 2311
+WARNING Not Found: /api/static/images/blur-hospital.jpg
+WARNING "GET /api/static/images/blur-hospital.jpg HTTP/1.1" 404 3138
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 5806
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO list index out of range
+INFO "GET /api/login-p/ HTTP/1.1" 200 2311
+WARNING Not Found: /api/static/images/blur-hospital.jpg
+WARNING "GET /api/static/images/blur-hospital.jpg HTTP/1.1" 404 3138
+INFO Patient successful login
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/response.py", line 55, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+ERROR "POST /api/login-p/ HTTP/1.1" 500 63894
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/ HTTP/1.1" 405 5646
+WARNING Not Found: /api/static/images/blur-hospital.jpg
+WARNING "GET /api/static/images/blur-hospital.jpg HTTP/1.1" 404 3138
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO list index out of range
+INFO "GET /api/login-p/ HTTP/1.1" 200 2311
+WARNING Not Found: /api/static/images/blur-hospital.jpg
+WARNING "GET /api/static/images/blur-hospital.jpg HTTP/1.1" 404 3138
+WARNING Method Not Allowed: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 405 5320
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/ HTTP/1.1" 405 5646
+WARNING Not Found: /api/static/images/blur-hospital.jpg
+WARNING "GET /api/static/images/blur-hospital.jpg HTTP/1.1" 404 3138
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/serializers.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/ HTTP/1.1" 405 5646
+WARNING Not Found: /api/static/images/blur-hospital.jpg
+WARNING "GET /api/static/images/blur-hospital.jpg HTTP/1.1" 404 2975
+INFO list index out of range
+INFO "POST /api/login-p/ HTTP/1.1" 200 2311
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 5806
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO list index out of range
+INFO "POST /api/login-p/ HTTP/1.1" 200 2311
+WARNING Not Found: /api/static/images/blur-hospital.jpg
+WARNING "GET /api/static/images/blur-hospital.jpg HTTP/1.1" 404 3138
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 5806
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Method Not Allowed: /api/login-p/
+WARNING "GET /api/login-p/ HTTP/1.1" 405 5646
+INFO list index out of range
+INFO "POST /api/login-p/ HTTP/1.1" 200 2311
+WARNING Not Found: /api/static/images/blur-hospital.jpg
+WARNING "GET /api/static/images/blur-hospital.jpg HTTP/1.1" 404 3138
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 5850
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+INFO "GET /login-p/ HTTP/1.1" 200 2311
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 304 0
+WARNING Patient unsuccessful login beacuase of wrong email or password
+INFO "POST /login-p/ HTTP/1.1" 200 18
+WARNING Patient unsuccessful login beacuase of wrong email or password
+INFO "POST /login-p/ HTTP/1.1" 200 18
+INFO Patient successful login
+INFO "POST /login-p/ HTTP/1.1" 200 2551
+INFO Patient successful login
+INFO "POST /login-p/ HTTP/1.1" 200 2311
+INFO Patient successful login
+INFO "POST /login-p/ HTTP/1.1" 200 2311
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 72, in loginPatientPage
+    return HttpResponse(response, content_type="text/json")
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR "GET /login-p/ HTTP/1.1" 500 58438
+ERROR Internal Server Error: /login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 72, in loginPatientPage
+    return HttpResponse(response, content_type="text/json")
+UnboundLocalError: local variable 'response' referenced before assignment
+ERROR "GET /login-p/ HTTP/1.1" 500 58438
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 2311
+INFO Patient successful login
+INFO "POST /login-p/ HTTP/1.1" 200 2311
+WARNING Patient unsuccessful login beacuase of wrong email or password
+INFO "POST /login-p/ HTTP/1.1" 200 18
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Patient successful login
+INFO "POST /login-p/ HTTP/1.1" 200 21
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Patient successful login
+INFO "POST /login-p/ HTTP/1.1" 200 21
+INFO local variable 'response' referenced before assignment
+INFO "POST /login-p/ HTTP/1.1" 200 18
+INFO "GET /login-p/ HTTP/1.1" 200 3127
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+ERROR Internal Server Error: /login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view clinicApp.views.loginPatientPage didn't return an HttpResponse object. It returned None instead.
+ERROR "GET /login-p/ HTTP/1.1" 500 59472
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 2899
+WARNING Not Found: /login-p/login-p/
+WARNING "POST /login-p/login-p/ HTTP/1.1" 404 3082
+WARNING Not Found: /login-p/login-p/
+WARNING "POST /login-p/login-p/ HTTP/1.1" 404 3082
+INFO "GET /login-p/ HTTP/1.1" 200 2891
+WARNING Forbidden (CSRF token missing or incorrect.): /login-p/
+WARNING "POST /login-p/ HTTP/1.1" 403 2513
+INFO "GET /login-p/ HTTP/1.1" 200 3057
+WARNING Forbidden (CSRF token missing or incorrect.): /login-p/
+WARNING "POST /login-p/ HTTP/1.1" 403 2513
+WARNING Forbidden (CSRF token missing or incorrect.): /login-p/
+WARNING "POST /login-p/ HTTP/1.1" 403 2513
+INFO "GET /login-d/ HTTP/1.1" 200 2312
+WARNING Not Found: /login/
+WARNING "GET /login/ HTTP/1.1" 404 3051
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3066
+INFO "GET /login-d/ HTTP/1.1" 200 2312
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 304 0
+WARNING Not Found: /l
+WARNING "GET /l HTTP/1.1" 404 3036
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3066
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+INFO "GET /login-p/ HTTP/1.1" 200 3900
+INFO "GET /login-p/ HTTP/1.1" 200 3900
+WARNING Forbidden (CSRF token missing or incorrect.): /login-p/
+WARNING "POST /login-p/ HTTP/1.1" 403 2513
+INFO "GET /login-p/ HTTP/1.1" 200 2994
+INFO "GET /login-p/ HTTP/1.1" 200 3135
+INFO "GET /login-p/ HTTP/1.1" 200 3135
+INFO "GET /login-p/ HTTP/1.1" 200 3303
+INFO "GET /login-p/ HTTP/1.1" 200 3304
+WARNING Forbidden (CSRF token missing or incorrect.): /login-p/
+WARNING "POST /login-p/ HTTP/1.1" 403 2513
+INFO "GET /login-p/ HTTP/1.1" 200 3302
+INFO "GET /login-p/ HTTP/1.1" 200 3375
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.min.css.map HTTP/1.1" 200 625953
+INFO "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 190253
+INFO "GET /login-p/ HTTP/1.1" 200 3375
+INFO "GET /login-p/ HTTP/1.1" 200 3375
+INFO "GET /login-p/ HTTP/1.1" 200 3375
+INFO "GET /login-p/ HTTP/1.1" 200 3318
+INFO "GET /login-p/ HTTP/1.1" 200 3318
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /login-p/ HTTP/1.1" 200 3318
+INFO "GET /login-p/ HTTP/1.1" 200 3316
+INFO "GET /login-p/ HTTP/1.1" 200 3318
+WARNING Forbidden (CSRF token missing or incorrect.): /login-p/
+WARNING "POST /login-p/ HTTP/1.1" 403 2513
+INFO "GET /login-p/ HTTP/1.1" 200 3375
+WARNING Forbidden (CSRF token missing or incorrect.): /login-p/
+WARNING "POST /login-p/ HTTP/1.1" 403 2513
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /login-p/ HTTP/1.1" 200 3375
+WARNING Forbidden (CSRF token missing or incorrect.): /login-p/
+WARNING "POST /login-p/ HTTP/1.1" 403 2513
+INFO "GET /login-p/ HTTP/1.1" 200 3318
+INFO "GET /login-p/ HTTP/1.1" 200 3406
+INFO "GET /login-p/ HTTP/1.1" 200 3407
+INFO "GET /login-p/ HTTP/1.1" 200 3407
+INFO "GET /static/css/custom.css HTTP/1.1" 200 212
+INFO "GET /static/js/main.js HTTP/1.1" 200 353
+INFO "GET /static/css/style.css HTTP/1.1" 200 10093
+INFO "GET /static/fonts/material-icon/css/material-design-iconic-font.min.css HTTP/1.1" 200 70815
+INFO "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 200 86929
+INFO "GET /static/css/style.css.map HTTP/1.1" 200 6880
+INFO "GET /static/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0 HTTP/1.1" 200 38384
+INFO "GET /static/fonts/montserrat/Montserrat-Regular.ttf HTTP/1.1" 200 263192
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 200 3114963
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3066
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/css/custom.css HTTP/1.1" 200 212
+INFO "GET /static/css/style.css HTTP/1.1" 200 10093
+INFO "GET /static/fonts/material-icon/css/material-design-iconic-font.min.css HTTP/1.1" 200 70815
+INFO "GET /static/css/bootstrap.css HTTP/1.1" 200 192348
+INFO "GET /static/js/main.js HTTP/1.1" 200 353
+INFO "GET /static/css/bootstrap.min.css HTTP/1.1" 200 155758
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 200 93101
+INFO "GET /static/js/bootstrap.min.js HTTP/1.1" 200 58072
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/images/wel.jpg HTTP/1.1" 200 2319473
+INFO "GET /static/fonts/montserrat/Montserrat-Regular.ttf HTTP/1.1" 200 263192
+INFO "GET /login-p/ HTTP/1.1" 200 3407
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 3129
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 3093
+INFO "GET /login-p/ HTTP/1.1" 200 3462
+INFO "GET /login-p/ HTTP/1.1" 200 3462
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/css/bootstrap.css HTTP/1.1" 200 192348
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 200 93101
+INFO "GET /static/css/bootstrap.min.css HTTP/1.1" 200 155758
+INFO "GET /static/js/bootstrap.min.js HTTP/1.1" 200 58072
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/images/wel.jpg HTTP/1.1" 200 2319473
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3066
+INFO "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 190253
+INFO "GET /static/css/bootstrap.min.css.map HTTP/1.1" 200 625953
+INFO "GET /login-p/ HTTP/1.1" 200 3462
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 52, in loginPatientPage
+    email = request.get('email')
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+ERROR "GET /login-p/ HTTP/1.1" 500 58175
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO list index out of range
+INFO "GET /login-p/ HTTP/1.1" 200 18
+INFO list index out of range
+INFO "GET /login-p/ HTTP/1.1" 200 18
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/css/style.css HTTP/1.1" 200 10093
+INFO "GET /static/css/custom.css HTTP/1.1" 200 212
+INFO "GET /static/js/main.js HTTP/1.1" 200 353
+INFO "GET /static/fonts/material-icon/css/material-design-iconic-font.min.css HTTP/1.1" 200 70815
+INFO "GET /static/fonts/montserrat/Montserrat-Regular.ttf HTTP/1.1" 200 263192
+INFO list index out of range
+INFO "GET /login-p/ HTTP/1.1" 200 18
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 3462
+INFO "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 200 86929
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 200 3114963
+INFO "GET /static/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0 HTTP/1.1" 200 38384
+INFO "GET /static/css/style.css.map HTTP/1.1" 200 6880
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 3400
+INFO "GET /login-p/ HTTP/1.1" 200 3399
+INFO "GET /login-p/ HTTP/1.1" 200 3397
+WARNING Forbidden (CSRF token missing or incorrect.): /login-p/
+WARNING "POST /login-p/ HTTP/1.1" 403 2513
+INFO "GET /login-p/ HTTP/1.1" 200 3398
+INFO "GET /login-p/ HTTP/1.1" 200 3396
+ERROR Internal Server Error: /login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 52, in loginPatientPage
+    email = request.get('email')
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+ERROR "POST /login-p/ HTTP/1.1" 500 59035
+INFO "GET /login-p/ HTTP/1.1" 200 3408
+WARNING Not Found: /login-p/api/login-p/
+WARNING "POST /login-p/api/login-p/ HTTP/1.1" 404 3094
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view clinicApp.views.loginPatientPage didn't return an HttpResponse object. It returned None instead.
+ERROR "GET /login-p/ HTTP/1.1" 500 59328
+ERROR Internal Server Error: /login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view clinicApp.views.loginPatientPage didn't return an HttpResponse object. It returned None instead.
+ERROR "GET /login-p/ HTTP/1.1" 500 59328
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Bad Request: /login-p/
+WARNING "GET /login-p/ HTTP/1.1" 400 13
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Bad Request: /login-p/
+WARNING "GET /login-p/?email=s@g.com HTTP/1.1" 400 13
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3066
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET / HTTP/1.1" 200 3509
+WARNING Bad Request: /login-p/
+WARNING "GET /login-p/ HTTP/1.1" 400 13
+WARNING Bad Request: /login-p/
+WARNING "GET /login-p/ HTTP/1.1" 400 13
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Bad Request: /login-p/
+WARNING "GET /login-p/ HTTP/1.1" 400 13
+WARNING Bad Request: /login-p/
+WARNING "GET /login-p/ HTTP/1.1" 400 13
+WARNING Bad Request: /login-p/
+WARNING "GET /login-p/ HTTP/1.1" 400 13
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2846
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2909
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 2873
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Bad Request: /login-p/
+WARNING "GET /login-p/ HTTP/1.1" 400 13
+INFO Watching for file changes with StatReloader
+WARNING Bad Request: /login-p/
+WARNING "GET /login-p/ HTTP/1.1" 400 13
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 51, in loginPatPage
+    return render(request, "login_patient.html")
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login-p' not found. 'login-p' is not a valid view function or pattern name.
+ERROR "GET /login-p/ HTTP/1.1" 500 114401
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 51, in loginPatPage
+    return render(request, "login_patient.html")
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login-p' not found. 'login-p' is not a valid view function or pattern name.
+ERROR "GET /login-p/ HTTP/1.1" 500 114401
+INFO "GET /login-p/ HTTP/1.1" 200 3188
+INFO "GET /static/fonts/material-icon/css/material-design-iconic-font.min.css HTTP/1.1" 200 70815
+INFO "GET /static/css/custom.css HTTP/1.1" 200 212
+INFO "GET /static/css/style.css HTTP/1.1" 200 10093
+INFO "GET /static/js/main.js HTTP/1.1" 200 353
+INFO "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 200 86929
+INFO "GET /static/css/style.css.map HTTP/1.1" 200 6880
+INFO "GET /static/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0 HTTP/1.1" 200 38384
+INFO "GET /static/fonts/montserrat/Montserrat-Regular.ttf HTTP/1.1" 200 263192
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 200 3114963
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 58, in loginPatientPage
+    email = request.get('email')
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+ERROR "POST /api/login-p/ HTTP/1.1" 500 59076
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3238
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2752
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 58, in loginPatientPage
+    email = request.get('email')
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+ERROR "POST /api/login-p/ HTTP/1.1" 500 59068
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/css/bootstrap.css HTTP/1.1" 200 192348
+INFO "GET /static/css/bootstrap.min.css HTTP/1.1" 200 155758
+INFO "GET /static/js/bootstrap.min.js HTTP/1.1" 200 58072
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 200 93101
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.min.css.map HTTP/1.1" 200 625953
+INFO "GET /static/images/wel.jpg HTTP/1.1" 200 2319473
+INFO "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 190253
+INFO "GET /login-p/ HTTP/1.1" 200 3238
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 58, in loginPatientPage
+    email = request.get('email')
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+ERROR "POST /api/login-p/ HTTP/1.1" 500 59076
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/css/bootstrap.min.css HTTP/1.1" 200 155758
+INFO "GET /static/css/style.css HTTP/1.1" 200 10093
+INFO "GET /static/fonts/material-icon/css/material-design-iconic-font.min.css HTTP/1.1" 200 70815
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/custom.css HTTP/1.1" 200 212
+INFO "GET /static/css/bootstrap.css HTTP/1.1" 200 192348
+INFO "GET /static/js/main.js HTTP/1.1" 200 353
+INFO "GET /static/js/bootstrap.min.js HTTP/1.1" 200 58072
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 200 93101
+INFO "GET /static/images/wel.jpg HTTP/1.1" 200 2319473
+INFO "GET /static/fonts/montserrat/Montserrat-Regular.ttf HTTP/1.1" 200 263192
+INFO "GET /login-p/ HTTP/1.1" 200 3419
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 58, in loginPatientPage
+    email = request.get('email')
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+ERROR "POST /api/login-p/ HTTP/1.1" 500 59076
+INFO "GET /login-p/ HTTP/1.1" 200 3419
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 58, in loginPatientPage
+    email = request.get('email')
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+ERROR "POST /api/login-p/ HTTP/1.1" 500 59076
+INFO "GET /login-p/ HTTP/1.1" 200 3421
+INFO "GET /login-p/ HTTP/1.1" 200 3389
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 58, in loginPatientPage
+    email = request.get('email')
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+ERROR "POST /api/login-p/ HTTP/1.1" 500 59076
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 58, in loginPatientPage
+    email = request.get('email')
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+ERROR "POST /api/login-p/ HTTP/1.1" 500 59076
+INFO "GET /login-p/ HTTP/1.1" 200 3393
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 58, in loginPatientPage
+    email = request.get('email')
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+ERROR "POST /api/login-p/ HTTP/1.1" 500 59076
+INFO "GET /login-p/ HTTP/1.1" 200 3610
+INFO "GET /login-p/ HTTP/1.1" 200 3612
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 58, in loginPatientPage
+    email = request.get('email')
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+ERROR "POST /api/login-p/ HTTP/1.1" 500 59076
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 3612
+INFO "GET /static/css/custom.css HTTP/1.1" 200 212
+INFO "GET /static/js/main.js HTTP/1.1" 200 353
+INFO "GET /static/css/style.css HTTP/1.1" 200 10093
+INFO "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 200 86929
+INFO "GET /static/fonts/material-icon/css/material-design-iconic-font.min.css HTTP/1.1" 200 70815
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 200 3114963
+INFO "GET /static/css/style.css.map HTTP/1.1" 200 6880
+INFO "GET /static/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0 HTTP/1.1" 200 38384
+INFO "GET /static/fonts/montserrat/Montserrat-Regular.ttf HTTP/1.1" 200 263192
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 58, in loginPatientPage
+    email = request.get('email')
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+ERROR "POST /api/login-p/ HTTP/1.1" 500 59023
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 3612
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 58, in loginPatientPage
+    email = request['email']
+TypeError: 'WSGIRequest' object is not subscriptable
+ERROR "POST /api/login-p/ HTTP/1.1" 500 58921
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 58, in loginPatientPage
+    email = request['email']
+TypeError: 'WSGIRequest' object is not subscriptable
+ERROR "POST /api/login-p/ HTTP/1.1" 500 58927
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 3612
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 58, in loginPatientPage
+    email = request.email
+AttributeError: 'WSGIRequest' object has no attribute 'email'
+ERROR "POST /api/login-p/ HTTP/1.1" 500 58974
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 3615
+INFO "GET /static/css/style.css HTTP/1.1" 200 10093
+INFO "GET /static/css/custom.css HTTP/1.1" 200 212
+INFO "GET /static/js/main.js HTTP/1.1" 200 353
+INFO "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 200 86929
+INFO "GET /static/fonts/montserrat/Montserrat-Regular.ttf HTTP/1.1" 200 263192
+INFO "GET /static/fonts/montserrat/Montserrat-Bold.ttf HTTP/1.1" 200 261588
+INFO "GET /static/fonts/material-icon/css/material-design-iconic-font.min.css HTTP/1.1" 200 70815
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 200 3114963
+INFO "GET /static/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0 HTTP/1.1" 200 38384
+INFO "GET /static/css/style.css.map HTTP/1.1" 200 6880
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 58, in loginPatientPage
+    email = request.get('email')
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+ERROR "POST /api/login-p/ HTTP/1.1" 500 59017
+INFO "GET /login-p/ HTTP/1.1" 200 3661
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 58, in loginPatientPage
+    email = request.get('email')
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+ERROR "POST /api/login-p/ HTTP/1.1" 500 59017
+INFO "POST /login-p/ HTTP/1.1" 200 3661
+INFO "GET /login-p/ HTTP/1.1" 200 3711
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 58, in loginPatientPage
+    email = request.get('email')
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+ERROR "POST /api/login-p/ HTTP/1.1" 500 59017
+INFO "GET /login-p/ HTTP/1.1" 200 3713
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 58, in loginPatientPage
+    email = request.get('email')
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+ERROR "POST /api/login-p/ HTTP/1.1" 500 59017
+INFO "POST /login-p/ HTTP/1.1" 200 3713
+INFO "GET /login-p/ HTTP/1.1" 200 3711
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 58, in loginPatientPage
+    email = request.get('email')
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+ERROR "POST /api/login-p/ HTTP/1.1" 500 59017
+INFO "GET /login-p/ HTTP/1.1" 200 3711
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 58, in loginPatientPage
+    email = request.get('email')
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+ERROR "POST /api/login-p/ HTTP/1.1" 500 59017
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /login-p/ HTTP/1.1" 200 3711
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 58, in loginPatientPage
+    email = request.get('email')
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+ERROR "POST /api/login-p/ HTTP/1.1" 500 59017
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /login-p/ HTTP/1.1" 200 3713
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 58, in loginPatientPage
+    email = request.get('email')
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+ERROR "POST /api/login-p/ HTTP/1.1" 500 59017
+INFO "POST /login-p/ HTTP/1.1" 200 3713
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /login-p/ HTTP/1.1" 200 3711
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 58, in loginPatientPage
+    email = request.get('email')
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+ERROR "POST /api/login-p/ HTTP/1.1" 500 59017
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /login-p/ HTTP/1.1" 200 3721
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 58, in loginPatientPage
+    email = request.get('email')
+AttributeError: 'WSGIRequest' object has no attribute 'get'
+ERROR "POST /api/login-p/ HTTP/1.1" 500 59017
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /login-p/ HTTP/1.1" 200 3721
+INFO list index out of range
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 67, in loginPatientPage
+    if check_password(password, userAuth[0]):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 76, in loginPatientPage
+    return JsonResponse(response, status=400)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/http/response.py", line 560, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+ERROR "POST /api/login-p/ HTTP/1.1" 500 73754
+INFO list index out of range
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 67, in loginPatientPage
+    if check_password(password, userAuth[0]):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 76, in loginPatientPage
+    return JsonResponse(response, status=400)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/http/response.py", line 560, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+ERROR "POST /api/login-p/ HTTP/1.1" 500 73754
+INFO "GET /login-p/ HTTP/1.1" 200 3718
+INFO Patient successful login
+INFO In order to allow non-dict objects to be serialized set the safe parameter to False.
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 72, in loginPatientPage
+    return JsonResponse(response, status=200)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/http/response.py", line 560, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 76, in loginPatientPage
+    return JsonResponse(response, status=400)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/http/response.py", line 560, in __init__
+    raise TypeError(
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+ERROR "POST /api/login-p/ HTTP/1.1" 500 75236
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 3718
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 30
+INFO "GET /home/ HTTP/1.1" 200 123
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2876
+INFO "GET /login-p/ HTTP/1.1" 200 3718
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 30
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /login-p/ HTTP/1.1" 200 3718
+INFO local variable 'response' referenced before assignment
+WARNING Bad Request: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 400 27
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 30
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO local variable 'response' referenced before assignment
+WARNING Bad Request: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 400 27
+INFO local variable 'response' referenced before assignment
+WARNING Bad Request: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 400 27
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 30
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /login-p/ HTTP/1.1" 200 3718
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 30
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /login-p/ HTTP/1.1" 200 3718
+INFO "GET /static/css/style.css.map HTTP/1.1" 200 6880
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/css/bootstrap.css HTTP/1.1" 200 192348
+INFO "GET /static/css/custom.css HTTP/1.1" 200 212
+INFO "GET /static/css/style.css HTTP/1.1" 200 10093
+INFO "GET /static/fonts/material-icon/css/material-design-iconic-font.min.css HTTP/1.1" 200 70815
+INFO "GET /static/css/bootstrap.min.css HTTP/1.1" 200 155758
+INFO "GET /static/js/main.js HTTP/1.1" 200 353
+INFO "GET /static/js/bootstrap.min.js HTTP/1.1" 200 58072
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 200 93101
+INFO "GET /static/images/wel.jpg HTTP/1.1" 200 2319473
+INFO "GET /static/fonts/montserrat/Montserrat-Regular.ttf HTTP/1.1" 200 263192
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 30
+INFO "GET /home/ HTTP/1.1" 200 123
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2876
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 30
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO local variable 'response' referenced before assignment
+WARNING Bad Request: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 400 27
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 3718
+INFO "GET /static/css/custom.css HTTP/1.1" 200 212
+INFO "GET /static/js/main.js HTTP/1.1" 200 353
+INFO "GET /static/css/style.css HTTP/1.1" 200 10093
+INFO "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 200 86929
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 200 3114963
+INFO "GET /static/fonts/material-icon/css/material-design-iconic-font.min.css HTTP/1.1" 200 70815
+INFO "GET /static/css/style.css.map HTTP/1.1" 200 6880
+INFO "GET /static/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0 HTTP/1.1" 200 38384
+INFO "GET /static/fonts/montserrat/Montserrat-Bold.ttf HTTP/1.1" 200 261588
+INFO "GET /static/fonts/montserrat/Montserrat-Regular.ttf HTTP/1.1" 200 263192
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2876
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2939
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 2903
+INFO local variable 'response' referenced before assignment
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 27
+INFO "GET / HTTP/1.1" 200 3509
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2939
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 2903
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2876
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2939
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 2903
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2876
+INFO "GET / HTTP/1.1" 200 3509
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2939
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 2903
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2876
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2939
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 2903
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2876
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 30
+INFO "GET /home/ HTTP/1.1" 200 123
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2939
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 2903
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 30
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO local variable 'response' referenced before assignment
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 27
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 30
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "POST /api/login-p/ HTTP/1.1" 200 30
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO "POST /api/login-p/ HTTP/1.1" 200 30
+INFO "GET /home/ HTTP/1.1" 200 123
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2876
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/css/bootstrap.css HTTP/1.1" 200 192348
+INFO "GET /static/css/custom.css HTTP/1.1" 200 212
+INFO "GET /static/js/bootstrap.min.js HTTP/1.1" 200 58072
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 200 93101
+INFO "GET /static/fonts/material-icon/css/material-design-iconic-font.min.css HTTP/1.1" 200 70815
+INFO "GET /static/css/style.css HTTP/1.1" 200 10093
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/js/main.js HTTP/1.1" 200 353
+INFO "GET /static/css/bootstrap.min.css HTTP/1.1" 200 155758
+INFO "GET /static/images/wel.jpg HTTP/1.1" 200 2319473
+INFO "GET /static/fonts/montserrat/Montserrat-Regular.ttf HTTP/1.1" 200 263192
+INFO "GET / HTTP/1.1" 200 3509
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2939
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 2903
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2876
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2939
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 2903
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2876
+INFO "GET / HTTP/1.1" 200 3509
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2939
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 2903
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2876
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2939
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 2903
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2876
+INFO "GET /login-p/ HTTP/1.1" 200 3751
+INFO "GET /static/fonts/material-icon/css/material-design-iconic-font.min.css HTTP/1.1" 200 70815
+INFO "GET /static/css/custom.css HTTP/1.1" 200 212
+INFO "GET /static/css/style.css HTTP/1.1" 200 10093
+INFO "GET /static/js/main.js HTTP/1.1" 200 353
+INFO "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 200 86929
+INFO "GET /static/css/style.css.map HTTP/1.1" 200 6880
+INFO "GET /static/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0 HTTP/1.1" 200 38384
+INFO "GET /static/fonts/montserrat/Montserrat-Regular.ttf HTTP/1.1" 200 263192
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 200 3114963
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2876
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2939
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 2903
+INFO "GET /login-p/ HTTP/1.1" 200 3751
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 13
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 3751
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 36
+INFO "POST /api/login-p/ HTTP/1.1" 200 40
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/css/custom.css HTTP/1.1" 200 212
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+INFO "GET /static/js/main.js HTTP/1.1" 304 0
+INFO "GET /static/images/wel.jpg HTTP/1.1" 304 0
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2876
+INFO "GET /login-p/ HTTP/1.1" 200 3751
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 304 0
+INFO "GET /static/css/style.css.map HTTP/1.1" 200 6880
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 36
+WARNING Not Found: /api/login-p/
+WARNING "GET /api/login-p/ HTTP/1.1" 404 36
+INFO "POST /api/login-p/ HTTP/1.1" 200 40
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 36
+INFO "POST /api/login-p/ HTTP/1.1" 200 40
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 36
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 40
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO "GET /login-p/ HTTP/1.1" 200 3751
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 36
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 36
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 40
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO list index out of range
+INFO Patient unsuccessful login
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 44
+INFO list index out of range
+INFO Patient unsuccessful login
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 44
+INFO list index out of range
+INFO Patient unsuccessful login
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 44
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 40
+INFO "GET /home/ HTTP/1.1" 200 123
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 36
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 3751
+INFO Patient unsuccessful login
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 36
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 40
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO Patient unsuccessful login
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 36
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/css/bootstrap.min.css HTTP/1.1" 200 155758
+INFO "GET /static/css/bootstrap.css HTTP/1.1" 200 192348
+INFO "GET /static/js/bootstrap.min.js HTTP/1.1" 200 58072
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 200 93101
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.min.css.map HTTP/1.1" 200 625953
+INFO "GET /static/images/wel.jpg HTTP/1.1" 200 2319473
+INFO "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 190253
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3008
+INFO "GET /login-d/ HTTP/1.1" 200 3655
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3008
+INFO list index out of range
+INFO Patient unsuccessful login
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 44
+INFO list index out of range
+INFO Patient unsuccessful login
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 44
+INFO list index out of range
+INFO Patient unsuccessful login
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 44
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 3655
+INFO Doctor successful login
+INFO "POST /api/login-d/ HTTP/1.1" 200 40
+INFO "GET /login-p/ HTTP/1.1" 200 3754
+INFO list index out of range
+INFO Patient unsuccessful login
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 44
+INFO "GET /login-p/ HTTP/1.1" 200 3754
+INFO list index out of range
+INFO Patient unsuccessful login
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 44
+INFO list index out of range
+INFO Patient unsuccessful login
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 44
+INFO list index out of range
+INFO Patient unsuccessful login
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 44
+INFO list index out of range
+INFO Patient unsuccessful login
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 44
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /login-p/ HTTP/1.1" 200 3754
+INFO "GET /login-d/ HTTP/1.1" 200 3655
+INFO Doctor successful login
+INFO "POST /api/login-d/ HTTP/1.1" 200 40
+INFO "GET /login-p/ HTTP/1.1" 200 3754
+INFO list index out of range
+INFO Patient unsuccessful login
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 44
+INFO "GET /login-d/ HTTP/1.1" 200 3655
+INFO Doctor successful login
+INFO "POST /api/login-d/ HTTP/1.1" 200 40
+INFO "GET /login-p/ HTTP/1.1" 200 3754
+INFO list index out of range
+INFO Patient unsuccessful login
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 44
+INFO "GET /login-p/ HTTP/1.1" 200 3754
+INFO "GET /login-d/ HTTP/1.1" 200 3655
+INFO Doctor successful login
+INFO "POST /api/login-d/ HTTP/1.1" 200 40
+INFO "GET /login-d/ HTTP/1.1" 200 3655
+INFO Doctor unsuccessful login
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 36
+INFO Doctor successful login
+INFO "POST /api/login-d/ HTTP/1.1" 200 40
+INFO "GET /login-d/ HTTP/1.1" 200 3655
+INFO Doctor unsuccessful login
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 36
+INFO Doctor successful login
+INFO "POST /api/login-d/ HTTP/1.1" 200 40
+INFO "GET /login-d/ HTTP/1.1" 200 3694
+INFO "POST /login-d/ HTTP/1.1" 200 3694
+INFO "GET /login-d/ HTTP/1.1" 200 3695
+INFO Doctor successful login
+INFO "POST /api/login-d/ HTTP/1.1" 200 40
+INFO "GET /login-d/ HTTP/1.1" 200 3695
+INFO "GET /login-d/ HTTP/1.1" 200 3700
+INFO Doctor successful login
+INFO "POST /api/login-d/ HTTP/1.1" 200 40
+INFO "GET /login-d/ HTTP/1.1" 200 3700

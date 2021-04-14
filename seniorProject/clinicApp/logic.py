@@ -10,11 +10,6 @@ def Registration(request, formName):
     if request.method == 'POST':
         form = formName(request.POST)
         if form.is_valid():
-            # em = request.POST.get['email']
-            # userAuth = formName.objects.filter(email=em)
-            #
-            # if userAuth is not None:
-            #     redirect(url)
             password = request.POST['password']
             f1 = form.save(commit=False)
             f1.password = make_password(password)
