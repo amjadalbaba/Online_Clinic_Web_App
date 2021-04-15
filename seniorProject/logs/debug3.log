@@ -1957,3 +1957,556 @@ INFO "GET /login-d/ HTTP/1.1" 200 3700
 INFO Doctor successful login
 INFO "POST /api/login-d/ HTTP/1.1" 200 40
 INFO "GET /login-d/ HTTP/1.1" 200 3700
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 3071
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 3035
+INFO "GET /login-d/ HTTP/1.1" 200 3655
+INFO "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO list index out of range
+INFO Doctor unsuccessful login
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 44
+INFO list index out of range
+INFO Doctor unsuccessful login
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 44
+INFO list index out of range
+INFO Doctor unsuccessful login
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 44
+INFO Doctor successful login
+INFO "POST /api/login-d/ HTTP/1.1" 200 40
+INFO "GET /login-d/ HTTP/1.1" 200 3655
+INFO Doctor unsuccessful login
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 36
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /login-d/ HTTP/1.1" 200 3655
+INFO list index out of range
+INFO Doctor unsuccessful login
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 44
+INFO Doctor unsuccessful login
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 36
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO list index out of range
+INFO Doctor unsuccessful login
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 44
+INFO "GET /login-d/ HTTP/1.1" 200 3655
+INFO list index out of range
+INFO Doctor unsuccessful login
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 44
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 3655
+INFO list index out of range
+INFO Doctor unsuccessful login
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 44
+INFO list index out of range
+INFO Doctor unsuccessful login
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 44
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 3655
+INFO list index out of range
+INFO Doctor unsuccessful login
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 36
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 3655
+INFO list index out of range
+INFO Doctor unsuccessful login
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 36
+INFO Doctor unsuccessful login
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 44
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Doctor unsuccessful login due to wrong password
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 44
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 3754
+INFO Patient unsuccessful login due to wrong password
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 44
+INFO Patient unsuccessful login due to wrong password
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 44
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 40
+INFO "GET /login-p/ HTTP/1.1" 200 3754
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 40
+INFO "GET /login-p/ HTTP/1.1" 200 3754
+INFO list index out of range
+INFO Patient unsuccessful login
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 36
+INFO Patient unsuccessful login due to wrong password
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 44
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 40
+INFO "GET /login-p/ HTTP/1.1" 200 3754
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 3754
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 40
+INFO "GET /login-p/ HTTP/1.1" 200 3754
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /login-p/ HTTP/1.1" 200 3754
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 40
+INFO "GET /login-p/ HTTP/1.1" 200 3754
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 3660
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 40
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 40
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 40
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 40
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 40
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 40
+INFO "GET /login-p/ HTTP/1.1" 200 3807
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 40
+INFO "GET /login-p/ HTTP/1.1" 200 3807
+INFO "GET /login-p/ HTTP/1.1" 200 3760
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 40
+INFO "GET /login-p/ HTTP/1.1" 200 3760
+INFO Patient unsuccessful login due to wrong password
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 44
+INFO list index out of range
+INFO Patient unsuccessful login
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 36
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 3760
+INFO list index out of range
+INFO Patient unsuccessful login
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 36
+INFO Patient unsuccessful login due to wrong password
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 44
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 3760
+INFO list index out of range
+INFO Patient unsuccessful login
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 36
+INFO list index out of range
+INFO Patient unsuccessful login
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 36
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 3760
+INFO list index out of range
+INFO Patient unsuccessful login
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 36
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 3788
+INFO "POST /login-p/ HTTP/1.1" 200 3788
+INFO "POST /login-p/ HTTP/1.1" 200 3788
+INFO "GET /login-p/ HTTP/1.1" 200 3763
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 40
+INFO "GET /login-p/ HTTP/1.1" 200 3763
+INFO "GET /login-p/ HTTP/1.1" 200 3743
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 40
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO Patient unsuccessful login due to wrong password
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 44
+INFO list index out of range
+INFO Patient unsuccessful login
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 36
+INFO "GET /login-d/ HTTP/1.1" 200 3635
+INFO list index out of range
+INFO Doctor unsuccessful login
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 36
+INFO Doctor successful login
+INFO "POST /api/login-d/ HTTP/1.1" 200 40
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO Doctor unsuccessful login due to wrong password
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 44
+INFO list index out of range
+INFO Doctor unsuccessful login
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 36
+INFO list index out of range
+INFO Doctor unsuccessful login
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 36
+INFO "GET /login-d/ HTTP/1.1" 200 3635
+INFO list index out of range
+INFO Doctor unsuccessful login
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 36
+INFO Doctor unsuccessful login due to wrong password
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 44
+INFO "GET /login-d/ HTTP/1.1" 200 3635
+INFO Doctor unsuccessful login due to wrong password
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 44
+INFO Doctor successful login
+INFO "POST /api/login-d/ HTTP/1.1" 200 40
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO "GET /login-d/ HTTP/1.1" 200 3635
+INFO Doctor unsuccessful login due to wrong password
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 44
+INFO list index out of range
+INFO Doctor unsuccessful login
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 36
+INFO list index out of range
+INFO Doctor unsuccessful login
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 36
+INFO Doctor unsuccessful login due to wrong password
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 44
+INFO list index out of range
+INFO Doctor unsuccessful login
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 36
+INFO "GET /login-d/ HTTP/1.1" 200 3635
+INFO "GET /login-p/ HTTP/1.1" 200 3763
+INFO list index out of range
+INFO Patient unsuccessful login
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 36
+INFO Patient unsuccessful login due to wrong password
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 44
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 40
+INFO "GET /login-p/ HTTP/1.1" 200 3763
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 40
+INFO "GET /login-p/ HTTP/1.1" 200 3743
+INFO "GET /login-p/ HTTP/1.1" 200 3743
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 40
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO "GET /login-d/ HTTP/1.1" 200 3674
+INFO Doctor successful login
+INFO "POST /api/login-d/ HTTP/1.1" 200 40
+INFO "GET /login-d/ HTTP/1.1" 200 3674
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Doctor unsuccessful login due to wrong password
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 44
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 3674
+INFO Doctor unsuccessful login due to wrong password
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 44
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Doctor successful login
+INFO "POST /api/login-d/ HTTP/1.1" 200 40
+INFO "GET /login-d/ HTTP/1.1" 200 3674
+INFO Doctor successful login
+INFO "POST /api/login-d/ HTTP/1.1" 200 40
+INFO "GET /login-d/ HTTP/1.1" 200 3674
+INFO Doctor successful login
+INFO "POST /api/login-d/ HTTP/1.1" 200 40
+INFO "GET /login-d/ HTTP/1.1" 200 3658
+INFO Doctor successful login
+INFO "POST /api/login-d/ HTTP/1.1" 200 40
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Doctor unsuccessful login due to wrong password
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 44
+INFO list index out of range
+INFO Doctor unsuccessful login
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 36
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 3658
+INFO "GET /login-p/ HTTP/1.1" 200 3743
+INFO list index out of range
+INFO Patient unsuccessful login
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 36
+INFO list index out of range
+INFO Patient unsuccessful login
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 36
+INFO Patient unsuccessful login due to wrong password
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 36
+INFO list index out of range
+INFO Patient unsuccessful login
+WARNING Not Found: /api/login-p/
+WARNING "POST /api/login-p/ HTTP/1.1" 404 36
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Patient successful login
+INFO "POST /api/login-p/ HTTP/1.1" 200 32
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO "GET /login-d/ HTTP/1.1" 200 3658
+INFO list index out of range
+INFO Doctor unsuccessful login
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 36
+INFO Doctor unsuccessful login due to wrong password
+WARNING Not Found: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 404 36
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 3658
+ERROR Internal Server Error: /api/login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 104, in loginDoctorPage
+    return JsonResponse({message}, status=http_status_code, safe=False)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/http/response.py", line 567, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/serializers/json.py", line 105, in default
+    return super().default(o)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type set is not JSON serializable
+ERROR "POST /api/login-d/ HTTP/1.1" 500 85678
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /api/login-d/
+ERROR "POST /api/login-d/ HTTP/1.1" 500 22
+INFO "GET /login-d/ HTTP/1.1" 200 3658
+WARNING Doctor unsuccessful login due to wrong password
+WARNING Unauthorized: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 401 22
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 3576
+WARNING Doctor unsuccessful login due to wrong password
+WARNING Unauthorized: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 401 28
+WARNING Doctor unsuccessful login due to wrong password
+WARNING Unauthorized: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 401 28
+WARNING Doctor unsuccessful login due to wrong password
+WARNING Unauthorized: /api/login-d/
+WARNING "POST /api/login-d/ HTTP/1.1" 401 28
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 3551
+WARNING Doctor unsuccessful login due to wrong password
+INFO "POST /api/login-d/ HTTP/1.1" 200 28
+INFO "GET /login-d/ HTTP/1.1" 200 3561
+WARNING Doctor unsuccessful login due to wrong password
+INFO "POST /api/login-d/ HTTP/1.1" 200 28
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 3561
+WARNING Doctor unsuccessful login due to wrong password
+ERROR Internal Server Error: /api/login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/response.py", line 55, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+ERROR "POST /api/login-d/ HTTP/1.1" 500 63659
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 3561
+WARNING Doctor unsuccessful login due to wrong password
+ERROR Internal Server Error: /api/login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/http/response.py", line 52, in __init__
+    self.status_code = int(status)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'dict'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 103, in loginDoctorPage
+    return Response({ "message": message} , {"status": http_status_code})
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/response.py", line 30, in __init__
+    super().__init__(None, status=status)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/response.py", line 36, in __init__
+    super().__init__('', content_type, status, charset=charset)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/http/response.py", line 296, in __init__
+    super().__init__(*args, **kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/http/response.py", line 54, in __init__
+    raise TypeError('HTTP status code must be an integer.')
+TypeError: HTTP status code must be an integer.
+ERROR "POST /api/login-d/ HTTP/1.1" 500 84208
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 3561
+WARNING Doctor unsuccessful login due to wrong password
+ERROR Internal Server Error: /api/login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/response.py", line 55, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+ERROR "POST /api/login-d/ HTTP/1.1" 500 63659
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Doctor unsuccessful login due to wrong password
+INFO "POST /api/login-d/ HTTP/1.1" 200 7
+INFO "GET /login-d/ HTTP/1.1" 200 3550
+WARNING Doctor unsuccessful login due to wrong password
+INFO "POST /api/login-d/ HTTP/1.1" 200 7
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Doctor unsuccessful login due to wrong password
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Doctor unsuccessful login due to wrong password
+INFO "POST /api/login-d/ HTTP/1.1" 200 41
+INFO "POST /api/login-d/ HTTP/1.1" 200 17
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO "GET /login-d/ HTTP/1.1" 200 3550
+WARNING Doctor unsuccessful login due to wrong password
+INFO "POST /api/login-d/ HTTP/1.1" 200 41
+ERROR Internal Server Error: /api/login-d/
+ERROR "POST /api/login-d/ HTTP/1.1" 500 35
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 3550
+ERROR Internal Server Error: /api/login-d/
+ERROR "POST /api/login-d/ HTTP/1.1" 500 35
+INFO "POST /api/login-d/ HTTP/1.1" 200 17
+INFO "GET /home/ HTTP/1.1" 200 123
+WARNING Doctor unsuccessful login due to wrong email or password
+INFO "POST /api/login-d/ HTTP/1.1" 200 41
+ERROR Internal Server Error: /api/login-d/
+ERROR "POST /api/login-d/ HTTP/1.1" 500 35
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 3550
+INFO "POST /api/login-d/ HTTP/1.1" 200 17
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO "POST /api/login-d/ HTTP/1.1" 200 17
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO "GET /login-d/ HTTP/1.1" 200 3550
+INFO "POST /api/login-d/ HTTP/1.1" 200 17
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /api/login-d/
+ERROR "POST /api/login-d/ HTTP/1.1" 500 35
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /api/login-d/
+ERROR "POST /api/login-d/ HTTP/1.1" 500 35
+INFO "GET /login-d/ HTTP/1.1" 200 3550
+ERROR Internal Server Error: /api/login-d/
+ERROR "POST /api/login-d/ HTTP/1.1" 500 35
+WARNING Doctor unsuccessful login due to wrong email or password
+INFO "POST /api/login-d/ HTTP/1.1" 200 41
+INFO "POST /api/login-d/ HTTP/1.1" 200 17
+INFO "GET /home/ HTTP/1.1" 200 123
+WARNING Doctor unsuccessful login due to wrong email or password
+INFO "POST /api/login-d/ HTTP/1.1" 200 41
+WARNING Doctor unsuccessful login due to wrong email or password
+INFO "POST /api/login-d/ HTTP/1.1" 200 41
+INFO "POST /api/login-d/ HTTP/1.1" 200 17
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 3550
+INFO "POST /api/login-d/ HTTP/1.1" 200 17
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO "POST /api/login-d/ HTTP/1.1" 200 17
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Doctor unsuccessful login due to wrong email or password
+INFO "POST /api/login-d/ HTTP/1.1" 200 41
+WARNING Doctor unsuccessful login due to wrong email or password
+INFO "POST /api/login-d/ HTTP/1.1" 200 41
+WARNING Doctor unsuccessful login due to wrong email or password
+INFO "POST /api/login-d/ HTTP/1.1" 200 41
+INFO "POST /api/login-d/ HTTP/1.1" 200 17
+INFO "GET /home/ HTTP/1.1" 200 123
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 3658
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 304 0
+INFO "POST /api/login-p/ HTTP/1.1" 200 17
+INFO "GET /home/ HTTP/1.1" 200 123
+WARNING Patient unsuccessful login due to wrong email or password
+INFO "POST /api/login-p/ HTTP/1.1" 200 41
+WARNING Patient unsuccessful login due to wrong email or password
+INFO "POST /api/login-p/ HTTP/1.1" 200 41

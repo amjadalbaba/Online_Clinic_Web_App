@@ -62,23 +62,20 @@ def loginPatientPage(request):
         password = request.POST.get('password')
         userAuth = Patient.objects.filter(email=email).values_list('password', flat=True)
 
-        # pwdAuth = Doctor.objects.get(password = password)
-        try:
-            if check_password(password, userAuth[0]):
-                logger.info('Patient successful login')
-                response = json.dumps([{'message':'Successful login.'}])
-                return JsonResponse(response, status=200, safe=False)
+        http_status_code = 200
+        message = "OK"
 
-            else:
-                logger.info('Patient unsuccessful login')
+        try:
+            if not userAuth or not check_password(password, userAuth[0]):
+                logger.warning('Patient unsuccessful login due to wrong email or password')
+                message = "wrong username or password"
 
         except Exception as e:
-            logger.info(e)
-            logger.info('Patient unsuccessful login')
-            response = json.dumps([{'message':'something went wrong.'}])
-            return JsonResponse(response, status=404, safe=False)
+            http_status_code = 500
+            message = "something went wrong"
+            logger.error('Patient unsuccessful login due to ', e)
 
-    return JsonResponse({"message":"something went wrong."}, status=404, safe=False)
+    return JsonResponse({"message": message}, status=http_status_code)
 
 
 # @never_cache
@@ -89,23 +86,21 @@ def loginDoctorPage(request):
         password = request.POST.get('password')
         userAuth = Doctor.objects.filter(email=email).values_list('password', flat=True)
 
-        # pwdAuth = Doctor.objects.get(password = password)
-        try:
-            if check_password(password, userAuth[0]):
-                logger.info('Doctor successful login')
-                response = json.dumps([{'message': 'Successful login.'}])
-                return JsonResponse(response, status=200, safe=False)
+        http_status_code = 200
+        message = "OK"
 
-            else:
-                logger.info('Doctor unsuccessful login')
+        try:
+            if not userAuth or not check_password(password, userAuth[0]):
+                logger.warning('Doctor unsuccessful login due to wrong email or password')
+                message = "wrong username or password"
 
         except Exception as e:
-            logger.info(e)
-            logger.info('Doctor unsuccessful login')
-            response = json.dumps([{'message': 'something went wrong.'}])
-            return JsonResponse(response, status=404, safe=False)
+            http_status_code = 500
+            message = "something went wrong"
+            logger.error('Doctor unsuccessful login due to ', e)
 
-    return JsonResponse({"message": "something went wrong."}, status=404, safe=False)
+    return JsonResponse({"message": message}, status=http_status_code)
+    #return HttpResponse({ "message": message}, status=http_status_code)
 
 def home(request):
     context = {}

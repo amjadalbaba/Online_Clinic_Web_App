@@ -76,18 +76,15 @@
                         },
                         // handle a successful response
                         success : function(resp) {
-                            if (resp["status"] == 200){
+                           console.log(resp);
+                            if (resp.message == "OK"){
                                  window.location.href = "{% url 'home' %}";
+                            } else{
+                                 alert(resp.message)
                             }
-
-                            else{
-                                window.location.href = "{% url 'login_d' %}";
-                            }
-
                         },
-                        error: function (response) {
-                            // alert the error if any error occured
-                                alert("Please Enter correct email or password");
+                        error: function (resp) {
+                            alert(resp.message)
                             }
 
             });
