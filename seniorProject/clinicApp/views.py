@@ -31,7 +31,7 @@ def welcomePage(request):
 @never_cache
 def registerPatientPage(request):
 
-    Registration(request, PatientForm)
+    Registration(request, PatientForm, Patient)
     context = {}
     return render(request, 'register_patient.html', context)
 
@@ -39,7 +39,7 @@ def registerPatientPage(request):
 @never_cache
 def registerDoctorPage(request):
 
-    Registration(request, DoctorForm)
+    Registration(request, DoctorForm, Doctor)
     specialities = Speciality.objects.all()
 
     context = {

@@ -2800,3 +2800,152 @@ INFO "GET /home/ HTTP/1.1" 200 123
 INFO "GET /home/ HTTP/1.1" 200 147
 INFO "POST /api/login-d/ HTTP/1.1" 200 17
 INFO "GET /home/ HTTP/1.1" 200 147
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /register-doctor/ HTTP/1.1" 200 11506
+ERROR Internal Server Error: /register-doctor/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 42, in registerDoctorPage
+    Registration(request, DoctorForm)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 17, in Registration
+    emCheck = formName.objects.get(email = email)
+AttributeError: type object 'DoctorForm' has no attribute 'objects'
+ERROR "POST /register-doctor/ HTTP/1.1" 500 68146
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /register-doctor/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 42, in registerDoctorPage
+    Registration(request, DoctorForm)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 17, in Registration
+    emCheck = Doctor.objects.get(email = email)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+clinicApp.models.Doctor.DoesNotExist: Doctor matching query does not exist.
+ERROR "POST /register-doctor/ HTTP/1.1" 500 77393
+INFO "GET /register-doctor/ HTTP/1.1" 200 11506
+ERROR Internal Server Error: /register-doctor/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 42, in registerDoctorPage
+    Registration(request, DoctorForm)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 17, in Registration
+    emCheck = Doctor.objects.get(email = email)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+clinicApp.models.Doctor.DoesNotExist: Doctor matching query does not exist.
+ERROR "POST /register-doctor/ HTTP/1.1" 500 77389
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /register-doctor/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 42, in registerDoctorPage
+    Registration(request, DoctorForm)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 17, in Registration
+    emCheck = Doctor.objects.get(email = email)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+clinicApp.models.Doctor.DoesNotExist: Doctor matching query does not exist.
+ERROR "POST /register-doctor/ HTTP/1.1" 500 77401
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /register-doctor/ HTTP/1.1" 200 11506
+INFO "GET /register-doctor/ HTTP/1.1" 200 11506
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /register-doctor/ HTTP/1.1" 200 11506
+ERROR Internal Server Error: /register-doctor/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 42, in registerDoctorPage
+    Registration(request, DoctorForm)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 19, in Registration
+    messages.info("email exists")
+TypeError: info() missing 1 required positional argument: 'message'
+ERROR "POST /register-doctor/ HTTP/1.1" 500 68305
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "POST /register-doctor/ HTTP/1.1" 200 11607
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /register-doctor/ HTTP/1.1" 200 11506
+INFO "POST /register-doctor/ HTTP/1.1" 200 11607
+ERROR Internal Server Error: /register-doctor/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 42, in registerDoctorPage
+    Registration(request, DoctorForm, Doctor)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 17, in Registration
+    emCheck = modelName.objects.get(email = email)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+clinicApp.models.Doctor.DoesNotExist: Doctor matching query does not exist.
+ERROR "POST /register-doctor/ HTTP/1.1" 500 77673
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "POST /register-doctor/ HTTP/1.1" 200 11607
+INFO "POST /register-doctor/ HTTP/1.1" 200 11607
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /register-doctor/ HTTP/1.1" 200 11506
+INFO "POST /register-doctor/ HTTP/1.1" 200 11607
+INFO "POST /register-doctor/ HTTP/1.1" 200 11506
+INFO "GET /register-doctor/ HTTP/1.1" 200 11506
+INFO "GET /register-patient/ HTTP/1.1" 200 5592
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3008
+INFO "POST /register-patient/ HTTP/1.1" 200 5694
+INFO "POST /register-patient/ HTTP/1.1" 200 5592

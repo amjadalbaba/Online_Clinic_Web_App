@@ -11,15 +11,20 @@ from django.http import JsonResponse
 logger = logging.getLogger('django')
 
 
-def Registration(request, formName):
+def Registration(request, formName, modelName):
     if request.method == 'POST':
-        form = formName(request.POST)
-        if form.is_valid():
-            password = request.POST['password']
-            f1 = form.save(commit=False)
-            f1.password = make_password(password)
-            f1.re_password = f1.password
-            f1.save()
+        email = request.POST['email']
+        emCheck = modelName.objects.filter(email = email)
+        if not emCheck:
+            form = formName(request.POST)
+            if form.is_valid():
+                password = request.POST['password']
+                f1 = form.save(commit=False)
+                f1.password = make_password(password)
+                f1.re_password = f1.password
+                f1.save()
+        else:
+            messages.info(request, "email exists")
 
 def loginAPI(request, formName):
     if request.is_ajax and request.method == 'POST':
