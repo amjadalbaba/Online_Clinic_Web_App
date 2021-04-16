@@ -54,53 +54,14 @@ def loginDrPage(request):
     return render(request, "login_doctor.html")
 
 
-#@api_view(['POST'])
 def loginPatientPage(request):
-    if request.is_ajax and request.method == 'POST':
-
-        email = request.POST.get('email')
-        password = request.POST.get('password')
-        userAuth = Patient.objects.filter(email=email).values_list('password', flat=True)
-
-        http_status_code = 200
-        message = "OK"
-
-        try:
-            if not userAuth or not check_password(password, userAuth[0]):
-                logger.warning('Patient unsuccessful login due to wrong email or password')
-                message = "wrong username or password"
-
-        except Exception as e:
-            http_status_code = 500
-            message = "something went wrong"
-            logger.error('Patient unsuccessful login due to ', e)
-
-    return JsonResponse({"message": message}, status=http_status_code)
+   response = loginAPI(request, Patient)
+   return response
 
 
-# @never_cache
 def loginDoctorPage(request):
-    if request.is_ajax and request.method == 'POST':
-
-        email = request.POST.get('email')
-        password = request.POST.get('password')
-        userAuth = Doctor.objects.filter(email=email).values_list('password', flat=True)
-
-        http_status_code = 200
-        message = "OK"
-
-        try:
-            if not userAuth or not check_password(password, userAuth[0]):
-                logger.warning('Doctor unsuccessful login due to wrong email or password')
-                message = "wrong username or password"
-
-        except Exception as e:
-            http_status_code = 500
-            message = "something went wrong"
-            logger.error('Doctor unsuccessful login due to ', e)
-
-    return JsonResponse({"message": message}, status=http_status_code)
-    #return HttpResponse({ "message": message}, status=http_status_code)
+    response = loginAPI(request, Doctor)
+    return response
 
 def home(request):
     context = {}
