@@ -2949,3 +2949,1690 @@ WARNING Not Found: /favicon.ico
 WARNING "GET /favicon.ico HTTP/1.1" 404 3008
 INFO "POST /register-patient/ HTTP/1.1" 200 5694
 INFO "POST /register-patient/ HTTP/1.1" 200 5592
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+INFO "GET /static/js/main.js HTTP/1.1" 304 0
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+INFO "GET /static/images/wel.jpg HTTP/1.1" 304 0
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 3189
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 3153
+INFO "GET / HTTP/1.1" 200 3509
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 61, in loginPatientPage
+    response = loginAPI(request, Patient)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 49, in loginAPI
+    return JsonResponse({"message": message}, status=http_status_code)
+UnboundLocalError: local variable 'message' referenced before assignment
+ERROR "GET /api/login-p/ HTTP/1.1" 500 61644
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3126
+INFO "GET /auth HTTP/1.1" 301 0
+ERROR Internal Server Error: /auth/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: __init__() takes 1 positional argument but 2 were given
+ERROR "GET /auth/ HTTP/1.1" 500 54897
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3126
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Method Not Allowed: /auth/
+WARNING "GET /auth/ HTTP/1.1" 405 40
+WARNING Method Not Allowed: /auth/
+WARNING "GET /auth/?email=s@g.com&password=sar234 HTTP/1.1" 405 40
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3126
+WARNING Method Not Allowed: /auth/
+WARNING "GET /auth/?email=s@g.com%password=sar234 HTTP/1.1" 405 40
+WARNING Not Found: /auth/email=s@g.com%password=sar234
+WARNING "GET /auth/email=s@g.com%password=sar234 HTTP/1.1" 404 3201
+WARNING Method Not Allowed: /auth/
+WARNING "GET /auth/?email=s@g.com%password=sar234 HTTP/1.1" 405 40
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Not Found: /auth/
+WARNING "GET /auth/?email=s@g.com%password=sar234 HTTP/1.1" 404 3020
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /register-patient/ HTTP/1.1" 200 5592
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 304 0
+INFO "POST /register-patient/ HTTP/1.1" 200 5592
+INFO Watching for file changes with StatReloader
+INFO "GET /register-patient/ HTTP/1.1" 200 5592
+INFO "POST /register-patient/ HTTP/1.1" 200 5592
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /register-patient/ HTTP/1.1" 200 5592
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /register-patient/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 37, in registerPatientPage
+    Registration(request, PatientForm, Patient)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 25, in Registration
+    f1.save()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 801, in save_base
+    post_save.send(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/dispatch/dispatcher.py", line 177, in send
+    return [
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/dispatch/dispatcher.py", line 178, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py", line 50, in create_auth_token
+    Token.objects.create(user=instance)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 445, in create
+    obj = self.model(**kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 483, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/related_descriptors.py", line 310, in __set__
+    super().__set__(instance, value)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "<Patient: toto>": "Token.user" must be a "User" instance.
+ERROR "POST /register-patient/ HTTP/1.1" 500 117066
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "POST /register-patient/ HTTP/1.1" 200 5694
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET /register-patient/ HTTP/1.1" 200 5592
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+INFO "POST /register-patient/ HTTP/1.1" 200 5694
+INFO "POST /register-patient/ HTTP/1.1" 200 5592
+INFO "GET /register-patient/ HTTP/1.1" 200 5592
+INFO "POST /register-patient/ HTTP/1.1" 200 5694
+INFO "POST /register-patient/ HTTP/1.1" 200 5592
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /login-d/ HTTP/1.1" 200 3550
+INFO "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+ERROR Internal Server Error: /api/login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 66, in loginDoctorPage
+    response = loginAPI(request, Doctor)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 36, in loginAPI
+    userAuth = formName.objects.filter(email=email).values_list('password', 'id', flat=True)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 849, in values_list
+    raise TypeError("'flat' is not valid when values_list is called with more than one field.")
+TypeError: 'flat' is not valid when values_list is called with more than one field.
+ERROR "POST /api/login-d/ HTTP/1.1" 500 68194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 3550
+ERROR Internal Server Error: /api/login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 66, in loginDoctorPage
+    response = loginAPI(request, Doctor)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 36, in loginAPI
+    userAuth = formName.objects.filter(email=email).values_list('password', 'id', flat=True)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 849, in values_list
+    raise TypeError("'flat' is not valid when values_list is called with more than one field.")
+TypeError: 'flat' is not valid when values_list is called with more than one field.
+ERROR "POST /api/login-d/ HTTP/1.1" 500 68194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /api/login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 66, in loginDoctorPage
+    response = loginAPI(request, Doctor)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 36, in loginAPI
+    userAuth = formName.objects.filter(email=email).values_list('password', 'id', flat=True)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 849, in values_list
+    raise TypeError("'flat' is not valid when values_list is called with more than one field.")
+TypeError: 'flat' is not valid when values_list is called with more than one field.
+ERROR "POST /api/login-d/ HTTP/1.1" 500 68194
+INFO "GET /login-d/ HTTP/1.1" 200 3550
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "POST /api/login-d/ HTTP/1.1" 200 17
+INFO "GET /home/ HTTP/1.1" 200 147
+WARNING Unsuccessful login due to wrong email or password
+INFO "POST /api/login-d/ HTTP/1.1" 200 38
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /api/login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 66, in loginDoctorPage
+    response = loginAPI(request, Doctor)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 36, in loginAPI
+    userAuth = formName.objects.filter(email=email).values_list('password', 'id', flat=True)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 849, in values_list
+    raise TypeError("'flat' is not valid when values_list is called with more than one field.")
+TypeError: 'flat' is not valid when values_list is called with more than one field.
+ERROR "POST /api/login-d/ HTTP/1.1" 500 68192
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 3550
+ERROR Internal Server Error: /api/login-d/
+ERROR "POST /api/login-d/ HTTP/1.1" 500 35
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "POST /api/login-d/ HTTP/1.1" 200 17
+INFO "GET /home/ HTTP/1.1" 200 147
+INFO "GET /login-d/ HTTP/1.1" 200 3550
+WARNING Unsuccessful login due to wrong email or password
+INFO "POST /api/login-d/ HTTP/1.1" 200 38
+INFO "POST /api/login-d/ HTTP/1.1" 200 17
+INFO "GET /home/ HTTP/1.1" 200 147
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 3550
+WARNING Unsuccessful login due to wrong email or password
+INFO "POST /api/login-d/ HTTP/1.1" 200 38
+INFO "POST /api/login-d/ HTTP/1.1" 200 17
+INFO "GET /home/ HTTP/1.1" 200 147
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "POST /api/login-d/ HTTP/1.1" 200 17
+INFO "GET /home/ HTTP/1.1" 200 147
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Unsuccessful login due to wrong email or password
+ERROR Internal Server Error: /api/login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 66, in loginDoctorPage
+    response = loginAPI(request, Doctor)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 55, in loginAPI
+    data = [{"message": message, 'id': userID}]
+UnboundLocalError: local variable 'userID' referenced before assignment
+ERROR "POST /api/login-d/ HTTP/1.1" 500 63541
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Unsuccessful login due to wrong email or password
+ERROR Internal Server Error: /api/login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 66, in loginDoctorPage
+    response = loginAPI(request, Doctor)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 55, in loginAPI
+    data = {"message": message, 'id': userID}
+UnboundLocalError: local variable 'userID' referenced before assignment
+ERROR "POST /api/login-d/ HTTP/1.1" 500 63537
+WARNING Unsuccessful login due to wrong email or password
+ERROR Internal Server Error: /api/login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 66, in loginDoctorPage
+    response = loginAPI(request, Doctor)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 55, in loginAPI
+    data = {"message": message, 'id': userID}
+UnboundLocalError: local variable 'userID' referenced before assignment
+ERROR "POST /api/login-d/ HTTP/1.1" 500 63537
+INFO "GET /login-d/ HTTP/1.1" 200 3550
+WARNING Unsuccessful login due to wrong email or password
+ERROR Internal Server Error: /api/login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 66, in loginDoctorPage
+    response = loginAPI(request, Doctor)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 55, in loginAPI
+    data = {"message": message, 'id': userID}
+UnboundLocalError: local variable 'userID' referenced before assignment
+ERROR "POST /api/login-d/ HTTP/1.1" 500 63537
+ERROR Internal Server Error: /api/login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 66, in loginDoctorPage
+    response = loginAPI(request, Doctor)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 56, in loginAPI
+    return JsonResponse(data, status=http_status_code)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/http/response.py", line 567, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/serializers/json.py", line 105, in default
+    return super().default(o)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type QuerySet is not JSON serializable
+ERROR "POST /api/login-d/ HTTP/1.1" 500 89959
+ERROR Internal Server Error: /api/login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 66, in loginDoctorPage
+    response = loginAPI(request, Doctor)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 56, in loginAPI
+    return JsonResponse(data, status=http_status_code)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/http/response.py", line 567, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/serializers/json.py", line 105, in default
+    return super().default(o)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type QuerySet is not JSON serializable
+ERROR "POST /api/login-d/ HTTP/1.1" 500 89959
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Unsuccessful login due to wrong email or password
+ERROR Internal Server Error: /api/login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 66, in loginDoctorPage
+    response = loginAPI(request, Doctor)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 55, in loginAPI
+    data = {"message": message, 'id': userID[0]}
+UnboundLocalError: local variable 'userID' referenced before assignment
+ERROR "POST /api/login-d/ HTTP/1.1" 500 63543
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Unsuccessful login due to wrong email or password
+ERROR Internal Server Error: /api/login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 66, in loginDoctorPage
+    response = loginAPI(request, Doctor)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 56, in loginAPI
+    data = {"message": message, 'id': userID[0]}
+IndexError: string index out of range
+ERROR "POST /api/login-d/ HTTP/1.1" 500 63519
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Unsuccessful login due to wrong email or password
+INFO "POST /api/login-d/ HTTP/1.1" 200 48
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+INFO "GET /home/ HTTP/1.1" 200 147
+WARNING Unsuccessful login due to wrong email or password
+INFO "POST /api/login-d/ HTTP/1.1" 200 48
+INFO "GET /login-d/ HTTP/1.1" 200 3566
+WARNING Unsuccessful login due to wrong email or password
+INFO "POST /api/login-d/ HTTP/1.1" 200 48
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+INFO "GET /home/ HTTP/1.1" 200 147
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 3712
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+ERROR Internal Server Error: /home/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 72, in home
+    context = {'id':id}
+UnboundLocalError: local variable 'id' referenced before assignment
+ERROR "GET /home/ HTTP/1.1" 500 58350
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /home/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view clinicApp.views.home didn't return an HttpResponse object. It returned None instead.
+ERROR "GET /home/ HTTP/1.1" 500 59605
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+ERROR Internal Server Error: /home/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view clinicApp.views.home didn't return an HttpResponse object. It returned None instead.
+ERROR "GET /home/ HTTP/1.1" 500 59757
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home/ HTTP/1.1" 200 147
+INFO "GET /home/ HTTP/1.1" 200 140
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+INFO "GET /home/ HTTP/1.1" 200 140
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+INFO "GET /home/ HTTP/1.1" 200 140
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home/ HTTP/1.1" 200 140
+INFO "GET /home/ HTTP/1.1" 200 144
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+INFO "GET /home/ HTTP/1.1" 200 144
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home/ HTTP/1.1" 200 141
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home/ HTTP/1.1" 200 140
+INFO "GET /home/ HTTP/1.1" 200 147
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+INFO "GET /home/ HTTP/1.1" 200 147
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+INFO "GET /home/ HTTP/1.1" 200 147
+INFO "GET /login-d/ HTTP/1.1" 200 3706
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+INFO "GET /login-d/ HTTP/1.1" 200 3712
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+INFO "GET /home/ HTTP/1.1" 200 483
+INFO "GET /home/ HTTP/1.1" 200 479
+INFO "GET /home/ HTTP/1.1" 200 148
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+INFO "GET /home/ HTTP/1.1" 200 148
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+WARNING Not Found: /home/
+WARNING "GET /home/ HTTP/1.1" 404 2994
+INFO "GET /login-d/ HTTP/1.1" 200 3716
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+INFO "GET /home-d/ HTTP/1.1" 200 148
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3012
+INFO "GET /login-d/ HTTP/1.1" 200 3648
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+INFO "GET /login-d/ HTTP/1.1" 200 3716
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+INFO "GET /home-d/ HTTP/1.1" 200 148
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/ HTTP/1.1" 200 123
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3142
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/ HTTP/1.1" 200 782
+INFO "GET /schedule-d/ HTTP/1.1" 200 764
+INFO "GET /schedule-d/ HTTP/1.1" 200 908
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/ HTTP/1.1" 200 875
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/ HTTP/1.1" 200 875
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3509
+WARNING Not Found: /l
+WARNING "GET /l HTTP/1.1" 404 3127
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3157
+ERROR Internal Server Error: /login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 54, in loginPatPage
+    return render(request, "login_patient.html")
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+ERROR "GET /login-p/ HTTP/1.1" 500 115961
+INFO "GET /login-d/ HTTP/1.1" 200 3716
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+INFO "GET /home-d/ HTTP/1.1" 200 193
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 875
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3157
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1215
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1291
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1267
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 3451
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 3223
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 3131
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 3587
+INFO "POST /schedule-d/3/ HTTP/1.1" 200 4238
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1358
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1409
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1445
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1445
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3157
+INFO "POST /schedule-d/3/ HTTP/1.1" 302 0
+WARNING Not Found: /schedule-d/3/home-d/
+WARNING "GET /schedule-d/3/home-d/ HTTP/1.1" 404 3184
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1445
+INFO "POST /schedule-d/3/ HTTP/1.1" 302 0
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/css/style.css HTTP/1.1" 200 10093
+INFO "GET /static/css/custom.css HTTP/1.1" 200 212
+INFO "GET /static/css/bootstrap.min.css HTTP/1.1" 200 155758
+INFO "GET /static/fonts/material-icon/css/material-design-iconic-font.min.css HTTP/1.1" 200 70815
+INFO "GET /static/js/main.js HTTP/1.1" 200 353
+INFO "GET /static/js/bootstrap.min.js HTTP/1.1" 200 58072
+INFO "GET /static/css/bootstrap.css HTTP/1.1" 200 192348
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 200 93101
+INFO "GET /static/images/wel.jpg HTTP/1.1" 200 2319473
+INFO "GET /static/fonts/montserrat/Montserrat-Regular.ttf HTTP/1.1" 200 263192
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1445
+INFO "POST /schedule-d/3/ HTTP/1.1" 302 0
+INFO "GET / HTTP/1.1" 200 3509
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 3716
+INFO "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 200 86929
+INFO "GET /static/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0 HTTP/1.1" 200 38384
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 200 3114963
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+INFO "GET /home-d/ HTTP/1.1" 200 193
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1385
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1385
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1385
+INFO "POST /schedule-d/3/ HTTP/1.1" 302 0
+INFO "GET / HTTP/1.1" 200 3509
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "POST /schedule-d/3/ HTTP/1.1" 200 1385
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1385
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1385
+INFO "POST /schedule-d/3/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 193
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1385
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1578
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1578
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2157
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2178
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /schedule-d/3/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 76, in createSchedule
+    scheduleFormSet = inlineformset_factory(DoctorSchedule, Doctor, fields=('from_hour', 'to_hour', 'day'), extra=7)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/forms/models.py", line 1058, in inlineformset_factory
+    fk = _get_foreign_key(parent_model, model, fk_name=fk_name)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/forms/models.py", line 1028, in _get_foreign_key
+    raise ValueError(
+ValueError: 'clinicApp.Doctor' has no ForeignKey to 'clinicApp.DoctorSchedule'.
+ERROR "GET /schedule-d/3/ HTTP/1.1" 500 72385
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2178
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2108
+INFO "POST /schedule-d/3/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 193
+INFO "GET /home-d/ HTTP/1.1" 200 193
+INFO "GET /home-d/ HTTP/1.1" 200 193
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2087
+INFO "POST /schedule-d/3/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 193
+INFO "GET /home-d/ HTTP/1.1" 200 193
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2360
+INFO "POST /schedule-d/3/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 193
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2360
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /login-d/ HTTP/1.1" 200 3716
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+INFO "GET /home-d/ HTTP/1.1" 200 193
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2360
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1199
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1199
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1199
+INFO "GET / HTTP/1.1" 200 3509
+WARNING Not Found: /l
+WARNING "GET /l HTTP/1.1" 404 3127
+ERROR Internal Server Error: /login-p/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 56, in loginPatPage
+    return render(request, "login_patient.html")
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home' not found. 'home' is not a valid view function or pattern name.
+ERROR "GET /login-p/ HTTP/1.1" 500 115961
+WARNING Not Found: /login/
+WARNING "GET /login/ HTTP/1.1" 404 3142
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3157
+WARNING Not Found: /login_d
+WARNING "GET /login_d HTTP/1.1" 404 3145
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3157
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /login-d/ HTTP/1.1" 200 3716
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+INFO "GET /home-d/ HTTP/1.1" 200 193
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1199
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1199
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1199
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1199
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2360
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2569
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2559
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2559
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2565
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2565
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2569
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2565
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2579
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2587
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2565
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 7535
+INFO "GET /home-d/ HTTP/1.1" 200 193
+INFO "GET /home-d/ HTTP/1.1" 200 193
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2565
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 7542
+INFO "POST /schedule-d/3/ HTTP/1.1" 200 7928
+INFO "POST /schedule-d/3/ HTTP/1.1" 200 7814
+INFO "POST /schedule-d/3/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 193
+INFO "GET /home-d/ HTTP/1.1" 200 193
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 10330
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 10330
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1073
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 10330
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 3292
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 3292
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2930
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1445
+INFO "POST /schedule-d/3/ HTTP/1.1" 200 1445
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 1493
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2930
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2930
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2930
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2930
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2955
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "POST /schedule-d/3/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 193
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 4022
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 9974
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "POST /schedule-d/3/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 193
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 9974
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /login-d/ HTTP/1.1" 200 3718
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+INFO "GET /home-d/ HTTP/1.1" 200 193
+INFO "GET /login-d/ HTTP/1.1" 200 3703
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+INFO "GET /login-d/ HTTP/1.1" 200 3718
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 9974
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 3071
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 3071
+INFO <QueryDict: {'csrfmiddlewaretoken': ['xX6xU1093jXubLoFiTv7Y2zB21C5dRigNb5rMXgCQhJj7gCsrnnOHUkUMxtlxDNj'], 'doctorschedule_set-TOTAL_FORMS': ['9'], 'doctorschedule_set-INITIAL_FORMS': ['2'], 'doctorschedule_set-MIN_NUM_FORMS': ['0'], 'doctorschedule_set-MAX_NUM_FORMS': ['1000'], 'day': ['2021-04-20', '', '', '', '', '', '', '', ''], 'from_hour': ['08:00', '', '', '', '', '', '', '', ''], 'to_hour': ['12:00', '', '', '', '', '', '', '', ''], 'submit': ['Add']}>
+INFO "POST /schedule-d/3/ HTTP/1.1" 200 3047
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 9974
+INFO <QueryDict: {'csrfmiddlewaretoken': ['lahJ4yNHxUJ2WKZ2VnL8DjTrMyJLoI4OBogDWu3akSvRSfdP4RDPmbEKw4A1IuzR'], 'doctorschedule_set-TOTAL_FORMS': ['9'], 'doctorschedule_set-INITIAL_FORMS': ['2'], 'doctorschedule_set-MIN_NUM_FORMS': ['0'], 'doctorschedule_set-MAX_NUM_FORMS': ['1000'], 'doctorschedule_set-0-from_hour': ['09:00:00'], 'doctorschedule_set-0-to_hour': ['12:00:00'], 'doctorschedule_set-0-day': ['2021-04-19'], 'doctorschedule_set-0-id': ['1'], 'doctorschedule_set-0-doctor': ['3'], 'doctorschedule_set-1-from_hour': ['08:00:00'], 'doctorschedule_set-1-to_hour': ['12:00:00'], 'doctorschedule_set-1-day': ['2021-04-21'], 'doctorschedule_set-1-id': ['2'], 'doctorschedule_set-1-doctor': ['3'], 'doctorschedule_set-2-from_hour': ['08:00:00'], 'doctorschedule_set-2-to_hour': ['12:00:00'], 'doctorschedule_set-2-day': ['2021-04-23'], 'doctorschedule_set-2-id': [''], 'doctorschedule_set-2-doctor': ['3'], 'doctorschedule_set-3-from_hour': [''], 'doctorschedule_set-3-to_hour': [''], 'doctorschedule_set-3-day': [''], 'doctorschedule_set-3-id': [''], 'doctorschedule_set-3-doctor': ['3'], 'doctorschedule_set-4-from_hour': [''], 'doctorschedule_set-4-to_hour': [''], 'doctorschedule_set-4-day': [''], 'doctorschedule_set-4-id': [''], 'doctorschedule_set-4-doctor': ['3'], 'doctorschedule_set-5-from_hour': [''], 'doctorschedule_set-5-to_hour': [''], 'doctorschedule_set-5-day': [''], 'doctorschedule_set-5-id': [''], 'doctorschedule_set-5-doctor': ['3'], 'doctorschedule_set-6-from_hour': [''], 'doctorschedule_set-6-to_hour': [''], 'doctorschedule_set-6-day': [''], 'doctorschedule_set-6-id': [''], 'doctorschedule_set-6-doctor': ['3'], 'doctorschedule_set-7-from_hour': [''], 'doctorschedule_set-7-to_hour': [''], 'doctorschedule_set-7-day': [''], 'doctorschedule_set-7-id': [''], 'doctorschedule_set-7-doctor': ['3'], 'doctorschedule_set-8-from_hour': [''], 'doctorschedule_set-8-to_hour': [''], 'doctorschedule_set-8-day': [''], 'doctorschedule_set-8-id': [''], 'doctorschedule_set-8-doctor': ['3'], 'submit': ['Add']}>
+INFO "POST /schedule-d/3/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 193
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <class 'django.forms.formsets.DoctorScheduleFormFormSet'>
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 11042
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /login-d/ HTTP/1.1" 200 3718
+INFO "POST /api/login-d/ HTTP/1.1" 200 26
+INFO "GET /home-d/ HTTP/1.1" 200 193
+INFO <class 'django.forms.formsets.DoctorScheduleFormFormSet'>
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 11042
+INFO <class 'django.forms.formsets.DoctorScheduleFormFormSet'>
+INFO <QueryDict: {'csrfmiddlewaretoken': ['rJneFEgUf3QZJ4tpui6xtUDiXXFW3rncHXm8xAwn21COFzHcDMYecMoBHtwcndSf'], 'doctorschedule_set-TOTAL_FORMS': ['10'], 'doctorschedule_set-INITIAL_FORMS': ['3'], 'doctorschedule_set-MIN_NUM_FORMS': ['0'], 'doctorschedule_set-MAX_NUM_FORMS': ['1000'], 'doctorschedule_set-0-from_hour': ['09:00:00'], 'doctorschedule_set-0-to_hour': ['12:00:00'], 'doctorschedule_set-0-day': ['2021-04-19'], 'doctorschedule_set-0-id': ['1'], 'doctorschedule_set-0-doctor': ['3'], 'doctorschedule_set-1-from_hour': ['08:00:00'], 'doctorschedule_set-1-to_hour': ['12:00:00'], 'doctorschedule_set-1-day': ['2021-04-21'], 'doctorschedule_set-1-id': ['2'], 'doctorschedule_set-1-doctor': ['3'], 'doctorschedule_set-2-from_hour': ['08:00:00'], 'doctorschedule_set-2-to_hour': ['12:00:00'], 'doctorschedule_set-2-day': ['2021-04-23'], 'doctorschedule_set-2-id': ['3'], 'doctorschedule_set-2-doctor': ['3'], 'doctorschedule_set-3-from_hour': ['08:00:00'], 'doctorschedule_set-3-to_hour': ['12:00:00'], 'doctorschedule_set-3-day': ['2021-04-25'], 'doctorschedule_set-3-id': [''], 'doctorschedule_set-3-doctor': ['3'], 'doctorschedule_set-4-from_hour': [''], 'doctorschedule_set-4-to_hour': [''], 'doctorschedule_set-4-day': [''], 'doctorschedule_set-4-id': [''], 'doctorschedule_set-4-doctor': ['3'], 'doctorschedule_set-5-from_hour': [''], 'doctorschedule_set-5-to_hour': [''], 'doctorschedule_set-5-day': [''], 'doctorschedule_set-5-id': [''], 'doctorschedule_set-5-doctor': ['3'], 'doctorschedule_set-6-from_hour': [''], 'doctorschedule_set-6-to_hour': [''], 'doctorschedule_set-6-day': [''], 'doctorschedule_set-6-id': [''], 'doctorschedule_set-6-doctor': ['3'], 'doctorschedule_set-7-from_hour': [''], 'doctorschedule_set-7-to_hour': [''], 'doctorschedule_set-7-day': [''], 'doctorschedule_set-7-id': [''], 'doctorschedule_set-7-doctor': ['3'], 'doctorschedule_set-8-from_hour': [''], 'doctorschedule_set-8-to_hour': [''], 'doctorschedule_set-8-day': [''], 'doctorschedule_set-8-id': [''], 'doctorschedule_set-8-doctor': ['3'], 'doctorschedule_set-9-from_hour': [''], 'doctorschedule_set-9-to_hour': [''], 'doctorschedule_set-9-day': [''], 'doctorschedule_set-9-id': [''], 'doctorschedule_set-9-doctor': ['3'], 'submit': ['Add']}>
+INFO "POST /schedule-d/3/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 193
+INFO <class 'django.forms.formsets.DoctorScheduleFormFormSet'>
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 12122
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <class 'django.forms.formsets.DoctorScheduleFormFormSet'>
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 12122
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+INFO "GET /register-doctor/ HTTP/1.1" 200 11506
+INFO <QueryDict: {'csrfmiddlewaretoken': ['wHIyvNaGXh0q3FjruHZE1SAgGp3WOEBbMVHsnJq9KfMfZaxeDbRlKKlzqVUc8q6e'], 'firstName': ['toto'], 'middleName': ['toto'], 'lastName': ['toto'], 'address': ['toto'], 'phone': ['6868668'], 'email': ['toto@gmail.com'], 'specialityName': ['19'], 'gender': ['Male'], 'password': ['12345'], 'submit': ['Sign Up']}>
+INFO "POST /register-doctor/ HTTP/1.1" 200 11506
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /register-doctor/ HTTP/1.1" 200 11506
+INFO <QueryDict: {'csrfmiddlewaretoken': ['xDv7NLQrEsjs4H9LfDJHn5ZvkxhPHvb5NRu1FH6Urq5h0cnyo7Bo6XKO43851hG8'], 'firstName': ['toto'], 'middleName': ['toto'], 'lastName': ['toto'], 'address': ['toto'], 'phone': ['454545'], 'email': ['toto@gmail.com'], 'specialityName': ['3'], 'gender': ['Male'], 'password': ['12345'], 'submit': ['Sign Up']}>
+INFO "POST /register-doctor/ HTTP/1.1" 200 11506
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QueryDict: {'csrfmiddlewaretoken': ['EqkNjKWnMbxjHHQJ3216OqToSLxvPXTjUEjHbGcQz9j8Dc4wcwTNxiEHChoL9Jom'], 'firstName': ['toto'], 'middleName': ['toto'], 'lastName': ['toto'], 'address': ['toto'], 'phone': ['6868668'], 'email': ['toto@gmail.com'], 'specialityName': ['3'], 'gender': ['Male'], 'password': ['12345'], 'submit': ['Sign Up']}>
+INFO "POST /register-doctor/ HTTP/1.1" 200 11506
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /register-doctor/ HTTP/1.1" 200 11506
+INFO <QueryDict: {'csrfmiddlewaretoken': ['HkOZjt90YlOw2S1CO6P6UDnhoAT63z1QXyNTbpptLjAlYnfpXAHNDv8A86KmnlwT'], 'firstName': ['toto'], 'middleName': ['toto'], 'lastName': ['toto'], 'address': ['toto'], 'phone': ['6868668'], 'email': ['toto@gmail.com'], 'specialityName': ['3'], 'gender': ['Male'], 'password': ['12345'], 'submit': ['Sign Up']}>
+ERROR Internal Server Error: /register-doctor/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 47, in registerDoctorPage
+    Registration(request, DoctorForm, Doctor)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 41, in Registration
+    DoctorSchedule.objects.create(day=e, from_hour='00:00:00', to_hour='00:00:00', doctor_id=id)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 447, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 790, in save_base
+    updated = self._save_table(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 933, in _do_insert
+    return manager._insert(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1396, in execute_sql
+    for sql, params in self.as_sql():
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1339, in as_sql
+    value_rows = [
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1340, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1340, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1281, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 823, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1222, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1217, in get_prep_value
+    return self.to_python(value)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1179, in to_python
+    parsed = parse_date(value)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/utils/dateparse.py", line 75, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or bytes-like object
+ERROR "POST /register-doctor/ HTTP/1.1" 500 158135
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /register-doctor/ HTTP/1.1" 200 11506
+INFO <QueryDict: {'csrfmiddlewaretoken': ['eJOxEaJzU74dUHu8tBHLDlxepCPqaTRSuXNrw6Z2H5Q2QcIVC5zsmdix98GGuFmV'], 'firstName': ['toto'], 'middleName': ['toto'], 'lastName': ['toto'], 'address': ['toto'], 'phone': ['6868668'], 'email': ['toto@gmail.com'], 'specialityName': ['3'], 'gender': ['Male'], 'password': ['12345'], 'submit': ['Sign Up']}>
+INFO "POST /register-doctor/ HTTP/1.1" 200 11607
+INFO "GET /register-doctor/ HTTP/1.1" 200 11506
+INFO <QueryDict: {'csrfmiddlewaretoken': ['xJgyv6uGLggRf9H5ahcEOkecRSAtoEIWNXfsn2K9ye2GbEVSjL4lxcZvBorJIqdZ'], 'firstName': ['toto'], 'middleName': ['toto'], 'lastName': ['toto'], 'address': ['toto'], 'phone': ['6868668'], 'email': ['toto@gmail.com'], 'specialityName': ['3'], 'gender': ['Male'], 'password': ['12345'], 'submit': ['Sign Up']}>
+ERROR Internal Server Error: /register-doctor/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 47, in registerDoctorPage
+    Registration(request, DoctorForm, Doctor)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 41, in Registration
+    crt = DoctorSchedule.objects.create(day=e, from_hour='00:00:00', to_hour='00:00:00', doctor_id=id)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 447, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 790, in save_base
+    updated = self._save_table(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 933, in _do_insert
+    return manager._insert(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1396, in execute_sql
+    for sql, params in self.as_sql():
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1339, in as_sql
+    value_rows = [
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1340, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1340, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1281, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 823, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1222, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1217, in get_prep_value
+    return self.to_python(value)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1179, in to_python
+    parsed = parse_date(value)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/utils/dateparse.py", line 75, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or bytes-like object
+ERROR "POST /register-doctor/ HTTP/1.1" 500 158146
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /register-doctor/ HTTP/1.1" 200 11506
+INFO "GET /register-doctor/ HTTP/1.1" 200 11506
+INFO <QueryDict: {'csrfmiddlewaretoken': ['vCGf8il0VuNSkY6Lr5tI7eKD0ZxhDWrzLQF90eBtIszHgtkyAzlpQ6vWKvoxXIWC'], 'firstName': ['toto'], 'middleName': ['toto'], 'lastName': ['toto'], 'address': ['toto'], 'phone': ['6868668'], 'email': ['toto@gmail.com'], 'specialityName': ['2'], 'gender': ['Male'], 'password': ['12345'], 'submit': ['Sign Up']}>
+ERROR Internal Server Error: /register-doctor/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 47, in registerDoctorPage
+    Registration(request, DoctorForm, Doctor)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 41, in Registration
+    crt = DoctorSchedule.objects.create(day=e, from_hour='00:00:00', to_hour='00:00:00', doctor_id=id)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 447, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 790, in save_base
+    updated = self._save_table(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 933, in _do_insert
+    return manager._insert(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1396, in execute_sql
+    for sql, params in self.as_sql():
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1339, in as_sql
+    value_rows = [
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1340, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1340, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1281, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 823, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1222, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1217, in get_prep_value
+    return self.to_python(value)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1179, in to_python
+    parsed = parse_date(value)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/utils/dateparse.py", line 75, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or bytes-like object
+ERROR "POST /register-doctor/ HTTP/1.1" 500 158113
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET /register-doctor/ HTTP/1.1" 200 11506
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QueryDict: {'csrfmiddlewaretoken': ['BOhIpgbWYWcdmLHk55U1Npfju25Blmg2R2gChcrpLUY2igV7ezMIwh0CeyWRF8L5'], 'firstName': ['toto'], 'middleName': ['toto'], 'lastName': ['toto'], 'address': ['toto'], 'phone': ['6868668'], 'email': ['toto@gmail.com'], 'specialityName': ['3'], 'gender': ['Male'], 'password': ['12345'], 'submit': ['Sign Up']}>
+ERROR Internal Server Error: /register-doctor/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 47, in registerDoctorPage
+    Registration(request, DoctorForm, Doctor)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 41, in Registration
+    crt = DoctorSchedule.objects.create(day=e, from_hour='00:00:00', to_hour='00:00:00', doctor_id=id[0])
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 447, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 790, in save_base
+    updated = self._save_table(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 933, in _do_insert
+    return manager._insert(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1396, in execute_sql
+    for sql, params in self.as_sql():
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1339, in as_sql
+    value_rows = [
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1340, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1340, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1281, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 823, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1222, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1217, in get_prep_value
+    return self.to_python(value)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1179, in to_python
+    parsed = parse_date(value)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/utils/dateparse.py", line 75, in parse_date
+    match = date_re.match(value)
+TypeError: expected string or bytes-like object
+ERROR "POST /register-doctor/ HTTP/1.1" 500 158081
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /register-doctor/ HTTP/1.1" 200 11506
+INFO <QueryDict: {'csrfmiddlewaretoken': ['8Ne1kp1f5mDf17bGCe99sQkRA5uGnefNo1dVclhISkp4XCptLI1QbI5akBlWH0KQ'], 'firstName': ['toto'], 'middleName': ['toto'], 'lastName': ['toto'], 'address': ['toto'], 'phone': ['6868668'], 'email': ['toto@gmail.com'], 'specialityName': ['4'], 'gender': ['Male'], 'password': ['12345'], 'submit': ['Sign Up']}>
+ERROR Internal Server Error: /register-doctor/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 47, in registerDoctorPage
+    Registration(request, DoctorForm, Doctor)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 41, in Registration
+    crt = DoctorSchedule.objects.create(day=d.value, from_hour='00:00:00', to_hour='00:00:00', doctor_id=id[0])
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 447, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 790, in save_base
+    updated = self._save_table(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 933, in _do_insert
+    return manager._insert(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1396, in execute_sql
+    for sql, params in self.as_sql():
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1339, in as_sql
+    value_rows = [
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1340, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1340, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1281, in prepare_value
+    value = field.get_db_prep_save(value, connection=self.connection)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 823, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1222, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1217, in get_prep_value
+    return self.to_python(value)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 1189, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“Monday” value has an invalid date format. It must be in YYYY-MM-DD format.']
+ERROR "POST /register-doctor/ HTTP/1.1" 500 154647
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /register-doctor/ HTTP/1.1" 200 11506
+INFO <QueryDict: {'csrfmiddlewaretoken': ['jDHwmi6nXvRzvPb6gqSDT6k3gupvkV72zRGqeemQKtDorkpTpUKkCY5m00gLEHC5'], 'firstName': ['toto'], 'middleName': ['toto'], 'lastName': ['toto'], 'address': ['toto'], 'phone': ['6868668'], 'email': ['toto@gmail.com'], 'specialityName': ['4'], 'gender': ['Male'], 'password': ['12345'], 'submit': ['Sign Up']}>
+INFO "POST /register-doctor/ HTTP/1.1" 200 11607
+INFO "GET /register-doctor/ HTTP/1.1" 200 11506
+INFO <QueryDict: {'csrfmiddlewaretoken': ['Zz3g03t00JxLyOyZdXIkeeS9AMl0V5fCfN2aSZJtNHjAujMMmrA1X6DskicgfRKF'], 'firstName': ['toto'], 'middleName': ['toto'], 'lastName': ['toto'], 'address': ['toto'], 'phone': ['6868668'], 'email': ['toto@gmail.com'], 'specialityName': ['4'], 'gender': ['Male'], 'password': ['12345'], 'submit': ['Sign Up']}>
+INFO "POST /register-doctor/ HTTP/1.1" 200 11506
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /login-d/ HTTP/1.1" 200 3718
+WARNING Unsuccessful login due to wrong email or password
+INFO "POST /api/login-d/ HTTP/1.1" 200 48
+INFO "POST /api/login-d/ HTTP/1.1" 200 27
+INFO "GET /home-d/ HTTP/1.1" 200 194
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 78, in createSchedule
+    dr = DoctorSchedule.objects.get(doctor_id = pk)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 433, in get
+    raise self.model.MultipleObjectsReturned(
+clinicApp.models.DoctorSchedule.MultipleObjectsReturned: get() returned more than one DoctorSchedule -- it returned 7!
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 69839
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QuerySet [<DoctorSchedule: DoctorSchedule object (5)>, <DoctorSchedule: DoctorSchedule object (6)>, <DoctorSchedule: DoctorSchedule object (7)>, <DoctorSchedule: DoctorSchedule object (8)>, <DoctorSchedule: DoctorSchedule object (9)>, <DoctorSchedule: DoctorSchedule object (10)>, <DoctorSchedule: DoctorSchedule object (11)>]>
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 92, in createSchedule
+    context = {'formset':formset}
+NameError: name 'formset' is not defined
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 59890
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QuerySet [<DoctorSchedule: DoctorSchedule object (5)>, <DoctorSchedule: DoctorSchedule object (6)>, <DoctorSchedule: DoctorSchedule object (7)>, <DoctorSchedule: DoctorSchedule object (8)>, <DoctorSchedule: DoctorSchedule object (9)>, <DoctorSchedule: DoctorSchedule object (10)>, <DoctorSchedule: DoctorSchedule object (11)>]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 449
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QuerySet [('Monday', datetime.time(0, 0), datetime.time(0, 0)), ('Tuesday', datetime.time(0, 0), datetime.time(0, 0)), ('Wednesday', datetime.time(0, 0), datetime.time(0, 0)), ('Thursday', datetime.time(0, 0), datetime.time(0, 0)), ('Friday', datetime.time(0, 0), datetime.time(0, 0)), ('Saturday', datetime.time(0, 0), datetime.time(0, 0)), ('Sunday', datetime.time(0, 0), datetime.time(0, 0))]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 449
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QuerySet [('Monday', datetime.time(0, 0), datetime.time(0, 0)), ('Tuesday', datetime.time(0, 0), datetime.time(0, 0)), ('Wednesday', datetime.time(0, 0), datetime.time(0, 0)), ('Thursday', datetime.time(0, 0), datetime.time(0, 0)), ('Friday', datetime.time(0, 0), datetime.time(0, 0)), ('Saturday', datetime.time(0, 0), datetime.time(0, 0)), ('Sunday', datetime.time(0, 0), datetime.time(0, 0))]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2059
+INFO <QuerySet [('Monday', datetime.time(0, 0), datetime.time(0, 0)), ('Tuesday', datetime.time(0, 0), datetime.time(0, 0)), ('Wednesday', datetime.time(0, 0), datetime.time(0, 0)), ('Thursday', datetime.time(0, 0), datetime.time(0, 0)), ('Friday', datetime.time(0, 0), datetime.time(0, 0)), ('Saturday', datetime.time(0, 0), datetime.time(0, 0)), ('Sunday', datetime.time(0, 0), datetime.time(0, 0))]>
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 93, in createSchedule
+    return render(request, 'schedule.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[0]' from 'l[0]'
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 144927
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO "POST /api/login-d/ HTTP/1.1" 200 27
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO <QuerySet [('Monday', datetime.time(0, 0), datetime.time(0, 0)), ('Tuesday', datetime.time(0, 0), datetime.time(0, 0)), ('Wednesday', datetime.time(0, 0), datetime.time(0, 0)), ('Thursday', datetime.time(0, 0), datetime.time(0, 0)), ('Friday', datetime.time(0, 0), datetime.time(0, 0)), ('Saturday', datetime.time(0, 0), datetime.time(0, 0)), ('Sunday', datetime.time(0, 0), datetime.time(0, 0))]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2059
+INFO <QuerySet [('Monday', datetime.time(0, 0), datetime.time(0, 0)), ('Tuesday', datetime.time(0, 0), datetime.time(0, 0)), ('Wednesday', datetime.time(0, 0), datetime.time(0, 0)), ('Thursday', datetime.time(0, 0), datetime.time(0, 0)), ('Friday', datetime.time(0, 0), datetime.time(0, 0)), ('Saturday', datetime.time(0, 0), datetime.time(0, 0)), ('Sunday', datetime.time(0, 0), datetime.time(0, 0))]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2059
+INFO <QuerySet [('Monday', datetime.time(0, 0), datetime.time(0, 0)), ('Tuesday', datetime.time(0, 0), datetime.time(0, 0)), ('Wednesday', datetime.time(0, 0), datetime.time(0, 0)), ('Thursday', datetime.time(0, 0), datetime.time(0, 0)), ('Friday', datetime.time(0, 0), datetime.time(0, 0)), ('Saturday', datetime.time(0, 0), datetime.time(0, 0)), ('Sunday', datetime.time(0, 0), datetime.time(0, 0))]>
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 93, in createSchedule
+    return render(request, 'schedule.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 813, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(8)' from 'range(8)'
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 151230
+INFO <QuerySet [('Monday', datetime.time(0, 0), datetime.time(0, 0)), ('Tuesday', datetime.time(0, 0), datetime.time(0, 0)), ('Wednesday', datetime.time(0, 0), datetime.time(0, 0)), ('Thursday', datetime.time(0, 0), datetime.time(0, 0)), ('Friday', datetime.time(0, 0), datetime.time(0, 0)), ('Saturday', datetime.time(0, 0), datetime.time(0, 0)), ('Sunday', datetime.time(0, 0), datetime.time(0, 0))]>
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 93, in createSchedule
+    return render(request, 'schedule.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 813, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '(8)' from 'range(8)'
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 151506
+INFO <QuerySet [('Monday', datetime.time(0, 0), datetime.time(0, 0)), ('Tuesday', datetime.time(0, 0), datetime.time(0, 0)), ('Wednesday', datetime.time(0, 0), datetime.time(0, 0)), ('Thursday', datetime.time(0, 0), datetime.time(0, 0)), ('Friday', datetime.time(0, 0), datetime.time(0, 0)), ('Saturday', datetime.time(0, 0), datetime.time(0, 0)), ('Sunday', datetime.time(0, 0), datetime.time(0, 0))]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2059
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QuerySet [<DoctorSchedule: DoctorSchedule object (5)>, <DoctorSchedule: DoctorSchedule object (6)>, <DoctorSchedule: DoctorSchedule object (7)>, <DoctorSchedule: DoctorSchedule object (8)>, <DoctorSchedule: DoctorSchedule object (9)>, <DoctorSchedule: DoctorSchedule object (10)>, <DoctorSchedule: DoctorSchedule object (11)>]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2221
+INFO <QuerySet [<DoctorSchedule: DoctorSchedule object (5)>, <DoctorSchedule: DoctorSchedule object (6)>, <DoctorSchedule: DoctorSchedule object (7)>, <DoctorSchedule: DoctorSchedule object (8)>, <DoctorSchedule: DoctorSchedule object (9)>, <DoctorSchedule: DoctorSchedule object (10)>, <DoctorSchedule: DoctorSchedule object (11)>]>
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 93, in createSchedule
+    return render(request, 'schedule.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'list.management_form.values()'
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 129297
+INFO <QuerySet [<DoctorSchedule: DoctorSchedule object (5)>, <DoctorSchedule: DoctorSchedule object (6)>, <DoctorSchedule: DoctorSchedule object (7)>, <DoctorSchedule: DoctorSchedule object (8)>, <DoctorSchedule: DoctorSchedule object (9)>, <DoctorSchedule: DoctorSchedule object (10)>, <DoctorSchedule: DoctorSchedule object (11)>]>
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 93, in createSchedule
+    return render(request, 'schedule.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 813, in do_for
+    sequence = parser.compile_filter(bits[in_index + 1])
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '()' from 'list.values()'
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 135226
+INFO <QuerySet [<DoctorSchedule: DoctorSchedule object (5)>, <DoctorSchedule: DoctorSchedule object (6)>, <DoctorSchedule: DoctorSchedule object (7)>, <DoctorSchedule: DoctorSchedule object (8)>, <DoctorSchedule: DoctorSchedule object (9)>, <DoctorSchedule: DoctorSchedule object (10)>, <DoctorSchedule: DoctorSchedule object (11)>]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2221
+INFO <QuerySet [<DoctorSchedule: DoctorSchedule object (5)>, <DoctorSchedule: DoctorSchedule object (6)>, <DoctorSchedule: DoctorSchedule object (7)>, <DoctorSchedule: DoctorSchedule object (8)>, <DoctorSchedule: DoctorSchedule object (9)>, <DoctorSchedule: DoctorSchedule object (10)>, <DoctorSchedule: DoctorSchedule object (11)>]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2221
+INFO <QuerySet [<DoctorSchedule: DoctorSchedule object (5)>, <DoctorSchedule: DoctorSchedule object (6)>, <DoctorSchedule: DoctorSchedule object (7)>, <DoctorSchedule: DoctorSchedule object (8)>, <DoctorSchedule: DoctorSchedule object (9)>, <DoctorSchedule: DoctorSchedule object (10)>, <DoctorSchedule: DoctorSchedule object (11)>]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2221
+INFO <QuerySet [<DoctorSchedule: DoctorSchedule object (5)>, <DoctorSchedule: DoctorSchedule object (6)>, <DoctorSchedule: DoctorSchedule object (7)>, <DoctorSchedule: DoctorSchedule object (8)>, <DoctorSchedule: DoctorSchedule object (9)>, <DoctorSchedule: DoctorSchedule object (10)>, <DoctorSchedule: DoctorSchedule object (11)>]>
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 93, in createSchedule
+    return render(request, 'schedule.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '['day']' from 'l['day']'
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 144912
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QuerySet [<DoctorSchedule: DoctorSchedule object (5)>, <DoctorSchedule: DoctorSchedule object (6)>, <DoctorSchedule: DoctorSchedule object (7)>, <DoctorSchedule: DoctorSchedule object (8)>, <DoctorSchedule: DoctorSchedule object (9)>, <DoctorSchedule: DoctorSchedule object (10)>, <DoctorSchedule: DoctorSchedule object (11)>]>
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 93, in createSchedule
+    return render(request, 'schedule.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '['day']' from 'l['day']'
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 151178
+INFO <QuerySet [<DoctorSchedule: DoctorSchedule object (5)>, <DoctorSchedule: DoctorSchedule object (6)>, <DoctorSchedule: DoctorSchedule object (7)>, <DoctorSchedule: DoctorSchedule object (8)>, <DoctorSchedule: DoctorSchedule object (9)>, <DoctorSchedule: DoctorSchedule object (10)>, <DoctorSchedule: DoctorSchedule object (11)>]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2221
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QuerySet [{'id': 5, 'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday', 'created_at': datetime.datetime(2021, 4, 20, 9, 2, 9, 882623, tzinfo=<UTC>), 'updated_at': datetime.datetime(2021, 4, 20, 9, 2, 9, 882674, tzinfo=<UTC>)}, {'id': 6, 'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday', 'created_at': datetime.datetime(2021, 4, 20, 9, 2, 9, 891466, tzinfo=<UTC>), 'updated_at': datetime.datetime(2021, 4, 20, 9, 2, 9, 891510, tzinfo=<UTC>)}, {'id': 7, 'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday', 'created_at': datetime.datetime(2021, 4, 20, 9, 2, 9, 897742, tzinfo=<UTC>), 'updated_at': datetime.datetime(2021, 4, 20, 9, 2, 9, 897864, tzinfo=<UTC>)}, {'id': 8, 'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday', 'created_at': datetime.datetime(2021, 4, 20, 9, 2, 9, 906880, tzinfo=<UTC>), 'updated_at': datetime.datetime(2021, 4, 20, 9, 2, 9, 906926, tzinfo=<UTC>)}, {'id': 9, 'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday', 'created_at': datetime.datetime(2021, 4, 20, 9, 2, 9, 913941, tzinfo=<UTC>), 'updated_at': datetime.datetime(2021, 4, 20, 9, 2, 9, 913986, tzinfo=<UTC>)}, {'id': 10, 'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday', 'created_at': datetime.datetime(2021, 4, 20, 9, 2, 9, 920526, tzinfo=<UTC>), 'updated_at': datetime.datetime(2021, 4, 20, 9, 2, 9, 920586, tzinfo=<UTC>)}, {'id': 11, 'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday', 'created_at': datetime.datetime(2021, 4, 20, 9, 2, 9, 926045, tzinfo=<UTC>), 'updated_at': datetime.datetime(2021, 4, 20, 9, 2, 9, 926092, tzinfo=<UTC>)}]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2221
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday'}]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2221
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday'}]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2221
+INFO <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday'}]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2221
+INFO <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday'}]>
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 93, in createSchedule
+    return render(request, 'schedule.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '['day']' from 'l['day']'
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 146949
+INFO <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday'}]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2221

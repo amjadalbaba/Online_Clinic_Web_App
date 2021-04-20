@@ -18,17 +18,25 @@ from django.urls import path, include
 from django.contrib import admin
 from clinicApp import views
 
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url('register-patient/', views.registerPatientPage, name="register-patient"),
     url('register-doctor/', views.registerDoctorPage, name="register-doctor"),
+
     path('login-p/', views.loginPatPage, name="login_p"),
     path('api/login-p/', views.loginPatientPage, name="login_p_api"),
+
     path('login-d/', views.loginDrPage, name="login_d"),
     path('api/login-d/', views.loginDoctorPage, name="login_d_api"),
 
-    path('home/', views.home, name="home"),
+    #path('api-token-auth/', views.obtain_auth_token, name='api-token-auth'),
+
+
+    path('home-d/', views.d_home, name="d_home"),
     path('', views.welcomePage, name="welcome"),
+
+    path('schedule-d/<str:pk>/', views.createSchedule, name="schedule_d"),
 
     #path('r/', include('clinicApp.urls')),
 ]
