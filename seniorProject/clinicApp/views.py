@@ -20,9 +20,9 @@ from django.http import JsonResponse
 from rest_framework.authtoken.views import ObtainAuthToken
 from rest_framework.authtoken.models import Token
 from rest_framework.response import Response
-
+from .utils import scheduleInsert
 from .logic import *
-
+import datetime
 
 
 logger = logging.getLogger('django')
@@ -73,23 +73,37 @@ def d_home(request):
     return render(request, 'd_dashboard.html', context)
 
 def createSchedule(request, pk):
-    # scheduleFormSet = inlineformset_factory(Doctor, DoctorSchedule, fields=('from_hour', 'to_hour', 'day'), extra=7, can_delete=False)
-    # logger.info(scheduleFormSet)
+
+    dr  = Doctor.objects.get(id = pk)
     drl = DoctorSchedule.objects.filter(doctor_id = pk)
-    logger.info(drl.values('doctor_id', 'from_hour', 'to_hour', 'day'))
-    # formset = scheduleFormSet(instance = dr)
+
+    logger.info(drl[0].doctor_id)
 
 
+    if request.method == "POST":
+        # logger.info(request.POST)
+        # for key in request.POST:
+        #     for v in request.POST.getlist(key):
+        #           logger.info(v)
 
-    # if request.method == "POST":
-    #      formset = scheduleFormSet(request.POST, instance=dr)
-    #      logger.info(request.POST)
-    #      if formset.is_valid():
-    #
-    #          formset.save()
-    #          return redirect('d_home')
+        idLst  = request.POST.getlist('doctor')
+        dayLst  = request.POST.getlist('day')
+        lsf = request.POST.getlist('from_hour')
+        lst = request.POST.getlist('to_hour')
 
-    context = {'list' : drl.values('doctor_id', 'from_hour', 'to_hour', 'day')}
+        dict = scheduleInsert(idLst, dayLst, lsf, lst)
+
+        for objs,i in zip(drl, range(7)):
+            objs.day = dict[i]['day']
+            objs.doctor_id = dict[i]['id']
+            objs.from_hour = dict[i]['from']
+            objs.to_hour = dict[i]['to']
+            objs.updated_at = datetime.datetime.now()
+            objs.save()
+
+        return redirect('d_home')
+
+    context = {'list' : drl.values('doctor_id', 'from_hour', 'to_hour', 'day'), 'id' : pk}
     return render(request, 'schedule.html', context)
 
 

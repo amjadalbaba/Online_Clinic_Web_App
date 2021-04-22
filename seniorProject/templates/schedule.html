@@ -1,23 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<h1>Weekly Schedule</h1>
-    <div style="width:630px">
-        <form method="POST">
-            {% csrf_token %}
-            {{ list.management_form }}
-            {% for l in list %}
-                Day: <input type="date"  name="day" value="{{ l.day }}">
-                From: <input type="time"  name="from_hour" value="{{ l.from_hour }}">
-                To: <input type="time"  name="to_hour" value="{{ l.to_hour }}">
-                <hr>
-            {% endfor %}
-        <input type="submit" name="submit" value="Add">
-        </form>
+
+{% extends 'baseContainer.html' %}
+
+{% block content %}
+    <style>
+        .column{
+                background: white;
+                border-radius: 30px;
+                box-shadow: 12px 12px 22px grey;
+            }
+    </style>
+
+    <div class="column no-gutters"><!--col no-glutters--> <!--no-gutters to remove paddings in the row-->
+        <center><div  class="col-lg-11 pt-3 px-5"><h1>Weekly Schedule</h1></div><center>
+        <center><div class="col-lg-11 pt-3 px-5">
+            <form method="POST">
+                {% csrf_token %}
+                {% for l in list %}
+                          <input type="hidden" required="required" name="doctor" value="{{ id }}">
+                    Day:  <input type="text" required="required"  name="day" value="{{ l.day }}">
+                    From: <input type="time" required="required"  name="from_hour" value="{{ l.from_hour }}">
+                    To:   <input type="time" required="required"  name="to_hour" value="{{ l.to_hour }}">
+                    <hr>
+                {% endfor %}
+            <input type="submit" name="submit" value="Add" class="btn btn-info mb-3">
+            <br>
+            </form>
+        </div></center>
     </div>
-</body>
-</html>
+{% endblock %}

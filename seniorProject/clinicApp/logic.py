@@ -40,6 +40,7 @@ def Registration(request, formName, modelName):
                 for d in days:
                    crt = DoctorSchedule.objects.create(day=d.value, from_hour='00:00:00', to_hour='00:00:00', doctor_id=id[0])
                    crt.save()
+                    #doing bulk insert
         else:
             messages.info(request, "email exists")
 

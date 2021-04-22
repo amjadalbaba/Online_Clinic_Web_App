@@ -14,7 +14,7 @@ class PatientForm(forms.ModelForm):
 class DoctorScheduleForm(forms.ModelForm):
     class Meta:
         model = DoctorSchedule
-        fields = '__all__'
+        fields = ['day', 'from_hour', 'to_hour', 'doctor']
 
 class AppointmentsForm(forms.ModelForm):
     class Meta:

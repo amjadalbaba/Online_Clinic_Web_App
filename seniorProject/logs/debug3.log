@@ -4636,3 +4636,2288 @@ django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '
 ERROR "GET /schedule-d/30/ HTTP/1.1" 500 146949
 INFO <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday'}]>
 INFO "GET /schedule-d/30/ HTTP/1.1" 200 2221
+INFO Watching for file changes with StatReloader
+INFO <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday'}]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2179
+INFO <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday'}]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2179
+INFO <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday'}]>
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 93, in createSchedule
+    return render(request, 'schedule.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 814, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 662, in __init__
+    raise TemplateSyntaxError("Could not parse the remainder: '%s' "
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '['day']' from 'l['day']'
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 146777
+INFO <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday'}]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2179
+INFO <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday'}]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2229
+INFO <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday'}]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2285
+INFO <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday'}]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2179
+INFO <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday'}]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2179
+INFO <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday'}]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2179
+INFO <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday'}]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2179
+INFO <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday'}]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2193
+INFO <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday'}]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2193
+INFO <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday'}]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2193
+INFO <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday'}]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2193
+INFO <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday'}]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2137
+INFO <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday'}]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2137
+INFO <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday'}]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2193
+INFO Watching for file changes with StatReloader
+INFO <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday'}]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2193
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday'}]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2676
+INFO <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 0), 'to_hour': datetime.time(0, 0), 'day': 'Sunday'}]>
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2676
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/forms.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 81, in createSchedule
+    form = DoctorSchedule(initial={'doctor' : dr})
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 501, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: DoctorSchedule() got an unexpected keyword argument 'initial'
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 67432
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2676
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2676
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Not Found: /schedul-d
+WARNING "GET /schedul-d HTTP/1.1" 404 3151
+WARNING Not Found: /home_-d
+WARNING "GET /home_-d HTTP/1.1" 404 3145
+WARNING Not Found: /home_d
+WARNING "GET /home_d HTTP/1.1" 404 3142
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+INFO "GET /static/images/wel.jpg HTTP/1.1" 304 0
+INFO "GET /login-d/ HTTP/1.1" 200 3718
+INFO "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 304 0
+INFO "POST /api/login-d/ HTTP/1.1" 200 27
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2676
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 81, in createSchedule
+    print(value.values())
+AttributeError: 'DoctorSchedule' object has no attribute 'values'
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 60970
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 81, in createSchedule
+    for v in value.values():
+AttributeError: 'DoctorSchedule' object has no attribute 'values'
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 60960
+INFO "GET /home-d/ HTTP/1.1" 200 194
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 81, in createSchedule
+    for v in value.values():
+AttributeError: 'DoctorSchedule' object has no attribute 'values'
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 60960
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2676
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2676
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO doctor_id
+INFO from_hour
+INFO to_hour
+INFO day
+INFO doctor_id
+INFO from_hour
+INFO to_hour
+INFO day
+INFO doctor_id
+INFO from_hour
+INFO to_hour
+INFO day
+INFO doctor_id
+INFO from_hour
+INFO to_hour
+INFO day
+INFO doctor_id
+INFO from_hour
+INFO to_hour
+INFO day
+INFO doctor_id
+INFO from_hour
+INFO to_hour
+INFO day
+INFO doctor_id
+INFO from_hour
+INFO to_hour
+INFO day
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2676
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO id
+INFO doctor_id
+INFO from_hour
+INFO to_hour
+INFO day
+INFO created_at
+INFO updated_at
+INFO id
+INFO doctor_id
+INFO from_hour
+INFO to_hour
+INFO day
+INFO created_at
+INFO updated_at
+INFO id
+INFO doctor_id
+INFO from_hour
+INFO to_hour
+INFO day
+INFO created_at
+INFO updated_at
+INFO id
+INFO doctor_id
+INFO from_hour
+INFO to_hour
+INFO day
+INFO created_at
+INFO updated_at
+INFO id
+INFO doctor_id
+INFO from_hour
+INFO to_hour
+INFO day
+INFO created_at
+INFO updated_at
+INFO id
+INFO doctor_id
+INFO from_hour
+INFO to_hour
+INFO day
+INFO created_at
+INFO updated_at
+INFO id
+INFO doctor_id
+INFO from_hour
+INFO to_hour
+INFO day
+INFO created_at
+INFO updated_at
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2676
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/ HTTP/1.1" 200 194
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 82, in createSchedule
+    logger.info(v.values())
+AttributeError: 'str' object has no attribute 'values'
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 61441
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/ HTTP/1.1" 200 194
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 81, in createSchedule
+    for v in value.values():
+AttributeError: 'DoctorSchedule' object has no attribute 'values'
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 60966
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO id
+INFO doctor_id
+INFO from_hour
+INFO to_hour
+INFO day
+INFO created_at
+INFO updated_at
+INFO id
+INFO doctor_id
+INFO from_hour
+INFO to_hour
+INFO day
+INFO created_at
+INFO updated_at
+INFO id
+INFO doctor_id
+INFO from_hour
+INFO to_hour
+INFO day
+INFO created_at
+INFO updated_at
+INFO id
+INFO doctor_id
+INFO from_hour
+INFO to_hour
+INFO day
+INFO created_at
+INFO updated_at
+INFO id
+INFO doctor_id
+INFO from_hour
+INFO to_hour
+INFO day
+INFO created_at
+INFO updated_at
+INFO id
+INFO doctor_id
+INFO from_hour
+INFO to_hour
+INFO day
+INFO created_at
+INFO updated_at
+INFO id
+INFO doctor_id
+INFO from_hour
+INFO to_hour
+INFO day
+INFO created_at
+INFO updated_at
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2676
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 81, in createSchedule
+    for v in value:
+TypeError: 'DoctorSchedule' object is not iterable
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 60838
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO DoctorSchedule object (5)
+INFO DoctorSchedule object (6)
+INFO DoctorSchedule object (7)
+INFO DoctorSchedule object (8)
+INFO DoctorSchedule object (9)
+INFO DoctorSchedule object (10)
+INFO DoctorSchedule object (11)
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2676
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO DoctorSchedule object (5)
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 82, in createSchedule
+    for obj in objs:
+TypeError: 'DoctorSchedule' object is not iterable
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 60881
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 00:00:00
+INFO 00:00:00
+INFO 00:00:00
+INFO 00:00:00
+INFO 00:00:00
+INFO 00:00:00
+INFO 00:00:00
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2676
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Monday
+INFO Tuesday
+INFO Wednesday
+INFO Thursday
+INFO Friday
+INFO Saturday
+INFO Sunday
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2676
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2676
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 2648
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2648
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 2634
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2634
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2634
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3026
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 88, in createSchedule
+    objs.save()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 790, in save_base
+    updated = self._save_table(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 872, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 926, in _do_update
+    return filtered._update(values) > 0
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 803, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1522, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1488, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 823, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2198, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2193, in get_prep_value
+    return self.to_python(value)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2177, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] format.']
+ERROR "POST /schedule-d/30/ HTTP/1.1" 500 123260
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 88, in createSchedule
+    objs.save()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 790, in save_base
+    updated = self._save_table(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 872, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 926, in _do_update
+    return filtered._update(values) > 0
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 803, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1522, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1488, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 823, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2198, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2193, in get_prep_value
+    return self.to_python(value)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2177, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] format.']
+ERROR "POST /schedule-d/30/ HTTP/1.1" 500 123260
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2634
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 88, in createSchedule
+    objs.save()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 790, in save_base
+    updated = self._save_table(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 872, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 926, in _do_update
+    return filtered._update(values) > 0
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 803, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1522, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1488, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 823, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2198, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2193, in get_prep_value
+    return self.to_python(value)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2177, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] format.']
+ERROR "POST /schedule-d/30/ HTTP/1.1" 500 123260
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 2704
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2704
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2704
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2697
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2697
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2704
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2704
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2704
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 2704
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2704
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2704
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 2648
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2648
+INFO "GET / HTTP/1.1" 200 3509
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2648
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2648
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2648
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2676
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2676
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2676
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2676
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2676
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2761
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2761
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2761
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 2761
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 88, in createSchedule
+    objs.save()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 790, in save_base
+    updated = self._save_table(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 872, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 926, in _do_update
+    return filtered._update(values) > 0
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 803, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1522, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1488, in as_sql
+    val = field.get_db_prep_save(val, connection=self.connection)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 823, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2198, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2193, in get_prep_value
+    return self.to_python(value)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2177, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] format.']
+ERROR "POST /schedule-d/30/ HTTP/1.1" 500 123470
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3314
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3271
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3271
+INFO <QueryDict: {'csrfmiddlewaretoken': ['7yURtCVgzihmqvSntzDFwbgtGoCzVg5cnMTLlybJmg3bm06aC3vmf31MqUtPf2Af'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['08:00', '07:00', '08:00', '06:00', '08:00', '07:00', '08:00'], 'to_hour': ['12:00', '22:00', '20:00', '20:00', '21:00', '17:00', '19:00'], 'submit': ['Add']}>
+INFO <QueryDict: {'csrfmiddlewaretoken': ['7yURtCVgzihmqvSntzDFwbgtGoCzVg5cnMTLlybJmg3bm06aC3vmf31MqUtPf2Af'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['08:00', '07:00', '08:00', '06:00', '08:00', '07:00', '08:00'], 'to_hour': ['12:00', '22:00', '20:00', '20:00', '21:00', '17:00', '19:00'], 'submit': ['Add']}>
+INFO <QueryDict: {'csrfmiddlewaretoken': ['7yURtCVgzihmqvSntzDFwbgtGoCzVg5cnMTLlybJmg3bm06aC3vmf31MqUtPf2Af'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['08:00', '07:00', '08:00', '06:00', '08:00', '07:00', '08:00'], 'to_hour': ['12:00', '22:00', '20:00', '20:00', '21:00', '17:00', '19:00'], 'submit': ['Add']}>
+INFO <QueryDict: {'csrfmiddlewaretoken': ['7yURtCVgzihmqvSntzDFwbgtGoCzVg5cnMTLlybJmg3bm06aC3vmf31MqUtPf2Af'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['08:00', '07:00', '08:00', '06:00', '08:00', '07:00', '08:00'], 'to_hour': ['12:00', '22:00', '20:00', '20:00', '21:00', '17:00', '19:00'], 'submit': ['Add']}>
+INFO <QueryDict: {'csrfmiddlewaretoken': ['7yURtCVgzihmqvSntzDFwbgtGoCzVg5cnMTLlybJmg3bm06aC3vmf31MqUtPf2Af'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['08:00', '07:00', '08:00', '06:00', '08:00', '07:00', '08:00'], 'to_hour': ['12:00', '22:00', '20:00', '20:00', '21:00', '17:00', '19:00'], 'submit': ['Add']}>
+INFO <QueryDict: {'csrfmiddlewaretoken': ['7yURtCVgzihmqvSntzDFwbgtGoCzVg5cnMTLlybJmg3bm06aC3vmf31MqUtPf2Af'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['08:00', '07:00', '08:00', '06:00', '08:00', '07:00', '08:00'], 'to_hour': ['12:00', '22:00', '20:00', '20:00', '21:00', '17:00', '19:00'], 'submit': ['Add']}>
+INFO <QueryDict: {'csrfmiddlewaretoken': ['7yURtCVgzihmqvSntzDFwbgtGoCzVg5cnMTLlybJmg3bm06aC3vmf31MqUtPf2Af'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['08:00', '07:00', '08:00', '06:00', '08:00', '07:00', '08:00'], 'to_hour': ['12:00', '22:00', '20:00', '20:00', '21:00', '17:00', '19:00'], 'submit': ['Add']}>
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3229
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3229
+INFO <QueryDict: {'csrfmiddlewaretoken': ['2H9YpPnQFP42Tkk8IZzsW6ELhz8DD52AiV8ShLDjsNQRPPyVRtr9FYp415ZTXRxD'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['10:00', '09:00', '08:00', '04:00', '07:00', '05:00', '06:00'], 'to_hour': ['22:00', '22:00', '19:00', '20:00', '19:00', '20:00', '21:00'], 'submit': ['Add']}>
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3229
+INFO <QueryDict: {'csrfmiddlewaretoken': ['GWV4jJEwQvsgOf1X6u8wPBKWZyCB1RpQWaUYbFUZDte5KKfKfY0dytvfJ4tRlDUT'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['10:00', '09:00', '08:00', '04:00', '07:00', '05:00', '06:00'], 'to_hour': ['22:00', '22:00', '19:00', '20:00', '19:00', '20:00', '21:00'], 'submit': ['Add']}>
+INFO 06:00
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3229
+INFO <QueryDict: {'csrfmiddlewaretoken': ['5GNiQkg2afvrrCUlHmiMaxJargWD1v9jlUMcIgwvXdhgn788QQatTputbMNTlhEm'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['08:00', '07:00', '07:00', '09:00', '10:00', '08:00', '07:00'], 'to_hour': ['15:00', '16:00', '16:00', '22:00', '18:00', '19:00', '17:00'], 'submit': ['Add']}>
+INFO 0
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3229
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3229
+INFO <QueryDict: {'csrfmiddlewaretoken': ['Xpr3uIb8CNQkCqHW4TSnBD5V1pvVQhiIdDqXmErBpLC9yVVJdnK4kvQeLVmba3NL'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['08:00', '07:00', '07:00', '09:00', '10:00', '08:00', '07:00'], 'to_hour': ['15:00', '16:00', '16:00', '22:00', '18:00', '19:00', '17:00'], 'submit': ['Add']}>
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 86, in createSchedule
+    for key,val in request.POST:
+ValueError: too many values to unpack (expected 2)
+ERROR "POST /schedule-d/30/ HTTP/1.1" 500 61982
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QueryDict: {'csrfmiddlewaretoken': ['Xpr3uIb8CNQkCqHW4TSnBD5V1pvVQhiIdDqXmErBpLC9yVVJdnK4kvQeLVmba3NL'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['08:00', '07:00', '07:00', '09:00', '10:00', '08:00', '07:00'], 'to_hour': ['15:00', '16:00', '16:00', '22:00', '18:00', '19:00', '17:00'], 'submit': ['Add']}>
+INFO csrfmiddlewaretoken
+INFO doctor
+INFO day
+INFO from_hour
+INFO to_hour
+INFO submit
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3229
+INFO <QueryDict: {'csrfmiddlewaretoken': ['mQbLCzuRJ5hNZZhRdnonmyDfky3i6oBsC4aFuvKkw33CVuvEmRg45qoy44Uyqa6v'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['08:00', '07:00', '02:00', '10:00', '10:00', '10:00', '09:00'], 'to_hour': ['12:00', '13:00', '12:00', '12:00', '12:00', '12:00', '17:00'], 'submit': ['Add']}>
+INFO csrfmiddlewaretoken
+INFO doctor
+INFO day
+INFO from_hour
+INFO to_hour
+INFO submit
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3229
+INFO <QueryDict: {'csrfmiddlewaretoken': ['G6h2zOVRnEUfBWaRZZP0FIBlQl3NenFPWkgWrKbkaCG4xroE8tHHoAmEARU3y9aS'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['08:00', '07:00', '02:00', '10:00', '10:00', '10:00', '09:00'], 'to_hour': ['12:00', '13:00', '12:00', '12:00', '12:00', '12:00', '17:00'], 'submit': ['Add']}>
+INFO G
+INFO 6
+INFO h
+INFO 2
+INFO z
+INFO O
+INFO V
+INFO R
+INFO n
+INFO E
+INFO U
+INFO f
+INFO B
+INFO W
+INFO a
+INFO R
+INFO Z
+INFO Z
+INFO P
+INFO 0
+INFO F
+INFO I
+INFO B
+INFO l
+INFO Q
+INFO l
+INFO 3
+INFO N
+INFO e
+INFO n
+INFO F
+INFO P
+INFO W
+INFO k
+INFO g
+INFO W
+INFO r
+INFO K
+INFO b
+INFO k
+INFO a
+INFO C
+INFO G
+INFO 4
+INFO x
+INFO r
+INFO o
+INFO E
+INFO 8
+INFO t
+INFO H
+INFO H
+INFO o
+INFO A
+INFO m
+INFO E
+INFO A
+INFO R
+INFO U
+INFO 3
+INFO y
+INFO 9
+INFO a
+INFO S
+INFO 3
+INFO 0
+INFO S
+INFO u
+INFO n
+INFO d
+INFO a
+INFO y
+INFO 0
+INFO 9
+INFO :
+INFO 0
+INFO 0
+INFO 1
+INFO 7
+INFO :
+INFO 0
+INFO 0
+INFO A
+INFO d
+INFO d
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3229
+INFO <QueryDict: {'csrfmiddlewaretoken': ['ep3Tcq9rvLhDQrUzFFJYxQhtF0zf1idluD2N4mpUiJ3sMW8mO9BFgI2Mpwqvl4Io'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['08:00', '07:00', '02:00', '10:00', '10:00', '10:00', '09:00'], 'to_hour': ['12:00', '13:00', '12:00', '12:00', '12:00', '12:00', '17:00'], 'submit': ['Add']}>
+INFO e
+INFO p
+INFO 3
+INFO T
+INFO c
+INFO q
+INFO 9
+INFO r
+INFO v
+INFO L
+INFO h
+INFO D
+INFO Q
+INFO r
+INFO U
+INFO z
+INFO F
+INFO F
+INFO J
+INFO Y
+INFO x
+INFO Q
+INFO h
+INFO t
+INFO F
+INFO 0
+INFO z
+INFO f
+INFO 1
+INFO i
+INFO d
+INFO l
+INFO u
+INFO D
+INFO 2
+INFO N
+INFO 4
+INFO m
+INFO p
+INFO U
+INFO i
+INFO J
+INFO 3
+INFO s
+INFO M
+INFO W
+INFO 8
+INFO m
+INFO O
+INFO 9
+INFO B
+INFO F
+INFO g
+INFO I
+INFO 2
+INFO M
+INFO p
+INFO w
+INFO q
+INFO v
+INFO l
+INFO 4
+INFO I
+INFO o
+INFO 3
+INFO 0
+INFO S
+INFO u
+INFO n
+INFO d
+INFO a
+INFO y
+INFO 0
+INFO 9
+INFO :
+INFO 0
+INFO 0
+INFO 1
+INFO 7
+INFO :
+INFO 0
+INFO 0
+INFO A
+INFO d
+INFO d
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3229
+INFO <QueryDict: {'csrfmiddlewaretoken': ['9GXVDdfy5JsSteSfOpAAx0iRzRNVJMdspUWPv9v1SHeHpJ62XTshgS3ajnEb3yIv'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['10:00', '10:00', '10:00', '09:00', '10:00', '08:00', '07:00'], 'to_hour': ['14:00', '15:00', '12:00', '15:00', '16:00', '12:00', '15:00'], 'submit': ['Add']}>
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3229
+INFO <QueryDict: {'csrfmiddlewaretoken': ['P3B8uezO0N5eKd9MLLhH9G4Qm5vizj2o5hA2maPhNLR3GInzUf9oSyP96BmyT5xr'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['06:04', '12:04', '12:04', '12:04', '12:04', '12:04', '12:04'], 'to_hour': ['12:09', '11:09', '11:09', '11:09', '11:09', '11:09', '11:09'], 'submit': ['Add']}>
+INFO P3B8uezO0N5eKd9MLLhH9G4Qm5vizj2o5hA2maPhNLR3GInzUf9oSyP96BmyT5xr
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO Monday
+INFO Tuesday
+INFO Wednesday
+INFO Thursday
+INFO Friday
+INFO Saturday
+INFO Sunday
+INFO 06:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO Add
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3285
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QueryDict: {'csrfmiddlewaretoken': ['nAqIwhy6UDZ62cCGBzoSRXBRtYZkxJyDDOpCodOzHBLVYHQtK3gzAPmaduQARv3G'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['06:04', '12:04', '12:04', '12:04', '12:04', '12:04', '12:04'], 'to_hour': ['12:09', '11:09', '11:09', '11:09', '11:09', '11:09', '11:09'], 'submit': ['Add']}>
+INFO nAqIwhy6UDZ62cCGBzoSRXBRtYZkxJyDDOpCodOzHBLVYHQtK3gzAPmaduQARv3G
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO Monday
+INFO Tuesday
+INFO Wednesday
+INFO Thursday
+INFO Friday
+INFO Saturday
+INFO Sunday
+INFO 06:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO Add
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 91, in createSchedule
+    objs.from_hour = request.POST.getlist['from_hour']
+TypeError: 'method' object is not subscriptable
+ERROR "POST /schedule-d/30/ HTTP/1.1" 500 62552
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QueryDict: {'csrfmiddlewaretoken': ['nAqIwhy6UDZ62cCGBzoSRXBRtYZkxJyDDOpCodOzHBLVYHQtK3gzAPmaduQARv3G'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['06:04', '12:04', '12:04', '12:04', '12:04', '12:04', '12:04'], 'to_hour': ['12:09', '11:09', '11:09', '11:09', '11:09', '11:09', '11:09'], 'submit': ['Add']}>
+INFO nAqIwhy6UDZ62cCGBzoSRXBRtYZkxJyDDOpCodOzHBLVYHQtK3gzAPmaduQARv3G
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO Monday
+INFO Tuesday
+INFO Wednesday
+INFO Thursday
+INFO Friday
+INFO Saturday
+INFO Sunday
+INFO 06:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO Add
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 91, in createSchedule
+    for f,t in request.POST.getlist['from_hour'],request.POST.getlist['to_hour']:
+TypeError: 'method' object is not subscriptable
+ERROR "POST /schedule-d/30/ HTTP/1.1" 500 62566
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QueryDict: {'csrfmiddlewaretoken': ['nAqIwhy6UDZ62cCGBzoSRXBRtYZkxJyDDOpCodOzHBLVYHQtK3gzAPmaduQARv3G'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['06:04', '12:04', '12:04', '12:04', '12:04', '12:04', '12:04'], 'to_hour': ['12:09', '11:09', '11:09', '11:09', '11:09', '11:09', '11:09'], 'submit': ['Add']}>
+INFO nAqIwhy6UDZ62cCGBzoSRXBRtYZkxJyDDOpCodOzHBLVYHQtK3gzAPmaduQARv3G
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO Monday
+INFO Tuesday
+INFO Wednesday
+INFO Thursday
+INFO Friday
+INFO Saturday
+INFO Sunday
+INFO 06:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO Add
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 91, in createSchedule
+    for f in request.POST.getlist['from_hour']:
+TypeError: 'method' object is not subscriptable
+ERROR "POST /schedule-d/30/ HTTP/1.1" 500 62521
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3285
+INFO <QueryDict: {'csrfmiddlewaretoken': ['wZ4kwXkIHjkYu8SDBhZzNXy2QFGKHS06Md3eoTAbuh6NqD6qKLRgwPjlAbx01Ev9'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['08:00', '08:00', '08:00', '06:00', '08:00', '07:00', '08:00'], 'to_hour': ['21:00', '22:00', '19:00', '18:00', '21:00', '22:00', '22:00'], 'submit': ['Add']}>
+INFO wZ4kwXkIHjkYu8SDBhZzNXy2QFGKHS06Md3eoTAbuh6NqD6qKLRgwPjlAbx01Ev9
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO Monday
+INFO Tuesday
+INFO Wednesday
+INFO Thursday
+INFO Friday
+INFO Saturday
+INFO Sunday
+INFO 08:00
+INFO 08:00
+INFO 08:00
+INFO 06:00
+INFO 08:00
+INFO 07:00
+INFO 08:00
+INFO 21:00
+INFO 22:00
+INFO 19:00
+INFO 18:00
+INFO 21:00
+INFO 22:00
+INFO 22:00
+INFO Add
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 91, in createSchedule
+    for f in request.POST.getlist['from_hour']:
+TypeError: 'method' object is not subscriptable
+ERROR "POST /schedule-d/30/ HTTP/1.1" 500 62521
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QueryDict: {'csrfmiddlewaretoken': ['wZ4kwXkIHjkYu8SDBhZzNXy2QFGKHS06Md3eoTAbuh6NqD6qKLRgwPjlAbx01Ev9'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['08:00', '08:00', '08:00', '06:00', '08:00', '07:00', '08:00'], 'to_hour': ['21:00', '22:00', '19:00', '18:00', '21:00', '22:00', '22:00'], 'submit': ['Add']}>
+INFO wZ4kwXkIHjkYu8SDBhZzNXy2QFGKHS06Md3eoTAbuh6NqD6qKLRgwPjlAbx01Ev9
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO Monday
+INFO Tuesday
+INFO Wednesday
+INFO Thursday
+INFO Friday
+INFO Saturday
+INFO Sunday
+INFO 08:00
+INFO 08:00
+INFO 08:00
+INFO 06:00
+INFO 08:00
+INFO 07:00
+INFO 08:00
+INFO 21:00
+INFO 22:00
+INFO 19:00
+INFO 18:00
+INFO 21:00
+INFO 22:00
+INFO 22:00
+INFO Add
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3236
+INFO <QueryDict: {'csrfmiddlewaretoken': ['ErWIZmKXR5ShtlNzWNNVBuUNYmvWl0lTUFVCRi0qE3E6pQ1m5hFCkmF6ISmcFMQW'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['06:04', '12:04', '12:04', '12:04', '12:04', '12:04', '12:04'], 'to_hour': ['12:09', '11:09', '11:09', '11:09', '11:09', '11:09', '11:09'], 'submit': ['Add']}>
+INFO ErWIZmKXR5ShtlNzWNNVBuUNYmvWl0lTUFVCRi0qE3E6pQ1m5hFCkmF6ISmcFMQW
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO Monday
+INFO Tuesday
+INFO Wednesday
+INFO Thursday
+INFO Friday
+INFO Saturday
+INFO Sunday
+INFO 06:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO Add
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3285
+INFO <QueryDict: {'csrfmiddlewaretoken': ['orfBjrGw5ZbTe3vnrARDwJQ3CQUnxNwtEFevbnWZSXXIayJaA4JkfBBmmmLDRz1w'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['06:04', '12:04', '12:04', '12:04', '12:04', '12:04', '12:04'], 'to_hour': ['12:09', '11:09', '11:09', '11:09', '11:09', '11:09', '11:09'], 'submit': ['Add']}>
+INFO orfBjrGw5ZbTe3vnrARDwJQ3CQUnxNwtEFevbnWZSXXIayJaA4JkfBBmmmLDRz1w
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO Monday
+INFO Tuesday
+INFO Wednesday
+INFO Thursday
+INFO Friday
+INFO Saturday
+INFO Sunday
+INFO 06:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO Add
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3285
+INFO <QueryDict: {'csrfmiddlewaretoken': ['ivvYyldivW5WDXjdMs8HDkXOkpuLWulvyJuSqhtLiURLzsx0VW0omcI74Vl1ggQy'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['06:04', '12:04', '12:04', '12:04', '12:04', '12:04', '12:04'], 'to_hour': ['12:09', '11:09', '11:09', '11:09', '11:09', '11:09', '11:09'], 'submit': ['Add']}>
+INFO ivvYyldivW5WDXjdMs8HDkXOkpuLWulvyJuSqhtLiURLzsx0VW0omcI74Vl1ggQy
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO Monday
+INFO Tuesday
+INFO Wednesday
+INFO Thursday
+INFO Friday
+INFO Saturday
+INFO Sunday
+INFO 06:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO Add
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3285
+INFO <QueryDict: {'csrfmiddlewaretoken': ['3bfH3pCwTefAHdWRSBo4jHJCAG0nqB9sjpeBVlSZGc1pDIaE15gL2zuVkcRDKnEv'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['06:04', '12:04', '12:04', '12:04', '12:04', '12:04', '12:04'], 'to_hour': ['12:09', '11:09', '11:09', '11:09', '11:09', '11:09', '23:11'], 'submit': ['Add']}>
+INFO 3bfH3pCwTefAHdWRSBo4jHJCAG0nqB9sjpeBVlSZGc1pDIaE15gL2zuVkcRDKnEv
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO Monday
+INFO Tuesday
+INFO Wednesday
+INFO Thursday
+INFO Friday
+INFO Saturday
+INFO Sunday
+INFO 06:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 23:11
+INFO Add
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3285
+INFO <QueryDict: {'csrfmiddlewaretoken': ['KmRreNtzo3sUW00EEFn9bD4gqg8XmdjL0AQl6JJ2b1eJSverN9fQUvPzaMZdGZOO'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['06:04', '12:04', '12:04', '12:04', '12:04', '12:04', '12:04'], 'to_hour': ['12:09', '11:09', '11:09', '11:09', '11:09', '11:09', '23:11'], 'submit': ['Add']}>
+INFO KmRreNtzo3sUW00EEFn9bD4gqg8XmdjL0AQl6JJ2b1eJSverN9fQUvPzaMZdGZOO
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO Monday
+INFO Tuesday
+INFO Wednesday
+INFO Thursday
+INFO Friday
+INFO Saturday
+INFO Sunday
+INFO 06:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 23:11
+INFO Add
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 96, in createSchedule
+    drl.save()
+AttributeError: 'QuerySet' object has no attribute 'save'
+ERROR "POST /schedule-d/30/ HTTP/1.1" 500 62623
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QueryDict: {'csrfmiddlewaretoken': ['KmRreNtzo3sUW00EEFn9bD4gqg8XmdjL0AQl6JJ2b1eJSverN9fQUvPzaMZdGZOO'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['06:04', '12:04', '12:04', '12:04', '12:04', '12:04', '12:04'], 'to_hour': ['12:09', '11:09', '11:09', '11:09', '11:09', '11:09', '23:11'], 'submit': ['Add']}>
+INFO KmRreNtzo3sUW00EEFn9bD4gqg8XmdjL0AQl6JJ2b1eJSverN9fQUvPzaMZdGZOO
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO Monday
+INFO Tuesday
+INFO Wednesday
+INFO Thursday
+INFO Friday
+INFO Saturday
+INFO Sunday
+INFO 06:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 23:11
+INFO Add
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3285
+INFO <QueryDict: {'csrfmiddlewaretoken': ['O14R5PNn0c2u92CyvYtOBXK1JtDSzWCD4f3LXL3QNaOj5xQlEslvkPvktZu8TI7G'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['06:04', '12:04', '12:04', '12:04', '12:04', '12:04', '12:04'], 'to_hour': ['12:09', '11:09', '11:09', '11:09', '11:09', '11:09', '23:11'], 'submit': ['Add']}>
+INFO O14R5PNn0c2u92CyvYtOBXK1JtDSzWCD4f3LXL3QNaOj5xQlEslvkPvktZu8TI7G
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO Monday
+INFO Tuesday
+INFO Wednesday
+INFO Thursday
+INFO Friday
+INFO Saturday
+INFO Sunday
+INFO 06:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 23:11
+INFO Add
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 91, in createSchedule
+    for i in drl.count-1:
+TypeError: unsupported operand type(s) for -: 'method' and 'int'
+ERROR "POST /schedule-d/30/ HTTP/1.1" 500 62993
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QueryDict: {'csrfmiddlewaretoken': ['O14R5PNn0c2u92CyvYtOBXK1JtDSzWCD4f3LXL3QNaOj5xQlEslvkPvktZu8TI7G'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['06:04', '12:04', '12:04', '12:04', '12:04', '12:04', '12:04'], 'to_hour': ['12:09', '11:09', '11:09', '11:09', '11:09', '11:09', '23:11'], 'submit': ['Add']}>
+INFO O14R5PNn0c2u92CyvYtOBXK1JtDSzWCD4f3LXL3QNaOj5xQlEslvkPvktZu8TI7G
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO Monday
+INFO Tuesday
+INFO Wednesday
+INFO Thursday
+INFO Friday
+INFO Saturday
+INFO Sunday
+INFO 06:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 23:11
+INFO Add
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3285
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3285
+INFO <QueryDict: {'csrfmiddlewaretoken': ['HxiPoVoSWBGKDtsMdTStvndb4IdlZtbNXLhJgRElJzszzYGzmnKaefYuOe4BjfGQ'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['08:00', '09:00', '07:00', '08:00', '05:00', '04:00', '08:00'], 'to_hour': ['12:00', '14:00', '15:00', '17:00', '20:00', '21:00', '22:00'], 'submit': ['Add']}>
+INFO HxiPoVoSWBGKDtsMdTStvndb4IdlZtbNXLhJgRElJzszzYGzmnKaefYuOe4BjfGQ
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO Monday
+INFO Tuesday
+INFO Wednesday
+INFO Thursday
+INFO Friday
+INFO Saturday
+INFO Sunday
+INFO 08:00
+INFO 09:00
+INFO 07:00
+INFO 08:00
+INFO 05:00
+INFO 04:00
+INFO 08:00
+INFO 12:00
+INFO 14:00
+INFO 15:00
+INFO 17:00
+INFO 20:00
+INFO 21:00
+INFO 22:00
+INFO Add
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3285
+INFO <QueryDict: {'csrfmiddlewaretoken': ['Iyu9GbvI5K11VXWgK7qMKHAos2T3gXIvYMt3y7LbSINQRsa3TBittzlHcyKjAJdy'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['08:00', '09:00', '07:00', '08:00', '05:00', '04:00', '08:00'], 'to_hour': ['12:00', '14:00', '15:00', '17:00', '20:00', '21:00', '22:00'], 'submit': ['Add']}>
+INFO Iyu9GbvI5K11VXWgK7qMKHAos2T3gXIvYMt3y7LbSINQRsa3TBittzlHcyKjAJdy
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO Monday
+INFO Tuesday
+INFO Wednesday
+INFO Thursday
+INFO Friday
+INFO Saturday
+INFO Sunday
+INFO 08:00
+INFO 09:00
+INFO 07:00
+INFO 08:00
+INFO 05:00
+INFO 04:00
+INFO 08:00
+INFO 12:00
+INFO 14:00
+INFO 15:00
+INFO 17:00
+INFO 20:00
+INFO 21:00
+INFO 22:00
+INFO Add
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 95, in createSchedule
+    drl.save()
+AttributeError: 'QuerySet' object has no attribute 'save'
+ERROR "POST /schedule-d/30/ HTTP/1.1" 500 63088
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QueryDict: {'csrfmiddlewaretoken': ['Iyu9GbvI5K11VXWgK7qMKHAos2T3gXIvYMt3y7LbSINQRsa3TBittzlHcyKjAJdy'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['08:00', '09:00', '07:00', '08:00', '05:00', '04:00', '08:00'], 'to_hour': ['12:00', '14:00', '15:00', '17:00', '20:00', '21:00', '22:00'], 'submit': ['Add']}>
+INFO Iyu9GbvI5K11VXWgK7qMKHAos2T3gXIvYMt3y7LbSINQRsa3TBittzlHcyKjAJdy
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO Monday
+INFO Tuesday
+INFO Wednesday
+INFO Thursday
+INFO Friday
+INFO Saturday
+INFO Sunday
+INFO 08:00
+INFO 09:00
+INFO 07:00
+INFO 08:00
+INFO 05:00
+INFO 04:00
+INFO 08:00
+INFO 12:00
+INFO 14:00
+INFO 15:00
+INFO 17:00
+INFO 20:00
+INFO 21:00
+INFO 22:00
+INFO Add
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 92, in createSchedule
+    print(dr[i])
+TypeError: 'Doctor' object is not subscriptable
+ERROR "POST /schedule-d/30/ HTTP/1.1" 500 63009
+INFO <QueryDict: {'csrfmiddlewaretoken': ['Iyu9GbvI5K11VXWgK7qMKHAos2T3gXIvYMt3y7LbSINQRsa3TBittzlHcyKjAJdy'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['06:04', '12:04', '12:04', '12:04', '12:04', '12:04', '12:04'], 'to_hour': ['12:09', '11:09', '11:09', '11:09', '11:09', '11:09', '23:11'], 'submit': ['Add']}>
+INFO Iyu9GbvI5K11VXWgK7qMKHAos2T3gXIvYMt3y7LbSINQRsa3TBittzlHcyKjAJdy
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO Monday
+INFO Tuesday
+INFO Wednesday
+INFO Thursday
+INFO Friday
+INFO Saturday
+INFO Sunday
+INFO 06:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 23:11
+INFO Add
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 92, in createSchedule
+    print(dr[i])
+TypeError: 'Doctor' object is not subscriptable
+ERROR "POST /schedule-d/30/ HTTP/1.1" 500 63009
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QueryDict: {'csrfmiddlewaretoken': ['Iyu9GbvI5K11VXWgK7qMKHAos2T3gXIvYMt3y7LbSINQRsa3TBittzlHcyKjAJdy'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['06:04', '12:04', '12:04', '12:04', '12:04', '12:04', '12:04'], 'to_hour': ['12:09', '11:09', '11:09', '11:09', '11:09', '11:09', '23:11'], 'submit': ['Add']}>
+INFO Iyu9GbvI5K11VXWgK7qMKHAos2T3gXIvYMt3y7LbSINQRsa3TBittzlHcyKjAJdy
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO Monday
+INFO Tuesday
+INFO Wednesday
+INFO Thursday
+INFO Friday
+INFO Saturday
+INFO Sunday
+INFO 06:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 23:11
+INFO Add
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3285
+INFO <QueryDict: {'csrfmiddlewaretoken': ['YbVWBT29lAT9OoKFsyZDDVQnXrtE2nEVepUQtPiC8yFYKTYsB2RkmNBGHXkUm99Y'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['06:04', '12:04', '12:04', '12:04', '12:04', '12:04', '12:04'], 'to_hour': ['12:09', '11:09', '11:09', '11:09', '11:09', '11:09', '23:11'], 'submit': ['Add']}>
+INFO YbVWBT29lAT9OoKFsyZDDVQnXrtE2nEVepUQtPiC8yFYKTYsB2RkmNBGHXkUm99Y
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO Monday
+INFO Tuesday
+INFO Wednesday
+INFO Thursday
+INFO Friday
+INFO Saturday
+INFO Sunday
+INFO 06:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 23:11
+INFO Add
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3285
+INFO <QueryDict: {'csrfmiddlewaretoken': ['7PbFt6YGyIPmW4IZPCuiYxJkpbdgLNB4n3azl2e9lGBbSzWMY6mZHpuD9H4w5z67'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['00:00', '08:00', '20:02', '12:04', '12:04', '12:04', '12:04'], 'to_hour': ['17:00', '11:09', '11:09', '11:09', '11:09', '11:09', '11:09'], 'submit': ['Add']}>
+INFO 7PbFt6YGyIPmW4IZPCuiYxJkpbdgLNB4n3azl2e9lGBbSzWMY6mZHpuD9H4w5z67
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO Monday
+INFO Tuesday
+INFO Wednesday
+INFO Thursday
+INFO Friday
+INFO Saturday
+INFO Sunday
+INFO 00:00
+INFO 08:00
+INFO 20:02
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 12:04
+INFO 17:00
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO 11:09
+INFO Add
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3285
+INFO <QueryDict: {'csrfmiddlewaretoken': ['2VMxiXiMFUTETDKrlJGhfWmFLflSroMIi9LraTyfsSFtP8YeudyYYO7YvLc8LahL'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['10:00', '10:00', '10:00', '10:00', '10:00', '10:00', '10:00'], 'to_hour': ['12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00'], 'submit': ['Add']}>
+INFO 2VMxiXiMFUTETDKrlJGhfWmFLflSroMIi9LraTyfsSFtP8YeudyYYO7YvLc8LahL
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO Monday
+INFO Tuesday
+INFO Wednesday
+INFO Thursday
+INFO Friday
+INFO Saturday
+INFO Sunday
+INFO 10:00
+INFO 10:00
+INFO 10:00
+INFO 10:00
+INFO 10:00
+INFO 10:00
+INFO 10:00
+INFO 12:00
+INFO 13:00
+INFO 14:00
+INFO 15:00
+INFO 16:00
+INFO 17:00
+INFO 18:00
+INFO Add
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3285
+INFO <QueryDict: {'csrfmiddlewaretoken': ['NLkRHhjdf5wPeW84viaZTTlE0xDZcX8l3ZjLzdzG23iEarmREM2GCL6XK3ufwJDo'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['10:00', '10:00', '10:00', '10:00', '10:00', '10:00', '10:00'], 'to_hour': ['12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00'], 'submit': ['Add']}>
+INFO NLkRHhjdf5wPeW84viaZTTlE0xDZcX8l3ZjLzdzG23iEarmREM2GCL6XK3ufwJDo
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO Monday
+INFO Tuesday
+INFO Wednesday
+INFO Thursday
+INFO Friday
+INFO Saturday
+INFO Sunday
+INFO 10:00
+INFO 10:00
+INFO 10:00
+INFO 10:00
+INFO 10:00
+INFO 10:00
+INFO 10:00
+INFO 12:00
+INFO 13:00
+INFO 14:00
+INFO 15:00
+INFO 16:00
+INFO 17:00
+INFO 18:00
+INFO Add
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO <QuerySet [<DoctorSchedule: DoctorSchedule object (5)>, <DoctorSchedule: DoctorSchedule object (6)>, <DoctorSchedule: DoctorSchedule object (7)>, <DoctorSchedule: DoctorSchedule object (8)>, <DoctorSchedule: DoctorSchedule object (9)>, <DoctorSchedule: DoctorSchedule object (10)>, <DoctorSchedule: DoctorSchedule object (11)>]>
+INFO {'list': <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Sunday'}]>, 'id': '30'}
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3236
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QuerySet [<DoctorSchedule: DoctorSchedule object (5)>, <DoctorSchedule: DoctorSchedule object (6)>, <DoctorSchedule: DoctorSchedule object (7)>, <DoctorSchedule: DoctorSchedule object (8)>, <DoctorSchedule: DoctorSchedule object (9)>, <DoctorSchedule: DoctorSchedule object (10)>, <DoctorSchedule: DoctorSchedule object (11)>]>
+INFO <QueryDict: {'csrfmiddlewaretoken': ['550Zrtp6SSCRaRjAakdIoGcqkDoaJJg5ljZTjpFzFQoG6mxnjO5p7yXJ49fq3vL8'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['10:00', '10:00', '10:00', '10:00', '10:00', '10:00', '10:00'], 'to_hour': ['12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00'], 'submit': ['Add']}>
+INFO 550Zrtp6SSCRaRjAakdIoGcqkDoaJJg5ljZTjpFzFQoG6mxnjO5p7yXJ49fq3vL8
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO 30
+INFO Monday
+INFO Tuesday
+INFO Wednesday
+INFO Thursday
+INFO Friday
+INFO Saturday
+INFO Sunday
+INFO 10:00
+INFO 10:00
+INFO 10:00
+INFO 10:00
+INFO 10:00
+INFO 10:00
+INFO 10:00
+INFO 12:00
+INFO 13:00
+INFO 14:00
+INFO 15:00
+INFO 16:00
+INFO 17:00
+INFO 18:00
+INFO Add
+INFO ['10:00', '10:00', '10:00', '10:00', '10:00', '10:00', '10:00']
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO <QuerySet [<DoctorSchedule: DoctorSchedule object (5)>, <DoctorSchedule: DoctorSchedule object (6)>, <DoctorSchedule: DoctorSchedule object (7)>, <DoctorSchedule: DoctorSchedule object (8)>, <DoctorSchedule: DoctorSchedule object (9)>, <DoctorSchedule: DoctorSchedule object (10)>, <DoctorSchedule: DoctorSchedule object (11)>]>
+INFO {'list': <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Sunday'}]>, 'id': '30'}
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3223
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QuerySet [<DoctorSchedule: DoctorSchedule object (5)>, <DoctorSchedule: DoctorSchedule object (6)>, <DoctorSchedule: DoctorSchedule object (7)>, <DoctorSchedule: DoctorSchedule object (8)>, <DoctorSchedule: DoctorSchedule object (9)>, <DoctorSchedule: DoctorSchedule object (10)>, <DoctorSchedule: DoctorSchedule object (11)>]>
+INFO []
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QuerySet [<DoctorSchedule: DoctorSchedule object (5)>, <DoctorSchedule: DoctorSchedule object (6)>, <DoctorSchedule: DoctorSchedule object (7)>, <DoctorSchedule: DoctorSchedule object (8)>, <DoctorSchedule: DoctorSchedule object (9)>, <DoctorSchedule: DoctorSchedule object (10)>, <DoctorSchedule: DoctorSchedule object (11)>]>
+INFO {'list': <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Sunday'}]>, 'id': '30'}
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3223
+INFO <QuerySet [<DoctorSchedule: DoctorSchedule object (5)>, <DoctorSchedule: DoctorSchedule object (6)>, <DoctorSchedule: DoctorSchedule object (7)>, <DoctorSchedule: DoctorSchedule object (8)>, <DoctorSchedule: DoctorSchedule object (9)>, <DoctorSchedule: DoctorSchedule object (10)>, <DoctorSchedule: DoctorSchedule object (11)>]>
+INFO []
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QuerySet [<DoctorSchedule: DoctorSchedule object (5)>, <DoctorSchedule: DoctorSchedule object (6)>, <DoctorSchedule: DoctorSchedule object (7)>, <DoctorSchedule: DoctorSchedule object (8)>, <DoctorSchedule: DoctorSchedule object (9)>, <DoctorSchedule: DoctorSchedule object (10)>, <DoctorSchedule: DoctorSchedule object (11)>]>
+INFO {'list': <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(10, 0), 'to_hour': datetime.time(18, 0), 'day': 'Sunday'}]>, 'id': '30'}
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3223
+INFO <QuerySet [<DoctorSchedule: DoctorSchedule object (5)>, <DoctorSchedule: DoctorSchedule object (6)>, <DoctorSchedule: DoctorSchedule object (7)>, <DoctorSchedule: DoctorSchedule object (8)>, <DoctorSchedule: DoctorSchedule object (9)>, <DoctorSchedule: DoctorSchedule object (10)>, <DoctorSchedule: DoctorSchedule object (11)>]>
+INFO [{'id': '30', 'day': 'Monday', 'from': '10:00', 'to': '13:00'}, {'id': '30', 'day': 'Tuesday', 'from': '11:03', 'to': '00:03'}, {'id': '30', 'day': 'Wednesday', 'from': '11:03', 'to': '13:04'}, {'id': '30', 'day': 'Thursday', 'from': '05:04', 'to': '23:07'}, {'id': '30', 'day': 'Friday', 'from': '11:04', 'to': '23:06'}, {'id': '30', 'day': 'Saturday', 'from': '11:04', 'to': '23:06'}, {'id': '30', 'day': 'Sunday', 'from': '00:04', 'to': '23:09'}]
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO DoctorSchedule object (6)
+INFO {'list': <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Sunday'}]>, 'id': '30'}
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3272
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 80, in createSchedule
+    logger.info(drl[1][0])
+TypeError: 'DoctorSchedule' object is not subscriptable
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 60519
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO DoctorSchedule object (6)
+INFO {'list': <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Sunday'}]>, 'id': '30'}
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3272
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO DoctorSchedule object (6)
+INFO [{'id': '30', 'day': 'Monday', 'from': '10:00', 'to': '13:00'}, {'id': '30', 'day': 'Tuesday', 'from': '11:03', 'to': '00:03'}, {'id': '30', 'day': 'Wednesday', 'from': '11:03', 'to': '13:04'}, {'id': '30', 'day': 'Thursday', 'from': '05:04', 'to': '23:07'}, {'id': '30', 'day': 'Friday', 'from': '11:04', 'to': '23:06'}, {'id': '30', 'day': 'Saturday', 'from': '11:04', 'to': '23:06'}, {'id': '30', 'day': 'Sunday', 'from': '00:04', 'to': '23:09'}]
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 98, in createSchedule
+    drl[i].doctor_id = dict[i]['id']
+IndexError: list index out of range
+ERROR "POST /schedule-d/30/ HTTP/1.1" 500 64316
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO DoctorSchedule object (6)
+INFO [{'id': '30', 'day': 'Monday', 'from': '10:00', 'to': '13:00'}, {'id': '30', 'day': 'Tuesday', 'from': '11:03', 'to': '00:03'}, {'id': '30', 'day': 'Wednesday', 'from': '11:03', 'to': '13:04'}, {'id': '30', 'day': 'Thursday', 'from': '05:04', 'to': '23:07'}, {'id': '30', 'day': 'Friday', 'from': '11:04', 'to': '23:06'}, {'id': '30', 'day': 'Saturday', 'from': '11:04', 'to': '23:06'}, {'id': '30', 'day': 'Sunday', 'from': '00:04', 'to': '23:09'}]
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 98, in createSchedule
+    drl[i].doctor_id = dict[i]['id']
+IndexError: list index out of range
+ERROR "POST /schedule-d/30/ HTTP/1.1" 500 64318
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO DoctorSchedule object (6)
+INFO [{'id': '30', 'day': 'Monday', 'from': '10:00', 'to': '13:00'}, {'id': '30', 'day': 'Tuesday', 'from': '11:03', 'to': '00:03'}, {'id': '30', 'day': 'Wednesday', 'from': '11:03', 'to': '13:04'}, {'id': '30', 'day': 'Thursday', 'from': '05:04', 'to': '23:07'}, {'id': '30', 'day': 'Friday', 'from': '11:04', 'to': '23:06'}, {'id': '30', 'day': 'Saturday', 'from': '11:04', 'to': '23:06'}, {'id': '30', 'day': 'Sunday', 'from': '00:04', 'to': '23:09'}]
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO DoctorSchedule object (6)
+INFO {'list': <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Sunday'}]>, 'id': '30'}
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3272
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO DoctorSchedule object (6)
+INFO {'id': '30', 'day': 'Monday', 'from': '10:00', 'to': '13:00'}
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO DoctorSchedule object (5)
+INFO {'list': <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Sunday'}]>, 'id': '30'}
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3272
+INFO DoctorSchedule object (5)
+INFO {'list': <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Sunday'}]>, 'id': '30'}
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3272
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 30
+INFO {'list': <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Sunday'}]>, 'id': '30'}
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3272
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 30
+INFO {'list': <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Sunday'}]>, 'id': '30'}
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3272
+INFO 30
+INFO 30
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 30
+INFO {'list': <QuerySet [{'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Monday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Tuesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Wednesday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Thursday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Friday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Saturday'}, {'doctor_id': 30, 'from_hour': datetime.time(0, 4), 'to_hour': datetime.time(23, 9), 'day': 'Sunday'}]>, 'id': '30'}
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3272
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 30
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 102, in createSchedule
+    drl.save()
+AttributeError: 'QuerySet' object has no attribute 'save'
+ERROR "POST /schedule-d/30/ HTTP/1.1" 500 64514
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 30
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3216
+INFO 30
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3216
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 30
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3216
+INFO 30
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3216
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 30
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3216
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 30
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 3216
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 127, in render
+    compiled_parent = self.get_parent(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 124, in get_parent
+    return self.find_template(parent, context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 103, in find_template
+    template, origin = context.template.engine.find_template(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/engine.py", line 129, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: baseTemplate.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 34, in welcomePage
+    return render(request, 'welcome.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: baseTemplate.html
+ERROR "GET / HTTP/1.1" 500 120532
+INFO "GET / HTTP/1.1" 200 3511
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+INFO "GET /static/js/main.js HTTP/1.1" 304 0
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5128
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5145
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5145
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5145
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5158
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5158
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5158
+INFO "GET / HTTP/1.1" 200 3527
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5166
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5167
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5167
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5167
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5188
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5193
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5205
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5205
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5206
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5206
+INFO Watching for file changes with StatReloader
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5206
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5206
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5218
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5218
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5223
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5223
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5159
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5228
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5233
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5233
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5233
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5233
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5232
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5233
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5233
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5232
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5232
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5232
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5232
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5233
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5233
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5233
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5223
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5223
+INFO "GET / HTTP/1.1" 200 3517
+INFO "GET / HTTP/1.1" 200 3527
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5233
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5233
+INFO "GET / HTTP/1.1" 200 3528
+INFO "GET / HTTP/1.1" 200 3528
+INFO "GET / HTTP/1.1" 200 3528
+INFO "GET / HTTP/1.1" 200 3528
+INFO "GET / HTTP/1.1" 200 3528
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5212
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5212
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5212
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5212
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5233
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5380
+WARNING Not Found: /schedule-d/static/images/pexels-ron-lach-7439132.jpg
+WARNING "GET /schedule-d/static/images/pexels-ron-lach-7439132.jpg HTTP/1.1" 404 3280
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5380
+WARNING Not Found: /schedule-d/static/images/pexels-ron-lach-7439132.jpg
+WARNING "GET /schedule-d/static/images/pexels-ron-lach-7439132.jpg HTTP/1.1" 404 3280
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5380
+WARNING Not Found: /schedule-d/static/images/pexels-ron-lach-7439132.jpg
+WARNING "GET /schedule-d/static/images/pexels-ron-lach-7439132.jpg HTTP/1.1" 404 3280
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5360
+WARNING Not Found: /schedule-d/static/images/wel.jpg
+WARNING "GET /schedule-d/static/images/wel.jpg HTTP/1.1" 404 3220
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5360
+WARNING Not Found: /schedule-d/static/images/wel.jpg
+WARNING "GET /schedule-d/static/images/wel.jpg HTTP/1.1" 404 3220
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5379
+WARNING Not Found: /schedule-d/static/images/pexels-ron-lach-7439132.jpg
+WARNING "GET /schedule-d/static/images/pexels-ron-lach-7439132.jpg HTTP/1.1" 404 3280
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5379
+WARNING Not Found: /schedule-d/static/images/pexels-ron-lach-7439132.jpg
+WARNING "GET /schedule-d/static/images/pexels-ron-lach-7439132.jpg HTTP/1.1" 404 3280
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5380
+WARNING Not Found: /schedule-d/static/images/pexels-ron-lach-7439132.jpg
+WARNING "GET /schedule-d/static/images/pexels-ron-lach-7439132.jpg HTTP/1.1" 404 3280
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5380
+WARNING Not Found: /schedule-d/static/images/pexels-ron-lach-7439132.jpg
+WARNING "GET /schedule-d/static/images/pexels-ron-lach-7439132.jpg HTTP/1.1" 404 3280
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5363
+WARNING Not Found: /schedule-d/static/images/pexels-ron-lach-7439132.jpg
+WARNING "GET /schedule-d/static/images/pexels-ron-lach-7439132.jpg HTTP/1.1" 404 3280
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5363
+WARNING Not Found: /schedule-d/static/images/pexels-ron-lach-7439132.jpg
+WARNING "GET /schedule-d/static/images/pexels-ron-lach-7439132.jpg HTTP/1.1" 404 3280
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5238
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5388
+WARNING Not Found: /schedule-d/static/images/pexels-ron-lach-7439132.jpg
+WARNING "GET /schedule-d/static/images/pexels-ron-lach-7439132.jpg HTTP/1.1" 404 3280
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5388
+WARNING Not Found: /schedule-d/static/images/pexels-ron-lach-7439132.jpg
+WARNING "GET /schedule-d/static/images/pexels-ron-lach-7439132.jpg HTTP/1.1" 404 3280
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5388
+WARNING Not Found: /schedule-d/static/images/pexels-ron-lach-7439132.jpg
+WARNING "GET /schedule-d/static/images/pexels-ron-lach-7439132.jpg HTTP/1.1" 404 3280
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5385
+WARNING Not Found: /schedule-d/static/images/pexels-ron-lach-7439132.jpg
+WARNING "GET /schedule-d/static/images/pexels-ron-lach-7439132.jpg HTTP/1.1" 404 3280
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5388
+WARNING Not Found: /schedule-d/static/images/pexels-ron-lach-7439132.jpg
+WARNING "GET /schedule-d/static/images/pexels-ron-lach-7439132.jpg HTTP/1.1" 404 3280
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5537
+WARNING Not Found: /schedule-d/static/images/pexels-ron-lach-7439132.jpg
+WARNING "GET /schedule-d/static/images/pexels-ron-lach-7439132.jpg HTTP/1.1" 404 3280
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5407
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5603
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5603
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5603
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5603
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5586
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5618
+INFO 30
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5619
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5618
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5632
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5632
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5646
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5646
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5646

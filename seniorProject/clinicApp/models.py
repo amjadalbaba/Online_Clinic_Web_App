@@ -61,6 +61,8 @@ class DoctorSchedule(models.Model):
     created_at          = models.DateTimeField(auto_now_add=True, null=True)
     updated_at          = models.DateTimeField(auto_now_add=True, null=True)
 
+
+
 class Appointments(models.Model):
     doctor              = models.ForeignKey(Doctor, null=True, on_delete=models.SET_NULL)
     patient             = models.ForeignKey(Patient, null=True, on_delete=models.SET_NULL)
