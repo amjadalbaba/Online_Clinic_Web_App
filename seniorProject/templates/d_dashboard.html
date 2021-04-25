@@ -1,11 +1,53 @@
-<!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Dashboard</title>
+
+
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet"
+    type="text/css"/>
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet"
+    type="text/css"/>
+    <link href="{% static 'css/bootstrap.css.map' %}" rel="stylesheet"
+    type="text/css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}">
 </head>
 <body>
-        <h1>Welcome</h1>
-        <a href="{% url 'schedule_d' 30 %}">Schedule</a>
+        <h1 align="center" style="color:#128496">Welcome Dr.{{ list2.firstName }}</h1>
+        <hr>
+        <div class="column no-gutters"  align="center">
+            <div class="col-md-7">
+		<h5>Your Weekly Schedule</h5>
+
+		<div class="card card-body">
+            <a class="btn btn-info btn-sm btn-block" href="{% url 'schedule_d' id %}">Edit Schedule</a>
+			<table class="table table-sm">
+				<tr>
+					<th>Day</th>
+					<th>From Hour</th>
+					<th>To Hour</th>
+				</tr>
+				{% for l in list %}
+							<tr>
+								<td>{{ l.day }}</td>
+								<td>{{ l.from_hour }}</td>
+								<td>{{ l.to_hour }}</td>
+                            </tr>
+				{% endfor%}
+
+			</table>
+		</div>
+	</div>
+   </div>
+
+<script type="text/javascript" src="{% static 'js/jquery.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
 </body>
 </html>
+

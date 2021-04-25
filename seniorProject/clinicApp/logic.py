@@ -62,6 +62,7 @@ def loginAPI(request, formName):
 
             else:
                 userID = formName.objects.filter(email=email).values_list('id', flat=True)
+                message = "OK"
 
         except Exception as e:
             http_status_code = 500

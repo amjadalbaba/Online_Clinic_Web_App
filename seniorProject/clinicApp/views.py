@@ -68,16 +68,20 @@ def loginDoctorPage(request):
     response = loginAPI(request, Doctor)
     return response
 
-def d_home(request):
-    context = {}
+def d_home(request, pk):
+    drl = DoctorSchedule.objects.raw("SELECT id, doctor_id, TIME_FORMAT(from_hour, '%%H:%%i:%%s'), TIME_FORMAT(to_hour, '%%H:%%i:%%s'), day FROM clinicApp_doctorschedule WHERE doctor_id = " + pk)
+    drl2 = Doctor.objects.get(id = pk)
+
+    context = {'list' : drl, 'list2' : drl2, 'id' : pk}
     return render(request, 'd_dashboard.html', context)
 
 def createSchedule(request, pk):
 
     dr  = Doctor.objects.get(id = pk)
-    drl = DoctorSchedule.objects.filter(doctor_id = pk)
+    #drl = DoctorSchedule.objects.filter(doctor_id = pk)
+    drl = DoctorSchedule.objects.raw("SELECT id, doctor_id, TIME_FORMAT(from_hour, '%%H:%%i:%%s'), TIME_FORMAT(to_hour, '%%H:%%i:%%s'), day FROM clinicApp_doctorschedule WHERE doctor_id = " + pk)
 
-    logger.info(drl[0].doctor_id)
+    #logger.info(drl[0].doctor_id)
 
 
     if request.method == "POST":
@@ -101,9 +105,8 @@ def createSchedule(request, pk):
             objs.updated_at = datetime.datetime.now()
             objs.save()
 
-        return redirect('d_home')
 
-    context = {'list' : drl.values('doctor_id', 'from_hour', 'to_hour', 'day'), 'id' : pk}
+    context = {'list' : drl, 'id' : pk}
     return render(request, 'schedule.html', context)
 
 

@@ -9,11 +9,13 @@
                 box-shadow: 12px 12px 22px grey;
             }
     </style>
-
+    <div class="alert alert-info" role="alert" style="display: none;" id="sAlert">
+        Schedule changed successfully!
+    </div>
     <div class="column no-gutters"><!--col no-glutters--> <!--no-gutters to remove paddings in the row-->
-        <center><div  class="col-lg-11 pt-3 px-5"><h1>Weekly Schedule</h1></div><center>
+        <center><div  class="col-lg-11 pt-3 px-5"><h1>Weekly Schedule</h1></div></center>
         <center><div class="col-lg-11 pt-3 px-5">
-            <form method="POST">
+            <form method="POST" id="form">
                 {% csrf_token %}
                 {% for l in list %}
                           <input type="hidden" required="required" name="doctor" value="{{ id }}">
@@ -22,9 +24,20 @@
                     To:   <input type="time" required="required"  name="to_hour" value="{{ l.to_hour }}">
                     <hr>
                 {% endfor %}
-            <input type="submit" name="submit" value="Add" class="btn btn-info mb-3">
+            <input type="submit" name="submit" value="Edit" class="btn btn-info mb-3" id="editButton">
             <br>
+                <p>return to <a style="color:#ff0000" href="{% url 'd_home' id %}"><b> my dashboard</b></a></p>
+
             </form>
         </div></center>
     </div>
+
+    <script>
+         $(document).ready(function() {
+            $('#form').submit(function(e){
+                     e.preventDefault();
+                     $('#sAlert').show();
+            });
+    });
+    </script>
 {% endblock %}

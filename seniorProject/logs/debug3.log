@@ -6921,3 +6921,2036 @@ INFO 30
 INFO "GET /schedule-d/30/ HTTP/1.1" 200 5646
 INFO 30
 INFO "GET /schedule-d/30/ HTTP/1.1" 200 5646
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3528
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+INFO "GET /static/images/wel.jpg HTTP/1.1" 304 0
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3157
+INFO "GET /login-d/ HTTP/1.1" 200 3718
+INFO "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 304 0
+WARNING Unsuccessful login due to wrong email or password
+INFO "POST /api/login-d/ HTTP/1.1" 200 48
+INFO "POST /api/login-d/ HTTP/1.1" 200 27
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO 30
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5646
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 201, in execute
+    query = query % args
+TypeError: not all arguments converted during bytes formatting
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 203, in execute
+    raise ProgrammingError(str(m))
+MySQLdb._exceptions.ProgrammingError: not all arguments converted during bytes formatting
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 81, in createSchedule
+    logger.info(drl[0].doctor_id)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1510, in __getitem__
+    return list(self)[k]
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1460, in __len__
+    self._fetch_all()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1455, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1478, in iterator
+    query = iter(self.query)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 99, in __iter__
+    self._execute_query()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 133, in _execute_query
+    self.cursor.execute(self.sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 203, in execute
+    raise ProgrammingError(str(m))
+django.db.utils.ProgrammingError: not all arguments converted during bytes formatting
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 140752
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 107, in createSchedule
+    context = {'list' : drl.values('doctor_id', 'from_hour', 'to_hour', 'day'), 'id' : pk}
+AttributeError: 'RawQuerySet' object has no attribute 'values'
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 60272
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 201, in execute
+    query = query % args
+TypeError: not all arguments converted during bytes formatting
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 203, in execute
+    raise ProgrammingError(str(m))
+MySQLdb._exceptions.ProgrammingError: not all arguments converted during bytes formatting
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 108, in createSchedule
+    return render(request, 'schedule.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 168, in render
+    len_values = len(values)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1460, in __len__
+    self._fetch_all()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1455, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1478, in iterator
+    query = iter(self.query)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 99, in __iter__
+    self._execute_query()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 133, in _execute_query
+    self.cursor.execute(self.sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 203, in execute
+    raise ProgrammingError(str(m))
+django.db.utils.ProgrammingError: not all arguments converted during bytes formatting
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 214065
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 201, in execute
+    query = query % args
+TypeError: %d format: a number is required, not bytes
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 203, in execute
+    raise ProgrammingError(str(m))
+MySQLdb._exceptions.ProgrammingError: %d format: a number is required, not bytes
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 108, in createSchedule
+    return render(request, 'schedule.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 168, in render
+    len_values = len(values)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1460, in __len__
+    self._fetch_all()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1455, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1478, in iterator
+    query = iter(self.query)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 99, in __iter__
+    self._execute_query()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 133, in _execute_query
+    self.cursor.execute(self.sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 203, in execute
+    raise ProgrammingError(str(m))
+django.db.utils.ProgrammingError: %d format: a number is required, not bytes
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 213681
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'doctor_id' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 108, in createSchedule
+    return render(request, 'schedule.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 168, in render
+    len_values = len(values)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1460, in __len__
+    self._fetch_all()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1455, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1478, in iterator
+    query = iter(self.query)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 99, in __iter__
+    self._execute_query()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 133, in _execute_query
+    self.cursor.execute(self.sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'doctor_id' in 'field list'")
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 227099
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'doctor_id' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 108, in createSchedule
+    return render(request, 'schedule.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 168, in render
+    len_values = len(values)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1460, in __len__
+    self._fetch_all()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1455, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1478, in iterator
+    query = iter(self.query)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 99, in __iter__
+    self._execute_query()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 133, in _execute_query
+    self.cursor.execute(self.sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'doctor_id' in 'field list'")
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 227099
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.ProgrammingError: (1146, "Table 'senproject2021.doctorschedule' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 108, in createSchedule
+    return render(request, 'schedule.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 168, in render
+    len_values = len(values)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1460, in __len__
+    self._fetch_all()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1455, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1478, in iterator
+    query = iter(self.query)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 99, in __iter__
+    self._execute_query()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 133, in _execute_query
+    self.cursor.execute(self.sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'senproject2021.doctorschedule' doesn't exist")
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 228101
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 108, in createSchedule
+    return render(request, 'schedule.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 168, in render
+    len_values = len(values)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1460, in __len__
+    self._fetch_all()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1455, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1483, in iterator
+    raise exceptions.FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Raw query must include the primary key
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 152941
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 108, in createSchedule
+    return render(request, 'schedule.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 168, in render
+    len_values = len(values)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1460, in __len__
+    self._fetch_all()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1455, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1483, in iterator
+    raise exceptions.FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Raw query must include the primary key
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 152941
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5646
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 194
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/ HTTP/1.1" 200 194
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 201, in execute
+    query = query % args
+TypeError: not enough arguments for format string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 203, in execute
+    raise ProgrammingError(str(m))
+MySQLdb._exceptions.ProgrammingError: not enough arguments for format string
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 108, in createSchedule
+    return render(request, 'schedule.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 168, in render
+    len_values = len(values)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1460, in __len__
+    self._fetch_all()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1455, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1478, in iterator
+    query = iter(self.query)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 99, in __iter__
+    self._execute_query()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 133, in _execute_query
+    self.cursor.execute(self.sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 203, in execute
+    raise ProgrammingError(str(m))
+django.db.utils.ProgrammingError: not enough arguments for format string
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 214618
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 201, in execute
+    query = query % args
+TypeError: not enough arguments for format string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 203, in execute
+    raise ProgrammingError(str(m))
+MySQLdb._exceptions.ProgrammingError: not enough arguments for format string
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 108, in createSchedule
+    return render(request, 'schedule.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 168, in render
+    len_values = len(values)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1460, in __len__
+    self._fetch_all()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1455, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1478, in iterator
+    query = iter(self.query)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 99, in __iter__
+    self._execute_query()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 133, in _execute_query
+    self.cursor.execute(self.sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 203, in execute
+    raise ProgrammingError(str(m))
+django.db.utils.ProgrammingError: not enough arguments for format string
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 214597
+INFO "GET /home-d/ HTTP/1.1" 200 194
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 201, in execute
+    query = query % args
+TypeError: not enough arguments for format string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 203, in execute
+    raise ProgrammingError(str(m))
+MySQLdb._exceptions.ProgrammingError: not enough arguments for format string
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 108, in createSchedule
+    return render(request, 'schedule.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 168, in render
+    len_values = len(values)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1460, in __len__
+    self._fetch_all()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1455, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1478, in iterator
+    query = iter(self.query)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 99, in __iter__
+    self._execute_query()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 133, in _execute_query
+    self.cursor.execute(self.sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 203, in execute
+    raise ProgrammingError(str(m))
+django.db.utils.ProgrammingError: not enough arguments for format string
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 214618
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 201, in execute
+    query = query % args
+TypeError: not enough arguments for format string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 203, in execute
+    raise ProgrammingError(str(m))
+MySQLdb._exceptions.ProgrammingError: not enough arguments for format string
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 108, in createSchedule
+    return render(request, 'schedule.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 168, in render
+    len_values = len(values)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1460, in __len__
+    self._fetch_all()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1455, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1478, in iterator
+    query = iter(self.query)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 99, in __iter__
+    self._execute_query()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 133, in _execute_query
+    self.cursor.execute(self.sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 203, in execute
+    raise ProgrammingError(str(m))
+django.db.utils.ProgrammingError: not enough arguments for format string
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 214755
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 201, in execute
+    query = query % args
+TypeError: not enough arguments for format string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 203, in execute
+    raise ProgrammingError(str(m))
+MySQLdb._exceptions.ProgrammingError: not enough arguments for format string
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 108, in createSchedule
+    return render(request, 'schedule.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 168, in render
+    len_values = len(values)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1460, in __len__
+    self._fetch_all()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1455, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1478, in iterator
+    query = iter(self.query)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 99, in __iter__
+    self._execute_query()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 133, in _execute_query
+    self.cursor.execute(self.sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 203, in execute
+    raise ProgrammingError(str(m))
+django.db.utils.ProgrammingError: not enough arguments for format string
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 214597
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5651
+INFO "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 190253
+INFO "GET /static/css/style.css.map HTTP/1.1" 200 6880
+INFO "GET /static/css/bootstrap.min.css.map HTTP/1.1" 200 625953
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5652
+INFO "GET /static/css/style.css.map HTTP/1.1" 200 6880
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.min.css.map HTTP/1.1" 200 625953
+INFO "GET /static/fonts/montserrat/Montserrat-Medium.ttf HTTP/1.1" 200 260236
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 190253
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5652
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+INFO "GET /static/js/main.js HTTP/1.1" 304 0
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3157
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 3220
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 3184
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Not Found: /schedule-d/
+WARNING "GET /schedule-d/ HTTP/1.1" 404 3157
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5652
+INFO "GET / HTTP/1.1" 200 3528
+INFO "GET /login-d/ HTTP/1.1" 200 3718
+INFO "POST /api/login-d/ HTTP/1.1" 200 27
+ERROR Internal Server Error: /home-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 72, in d_home
+    drl = DoctorSchedule.objects.raw("SELECT id, doctor_id, TIME_FORMAT(from_hour, '%%H:%%i:%%s'), TIME_FORMAT(to_hour, '%%H:%%i:%%s'), day FROM clinicApp_doctorschedule WHERE doctor_id = " + pk)
+NameError: name 'pk' is not defined
+ERROR "GET /home-d/ HTTP/1.1" 500 59730
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Not Found: /home-d/
+WARNING "GET /home-d/ HTTP/1.1" 404 3160
+INFO "GET /home-d/30 HTTP/1.1" 301 0
+ERROR Internal Server Error: /home-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 75, in d_home
+    return render(request, 'd_dashboard.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 10: 'static'. Did you forget to register or load this tag?
+ERROR "GET /home-d/30/ HTTP/1.1" 500 127416
+INFO "GET /home-d/30/ HTTP/1.1" 200 2340
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5652
+INFO "GET /home-d/30/ HTTP/1.1" 200 2338
+INFO "GET /home-d/30/ HTTP/1.1" 200 2021
+INFO "GET /home-d/30/ HTTP/1.1" 200 2036
+INFO "GET /home-d/30/ HTTP/1.1" 200 2036
+INFO "GET /home-d/30/ HTTP/1.1" 200 2037
+INFO "GET /home-d/30/ HTTP/1.1" 200 2037
+INFO "GET /home-d/30/ HTTP/1.1" 200 2037
+INFO "GET / HTTP/1.1" 200 3528
+ERROR Internal Server Error: /login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 59, in loginDrPage
+    return render(request, "login_doctor.html")
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'd_home' with no arguments not found. 1 pattern(s) tried: ['home\\-d/(?P<pk>[^/]+)/$']
+ERROR "GET /login-d/ HTTP/1.1" 500 116080
+ERROR Internal Server Error: /login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 59, in loginDrPage
+    return render(request, "login_doctor.html")
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'd_home' with no arguments not found. 1 pattern(s) tried: ['home\\-d/(?P<pk>[^/]+)/$']
+ERROR "GET /login-d/ HTTP/1.1" 500 116080
+ERROR Internal Server Error: /login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 59, in loginDrPage
+    return render(request, "login_doctor.html")
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'd_home' with arguments '('',)' not found. 1 pattern(s) tried: ['home\\-d/(?P<pk>[^/]+)/$']
+ERROR "GET /login-d/ HTTP/1.1" 500 120464
+ERROR Internal Server Error: /login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 59, in loginDrPage
+    return render(request, "login_doctor.html")
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'd_home' with arguments '('',)' not found. 1 pattern(s) tried: ['home\\-d/(?P<pk>[^/]+)/$']
+ERROR "GET /login-d/ HTTP/1.1" 500 120313
+WARNING Not Found: /login-d/30
+WARNING "GET /login-d/30 HTTP/1.1" 404 3169
+ERROR Internal Server Error: /login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 59, in loginDrPage
+    return render(request, "login_doctor.html")
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'd_home' with no arguments not found. 1 pattern(s) tried: ['home\\-d/(?P<pk>[^/]+)/$']
+ERROR "GET /login-d/ HTTP/1.1" 500 119000
+ERROR Internal Server Error: /login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 59, in loginDrPage
+    return render(request, "login_doctor.html")
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'd_home' with no arguments not found. 1 pattern(s) tried: ['home\\-d/(?P<pk>[^/]+)/$']
+ERROR "GET /login-d/ HTTP/1.1" 500 119000
+ERROR Internal Server Error: /login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 59, in loginDrPage
+    return render(request, "login_doctor.html")
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'd_home' with arguments '('',)' not found. 1 pattern(s) tried: ['home\\-d/(?P<pk>[^/]+)/$']
+ERROR "GET /login-d/ HTTP/1.1" 500 120313
+ERROR Internal Server Error: /login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 59, in loginDrPage
+    return render(request, "login_doctor.html")
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'd_home' with no arguments not found. 1 pattern(s) tried: ['home\\-d/(?P<pk>[^/]+)/$']
+ERROR "GET /login-d/ HTTP/1.1" 500 119000
+ERROR Internal Server Error: /login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 59, in loginDrPage
+    return render(request, "login_doctor.html")
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'd_home' with arguments '('',)' not found. 1 pattern(s) tried: ['home\\-d/(?P<pk>[^/]+)/$']
+ERROR "GET /login-d/ HTTP/1.1" 500 120313
+INFO "GET /login-d/ HTTP/1.1" 200 3703
+INFO "POST /api/login-d/ HTTP/1.1" 200 27
+INFO "GET /home-d/30/ HTTP/1.1" 200 2037
+INFO "POST /api/login-d/ HTTP/1.1" 200 27
+INFO "GET /home-d/30/ HTTP/1.1" 200 2037
+INFO "POST /api/login-d/ HTTP/1.1" 200 27
+INFO "GET /home-d/30/ HTTP/1.1" 200 2037
+INFO "GET /login-d/ HTTP/1.1" 200 3683
+INFO "POST /api/login-d/ HTTP/1.1" 200 27
+INFO "GET /home-d/30/ HTTP/1.1" 200 2037
+WARNING Unsuccessful login due to wrong email or password
+INFO "POST /api/login-d/ HTTP/1.1" 200 48
+WARNING Unsuccessful login due to wrong email or password
+INFO "POST /api/login-d/ HTTP/1.1" 200 48
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "POST /api/login-d/ HTTP/1.1" 200 27
+INFO "GET /home-d/30/ HTTP/1.1" 200 2037
+INFO "POST /api/login-d/ HTTP/1.1" 200 27
+INFO "GET /home-d/30/ HTTP/1.1" 200 2037
+INFO "GET /login-d/ HTTP/1.1" 200 3690
+INFO "POST /api/login-d/ HTTP/1.1" 200 27
+INFO "GET /home-d/30/ HTTP/1.1" 200 2037
+INFO "POST /api/login-d/ HTTP/1.1" 200 27
+INFO "GET /home-d/30/ HTTP/1.1" 200 2037
+INFO "GET /login-d/ HTTP/1.1" 200 3685
+INFO "POST /api/login-d/ HTTP/1.1" 200 27
+INFO "GET /home-d/30/ HTTP/1.1" 200 2037
+ERROR Internal Server Error: /login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 59, in loginDrPage
+    return render(request, "login_doctor.html")
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'd_home' with arguments '('',)' not found. 1 pattern(s) tried: ['home\\-d/(?P<pk>[^/]+)/$']
+ERROR "GET /login-d/ HTTP/1.1" 500 120103
+ERROR Internal Server Error: /login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 59, in loginDrPage
+    return render(request, "login_doctor.html")
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'd_home' with arguments '('',)' not found. 1 pattern(s) tried: ['home\\-d/(?P<pk>[^/]+)/$']
+ERROR "GET /login-d/ HTTP/1.1" 500 120179
+ERROR Internal Server Error: /login-d/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 59, in loginDrPage
+    return render(request, "login_doctor.html")
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'd_home' with arguments '('',)' not found. 1 pattern(s) tried: ['home\\-d/(?P<pk>[^/]+)/$']
+ERROR "GET /login-d/ HTTP/1.1" 500 120179
+INFO "GET /login-d/ HTTP/1.1" 200 3683
+WARNING Unsuccessful login due to wrong email or password
+INFO "POST /api/login-d/ HTTP/1.1" 200 48
+WARNING Unsuccessful login due to wrong email or password
+INFO "POST /api/login-d/ HTTP/1.1" 200 48
+INFO "POST /api/login-d/ HTTP/1.1" 200 27
+INFO "GET /home-d/30/ HTTP/1.1" 200 2037
+INFO "GET /home-d/30/ HTTP/1.1" 200 2052
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/30/ HTTP/1.1" 200 2056
+INFO "GET /home-d/30/ HTTP/1.1" 200 2056
+INFO "GET /home-d/30/ HTTP/1.1" 200 2056
+INFO "GET /home-d/30/ HTTP/1.1" 200 2056
+INFO "GET /home-d/30/ HTTP/1.1" 200 2056
+INFO "GET /home-d/30/ HTTP/1.1" 200 2056
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/30/ HTTP/1.1" 200 2056
+INFO "GET /home-d/30/ HTTP/1.1" 200 2056
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/30/ HTTP/1.1" 200 2056
+INFO "GET /home-d/30/ HTTP/1.1" 200 2056
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/30/ HTTP/1.1" 200 2056
+INFO "GET /home-d/30/ HTTP/1.1" 200 2056
+INFO "GET /home-d/30/ HTTP/1.1" 200 2056
+INFO "GET /home-d/30/ HTTP/1.1" 200 2056
+INFO "GET /home-d/30/ HTTP/1.1" 200 2056
+INFO "GET /home-d/30/ HTTP/1.1" 200 2057
+INFO "GET /home-d/30/ HTTP/1.1" 200 2057
+INFO "GET /home-d/30/ HTTP/1.1" 200 2058
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5652
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5652
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 108, in createSchedule
+    return redirect('d_home')
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 41, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 131, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'd_home' with no arguments not found. 1 pattern(s) tried: ['home\\-d/(?P<pk>[^/]+)/$']
+ERROR "POST /schedule-d/30/ HTTP/1.1" 500 85106
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+WARNING Not Found: /schedule-d/30/d_home/30
+WARNING "GET /schedule-d/30/d_home/30 HTTP/1.1" 404 3208
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5648
+INFO "GET /login-d/ HTTP/1.1" 200 3683
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5648
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 108, in createSchedule
+    return redirect('d_home %d', pk)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 41, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 131, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'd_home %d' not found. 'd_home %d' is not a valid view function or pattern name.
+ERROR "POST /schedule-d/30/ HTTP/1.1" 500 83559
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "POST /schedule-d/30/ HTTP/1.1" 302 0
+WARNING Not Found: /schedule-d/30/home-d/30
+WARNING "GET /schedule-d/30/home-d/30 HTTP/1.1" 404 3208
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5648
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 108, in createSchedule
+    return redirect('home-d/%d/'%pk)
+TypeError: %d format: a number is required, not str
+ERROR "POST /schedule-d/30/ HTTP/1.1" 500 64242
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 5632
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5648
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 5632
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5648
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5648
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5648
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 110, in createSchedule
+    return render(request, 'schedule.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home_d' not found. 'home_d' is not a valid view function or pattern name.
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 158377
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 110, in createSchedule
+    return render(request, 'schedule.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home_d' not found. 'home_d' is not a valid view function or pattern name.
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 158326
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 110, in createSchedule
+    return render(request, 'schedule.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'home_d' not found. 'home_d' is not a valid view function or pattern name.
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 158326
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5699
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5708
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5708
+INFO "GET /home-d/30/ HTTP/1.1" 200 2047
+INFO "GET /home-d/30/ HTTP/1.1" 200 2047
+INFO "GET /home-d/30/ HTTP/1.1" 200 2047
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5708
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5708
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5708
+INFO "GET /home-d/30/ HTTP/1.1" 200 2047
+ERROR Internal Server Error: /schedule-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 110, in createSchedule
+    return render(request, 'schedule.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'd_home' with arguments '('',)' not found. 1 pattern(s) tried: ['home\\-d/(?P<pk>[^/]+)/$']
+ERROR "GET /schedule-d/30/ HTTP/1.1" 500 161319
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5708
+INFO "GET /home-d/30/ HTTP/1.1" 200 2047
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/30/ HTTP/1.1" 200 2047
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5708
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5708
+INFO "GET /home-d/30/ HTTP/1.1" 200 2046
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2729
+INFO "GET /schedule-d/3/ HTTP/1.1" 200 2729
+INFO "GET /home-d/30/ HTTP/1.1" 200 2047
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5708
+INFO "GET /home-d/30/ HTTP/1.1" 200 2047
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5708
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 5692
+INFO "GET /home-d/30/ HTTP/1.1" 200 2049
+INFO "GET /home-d/30/ HTTP/1.1" 200 2049
+INFO "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 190253
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.min.css.map HTTP/1.1" 200 625953
+INFO "GET /home-d/30/ HTTP/1.1" 200 2050
+INFO "GET /home-d/30/ HTTP/1.1" 200 2050
+INFO "GET /home-d/30/ HTTP/1.1" 200 2050
+INFO "GET /home-d/30/ HTTP/1.1" 200 2050
+INFO "GET /home-d/30/ HTTP/1.1" 200 2050
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /home-d/30/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 76, in d_home
+    return render(request, 'd_dashboard.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 671, in resolve
+    obj = self.var.resolve(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 796, in resolve
+    value = self._resolve_lookup(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1510, in __getitem__
+    return list(self)[k]
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1460, in __len__
+    self._fetch_all()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1455, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1483, in iterator
+    raise exceptions.FieldDoesNotExist(
+django.core.exceptions.FieldDoesNotExist: Raw query must include the primary key
+ERROR "GET /home-d/30/ HTTP/1.1" 500 135769
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/30/ HTTP/1.1" 200 2050
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5710
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5724
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5746
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5753
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5754
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5754
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5746
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5753
+INFO "GET /home-d/30/ HTTP/1.1" 200 2050
+INFO "GET /home-d/30/ HTTP/1.1" 200 2050
+INFO "GET /home-d/30/ HTTP/1.1" 200 2050
+INFO "GET /home-d/30/ HTTP/1.1" 200 2050
+INFO "GET /home-d/30/ HTTP/1.1" 200 2050
+INFO "GET / HTTP/1.1" 200 3528
+INFO "GET /login-d/ HTTP/1.1" 200 3683
+INFO "POST /api/login-d/ HTTP/1.1" 200 27
+INFO "GET /home-d/30/ HTTP/1.1" 200 2050
+INFO "GET /home-d/30/ HTTP/1.1" 200 2072
+INFO "GET /home-d/30/ HTTP/1.1" 200 2072
+INFO "GET /home-d/30/ HTTP/1.1" 200 2084
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5753
+INFO "GET /home-d/30/ HTTP/1.1" 200 2084
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5753
+INFO "GET /home-d/30/ HTTP/1.1" 200 2084
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5753
+INFO "GET /home-d/30/ HTTP/1.1" 200 2084
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 5753
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6066
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6066
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6044
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6072
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 6054
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6073
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 6075
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 6075
+INFO "GET /home-d/30/ HTTP/1.1" 200 2085
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 6112
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6131
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6138
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6138
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6137
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 6112
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 6112
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 6112
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 6071
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 6112
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 6112
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 6112
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 6111
+INFO "GET /home-d/30/ HTTP/1.1" 200 2085
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6130
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 6111
+INFO "GET /home-d/30/ HTTP/1.1" 200 2084
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6130
+INFO "GET /home-d/30/ HTTP/1.1" 200 2084
+INFO "GET /home-d/30/ HTTP/1.1" 200 2033
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <RawQuerySet: SELECT id, firstName FROM clinicApp_doctor WHERE id = 30>
+INFO "GET /home-d/30/ HTTP/1.1" 200 2167
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <RawQuerySet: SELECT id, firstName FROM clinicApp_doctor WHERE id = 30>
+INFO <RawQuerySet: SELECT id, doctor_id, TIME_FORMAT(from_hour, '%H:%i:%s'), TIME_FORMAT(to_hour, '%H:%i:%s'), day FROM clinicApp_doctorschedule WHERE doctor_id = 30>
+INFO "GET /home-d/30/ HTTP/1.1" 200 2167
+INFO <RawQuerySet: SELECT id, firstName FROM clinicApp_doctor WHERE id = 30>
+INFO <RawQuerySet: SELECT id, doctor_id, TIME_FORMAT(from_hour, '%H:%i:%s'), TIME_FORMAT(to_hour, '%H:%i:%s'), day FROM clinicApp_doctorschedule WHERE doctor_id = 30>
+INFO "GET /home-d/30/ HTTP/1.1" 200 2167
+INFO <RawQuerySet: SELECT id, firstName FROM clinicApp_doctor WHERE id = 30>
+INFO <RawQuerySet: SELECT id, doctor_id, TIME_FORMAT(from_hour, '%H:%i:%s'), TIME_FORMAT(to_hour, '%H:%i:%s'), day FROM clinicApp_doctorschedule WHERE doctor_id = 30>
+INFO "GET /home-d/30/ HTTP/1.1" 200 2121
+INFO <RawQuerySet: SELECT id, firstName FROM clinicApp_doctor WHERE id = 30>
+INFO <RawQuerySet: SELECT id, doctor_id, TIME_FORMAT(from_hour, '%H:%i:%s'), TIME_FORMAT(to_hour, '%H:%i:%s'), day FROM clinicApp_doctorschedule WHERE doctor_id = 30>
+INFO "GET /home-d/30/ HTTP/1.1" 200 2167
+INFO <RawQuerySet: SELECT id, firstName FROM clinicApp_doctor WHERE id = 30>
+INFO <RawQuerySet: SELECT id, doctor_id, TIME_FORMAT(from_hour, '%H:%i:%s'), TIME_FORMAT(to_hour, '%H:%i:%s'), day FROM clinicApp_doctorschedule WHERE doctor_id = 30>
+INFO "GET /home-d/30/ HTTP/1.1" 200 2121
+INFO <RawQuerySet: SELECT id, firstName FROM clinicApp_doctor WHERE id = 30>
+INFO <RawQuerySet: SELECT id, doctor_id, TIME_FORMAT(from_hour, '%H:%i:%s'), TIME_FORMAT(to_hour, '%H:%i:%s'), day FROM clinicApp_doctorschedule WHERE doctor_id = 30>
+INFO "GET /home-d/30/ HTTP/1.1" 200 2121
+INFO <RawQuerySet: SELECT id, firstName FROM clinicApp_doctor WHERE id = 30>
+INFO <RawQuerySet: SELECT id, doctor_id, TIME_FORMAT(from_hour, '%H:%i:%s'), TIME_FORMAT(to_hour, '%H:%i:%s'), day FROM clinicApp_doctorschedule WHERE doctor_id = 30>
+INFO "GET /home-d/30/ HTTP/1.1" 200 2121
+INFO <RawQuerySet: SELECT id, firstName FROM clinicApp_doctor WHERE id = 30>
+INFO <RawQuerySet: SELECT id, doctor_id, TIME_FORMAT(from_hour, '%H:%i:%s'), TIME_FORMAT(to_hour, '%H:%i:%s'), day FROM clinicApp_doctorschedule WHERE doctor_id = 30>
+INFO "GET /home-d/30/ HTTP/1.1" 200 2121
+INFO <RawQuerySet: SELECT id, firstName FROM clinicApp_doctor WHERE id = 30>
+INFO <RawQuerySet: SELECT id, doctor_id, TIME_FORMAT(from_hour, '%H:%i:%s'), TIME_FORMAT(to_hour, '%H:%i:%s'), day FROM clinicApp_doctorschedule WHERE doctor_id = 30>
+INFO "GET /home-d/30/ HTTP/1.1" 200 2167
+INFO <RawQuerySet: SELECT id, firstName FROM clinicApp_doctor WHERE id = 30>
+INFO <RawQuerySet: SELECT id, doctor_id, TIME_FORMAT(from_hour, '%H:%i:%s'), TIME_FORMAT(to_hour, '%H:%i:%s'), day FROM clinicApp_doctorschedule WHERE doctor_id = 30>
+INFO "GET /home-d/30/ HTTP/1.1" 200 2174
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Ahmad
+INFO <RawQuerySet: SELECT id, doctor_id, TIME_FORMAT(from_hour, '%H:%i:%s'), TIME_FORMAT(to_hour, '%H:%i:%s'), day FROM clinicApp_doctorschedule WHERE doctor_id = 30>
+INFO "GET /home-d/30/ HTTP/1.1" 200 2178
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Ahmad
+INFO <RawQuerySet: SELECT id, doctor_id, TIME_FORMAT(from_hour, '%H:%i:%s'), TIME_FORMAT(to_hour, '%H:%i:%s'), day FROM clinicApp_doctorschedule WHERE doctor_id = 30>
+INFO "GET /home-d/30/ HTTP/1.1" 200 2178
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Mohammad
+INFO <RawQuerySet: SELECT id, doctor_id, TIME_FORMAT(from_hour, '%H:%i:%s'), TIME_FORMAT(to_hour, '%H:%i:%s'), day FROM clinicApp_doctorschedule WHERE doctor_id = 30>
+INFO "GET /home-d/30/ HTTP/1.1" 200 2178
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/30/ HTTP/1.1" 200 2178
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/30/ HTTP/1.1" 200 2178
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6130
+INFO "GET /home-d/30/ HTTP/1.1" 200 2178

@@ -33,7 +33,7 @@ urlpatterns = [
     #path('api-token-auth/', views.obtain_auth_token, name='api-token-auth'),
 
 
-    path('home-d/', views.d_home, name="d_home"),
+    path('home-d/<str:pk>/', views.d_home, name="d_home"),
     path('', views.welcomePage, name="welcome"),
 
     path('schedule-d/<str:pk>/', views.createSchedule, name="schedule_d"),

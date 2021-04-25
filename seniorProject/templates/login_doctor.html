@@ -22,7 +22,7 @@
             <!-- <img src="images/signup-bg.jpg" alt=""> -->
             <div class="container">
                 <div class="signup-content">
-                    <form method="POST" id="signup-form" class="signup-form" action="{% url 'd_home' %}">
+                    <form method="POST" id="signup-form" class="signup-form">
                         {% csrf_token %}
                         <h2 class="form-title">Sign IN</h2>
                         <input type="hidden" name="hiddenInput" id="hiddenInput">
@@ -78,8 +78,8 @@
                         success : function(resp) {
                            console.log(resp);
                             if (resp.message == "OK"){
-                                 //$("#hiddenInput").val(resp.id);
-                                 window.location.href = "{% url 'd_home' %}";
+                                 id = resp.id;
+                                 window.location.href = "{% url 'd_home' 30 %}";
                             } else{
                                  alert(resp.message)
                             }
