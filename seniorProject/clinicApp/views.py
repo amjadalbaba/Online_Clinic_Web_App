@@ -69,20 +69,25 @@ def loginDoctorPage(request):
     return response
 
 def d_home(request, pk):
-    drl = DoctorSchedule.objects.raw("SELECT id, doctor_id, TIME_FORMAT(from_hour, '%%H:%%i:%%s'), TIME_FORMAT(to_hour, '%%H:%%i:%%s'), day FROM clinicApp_doctorschedule WHERE doctor_id = " + pk)
+    drl = DoctorSchedule.objects.filter(doctor_id =  pk)
+    for l in drl:
+        logger.info(l.from_hour)
     drl2 = Doctor.objects.get(id = pk)
 
     context = {'list' : drl, 'list2' : drl2, 'id' : pk}
     return render(request, 'd_dashboard.html', context)
 
+def p_home(request, pk):
+    pt = Patient.objects.get(id = pk)
+    #ptSchedule = Appointments.objects.filter(patient_id =  pk)
+    context = {'patient' : pt, 'id' : pk}
+    return render(request, 'p_dashboard.html', context)
+
 def createSchedule(request, pk):
 
     dr  = Doctor.objects.get(id = pk)
     #drl = DoctorSchedule.objects.filter(doctor_id = pk)
-    drl = DoctorSchedule.objects.raw("SELECT id, doctor_id, TIME_FORMAT(from_hour, '%%H:%%i:%%s'), TIME_FORMAT(to_hour, '%%H:%%i:%%s'), day FROM clinicApp_doctorschedule WHERE doctor_id = " + pk)
-
-    #logger.info(drl[0].doctor_id)
-
+    drl = DoctorSchedule.objects.raw("SELECT id, doctor_id, TIME_FORMAT(from_hour, '%%H:%%i'), TIME_FORMAT(to_hour, '%%H:%%i'), day FROM clinicApp_doctorschedule WHERE doctor_id = " + pk)
 
     if request.method == "POST":
         # logger.info(request.POST)
@@ -110,3 +115,8 @@ def createSchedule(request, pk):
     return render(request, 'schedule.html', context)
 
 
+def takeAppointment(request, pk):
+    drlist = Doctor.objects.all()
+
+    context = {'doctorList' : drlist,'id' : pk}
+    return render(request, 'takeAppointment.html', context)

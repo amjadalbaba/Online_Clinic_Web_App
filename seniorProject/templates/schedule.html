@@ -20,8 +20,8 @@
                 {% for l in list %}
                           <input type="hidden" required="required" name="doctor" value="{{ id }}">
                     Day:  <input type="text" required="required"  name="day" value="{{ l.day }}">
-                    From: <input type="time" required="required"  name="from_hour" value="{{ l.from_hour }}">
-                    To:   <input type="time" required="required"  name="to_hour" value="{{ l.to_hour }}">
+                    From: <input type="time" required="required"  name="from_hour" value="{{ l.from_hour|time:'h:i' }}">
+                    To:   <input type="time" required="required"  name="to_hour" value="{{ l.to_hour|time:'h:i' }}">
                     <hr>
                 {% endfor %}
             <input type="submit" name="submit" value="Edit" class="btn btn-info mb-3" id="editButton">

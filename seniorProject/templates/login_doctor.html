@@ -65,20 +65,18 @@
              $.ajaxSetup({
                         headers: {
                             'X-CSRFToken': document.querySelector('[name=csrfmiddlewaretoken]').value
-                }
+                        }
             });
                 $.ajax({
-                        type : 'POST', // http method
+                        type : 'POST',
                         url : "{% url 'login_d_api' %}",
                         data : {
                             email: $('#email').val(),
                             password: $('#password').val()
                         },
-                        // handle a successful response
                         success : function(resp) {
                            console.log(resp);
                             if (resp.message == "OK"){
-                                 id = resp.id;
                                  window.location.href = "{% url 'd_home' 30 %}";
                             } else{
                                  alert(resp.message)
@@ -91,9 +89,6 @@
             });
     });
  });
-
-
-
 
     </script>
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->

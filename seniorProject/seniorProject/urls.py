@@ -34,9 +34,11 @@ urlpatterns = [
 
 
     path('home-d/<str:pk>/', views.d_home, name="d_home"),
+    path('home-p/<str:pk>/', views.p_home, name="p_home"),
     path('', views.welcomePage, name="welcome"),
 
     path('schedule-d/<str:pk>/', views.createSchedule, name="schedule_d"),
+    path('appointment-p/<str:pk>/', views.takeAppointment, name="appointment_d"),
 
     #path('r/', include('clinicApp.urls')),
 ]

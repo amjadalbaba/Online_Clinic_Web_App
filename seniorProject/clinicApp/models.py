@@ -66,6 +66,7 @@ class DoctorSchedule(models.Model):
 class Appointments(models.Model):
     doctor              = models.ForeignKey(Doctor, null=True, on_delete=models.SET_NULL)
     patient             = models.ForeignKey(Patient, null=True, on_delete=models.SET_NULL)
+    day                 = models.TimeField(null=True)
     from_hour           = models.DateTimeField(auto_now_add=True,  null=True)
     to_hour             = models.DateTimeField(auto_now_add=True,  null=True)
     description         = models.CharField(max_length=200, null=True)

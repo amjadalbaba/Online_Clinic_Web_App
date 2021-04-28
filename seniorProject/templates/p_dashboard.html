@@ -1,0 +1,31 @@
+{% extends 'baseContainer2.html' %}
+
+{% block content %}
+    <h1 align="center" style="color:#128496">Welcome {{ patient.firstName|title }}</h1>
+        <hr>
+    <div class="column no-gutters"  align="center">
+                <div class="col-md-7">
+            <h5>Your Appointments List</h5>
+
+            <div class="card card-body">
+                <a class="btn btn-info btn-sm btn-block" href="{% url 'appointment_d' id %}">Take an Appointment</a>
+                <table class="table table-sm">
+                    <tr>
+                        <th>Day</th>
+                        <th>From Hour</th>
+                        <th>To Hour</th>
+                        <th>Doctor Name</th>
+                    </tr>
+<!--                    {% for l in list %}-->
+<!--                                <tr>-->
+<!--                                    <td>{{ l.day }}</td>-->
+<!--                                    <td>{{ l.from_hour }}</td>-->
+<!--                                    <td>{{ l.to_hour }}</td>-->
+<!--                                </tr>-->
+<!--                    {% endfor%}-->
+
+                </table>
+            </div>
+        </div>
+       </div>
+{% endblock %}

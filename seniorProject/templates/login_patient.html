@@ -80,7 +80,7 @@
                         success : function(resp) {
                           console.log(resp);
                              if (resp.message == "OK"){
-                                 window.location.href = "{% url 'home' %}";
+                                 window.location.href = "{% url 'p_home' 7 %}";
                             } else{
                                  alert(resp.message)
                             }
