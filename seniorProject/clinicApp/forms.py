@@ -1,5 +1,7 @@
 from .models import *
 from django import forms
+from django.contrib.admin.widgets import AdminTimeWidget
+
 
 class DoctorForm(forms.ModelForm):
     class Meta:
@@ -19,7 +21,7 @@ class DoctorScheduleForm(forms.ModelForm):
 class AppointmentsForm(forms.ModelForm):
     class Meta:
         model = Appointments
-        fields = '__all__'
+        fields = ['day', 'from_hour', 'to_hour', 'doctor', 'description', 'patient']
 
 class ConsultationForm(forms.ModelForm):
     class Meta:

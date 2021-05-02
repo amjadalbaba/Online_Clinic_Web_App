@@ -13284,3 +13284,886 @@ INFO 12:00:00
 INFO "GET /home-d/30/ HTTP/1.1" 200 2181
 INFO "GET /schedule-d/30/ HTTP/1.1" 200 6118
 INFO "GET /home-p/7/ HTTP/1.1" 200 1540
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3534
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+INFO "GET /login-p/ HTTP/1.1" 200 3662
+INFO "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO "POST /api/login-p/ HTTP/1.1" 200 26
+INFO "GET /home-p/7/ HTTP/1.1" 200 1540
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5875
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5900
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5921
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5921
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5921
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5900
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5900
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5875
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5921
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5909
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5909
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5909
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5909
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5909
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5909
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5909
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5909
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5909
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5909
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5909
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5875
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5915
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5918
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5930
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 6039
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 6116
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5470
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5465
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5467
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5467
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5474
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5465
+INFO "GET /home-p/7/ HTTP/1.1" 200 1540
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5465
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5352
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5386
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5386
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5387
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5352
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5367
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5794
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5432
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5520
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5461
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5461
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 3863
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 3862
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 6271
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 6161
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5008
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5017
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4986
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4951
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4951
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4943
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4531
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4531
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4531
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4529
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/forms.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4529
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4529
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4698
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4820
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4687
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5184
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5184
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 5184
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5184
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5184
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 5184
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 5184
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5184
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 5184
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 5184
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QueryDict: {'csrfmiddlewaretoken': ['w6WlRlWkG0bjLyQSX8xTusm7xMTDwR4SMkVfJhcNtYX8H34F6CpAdk7qhiKTQDzV'], 'patient': ['7'], 'day': ['2021-04-30'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['14'], 'description': ['My head is hurting me so much'], 'submit': ['Add']}>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 5184
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/forms.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5184
+INFO <QueryDict: {'csrfmiddlewaretoken': ['gKs81kvVnW3heuoiSQHjcSX0WiFYoDhYwYr2TgLoaUP6aZC51kz0VKIjGOweIpM1'], 'patient': ['7'], 'day': ['2021-04-30'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['13'], 'description': ['My head is hurting me so much'], 'submit': ['Add']}>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 5184
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5184
+INFO <QueryDict: {'csrfmiddlewaretoken': ['k2rwMdv3GR5abf7FgIInbwU8ZWyObSKPAgqqE9LwtPRZ7KlspcA4UoFrJsp4vEfS'], 'patient': ['7'], 'day': ['2021-04-30'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['13'], 'description': ['My head is hurting me so much'], 'submit': ['Add']}>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 5184
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5184
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QueryDict: {'csrfmiddlewaretoken': ['IDu9ELRqPkE1G9pfffkMhSdEh4bEsL95YRt3wH7TCiqQCED2oJct0KYX1A2UMxE8'], 'patient': ['7'], 'day': ['2021-04-30'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['14'], 'description': ['My head is hurting me so much'], 'submit': ['Add']}>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 5184
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5184
+INFO <QueryDict: {'csrfmiddlewaretoken': ['Qxyl97aQmt2acGcvuV1VyUJY58gQB54Q6Lxf13qj9rOZ8bqiDpTChMuhPE76VRzT'], 'patient': ['7'], 'day': ['2021-04-30'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['14'], 'description': ['My head is hurting me so much'], 'submit': ['Add']}>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 5184
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5184
+INFO <QueryDict: {'csrfmiddlewaretoken': ['YF3U851kS1hvkxwC1M5UF6uc5GAzLMuteT2O01hNFZ3kg2KpagXBoYfvPcrP5yZw'], 'patient': ['7'], 'day': ['2021-04-30'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['13'], 'description': ['My head is hurting me so much'], 'submit': ['Add']}>
+INFO 13
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 5184
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5184
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QueryDict: {'csrfmiddlewaretoken': ['XbCk9hiaxnW81wzrxRntwW4IGXw0A95UdpBe1dyDklIXX1NeGlfafOP1qtngUVAX'], 'patient': ['7'], 'day': ['2021-04-30'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['13'], 'description': ['My head is hurting me so much'], 'submit': ['Add']}>
+ERROR Internal Server Error: /appointment-p/7/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 128, in takeAppointment
+    checkTime = Appointments.objects.filter(doctor=dr, from_hour=fh, to_hour=th, day=day)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1319, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/lookups.py", line 24, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/lookups.py", line 76, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2193, in get_prep_value
+    return self.to_python(value)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 2177, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“2021-04-30” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] format.']
+ERROR "POST /appointment-p/7/ HTTP/1.1" 500 121838
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5184
+INFO <QueryDict: {'csrfmiddlewaretoken': ['TODjheJkKtwxfLyjMVJgRZfssGHkaoUo92Cd9aZNxrimbgM6VpBXAR0LccyAuapr'], 'patient': ['7'], 'day': ['2021-04-30'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['15'], 'description': ['My head is hurting me so much'], 'submit': ['Add']}>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 5184
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5184
+INFO <QueryDict: {'csrfmiddlewaretoken': ['il1vytXihGL77oPSriMBAuCIK57viTjGyz0pqpdL4ExW3T3FAMEijmn1uBYLCFOJ'], 'patient': ['7'], 'day': ['2021-04-30'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['15'], 'description': ['My head is hurting me so much'], 'submit': ['Add']}>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 5184
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5184
+INFO <QueryDict: {'csrfmiddlewaretoken': ['PLMTB4tghTHlEl8OqMXcuIGhc9ph6jwN5ZLNt0JJ4RtaAQmBzgPTdArAWFgxq51Q'], 'patient': ['7'], 'day': ['2021-04-30'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['15'], 'description': ['My head is hurting me so much'], 'submit': ['Add']}>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 5184
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5184
+INFO <QueryDict: {'csrfmiddlewaretoken': ['e9L2eLVc92uWWuhs6wBIno5aa5Dy5DsAunKW6HbFW0gLSZvff0tp6gQtUBuOppXD'], 'patient': ['7'], 'day': ['2021-04-30'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['15'], 'description': ['My head is hurting me so much'], 'submit': ['Add']}>
+INFO <QuerySet []>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 5184
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5184
+INFO <QueryDict: {'csrfmiddlewaretoken': ['JIAwT1sl8pE2AQWX91ylRbNit4xY1yPpZWzqLXIOVnqRwlaKivq2A3yBdAoelkks'], 'patient': ['7'], 'day': ['2021-04-30'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['15'], 'description': ['My head is hurting me so much'], 'submit': ['Add']}>
+INFO <QuerySet []>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 5323
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5184
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5184
+INFO <QueryDict: {'csrfmiddlewaretoken': ['jz1LL4fOFr3moa0MvY9my6roHpzaXka0zN0FD0vhspPbkFezEs13hYcHrVqqh6F3'], 'patient': ['7'], 'day': ['2021-04-30'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['14'], 'description': ['My head is hurting me so much'], 'submit': ['Add']}>
+INFO <QuerySet []>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 5323
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/forms.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/forms.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO <QueryDict: {'csrfmiddlewaretoken': ['w6WlRlWkG0bjLyQSX8xTusm7xMTDwR4SMkVfJhcNtYX8H34F6CpAdk7qhiKTQDzV'], 'patient': ['7'], 'day': ['2021-04-30'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['14'], 'description': ['My head is hurting me so much'], 'submit': ['Add']}>
+INFO <QuerySet []>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 5313
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5174
+INFO <QueryDict: {'csrfmiddlewaretoken': ['CsAqgwanGctSMFBbKqpsmSeNQelUv2oZSGzk8sqQtafHIaPYTUh95KZ6AKcaPOT2'], 'day': ['2021-04-30'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['19'], 'patient': ['7'], 'description': ['My head is hurting me so much'], 'submit': ['Add']}>
+INFO <QuerySet []>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 5313
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/forms.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5176
+INFO <QueryDict: {'csrfmiddlewaretoken': ['8r9iwIPZMG3mPibPKJZAnbGyF4vKl9AOoF8coE5szEPbLNpCTdRh63rRpAm0FV5R'], 'day': ['2021-04-30'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['13'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+ERROR Internal Server Error: /appointment-p/7/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 128, in takeAppointment
+    logger.info(checkTime)
+NameError: name 'checkTime' is not defined
+ERROR "POST /appointment-p/7/ HTTP/1.1" 500 62740
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QueryDict: {'csrfmiddlewaretoken': ['8r9iwIPZMG3mPibPKJZAnbGyF4vKl9AOoF8coE5szEPbLNpCTdRh63rRpAm0FV5R'], 'day': ['2021-04-30'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['13'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 5315
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5176
+INFO <QueryDict: {'csrfmiddlewaretoken': ['a43Q8DMy1Cf9vgWLu9bISQDpWSMSG9Feqi2K0z21OA1YrLayDD3pBIoIGoD80Vah'], 'day': ['2021-04-30'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['15'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO <QueryDict: {'csrfmiddlewaretoken': ['a43Q8DMy1Cf9vgWLu9bISQDpWSMSG9Feqi2K0z21OA1YrLayDD3pBIoIGoD80Vah'], 'day': ['2021-04-30'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['15'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 5176
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5176
+INFO <QueryDict: {'csrfmiddlewaretoken': ['NL6d9W2osjx8A1S0Ydc357t6zl0FqgZB3Z571SiRfhjXww6N7H4KOZepjRRVK2uE'], 'day': ['2021-04-30'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['15'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO <QueryDict: {'csrfmiddlewaretoken': ['NL6d9W2osjx8A1S0Ydc357t6zl0FqgZB3Z571SiRfhjXww6N7H4KOZepjRRVK2uE'], 'day': ['2021-04-30'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['15'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 5176
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5176
+INFO <QueryDict: {'csrfmiddlewaretoken': ['xq9t5BihcBDbsRPu8Kvpu79kqv0NnE7yNE8nXxyKZzp0om3hhen6dZUDa1R3HqCB'], 'day': ['2021-04-30'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['13'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO <tr><th><label for="id_day">Day:</label></th><td><input type="text" name="day" value="2021-04-30" required id="id_day"></td></tr>
+<tr><th><label for="id_from_hour">From hour:</label></th><td><ul class="errorlist"><li>Enter a valid time.</li></ul><input type="text" name="from_hour" value="08:00" required id="id_from_hour"></td></tr>
+<tr><th><label for="id_to_hour">To hour:</label></th><td><ul class="errorlist"><li>Enter a valid time.</li></ul><input type="text" name="to_hour" value="09:00" required id="id_to_hour"></td></tr>
+<tr><th><label for="id_doctor">Doctor:</label></th><td><select name="doctor" required id="id_doctor">
+  <option value="">---------</option>
+
+  <option value="13" selected>amjad</option>
+
+  <option value="14">soha</option>
+
+  <option value="15">hanadi</option>
+
+  <option value="18">rami</option>
+
+  <option value="19">samah</option>
+
+  <option value="30">Ahmad</option>
+
+</select></td></tr>
+<tr><th><label for="id_description">Description:</label></th><td><input type="text" name="description" value="My head is hurting me so much" maxlength="600" required id="id_description"></td></tr>
+<tr><th><label for="id_patient">Patient:</label></th><td><select name="patient" required id="id_patient">
+  <option value="">---------</option>
+
+  <option value="1">test1</option>
+
+  <option value="2">test2</option>
+
+  <option value="3">aaa</option>
+
+  <option value="4">ggg</option>
+
+  <option value="5">samar</option>
+
+  <option value="6">ahmad</option>
+
+  <option value="7" selected>mostafa</option>
+
+  <option value="8">sara</option>
+
+  <option value="9">non</option>
+
+  <option value="14">toto</option>
+
+  <option value="15">toto</option>
+
+</select></td></tr>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 5176
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5129
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5129
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4927
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4927
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4927
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4927
+INFO <QueryDict: {'csrfmiddlewaretoken': ['UEwx5ADhVZ47sb35aO3ivY1rVJMvVcn5aSvrXwTKIXQWoGhSjiVZeQMKFfDLfYS8'], 'day': ['2021-04-30'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['15'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO <tr><th><label for="id_day">Day:</label></th><td><input type="text" name="day" value="2021-04-30" required id="id_day"></td></tr>
+<tr><th><label for="id_from_hour">From hour:</label></th><td><ul class="errorlist"><li>Enter a valid time.</li></ul><input type="text" name="from_hour" value="08:00" required id="id_from_hour"></td></tr>
+<tr><th><label for="id_to_hour">To hour:</label></th><td><ul class="errorlist"><li>Enter a valid time.</li></ul><input type="text" name="to_hour" value="09:00" required id="id_to_hour"></td></tr>
+<tr><th><label for="id_doctor">Doctor:</label></th><td><select name="doctor" required id="id_doctor">
+  <option value="">---------</option>
+
+  <option value="13">amjad</option>
+
+  <option value="14">soha</option>
+
+  <option value="15" selected>hanadi</option>
+
+  <option value="18">rami</option>
+
+  <option value="19">samah</option>
+
+  <option value="30">Ahmad</option>
+
+</select></td></tr>
+<tr><th><label for="id_description">Description:</label></th><td><input type="text" name="description" value="My head is hurting me so much" maxlength="600" required id="id_description"></td></tr>
+<tr><th><label for="id_patient">Patient:</label></th><td><select name="patient" required id="id_patient">
+  <option value="">---------</option>
+
+  <option value="1">test1</option>
+
+  <option value="2">test2</option>
+
+  <option value="3">aaa</option>
+
+  <option value="4">ggg</option>
+
+  <option value="5">samar</option>
+
+  <option value="6">ahmad</option>
+
+  <option value="7" selected>mostafa</option>
+
+  <option value="8">sara</option>
+
+  <option value="9">non</option>
+
+  <option value="14">toto</option>
+
+  <option value="15">toto</option>
+
+</select></td></tr>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4927
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4927
+INFO 7
+INFO <QueryDict: {'csrfmiddlewaretoken': ['qYS3GkUBpwWMksDaRVKBVx4CnKKNHf11GcRXyga4cuIBgXRX0pCiEpPV7gB311w4'], 'day': ['2021-04-30'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['15'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO <tr><th><label for="id_day">Day:</label></th><td><input type="text" name="day" value="2021-04-30" required id="id_day"></td></tr>
+<tr><th><label for="id_from_hour">From hour:</label></th><td><ul class="errorlist"><li>Enter a valid time.</li></ul><input type="text" name="from_hour" value="08:00" required id="id_from_hour"></td></tr>
+<tr><th><label for="id_to_hour">To hour:</label></th><td><ul class="errorlist"><li>Enter a valid time.</li></ul><input type="text" name="to_hour" value="09:00" required id="id_to_hour"></td></tr>
+<tr><th><label for="id_doctor">Doctor:</label></th><td><select name="doctor" required id="id_doctor">
+  <option value="">---------</option>
+
+  <option value="13">amjad</option>
+
+  <option value="14">soha</option>
+
+  <option value="15" selected>hanadi</option>
+
+  <option value="18">rami</option>
+
+  <option value="19">samah</option>
+
+  <option value="30">Ahmad</option>
+
+</select></td></tr>
+<tr><th><label for="id_description">Description:</label></th><td><input type="text" name="description" value="My head is hurting me so much" maxlength="600" required id="id_description"></td></tr>
+<tr><th><label for="id_patient">Patient:</label></th><td><select name="patient" required id="id_patient">
+  <option value="">---------</option>
+
+  <option value="1">test1</option>
+
+  <option value="2">test2</option>
+
+  <option value="3">aaa</option>
+
+  <option value="4">ggg</option>
+
+  <option value="5">samar</option>
+
+  <option value="6">ahmad</option>
+
+  <option value="7" selected>mostafa</option>
+
+  <option value="8">sara</option>
+
+  <option value="9">non</option>
+
+  <option value="14">toto</option>
+
+  <option value="15">toto</option>
+
+</select></td></tr>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4927
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4927
+INFO 7
+INFO <QueryDict: {'csrfmiddlewaretoken': ['JzhrBOwfTze5Vi8DFmlbxrhNCDu70LeEZNgltKMIGx0URNmqOQdSgj26m9lnkxJH'], 'day': ['2021-04-30'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['15'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4927
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3534
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+INFO "GET /static/js/main.js HTTP/1.1" 304 0
+INFO "GET /static/images/wel.jpg HTTP/1.1" 304 0
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 3460
+INFO "GET /login-p/ HTTP/1.1" 200 3662
+INFO "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 304 0
+WARNING Unsuccessful login due to wrong email or password
+INFO "POST /api/login-p/ HTTP/1.1" 200 48
+INFO "POST /api/login-p/ HTTP/1.1" 200 26
+INFO "GET /home-p/7/ HTTP/1.1" 200 1540
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4927
+INFO "GET /static/css/style.css.map HTTP/1.1" 200 6880
+INFO "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 190253
+INFO "GET /static/css/bootstrap.min.css.map HTTP/1.1" 200 625953
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO 7
+INFO <QueryDict: {'csrfmiddlewaretoken': ['hDhyQHZBHtDAO9DxzMM4u5TLTRElm7QGxRgsIDf4urppKERkIgELdXE4DnvBGTlJ'], 'day': ['2021-05-03'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['14'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO <tr><th><label for="id_day">Day:</label></th><td><input type="text" name="day" value="2021-05-03" required id="id_day"></td></tr>
+<tr><th><label for="id_from_hour">From hour:</label></th><td><ul class="errorlist"><li>Enter a valid time.</li></ul><input type="text" name="from_hour" value="08:00" required id="id_from_hour"></td></tr>
+<tr><th><label for="id_to_hour">To hour:</label></th><td><ul class="errorlist"><li>Enter a valid time.</li></ul><input type="text" name="to_hour" value="09:00" required id="id_to_hour"></td></tr>
+<tr><th><label for="id_doctor">Doctor:</label></th><td><select name="doctor" required id="id_doctor">
+  <option value="">---------</option>
+
+  <option value="13">amjad</option>
+
+  <option value="14" selected>soha</option>
+
+  <option value="15">hanadi</option>
+
+  <option value="18">rami</option>
+
+  <option value="19">samah</option>
+
+  <option value="30">Ahmad</option>
+
+</select></td></tr>
+<tr><th><label for="id_description">Description:</label></th><td><input type="text" name="description" value="My head is hurting me so much" maxlength="600" required id="id_description"></td></tr>
+<tr><th><label for="id_patient">Patient:</label></th><td><select name="patient" required id="id_patient">
+  <option value="">---------</option>
+
+  <option value="1">test1</option>
+
+  <option value="2">test2</option>
+
+  <option value="3">aaa</option>
+
+  <option value="4">ggg</option>
+
+  <option value="5">samar</option>
+
+  <option value="6">ahmad</option>
+
+  <option value="7" selected>mostafa</option>
+
+  <option value="8">sara</option>
+
+  <option value="9">non</option>
+
+  <option value="14">toto</option>
+
+  <option value="15">toto</option>
+
+</select></td></tr>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4927
+INFO "GET /static/css/style.css.map HTTP/1.1" 200 6880
+INFO "GET /static/css/bootstrap.min.css.map HTTP/1.1" 200 625953
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 190253
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4927
+INFO <QueryDict: {'csrfmiddlewaretoken': ['ANdLu7fQt7VunTVdFDiYFkffISxSAqnpQ1cFm3vjg5Hjjo90O7aFoc0ysoo8UcSs'], 'day': ['2021-05-03'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['14'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO 7
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4927
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4927
+INFO <QueryDict: {'csrfmiddlewaretoken': ['sbxEHFHR2HnDgX38dRDCpIO6QiaDB5jTIpwyzBXkPF9scshVmlvj8AzpAO1TVROW'], 'day': ['2021-05-03'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['14'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4927
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4927
+INFO <QueryDict: {'csrfmiddlewaretoken': ['TIWq4quMXxZZ9ntHWmfpNDoWgVL5EI0k9WVkWmKfKvLO5SHu5Q76wv9f0rClYuvn'], 'day': ['2021-05-03'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['14'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4927
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4927
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4927
+INFO <QueryDict: {'csrfmiddlewaretoken': ['vXdcgP1u41uqUbFbd5UGLDkPiOuutBAeLbc68LhXRZgfQGTYmzMnuv582klKNn5h'], 'day': ['2021-05-03'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['13'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4927
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4927
+INFO <QueryDict: {'csrfmiddlewaretoken': ['bndwQ00Uvi8yjKva8vo6e2bLOeQ8ErGcrBcqIWgnigUnffJXhZgNXUW4yKHoYdbf'], 'day': ['2021-05-03'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['13'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+ERROR Internal Server Error: /appointment-p/7/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 130, in takeAppointment
+    print(form.errors())
+TypeError: 'ErrorDict' object is not callable
+ERROR "POST /appointment-p/7/ HTTP/1.1" 500 63037
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4927
+INFO <QueryDict: {'csrfmiddlewaretoken': ['v93ThtfVIJI9oPUPYsllsZ9Ka88SqrI1Ln2N9pvovHuYkk8C7Wd2bRU3UEZ8Kdd4'], 'day': ['2021-05-03'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['13'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+ERROR Internal Server Error: /appointment-p/7/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 130, in takeAppointment
+    print(form.errors())
+TypeError: 'ErrorDict' object is not callable
+ERROR "POST /appointment-p/7/ HTTP/1.1" 500 63037
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QueryDict: {'csrfmiddlewaretoken': ['v93ThtfVIJI9oPUPYsllsZ9Ka88SqrI1Ln2N9pvovHuYkk8C7Wd2bRU3UEZ8Kdd4'], 'day': ['2021-05-03'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['13'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4927
+INFO "GET / HTTP/1.1" 200 3534
+INFO "GET /login-d/ HTTP/1.1" 200 3570
+INFO "POST /api/login-d/ HTTP/1.1" 200 27
+INFO 07:00:00
+INFO 08:00:00
+INFO 07:00:00
+INFO 09:00:00
+INFO 10:00:00
+INFO 11:00:00
+INFO 12:00:00
+INFO "GET /home-d/30/ HTTP/1.1" 200 2181
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6118
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 6048
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6118
+INFO <QueryDict: {'csrfmiddlewaretoken': ['36OgLn35QQjkilNY2J7cLeDST53fpsyMjkNaDjjyDO59eQ1LbdZTu6obDBUvJe3P'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['07:00', '08:00', '07:00', '09:00', '10:00', '11:00', '12:00'], 'to_hour': ['21:00', '21:00', '21:00', '22:00', '23:00', '23:00', '23:00'], 'submit': ['Edit']}>
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 6048
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4927
+INFO <QueryDict: {'csrfmiddlewaretoken': ['5IF3QXULMaNGIeC3ph6txSig2du49wTZlWEXITaez8zvEJQQyLYagK3zMJlktio2'], 'day': ['2021-05-03'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['13'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4927
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4927
+INFO <QueryDict: {'csrfmiddlewaretoken': ['gTRXmKqag47FoMfMF4EpKY8WtLLZ3gQDw7QReGGD32TukhtzOyw6tQTfdhCfn2lG'], 'day': ['2021-05-03'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['13'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO <ul class="errorlist"><li>from_hour<ul class="errorlist"><li>Enter a valid time.</li></ul></li><li>to_hour<ul class="errorlist"><li>Enter a valid time.</li></ul></li></ul>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4927
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4927
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4906
+INFO <QueryDict: {'csrfmiddlewaretoken': ['exYaidWq4PyU0FzFiZoXFHRHDGyvEhHQuLX4a9cTRNkJWaNsrtgEozC0ncpLY3cT'], 'day': ['2021-05-02'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['13'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO <ul class="errorlist"><li>from_hour<ul class="errorlist"><li>Enter a valid time.</li></ul></li><li>to_hour<ul class="errorlist"><li>Enter a valid time.</li></ul></li></ul>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4906
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4927
+INFO "GET / HTTP/1.1" 200 3534
+INFO "GET /login-d/ HTTP/1.1" 200 3570
+INFO "POST /api/login-d/ HTTP/1.1" 200 27
+INFO 07:00:00
+INFO 08:00:00
+INFO 07:00:00
+INFO 09:00:00
+INFO 10:00:00
+INFO 11:00:00
+INFO 12:00:00
+INFO "GET /home-d/30/ HTTP/1.1" 200 2181
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6114
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6114
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6114
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6114
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6118
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6118
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 6048
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6118
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6118
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6115
+INFO 19:00:00
+INFO 08:00:00
+INFO 07:00:00
+INFO 09:00:00
+INFO 10:00:00
+INFO 11:00:00
+INFO 12:00:00
+INFO "GET /home-d/30/ HTTP/1.1" 200 2181
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6115
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6118
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6118
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 6048
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6118
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 6048
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6118
+INFO 19:00:00
+INFO 08:00:00
+INFO 07:00:00
+INFO 09:00:00
+INFO 10:00:00
+INFO 11:00:00
+INFO 12:00:00
+INFO "GET /home-d/30/ HTTP/1.1" 200 2181
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6118
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO <QueryDict: {'csrfmiddlewaretoken': ['d0QPCUhfqfuTTuXXNl99O1Bxh3QhB8BrtePJuQxIddgIPZbKWP1QxTmQ1zHxVU6u'], 'day': ['2021-05-02'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['13'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO <ul class="errorlist"><li>from_hour<ul class="errorlist"><li>Enter a valid time.</li></ul></li><li>to_hour<ul class="errorlist"><li>Enter a valid time.</li></ul></li></ul>
+ERROR Internal Server Error: /appointment-p/7/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 136, in takeAppointment
+    return render(request, 'takeAppointment.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'appointment_d' with no arguments not found. 1 pattern(s) tried: ['appointment\\-p/(?P<pk>[^/]+)/$']
+ERROR "POST /appointment-p/7/ HTTP/1.1" 500 162930
+ERROR Internal Server Error: /appointment-p/7/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 136, in takeAppointment
+    return render(request, 'takeAppointment.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'appointment_d' with no arguments not found. 1 pattern(s) tried: ['appointment\\-p/(?P<pk>[^/]+)/$']
+ERROR "GET /appointment-p/7/ HTTP/1.1" 500 160435
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4712
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4712
+ERROR Internal Server Error: /appointment-p/7/
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 136, in takeAppointment
+    return render(request, 'takeAppointment.html', context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'appointment_d' with no arguments not found. 1 pattern(s) tried: ['appointment\\-p/(?P<pk>[^/]+)/$']
+ERROR "GET /appointment-p/7/ HTTP/1.1" 500 160435
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4712
+INFO <QueryDict: {'csrfmiddlewaretoken': ['9WUTXKOqjCu47h0hYI3FY7YHVCP9bsA8paTNPG4T6AgT3Me47cVmHZJ0F8Gpve5b'], 'day': ['2021-05-02'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['13'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO <ul class="errorlist"><li>from_hour<ul class="errorlist"><li>Enter a valid time.</li></ul></li><li>to_hour<ul class="errorlist"><li>Enter a valid time.</li></ul></li></ul>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4712
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QueryDict: {'csrfmiddlewaretoken': ['QzD35KTkrsBT5lM8YtPkyx2OZ48P3FuX6NCXXG9NeqnI1Q0V7XH1hpN7JAZ5nrZ0'], 'day': ['2021-05-02'], 'from_hour': ['04:13'], 'to_hour': ['05:14'], 'doctor': ['13'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO <ul class="errorlist"><li>from_hour<ul class="errorlist"><li>Enter a valid time.</li></ul></li><li>to_hour<ul class="errorlist"><li>Enter a valid time.</li></ul></li></ul>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4712
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/forms.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/forms.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/forms.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QueryDict: {'csrfmiddlewaretoken': ['QzD35KTkrsBT5lM8YtPkyx2OZ48P3FuX6NCXXG9NeqnI1Q0V7XH1hpN7JAZ5nrZ0'], 'day': ['2021-05-02'], 'from_hour': ['04:13'], 'to_hour': ['05:14'], 'doctor': ['13'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO <ul class="errorlist"><li>from_hour<ul class="errorlist"><li>Enter a valid time.</li></ul></li><li>to_hour<ul class="errorlist"><li>Enter a valid time.</li></ul></li></ul>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4712
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/forms.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QueryDict: {'csrfmiddlewaretoken': ['QzD35KTkrsBT5lM8YtPkyx2OZ48P3FuX6NCXXG9NeqnI1Q0V7XH1hpN7JAZ5nrZ0'], 'day': ['2021-05-02'], 'from_hour': ['04:13'], 'to_hour': ['05:14'], 'doctor': ['13'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO <ul class="errorlist"><li>from_hour<ul class="errorlist"><li>Enter a valid time.</li></ul></li><li>to_hour<ul class="errorlist"><li>Enter a valid time.</li></ul></li></ul>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4712
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/forms.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/forms.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/forms.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/forms.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/forms.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QueryDict: {'csrfmiddlewaretoken': ['QzD35KTkrsBT5lM8YtPkyx2OZ48P3FuX6NCXXG9NeqnI1Q0V7XH1hpN7JAZ5nrZ0'], 'day': ['2021-05-02'], 'from_hour': ['04:13'], 'to_hour': ['05:14'], 'doctor': ['13'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO <ul class="errorlist"><li>from_hour<ul class="errorlist"><li>Enter a valid time.</li></ul></li><li>to_hour<ul class="errorlist"><li>Enter a valid time.</li></ul></li></ul>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4712
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4712
+INFO <QueryDict: {'csrfmiddlewaretoken': ['GHWlPzxq7V20OEibHPiiDVfQfzGgtSRaWVVfHvNTUTOPK9wYQjaZmN09Z5xwNEmd'], 'day': ['2021-05-03'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['13'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO <ul class="errorlist"><li>from_hour<ul class="errorlist"><li>Enter a valid time.</li></ul></li><li>to_hour<ul class="errorlist"><li>Enter a valid time.</li></ul></li></ul>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4712
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/forms.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/forms.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/forms.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/forms.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4712
+INFO <QueryDict: {'csrfmiddlewaretoken': ['krxfLm8cdR8viTxk39zh7TaABHnW189yAFw9DioF0PUkeoL7cDrYQLVTldeclUEB'], 'day': ['2021-05-03'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['14'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO <ul class="errorlist"><li>from_hour<ul class="errorlist"><li>Enter a valid time.</li></ul></li><li>to_hour<ul class="errorlist"><li>Enter a valid time.</li></ul></li></ul>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4712
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/forms.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4712
+INFO <QueryDict: {'csrfmiddlewaretoken': ['Xt7znXJEMNwWwBG7JuuvvXj62vwBBd5kdH6tfTZ7zLiLs6UUSYmceP4pM1nRVZAn'], 'day': ['2021-05-03'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['14'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO <ul class="errorlist"><li>from_hour<ul class="errorlist"><li>Enter a valid time.</li></ul></li><li>to_hour<ul class="errorlist"><li>Enter a valid time.</li></ul></li></ul>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4712
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4712
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4712
+INFO "GET /home-p/7/ HTTP/1.1" 200 1540
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4712
+INFO <QueryDict: {'csrfmiddlewaretoken': ['NIMOmxY0zIaALn0KGaf0RVIZk5mg6ADx3WLIetetmGWpHSexPE7HANti4Bdwqm8A'], 'day': ['2021-05-02'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['14'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO <ul class="errorlist"><li>from_hour<ul class="errorlist"><li>Enter a valid time.</li></ul></li><li>to_hour<ul class="errorlist"><li>Enter a valid time.</li></ul></li></ul>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4712
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/forms.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4712
+INFO <QueryDict: {'csrfmiddlewaretoken': ['vmd8oZQumhMTq1lRVa2w83nltokfPeHpLAc2gV6X9fyImwzE4EUdRV8EdUbv90cs'], 'day': ['2021-05-03'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['13'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO <ul class="errorlist"><li>from_hour<ul class="errorlist"><li>Enter a valid time.</li></ul></li><li>to_hour<ul class="errorlist"><li>Enter a valid time.</li></ul></li></ul>
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4712
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 190253
+INFO "GET /static/css/style.css.map HTTP/1.1" 200 6880
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.min.css.map HTTP/1.1" 200 625953
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/forms.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4712
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO /Users/admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4712
+INFO <QueryDict: {'csrfmiddlewaretoken': ['BTqhaKVMnDkPczlE7jSfxw9RxKeO1L4BR7pb2GbfaB6E84zrgNKWgoUahg54lxzE'], 'day': ['2021-05-02'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['13'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
+INFO 
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4712
+INFO "GET /home-p/7/ HTTP/1.1" 200 1540
+INFO "GET /home-p/7/ HTTP/1.1" 200 1540
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4712
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4712
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4851
+INFO "GET /home-p/7/ HTTP/1.1" 200 1540
+INFO /Users/admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-p/7/ HTTP/1.1" 200 1841
+INFO "GET /home-p/7/ HTTP/1.1" 200 1848

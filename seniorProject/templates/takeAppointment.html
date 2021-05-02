@@ -16,49 +16,51 @@
         <center><div  class="col-lg-11 pt-3 px-5"><h1>Take an Appointment</h1></div></center>
         <hr>
         <center><div class="col-lg-11 pt-3 px-5">
-            <form method="POST" id="form">
+        {% for message in messages %}
+           <p id="messages" style="color:#ff0000">{{message}}</p>
+        {% endfor %}
+        <form method="POST" id="form">
                 {% csrf_token %}
 
-                <table align="center" cellspacing="30px">
-                    <tr>
-                        <th></th>
-                        <th>Day:</th>
-                        <th>From:</th>
-                        <th>To:</th>
-                        <th>With Doctor:</th>
-                    </tr>
-                    <tr>
-                        <td><input type="hidden" required="required" name="patient" value="{{ id }}"></td>
-                        <td><input type="date" required="required"  name="day" value="{{ l.day }}"></td>
-                        <td><input type="time" required="required"  name="from_hour" value="{{ l.from_hour|time:'h:i' }}"></td>
-                        <td><input type="time" required="required"  name="to_hour" value="{{ l.to_hour|time:'h:i' }}"></td>
-                        <td>
-                            <select class="form-select" aria-label="Default select example" style="border: 1px solid white" required="required" name="doctor"><br>
-                                      <option selected>Select a doctor</option>
-                                  {% for d in doctorList %}
-                                      <option value="{{d.id}}">{{d.firstName|title|add:" "|add:d.lastName|title}}</option>
-                                  {% endfor %}
-                            </select>
-                        </td>
-                    </tr>
-                </table>
 
+              <div class="form-group">
+                <label >Choose a Day</label>
+                <input type="date" required="required"  name="day"  class="form-control" >
+              </div>
+               <div class="form-group">
+                <label >From Hour</label>
+                <input type="time" required="required"  name="from_hour"  class="form-control">
+              </div>
+              <div class="form-group">
+                <label>To Hour</label>
+                <input type="time" required="required"  name="to_hour" class="form-control">
+              </div>
+              <div class="form-group">
+                <label>Choose a Doctor</label>
+                <select  class="form-control" required="required" name="doctor"><br>
+                        <option selected>Select a doctor</option>
+                      {% for d in doctorList %}
+                        <option value="{{d.id}}">{{d.firstName|title|add:" "|add:d.lastName|title}}</option>
+                     {% endfor %}
+                </select>
+              </div>
 
-
-            <input type="submit" name="submit" value="Add" class="btn btn-info mb-3" id="addButton">
-            <br>
+              <div class="form-group">
+                <label>Brief Description</label>
+                <input type="text" required="required"  name="description"  class="form-control">
+              </div>
+              <div class="form-group">
+                <input type="hidden" required="required" name="patient" value="{{ id }}">
+              </div>
+               <input type="submit" name="submit" value="Add" class="btn btn-info mb-3" id="addButton">
+                <br>
                 <p>return to <a style="color:#ff0000" href="{% url 'p_home' id %}"><b> my dashboard</b></a></p>
 
-            </form>
+           </form>
         </div></center>
     </div>
 
-    <script>
-         $(document).ready(function() {
-            $('#form').submit(function(e){
-                     e.preventDefault();
-                     $('#sAlert').show();
-            });
-    });
-    </script>
+
+
+
 {% endblock %}

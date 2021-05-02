@@ -79,14 +79,12 @@ def d_home(request, pk):
 
 def p_home(request, pk):
     pt = Patient.objects.get(id = pk)
-    #ptSchedule = Appointments.objects.filter(patient_id =  pk)
-    context = {'patient' : pt, 'id' : pk}
+    ptAppointments = Appointments.objects.filter(patient_id =  pk)
+    context = {'patient' : pt, 'id' : pk, 'appointments' : ptAppointments}
     return render(request, 'p_dashboard.html', context)
 
 def createSchedule(request, pk):
 
-    dr  = Doctor.objects.get(id = pk)
-    #drl = DoctorSchedule.objects.filter(doctor_id = pk)
     drl = DoctorSchedule.objects.raw("SELECT id, doctor_id, TIME_FORMAT(from_hour, '%%H:%%i'), TIME_FORMAT(to_hour, '%%H:%%i'), day FROM clinicApp_doctorschedule WHERE doctor_id = " + pk)
 
     if request.method == "POST":
@@ -117,6 +115,21 @@ def createSchedule(request, pk):
 
 def takeAppointment(request, pk):
     drlist = Doctor.objects.all()
+    if request.method == 'POST':
+        dr = request.POST["doctor"]
+        fh = request.POST["from_hour"]
+        th = request.POST["to_hour"]
+        day = request.POST["day"]
+        checkTime = Appointments.objects.filter(doctor=dr, from_hour=fh, to_hour=th, day=day)
+        if not checkTime:
+             logger.info(request.POST)
+             form = AppointmentsForm(request.POST)
+             logger.info(form.errors)
+
+             if form.is_valid():
+                 form.save()
+        else:
+             messages.info(request, "Doctor have an appointment at that time, please choose different time range")
 
     context = {'doctorList' : drlist,'id' : pk}
     return render(request, 'takeAppointment.html', context)

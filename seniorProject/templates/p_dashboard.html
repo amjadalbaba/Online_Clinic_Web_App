@@ -16,13 +16,14 @@
                         <th>To Hour</th>
                         <th>Doctor Name</th>
                     </tr>
-<!--                    {% for l in list %}-->
-<!--                                <tr>-->
-<!--                                    <td>{{ l.day }}</td>-->
-<!--                                    <td>{{ l.from_hour }}</td>-->
-<!--                                    <td>{{ l.to_hour }}</td>-->
-<!--                                </tr>-->
-<!--                    {% endfor%}-->
+                    {% for a in appointments %}
+                                <tr>
+                                    <td>{{ a.day }}</td>
+                                    <td>{{ a.from_hour }}</td>
+                                    <td>{{ a.to_hour }}</td>
+                                    <td>{{a.doctor.firstName|title|add:" "|add:a.doctor.lastName|title}}</td>
+                                </tr>
+                    {% endfor%}
 
                 </table>
             </div>
