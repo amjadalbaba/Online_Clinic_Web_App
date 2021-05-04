@@ -70,6 +70,7 @@ class Appointments(models.Model):
     from_hour           = models.TimeField(null=True)
     to_hour             = models.TimeField(null=True)
     description         = models.CharField(max_length=600, null=True)
+    accepted            = models.IntegerField(null=True)
     created_at          = models.DateTimeField(auto_now_add=True, null=True)
     updated_at          = models.DateTimeField(auto_now_add=True, null=True)
 

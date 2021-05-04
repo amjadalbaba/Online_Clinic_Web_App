@@ -10,7 +10,7 @@
             }
     </style>
     <div class="alert alert-info" role="alert" style="display: none;" id="sAlert">
-        Appointment Added Successfully!
+        Appointment Successfully Reserved!
     </div>
     <div class="column no-gutters"><!--col no-glutters--> <!--no-gutters to remove paddings in the row-->
         <center><div  class="col-lg-11 pt-3 px-5"><h1>Take an Appointment</h1></div></center>
@@ -25,19 +25,19 @@
 
               <div class="form-group">
                 <label >Choose a Day</label>
-                <input type="date" required="required"  name="day"  class="form-control" >
+                <input type="date" required="required"  name="day" id="day"  class="form-control" >
               </div>
                <div class="form-group">
                 <label >From Hour</label>
-                <input type="time" required="required"  name="from_hour"  class="form-control">
+                <input type="time" required="required"  name="from_hour" id="from_hour" class="form-control">
               </div>
               <div class="form-group">
                 <label>To Hour</label>
-                <input type="time" required="required"  name="to_hour" class="form-control">
+                <input type="time" required="required"  name="to_hour" id="to_hour" class="form-control">
               </div>
               <div class="form-group">
                 <label>Choose a Doctor</label>
-                <select  class="form-control" required="required" name="doctor"><br>
+                <select  class="form-control" required="required" name="doctor" id="doctor"><br>
                         <option selected>Select a doctor</option>
                       {% for d in doctorList %}
                         <option value="{{d.id}}">{{d.firstName|title|add:" "|add:d.lastName|title}}</option>
@@ -47,10 +47,10 @@
 
               <div class="form-group">
                 <label>Brief Description</label>
-                <input type="text" required="required"  name="description"  class="form-control">
+                <input type="text" required="required"  name="description" id="description"  class="form-control">
               </div>
               <div class="form-group">
-                <input type="hidden" required="required" name="patient" value="{{ id }}">
+                <input type="hidden" required="required" name="patient" id="patient" value="{{ id }}">
               </div>
                <input type="submit" name="submit" value="Add" class="btn btn-info mb-3" id="addButton">
                 <br>
@@ -59,7 +59,6 @@
            </form>
         </div></center>
     </div>
-
 
 
 

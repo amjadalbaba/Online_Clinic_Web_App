@@ -5,7 +5,6 @@ from django.contrib import messages
 from django.contrib.auth.hashers import make_password, check_password
 from django.contrib.auth import authenticate, login, logout
 from django.views.decorators.cache import never_cache
-
 from django.forms import inlineformset_factory
 
 from .serializers import patientLoginSerializers
@@ -60,11 +59,13 @@ def loginDrPage(request):
 
 
 def loginPatientPage(request):
+   # TODO: checking why the res.pid is not working
    response = loginAPI(request, Patient)
    return response
 
 
 def loginDoctorPage(request):
+    #TODO: checking why the res.pid is not working
     response = loginAPI(request, Doctor)
     return response
 
