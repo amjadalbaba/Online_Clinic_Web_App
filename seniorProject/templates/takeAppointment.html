@@ -45,6 +45,15 @@
                 </select>
               </div>
 
+
+            <div class="form-group">
+                <label>Choose a time</label>
+                <select  class="form-control" required="required" name="time" id="time"><br>
+                        <option selected>Select a time</option>
+                </select>
+              </div>
+
+
               <div class="form-group">
                 <label>Brief Description</label>
                 <input type="text" required="required"  name="description" id="description"  class="form-control">
@@ -60,6 +69,29 @@
         </div></center>
     </div>
 
+<script>
+    $("#doctor").change(function () {
+        var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
+        $.ajax({
+            url: "{% url 'appointment_api' %}",
+            data: {
+                doctor : $("#doctor").val(),
+                day :  $("#day").val()
+            },
+            success: function (resp) {
+
+                let html_data = '<option value="">---------</option>';
+                resp.forEach(function (d) {
+                    html_data += "<option value='" + d + "'>" + d + "</option>";
+                });
+                console.log(html_data);
+                $("#time").html(html_data);
+
+            }
+        });
+
+    });
+</script>
 
 {% endblock %}

@@ -19,7 +19,7 @@ from django.http import JsonResponse
 from rest_framework.authtoken.views import ObtainAuthToken
 from rest_framework.authtoken.models import Token
 from rest_framework.response import Response
-from .utils import scheduleInsert
+from .utils import scheduleInsert, checkDay, transfromTimeToInt, halfSplit, timeListItem
 from .logic import *
 import datetime
 
@@ -120,17 +120,34 @@ def takeAppointment(request, pk):
         dr = request.POST["doctor"]
         fh = request.POST["from_hour"]
         th = request.POST["to_hour"]
-        day = request.POST["day"]
-        checkTime = Appointments.objects.filter(doctor=dr, from_hour=fh, to_hour=th, day=day)
-        if not checkTime:
-             logger.info(request.POST)
-             form = AppointmentsForm(request.POST)
-             logger.info(form.errors)
+        date = request.POST["day"]
+        #checkTime = Appointments.objects.filter(doctor=dr, from_hour=fh, to_hour=th, day=date)
 
-             if form.is_valid():
-                 form.save()
-        else:
-             messages.info(request, "Doctor have an appointment at that time, please choose different time range")
+
+        form = AppointmentsForm(request.POST)
+        #logger.info(form.errors)
+
+        if form.is_valid():
+            form.save()
+
+        messages.info(request, "Doctor have an appointment at that time, please choose different time range")
 
     context = {'doctorList' : drlist,'id' : pk}
     return render(request, 'takeAppointment.html', context)
+
+def loadSchedule(request):
+    doctor = request.GET.get('doctor')
+    date = request.GET.get('day')
+    day = checkDay(date)
+
+    drTimeFrom = DoctorSchedule.objects.filter(doctor_id = doctor).filter(day = day).values_list('from_hour', flat=True)
+    drTimeTo = DoctorSchedule.objects.filter(doctor_id = doctor).filter(day = day).values_list('to_hour', flat=True)
+
+    # fromH = transfromTimeToInt(drTimeFrom[0])
+    # fromT = transfromTimeToInt(drTimeTo[0])
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+    timeList = timeListItem(slist)
+
+    #logger.info(l)
+
+    return JsonResponse(list(timeList), safe=False)

@@ -39,6 +39,7 @@ urlpatterns = [
 
     path('schedule-d/<str:pk>/', views.createSchedule, name="schedule_d"),
     path('appointment-p/<str:pk>/', views.takeAppointment, name="appointment_d"),
+    path('api/appointment-d/', views.loadSchedule, name="appointment_api"),
 
     #path('r/', include('clinicApp.urls')),
 ]

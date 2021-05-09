@@ -15571,3 +15571,832 @@ INFO "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 190253
 INFO <QueryDict: {'csrfmiddlewaretoken': ['0lVjPSb6BQcViOLASMiFuIw2qWvmqz52gzUdHOrzoOYKejZn1gamdAhlasmCKlA5'], 'day': ['2021-05-05'], 'from_hour': ['08:00'], 'to_hour': ['09:00'], 'doctor': ['14'], 'description': ['My head is hurting me so much'], 'patient': ['7'], 'submit': ['Add']}>
 INFO 
 INFO "POST /appointment-p/7/ HTTP/1.1" 200 4792
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3534
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+INFO "GET /static/js/main.js HTTP/1.1" 304 0
+INFO "GET /static/images/wel.jpg HTTP/1.1" 304 0
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 3523
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 3487
+WARNING "GET /favicon.ico HTTP/1.1" 404 3460
+INFO "GET /login-d/ HTTP/1.1" 200 3570
+INFO "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 304 0
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3534
+INFO "GET /login-p/ HTTP/1.1" 200 3662
+WARNING Unsuccessful login due to wrong email or password
+INFO "POST /api/login-p/ HTTP/1.1" 200 48
+WARNING Unsuccessful login due to wrong email or password
+INFO "POST /api/login-p/ HTTP/1.1" 200 48
+WARNING Unsuccessful login due to wrong email or password
+INFO "POST /api/login-p/ HTTP/1.1" 200 48
+INFO "POST /api/login-p/ HTTP/1.1" 200 26
+INFO "GET /home-p/7/ HTTP/1.1" 200 1848
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4792
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3534
+INFO "GET /login-p/ HTTP/1.1" 200 3662
+INFO "POST /api/login-p/ HTTP/1.1" 200 26
+INFO "GET /home-p/7/ HTTP/1.1" 200 1848
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4792
+INFO "GET /home-p/7/ HTTP/1.1" 200 1848
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /appointment-p/7/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/utils/datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 'day'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 120, in takeAppointment
+    date = request.POST["day"]
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/utils/datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'day'
+ERROR "GET /appointment-p/7/ HTTP/1.1" 500 67584
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 4792
+ERROR Internal Server Error: /appointment-p/7/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 126, in takeAppointment
+    drTime = DoctorSchedule.objects.get(id = dr)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+clinicApp.models.DoctorSchedule.DoesNotExist: DoctorSchedule matching query does not exist.
+ERROR "POST /appointment-p/7/ HTTP/1.1" 500 71197
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QueryDict: {'csrfmiddlewaretoken': ['FfS5Bv12sVJAM9i6X2OuOG3e4DJ7Ae5fdaX12teFk1QzDlxVmmx0o7FQqMYcAfYt'], 'day': ['2021-05-09'], 'from_hour': ['10:30'], 'to_hour': ['23:30'], 'doctor': ['14'], 'description': ['ddd'], 'patient': ['7'], 'submit': ['Add']}>
+INFO 
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4792
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Sunday
+INFO 
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4792
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Sunday
+INFO 
+INFO "POST /appointment-p/7/ HTTP/1.1" 200 4792
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5689
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5757
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5757
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5757
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 141, in loadSchedule
+    day = checkDay(date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 15, in checkDay
+    dayCheck = datetime.datetime.strptime(dateCheck, '%Y-%m-%d').weekday()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '' does not match format '%Y-%m-%d'
+ERROR "GET /api/appointment-d/?doctor=13&day= HTTP/1.1" 500 72843
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 146, in loadSchedule
+    fromH = transfromTimeToInt(drTimeFrom)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 20, in transfromTimeToInt
+    (h, m, s) = time.split(':')
+AttributeError: 'QuerySet' object has no attribute 'split'
+ERROR "GET /api/appointment-d/?doctor=14&day=2021-05-10 HTTP/1.1" 500 63629
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5756
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5756
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5756
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5760
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5760
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5760
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 141, in loadSchedule
+    day = checkDay(date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 15, in checkDay
+    dayCheck = datetime.datetime.strptime(dateCheck, '%Y-%m-%d').weekday()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '' does not match format '%Y-%m-%d'
+ERROR "GET /api/appointment-d/?doctor=15&day= HTTP/1.1" 500 72843
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5692
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5692
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 146, in loadSchedule
+    fromH = transfromTimeToInt(drTimeFrom)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 20, in transfromTimeToInt
+    (h, m, s) = time.split(':')
+AttributeError: 'QuerySet' object has no attribute 'split'
+ERROR "GET /api/appointment-d/?doctor=14&day=2021-05-09 HTTP/1.1" 500 63629
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 146, in loadSchedule
+    fromH = transfromTimeToInt(drTimeFrom)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 20, in transfromTimeToInt
+    (h, m, s) = time.split(':')
+AttributeError: 'QuerySet' object has no attribute 'split'
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 500 63773
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5692
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 141, in loadSchedule
+    day = checkDay(date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 15, in checkDay
+    dayCheck = datetime.datetime.strptime(dateCheck, '%Y-%m-%d').weekday()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '' does not match format '%Y-%m-%d'
+ERROR "GET /api/appointment-d/?doctor=14&day= HTTP/1.1" 500 72841
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5692
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 141, in loadSchedule
+    day = checkDay(date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 15, in checkDay
+    dayCheck = datetime.datetime.strptime(dateCheck, '%Y-%m-%d').weekday()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '' does not match format '%Y-%m-%d'
+ERROR "GET /api/appointment-d/?doctor=13&day= HTTP/1.1" 500 72841
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5692
+INFO "GET /static/css/bootstrap.min.css HTTP/1.1" 200 155758
+INFO "GET /static/css/bootstrap.css HTTP/1.1" 200 192348
+INFO "GET /static/css/style.css HTTP/1.1" 200 10093
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/custom.css HTTP/1.1" 200 212
+INFO "GET /static/fonts/material-icon/css/material-design-iconic-font.min.css HTTP/1.1" 200 70815
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 200 93101
+INFO "GET /static/js/main.js HTTP/1.1" 200 353
+INFO "GET /static/js/bootstrap.min.js HTTP/1.1" 200 58072
+INFO "GET /static/css/style.css.map HTTP/1.1" 200 6880
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.min.css.map HTTP/1.1" 200 625953
+INFO "GET /static/fonts/montserrat/Montserrat-Regular.ttf HTTP/1.1" 200 263192
+INFO "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 190253
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 141, in loadSchedule
+    day = checkDay(date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 15, in checkDay
+    dayCheck = datetime.datetime.strptime(dateCheck, '%Y-%m-%d').weekday()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '' does not match format '%Y-%m-%d'
+ERROR "GET /api/appointment-d/?doctor=13&day= HTTP/1.1" 500 72841
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5855
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5855
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5879
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5887
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5887
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5880
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5889
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5889
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5842
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5842
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+INFO 2021-05-10
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 147, in loadSchedule
+    fromH = transfromTimeToInt(drTimeFrom)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 20, in transfromTimeToInt
+    h, m, s = time.split(':')
+AttributeError: 'QuerySet' object has no attribute 'split'
+ERROR "GET /api/appointment-d/?doctor=13&day=2021-05-10 HTTP/1.1" 500 63574
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+INFO 2021-05-09
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 147, in loadSchedule
+    fromH = transfromTimeToInt(drTimeFrom)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 20, in transfromTimeToInt
+    h, m, s = time.split(':')
+AttributeError: 'QuerySet' object has no attribute 'split'
+ERROR "GET /api/appointment-d/?doctor=13&day=2021-05-09 HTTP/1.1" 500 63742
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+INFO 2021-05-09
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 147, in loadSchedule
+    fromH = transfromTimeToInt(drTimeFrom)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 20, in transfromTimeToInt
+    h, m, s = time.split(':')
+AttributeError: 'QuerySet' object has no attribute 'split'
+ERROR "GET /api/appointment-d/?doctor=15&day=2021-05-09 HTTP/1.1" 500 63742
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+INFO Sunday
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 147, in loadSchedule
+    fromH = transfromTimeToInt(drTimeFrom)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 20, in transfromTimeToInt
+    h, m, s = time.split(':')
+AttributeError: 'QuerySet' object has no attribute 'split'
+ERROR "GET /api/appointment-d/?doctor=14&day=2021-05-09 HTTP/1.1" 500 63741
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+INFO Sunday
+INFO "GET /api/appointment-d/?doctor=14&day=2021-05-09 HTTP/1.1" 200 12
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 146, in loadSchedule
+    fromH = transfromTimeToInt(drTimeFrom[0])
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=13&day=2021-05-10 HTTP/1.1" 500 64167
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 145, in loadSchedule
+    logger.info(drTimeFrom[0])
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=13&day=2021-05-09 HTTP/1.1" 500 64135
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+INFO <QuerySet []>
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 147, in loadSchedule
+    fromH = transfromTimeToInt(drTimeFrom[0])
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=13&day=2021-05-09 HTTP/1.1" 500 64001
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+INFO <QuerySet []>
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 147, in loadSchedule
+    fromH = transfromTimeToInt(drTimeFrom[0])
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=13&day=2021-05-09 HTTP/1.1" 500 64008
+INFO <QuerySet []>
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 147, in loadSchedule
+    fromH = transfromTimeToInt(drTimeFrom[0])
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 500 64008
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+INFO <QuerySet []>
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 147, in loadSchedule
+    fromH = transfromTimeToInt(drTimeFrom[0])
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 500 64008
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+INFO <QuerySet []>
+INFO "GET /api/appointment-d/?doctor=14&day=2021-05-10 HTTP/1.1" 200 12
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+INFO soha
+INFO "GET /api/appointment-d/?doctor=14&day=2021-05-10 HTTP/1.1" 200 12
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+INFO <QuerySet []>
+INFO "GET /api/appointment-d/?doctor=13&day=2021-05-09 HTTP/1.1" 200 12
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+INFO <QuerySet []>
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 200 12
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+INFO <QuerySet [datetime.time(12, 0)]>
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 200 12
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 146, in loadSchedule
+    fromH = transfromTimeToInt(drTimeFrom[0])
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 20, in transfromTimeToInt
+    h, m, s = time.split(':')
+AttributeError: 'datetime.time' object has no attribute 'split'
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 500 63924
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 146, in loadSchedule
+    fromH = transfromTimeToInt(drTimeFrom[0].time())
+AttributeError: 'datetime.time' object has no attribute 'time'
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 500 60490
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 150, in loadSchedule
+    logger.info(drl.from_hour)
+AttributeError: 'RawQuerySet' object has no attribute 'from_hour'
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 500 60166
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+INFO <RawQuerySet: SELECT id, doctor_id, TIME_FORMAT(from_hour, '%H:%i'), TIME_FORMAT(to_hour, '%H:%i') FROM clinicApp_doctorschedule WHERE doctor_id = 30 and day = Sunday>
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 200 12
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 150, in loadSchedule
+    logger.info(drl.id)
+AttributeError: 'RawQuerySet' object has no attribute 'id'
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 500 60124
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'Sunday' in 'where clause'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 150, in loadSchedule
+    logger.info(drl["id"])
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1510, in __getitem__
+    return list(self)[k]
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1460, in __len__
+    self._fetch_all()
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1455, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1478, in iterator
+    query = iter(self.query)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 99, in __iter__
+    self._execute_query()
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/query.py", line 133, in _execute_query
+    self.cursor.execute(self.sql, params)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'Sunday' in 'where clause'")
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 500 154182
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 146, in loadSchedule
+    fromH = transfromTimeToInt(drTimeFrom[0])
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 20, in transfromTimeToInt
+    h, m, s = time.split(':')
+AttributeError: 'datetime.time' object has no attribute 'split'
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 500 63924
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 146, in loadSchedule
+    fromH = transfromTimeToInt(drTimeFrom[0])
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 20, in transfromTimeToInt
+    h, m, s = time.split(':')
+AttributeError: 'datetime.time' object has no attribute 'split'
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 500 63924
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+INFO <QuerySet [datetime.time(12, 0)]>
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 200 12
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+INFO <QuerySet [datetime.time(23, 0)]>
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 200 12
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+INFO 23:00:00
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 200 12
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+INFO "GET /static/css/bootstrap.css HTTP/1.1" 200 192348
+INFO "GET /static/css/custom.css HTTP/1.1" 200 212
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/style.css HTTP/1.1" 200 10093
+INFO "GET /static/js/main.js HTTP/1.1" 200 353
+INFO "GET /static/js/bootstrap.min.js HTTP/1.1" 200 58072
+INFO "GET /static/fonts/material-icon/css/material-design-iconic-font.min.css HTTP/1.1" 200 70815
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 200 93101
+INFO "GET /static/css/bootstrap.min.css HTTP/1.1" 200 155758
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/style.css.map HTTP/1.1" 200 6880
+INFO "GET /static/css/bootstrap.min.css.map HTTP/1.1" 200 625953
+INFO "GET /static/fonts/montserrat/Montserrat-Regular.ttf HTTP/1.1" 200 263192
+INFO "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 190253
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 146, in loadSchedule
+    fromH = transfromTimeToInt(drTimeFrom[0])
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 20, in transfromTimeToInt
+    h, m, s = time.split(':')
+AttributeError: 'datetime.time' object has no attribute 'split'
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 500 63811
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 146, in loadSchedule
+    fromH = transfromTimeToInt(drTimeFrom[0])
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 20, in transfromTimeToInt
+    h, m = time.split(':')
+AttributeError: 'datetime.time' object has no attribute 'split'
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 500 63796
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 146, in loadSchedule
+    fromH = transfromTimeToInt(drTimeFrom[0])
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 20, in transfromTimeToInt
+    h, m = timee.split(':')
+AttributeError: 'datetime.time' object has no attribute 'split'
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 500 63800
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 146, in loadSchedule
+    fromH = transfromTimeToInt(drTimeFrom[0])
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 20, in transfromTimeToInt
+    h, m = timee.split(':')
+AttributeError: 'datetime.time' object has no attribute 'split'
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 500 63811
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+INFO 23
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 200 12
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+INFO [12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0, 21.5, 22.0, 22.5, 23.0]
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 200 12
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+INFO [12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0, 21.5, 22.0, 22.5, 23.0]
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 200 138
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 149, in loadSchedule
+    l = timeListItem(slist)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 16, in timeListItem
+    item = Lst[i] + "-" + Lst[i+1]
+TypeError: list indices must be integers or slices, not float
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 500 64300
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 149, in loadSchedule
+    l = timeListItem(slist)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 16, in timeListItem
+    item = Lst[i] + "-" + Lst[i+1]
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 500 64398
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 149, in loadSchedule
+    l = timeListItem(slist)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 16, in timeListItem
+    item = str(Lst[i]) + "-" + str(Lst[i+1])
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 500 64927
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+INFO ['12.0-12.5', '13.0-13.5', '13.5-14.0', '14.0-14.5', '14.5-15.0', '15.0-15.5', '15.5-16.0', '16.0-16.5', '16.5-17.0', '17.0-17.5', '17.5-18.0', '18.0-18.5', '18.5-19.0', '19.0-19.5', '19.5-20.0', '20.0-20.5', '20.5-21.0', '21.0-21.5', '21.5-22.0', '22.0-22.5', '22.5-23.0']
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 200 138
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 5792
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-09 HTTP/1.1" 200 273
