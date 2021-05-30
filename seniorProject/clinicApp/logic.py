@@ -10,6 +10,7 @@ from rest_framework.response import Response
 from enum import Enum
 
 from django.http import JsonResponse
+from .utils import *
 
 logger = logging.getLogger('django')
 
@@ -72,3 +73,13 @@ def loginAPI(request, formName):
     data = {"message": message, "id": userID[0]}
     return JsonResponse(data, status=http_status_code)
 
+def getScheduleSlots(doctor, day):
+    drTimeFrom = DoctorSchedule.objects.filter(doctor_id=doctor).filter(day=day).values_list('from_hour', flat=True)
+    drTimeTo = DoctorSchedule.objects.filter(doctor_id=doctor).filter(day=day).values_list('to_hour', flat=True)
+
+
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+    #logger.info(slist)
+
+    timeList = timeListItem(slist)
+    return timeList

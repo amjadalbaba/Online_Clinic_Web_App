@@ -10,14 +10,23 @@ def scheduleInsert(idLst, dayLst, fromLst, toLst):
         myLst.append(item)
     return myLst
 
+# def timeListItem(Lst):
+#     myLst = []
+#     item1 = str(Lst[0]) + "-" + str(Lst[1])
+#     myLst.append(item1)
+#     for i in range(3,len(Lst)):
+#         item = str(Lst[i-1]) + "-" + str(Lst[i])
+#         myLst.append(item)
+#     return myLst
 def timeListItem(Lst):
     myLst = []
-    item1 = str(Lst[0]) + "-" + str(Lst[1])
+    item1 = {'idx': 0, 'from': '{0:02.0f}:{1:02.0f}'.format(*divmod(Lst[0] * 60, 60)), 'to': '{0:02.0f}:{1:02.0f}'.format(*divmod(Lst[1] * 60, 60))}
     myLst.append(item1)
     for i in range(3,len(Lst)):
-        item = str(Lst[i-1]) + "-" + str(Lst[i])
+        item = { 'idx': i-2, 'from': '{0:02.0f}:{1:02.0f}'.format(*divmod(Lst[i-1] * 60, 60)), 'to':'{0:02.0f}:{1:02.0f}'.format(*divmod(Lst[i] * 60, 60)) }
         myLst.append(item)
     return myLst
+
 
 def checkDay(date):
     dateCheck = date

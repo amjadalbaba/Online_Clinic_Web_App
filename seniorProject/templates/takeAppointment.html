@@ -27,17 +27,17 @@
                 <label >Choose a Day</label>
                 <input type="date" required="required"  name="day" id="day"  class="form-control" >
               </div>
-               <div class="form-group">
-                <label >From Hour</label>
-                <input type="time" required="required"  name="from_hour" id="from_hour" class="form-control">
-              </div>
-              <div class="form-group">
-                <label>To Hour</label>
-                <input type="time" required="required"  name="to_hour" id="to_hour" class="form-control">
-              </div>
+<!--               <div class="form-group">-->
+<!--                <label >From Hour</label>-->
+<!--                <input type="time" required="required"  name="from_hour" id="from_hour" class="form-control">-->
+<!--              </div>-->
+<!--              <div class="form-group">-->
+<!--                <label>To Hour</label>-->
+<!--                <input type="time" required="required"  name="to_hour" id="to_hour" class="form-control">-->
+<!--              </div>-->
               <div class="form-group">
                 <label>Choose a Doctor</label>
-                <select  class="form-control" required="required" name="doctor" id="doctor"><br>
+                <select  class="form-control" required="required" name="doctor" id="doctor" disabled><br>
                         <option selected>Select a doctor</option>
                       {% for d in doctorList %}
                         <option value="{{d.id}}">{{d.firstName|title|add:" "|add:d.lastName|title}}</option>
@@ -48,7 +48,7 @@
 
             <div class="form-group">
                 <label>Choose a time</label>
-                <select  class="form-control" required="required" name="time" id="time"><br>
+                <select  class="form-control" required="required" name="time" id="time" disabled><br>
                         <option selected>Select a time</option>
                 </select>
               </div>
@@ -70,6 +70,16 @@
     </div>
 
 <script>
+ $(document).ready(function(){
+
+    $("#day").change(function () {
+       $("#doctor").prop('disabled', false);
+    });
+
+    $("#doctor").change(function () {
+       $("#time").prop('disabled', false);
+    });
+
     $("#doctor").change(function () {
         var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
@@ -82,8 +92,8 @@
             success: function (resp) {
 
                 let html_data = '<option value="">---------</option>';
-                resp.forEach(function (d) {
-                    html_data += "<option value='" + d + "'>" + d + "</option>";
+                resp.data.forEach(function (d) {
+                    html_data += "<option value='" + d.idx + "'>" + d.from + "-" + d.to + "</option>";
                 });
                 console.log(html_data);
                 $("#time").html(html_data);
@@ -92,6 +102,45 @@
         });
 
     });
+
+
+         $("#form").submit(function(e){
+
+                            e.preventDefault();
+
+
+             $.ajaxSetup({
+                        headers: {
+                            'X-CSRFToken': document.querySelector('[name=csrfmiddlewaretoken]').value
+                        }
+            });
+                $.ajax({
+                        type : 'POST',
+                        url : "{% url 'appointment_api' %}",
+                        data : {
+                            day: $('#day').val(),
+                            doctor: $('#doctor').val(),
+                            time: $('#time').val(),
+                            description: $('#description').val(),
+                            patient: $('#patient').val()
+                        },
+                        success : function(resp) {
+                            if (resp.message == "OK"){
+                                $("#sAlert").show();
+                            }
+
+                            else{
+                                $("#sAlert").show();
+                                $("#sAlert").html(resp.message);
+                            }
+                        },
+
+
+            });
+
+
+    });
+ });
 </script>
 
 {% endblock %}

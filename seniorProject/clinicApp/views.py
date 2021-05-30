@@ -25,7 +25,6 @@ import datetime
 
 
 logger = logging.getLogger('django')
-
 # Create your views here.
 
 def welcomePage(request):
@@ -113,41 +112,45 @@ def createSchedule(request, pk):
     context = {'list' : drl, 'id' : pk}
     return render(request, 'schedule.html', context)
 
-
 def takeAppointment(request, pk):
     drlist = Doctor.objects.all()
-    if request.method == 'POST':
-        dr = request.POST["doctor"]
-        fh = request.POST["from_hour"]
-        th = request.POST["to_hour"]
-        date = request.POST["day"]
-        #checkTime = Appointments.objects.filter(doctor=dr, from_hour=fh, to_hour=th, day=date)
-
-
-        form = AppointmentsForm(request.POST)
-        #logger.info(form.errors)
-
-        if form.is_valid():
-            form.save()
-
-        messages.info(request, "Doctor have an appointment at that time, please choose different time range")
 
     context = {'doctorList' : drlist,'id' : pk}
     return render(request, 'takeAppointment.html', context)
 
 def loadSchedule(request):
-    doctor = request.GET.get('doctor')
-    date = request.GET.get('day')
-    day = checkDay(date)
+    message = ''
+    if request.method == 'GET':
+        doctor = request.GET.get('doctor')
+        date = request.GET.get('day')
+        day = checkDay(date)
 
-    drTimeFrom = DoctorSchedule.objects.filter(doctor_id = doctor).filter(day = day).values_list('from_hour', flat=True)
-    drTimeTo = DoctorSchedule.objects.filter(doctor_id = doctor).filter(day = day).values_list('to_hour', flat=True)
+        timeList = getScheduleSlots(doctor, day)
+        return JsonResponse({"doctor": doctor, "day": day, "data": list(timeList)}, safe=False)
 
-    # fromH = transfromTimeToInt(drTimeFrom[0])
-    # fromT = transfromTimeToInt(drTimeTo[0])
-    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
-    timeList = timeListItem(slist)
 
-    #logger.info(l)
+    if request.method == 'POST':
 
-    return JsonResponse(list(timeList), safe=False)
+
+        doctor = request.POST.get('doctor')
+        date = request.POST.get('day')
+        patient = request.POST.get('patient')
+        appDay = request.POST.get('day')
+        desc = request.POST.get('description')
+        day = checkDay(date)
+
+        timeList = getScheduleSlots(doctor, day)
+        message = 'OK'
+        for i in timeList:
+            if str(i['idx']) == request.POST['time']:
+                 checkTime = Appointments.objects.filter(day=appDay,from_hour=str(i['from']), to_hour=str(i['to']), doctor_id=doctor)
+                 if not checkTime:
+                     crt = Appointments.objects.create(day=appDay, description=desc, from_hour=str(i['from']), to_hour=str(i['to']), doctor_id=doctor)
+                     crt.save()
+                     message = 'OK'
+                 else:
+                     message = "Doctor have an appointment at that time, please choose different time range"
+
+    return JsonResponse({"message" : message}, safe=False)
+
+
