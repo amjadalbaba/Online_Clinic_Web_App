@@ -3,25 +3,53 @@
 {% block content %}
     <h1 align="center" style="color:#128496">Welcome {{ patient.firstName|title }}</h1>
         <hr>
-    <div class="column no-gutters"  align="center">
-                <div class="col-md-7">
+<div class="row" style="padding:30px;" align="center">
+
+  <div class="col-md " style="padding: 20px 75px 20px 75px;">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Number of Appointments</h5>
+        <h2 class="card-text">{{count}}</h2>
+      </div>
+    </div>
+  </div>
+  <div class="col-md " style="padding: 20px 75px 20px 75px;">
+    <div class="card bg-info">
+      <div class="card-body">
+        <h5 class="card-title" style="color:white">Consulted Appointments</h5>
+        <h2 class="card-text" style="color:white">{{countConsulted}}</h2>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="column no-gutters" align="center">
+        <div class="col-md-7">
             <h5>Your Appointments List</h5>
 
-            <div class="card card-body">
+            <div class="card card-body" style="box-shadow: 0 8px 8px #CCCCCC;">
                 <a class="btn btn-info btn-sm btn-block" href="{% url 'appointment_d' id %}">Take an Appointment</a>
                 <table class="table table-sm">
-                    <tr>
+                    <tr align="center">
                         <th>Day</th>
                         <th>From Hour</th>
                         <th>To Hour</th>
                         <th>Doctor Name</th>
+                        <th>Consulted</th>
+						<th>Action</th>
                     </tr>
                     {% for a in appointments %}
-                                <tr>
+                                <tr align="center">
                                     <td>{{ a.day }}</td>
                                     <td>{{ a.from_hour }}</td>
                                     <td>{{ a.to_hour }}</td>
                                     <td>{{a.doctor.firstName|title|add:" "|add:a.doctor.lastName|title}}</td>
+                                    <td class="text-info">{{ a.checkPrescription }}</td>
+
+                                    {% if a.checkPrescription %}
+									<td><a class="btn btn-info btn-sm btn-block" href="">view details</a></td>
+                                    {% else %}
+									<td class="text-danger">pending</td>
+                                    {% endif %}
                                 </tr>
                     {% endfor%}
 

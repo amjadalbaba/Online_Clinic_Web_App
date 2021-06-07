@@ -71,6 +71,7 @@ class Appointments(models.Model):
     to_hour             = models.TimeField(null=True)
     description         = models.CharField(max_length=600, null=True)
     accepted            = models.IntegerField(null=True)
+    checkPrescription   = models.CharField(max_length=50, null=True)
     created_at          = models.DateTimeField(auto_now_add=True, null=True)
     updated_at          = models.DateTimeField(auto_now_add=True, null=True)
 
@@ -82,11 +83,10 @@ class Drugs(models.Model):
         return self.drugName
 
 class Consultation(models.Model):
-    doctor              = models.ForeignKey(Appointments, related_name="doctorName", null=True, on_delete=models.SET_NULL)
-    patient             = models.ForeignKey(Appointments, related_name="patientName", null=True, on_delete=models.SET_NULL)
+    appointment         = models.ForeignKey(Appointments, null=True, on_delete=models.SET_NULL)
     prescription        = models.CharField(max_length=200, null=True)
-    drugName            = models.ForeignKey(Drugs, null=True, on_delete=models.SET_NULL)
-    price               = models.FloatField(null=True)
+    drugName            = models.CharField(max_length=200, null=True)
+    price               = models.CharField(max_length=50, null=True)
     created_at          = models.DateTimeField(auto_now_add=True, null=True)
     updated_at          = models.DateTimeField(auto_now_add=True, null=True)
 

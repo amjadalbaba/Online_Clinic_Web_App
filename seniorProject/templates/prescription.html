@@ -1,0 +1,92 @@
+
+{% extends 'baseContainer.html' %}
+
+{% block content %}
+    <style>
+        .column{
+                background: white;
+                border-radius: 30px;
+                box-shadow: 12px 12px 22px grey;
+            }
+    </style>
+    <div class="alert alert-info" role="alert" style="display: none;" id="sAlert">
+        Prescription Successfully Entered!
+    </div>
+    <div class="column no-gutters"><!--col no-glutters--> <!--no-gutters to remove paddings in the row-->
+        <center><div  class="col-lg-11 pt-3 px-5"><h1>Consultation</h1></div></center>
+        <hr>
+        <center><div class="col-lg-11 pt-3 px-5">
+
+        <form method="POST" id="form">
+                {% csrf_token %}
+
+              <div class="form-group">
+                <label>Your Prescription</label>
+                <input type="text" required="required"  name="prescription" id="prescription"  class="form-control">
+              </div>
+              <div class="form-group">
+                <label>Drug Name(s)</label>
+                <input type="text" required="required"  name="drugName" id="drugName"  class="form-control">
+              </div>
+              <div class="form-group">
+                <label>Consultation Price</label>
+                <input type="text" required="required"  name="price" id="price"  class="form-control">
+              </div>
+
+
+
+
+
+              <div class="form-group">
+                <input type="hidden" required="required" name="appointment" id="appointment" value="{{ id }}">
+              </div>
+               <input type="submit" name="submit" value="Add" class="btn btn-info mb-3" id="addButton">
+                <br>
+                <p>return to <a style="color:#ff0000" href="{% url 'd_home' doctor %}"><b> my dashboard</b></a></p>
+
+           </form>
+        </div></center>
+    </div>
+
+<script>
+ $(document).ready(function(){
+        var id = document.getElementById("appointment").value;
+
+         $("#form").submit(function(e){
+
+                            e.preventDefault();
+
+
+             $.ajaxSetup({
+                        headers: {
+                            'X-CSRFToken': document.querySelector('[name=csrfmiddlewaretoken]').value
+                        }
+            });
+                $.ajax({
+                        type : 'POST',
+                        url : "{% url 'prescript_api' id %}",
+                        data : {
+                            prescript: $('#prescription').val(),
+                            drugName: $('#drugName').val(),
+                            price: $('#price').val()
+                        },
+                        success : function(resp) {
+                            if (resp.message == "OK"){
+                                $("#sAlert").show();
+                            }
+
+                            else{
+                                $("#sAlert").show();
+                                $("#sAlert").html(resp.message);
+                            }
+                        },
+
+
+            });
+
+
+    });
+ });
+</script>
+
+{% endblock %}

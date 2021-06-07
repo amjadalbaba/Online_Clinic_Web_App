@@ -73,13 +73,51 @@ def loginAPI(request, formName):
     data = {"message": message, "id": userID[0]}
     return JsonResponse(data, status=http_status_code)
 
-def getScheduleSlots(doctor, day):
+def getScheduleSlots(doctor, day, date):
+    # get the from,to hour in a certain day in dr schedule
     drTimeFrom = DoctorSchedule.objects.filter(doctor_id=doctor).filter(day=day).values_list('from_hour', flat=True)
     drTimeTo = DoctorSchedule.objects.filter(doctor_id=doctor).filter(day=day).values_list('to_hour', flat=True)
 
+    # get the from,to hour in a certain day in appointments with a certain dr
+    drTimeFromApp = Appointments.objects.filter(doctor_id=doctor).filter(day=date).values_list('from_hour', flat=True)
+    drTimeToApp = Appointments.objects.filter(doctor_id=doctor).filter(day=date).values_list('to_hour', flat=True)
+
+
+    l1 = []
+    l2 = []
+    for i in range(0,len(drTimeFromApp)):
+        l1.append(drTimeFromApp[i].hour)
+    logger.info(l1)
+
+    for i in range(0,len(drTimeFrom)):
+        l2.append(drTimeFrom[i].hour)
+    logger.info(l2)
+
+    l3 = list(set(l1) - set(l2))
+    logger.info(l3)
+
+    # l = [x for x in l2 if x not in l1]
+    # logger.info(l)
+
+    # #
+    # # # array_3 = list(drTimeFrom)
+    # # # for x in drTimeFromApp:
+    # # #     try:
+    # # #         array_3.remove(x)
+    # # #     except ValueError:
+    # # #         pass
+    # # #
+    # logger.info(list(drTimeFromApp))
+    # logger.info(drTimeToApp[1].minute)
+    #
+    # myLst = []
+    # #item = {'from': d,  'to': t}
 
     slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
-    #logger.info(slist)
-
+    logger.info(slist)
     timeList = timeListItem(slist)
     return timeList
+
+def getFreeSlots(doctor, day):
+    drTimeFrom = DoctorSchedule.objects.filter(doctor_id=doctor).filter(day=day).values_list('from_hour', flat=True)
+    drTimeFromApp = Appointments.objects.filter(doctor_id=doctor).filter(day=date).values_list('from_hour', flat=True)

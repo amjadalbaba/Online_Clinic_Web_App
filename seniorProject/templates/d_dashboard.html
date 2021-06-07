@@ -3,28 +3,60 @@
 {% block content %}
         <h1 align="center" style="color:#128496">Welcome Dr.{{ list2.firstName }}</h1>
         <hr>
-        <div class="column no-gutters"  align="center">
-            <div class="col-md-7">
-		<h5>Your Weekly Schedule</h5>
+	<div class="column no-gutters"  align="center">
+		<div class="col-md-7">
+			<h5>Your Weekly Schedule</h5>
 
-		<div class="card card-body">
-            <a class="btn btn-info btn-sm btn-block" href="{% url 'schedule_d' id %}">Edit Schedule</a>
-			<table class="table table-sm">
-				<tr>
-					<th>Day</th>
-					<th>From Hour</th>
-					<th>To Hour</th>
-				</tr>
-				{% for l in list %}
-							<tr>
-								<td>{{ l.day }}</td>
-								<td>{{ l.from_hour }}</td>
-								<td>{{ l.to_hour }}</td>
-                            </tr>
-				{% endfor%}
+			<div class="card card-body" style="box-shadow: 0 8px 8px #CCCCCC">
+				<a class="btn btn-info btn-sm btn-block" href="{% url 'schedule_d' id %}">Edit Schedule</a>
+				<table class="table table-sm" style="border-radius:10px;">
+					<tr>
+						<th>Day</th>
+						<th>From Hour</th>
+						<th>To Hour</th>
+					</tr>
+					{% for l in list %}
+								<tr>
+									<td>{{ l.day }}</td>
+									<td>{{ l.from_hour }}</td>
+									<td>{{ l.to_hour }}</td>
+								</tr>
+					{% endfor %}
 
-			</table>
-		</div>
+				</table>
+			</div>
+	</div>
+   </div>
+	<br>
+	<div class="column no-gutters"  align="center">
+		<div class="col-md-7">
+			<h5>List of Appointments</h5>
+
+			<div class="card card-body" style="box-shadow: 0 8px 8px #CCCCCC">
+				<table class="table table-sm" style="border-radius:10px;">
+					<tr align="center">
+						<th>Day</th>
+						<th>From Hour</th>
+						<th>To Hour</th>
+						<th>Patient</th>
+						<th>Description</th>
+						<th>Consulted</th>
+						<th>Action</th>
+					</tr>
+					{% for l in Appointments %}
+								<tr align="center">
+									<td>{{ l.day }}</td>
+									<td>{{ l.from_hour }}</td>
+									<td>{{ l.to_hour }}</td>
+									<td>{{ l.patient.firstName|title|add:" "|add:l.patient.lastName|title }}</td>
+									<td>{{ l.description }}</td>
+									<td class="text-info">{{ l.checkPrescription }}</td>
+									<td><a class="btn btn-info btn-sm btn-block" href="{% url 'prescription' l.id %}">prescript</a></td>
+								</tr>
+					{% endfor%}
+
+				</table>
+			</div>
 	</div>
    </div>
 
