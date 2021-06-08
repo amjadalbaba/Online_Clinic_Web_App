@@ -44,6 +44,8 @@ urlpatterns = [
     path('prescription/<str:pk>/', views.prescriptionPage, name="prescription"),
     path('api/prescript/<str:pk>/', views.addPrescription, name="prescript_api"),
 
+    path('details/<str:pk>/<str:pk2>/', views.appointmentDetailsPage, name="details"),
+
     #path('r/', include('clinicApp.urls')),
 ]
 

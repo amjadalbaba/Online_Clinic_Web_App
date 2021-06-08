@@ -21726,3 +21726,146 @@ INFO "GET /home-p/7/ HTTP/1.1" 200 4422
 INFO "GET /home-p/7/ HTTP/1.1" 200 4427
 INFO "GET /home-p/7/ HTTP/1.1" 200 4433
 INFO "GET /home-p/7/ HTTP/1.1" 200 4408
+INFO Watching for file changes with StatReloader
+INFO "GET /home-p/7/ HTTP/1.1" 200 4408
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 3965
+WARNING Not Found: /apple-touch-icon.png
+WARNING Not Found: /favicon.ico
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 3929
+WARNING "GET /favicon.ico HTTP/1.1" 404 3902
+INFO "GET /home-p/7/ HTTP/1.1" 200 4408
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-p/7/ HTTP/1.1" 200 4408
+INFO "GET /home-p/7/ HTTP/1.1" 200 4408
+INFO "GET /home-p/7/ HTTP/1.1" 200 4408
+INFO "GET /home-p/7/ HTTP/1.1" 200 4408
+INFO "GET /home-p/7/ HTTP/1.1" 200 4408
+INFO "GET /home-p/7/ HTTP/1.1" 200 4408
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QuerySet [<Appointments: Appointments object (13)>, <Appointments: Appointments object (12)>, <Appointments: Appointments object (14)>]>
+INFO "GET /home-d/30/ HTTP/1.1" 200 3609
+INFO "GET /prescription/13/ HTTP/1.1" 200 4961
+INFO "GET /home-p/7/ HTTP/1.1" 200 4432
+ERROR Internal Server Error: /details/13/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 202, in appointmentDetailsPage
+    appointmentDetails = Consultation.objects.get(id = pk)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+clinicApp.models.Consultation.DoesNotExist: Consultation matching query does not exist.
+ERROR "GET /details/13/ HTTP/1.1" 500 67912
+ERROR Internal Server Error: /details/12/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 202, in appointmentDetailsPage
+    appointmentDetails = Consultation.objects.get(id = pk)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+clinicApp.models.Consultation.DoesNotExist: Consultation matching query does not exist.
+ERROR "GET /details/12/ HTTP/1.1" 500 67912
+ERROR Internal Server Error: /details/13/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 202, in appointmentDetailsPage
+    appointmentDetails = Consultation.objects.get(id = pk)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+clinicApp.models.Consultation.DoesNotExist: Consultation matching query does not exist.
+ERROR "GET /details/13/ HTTP/1.1" 500 67912
+ERROR Internal Server Error: /details/13/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 202, in appointmentDetailsPage
+    appointmentDetails = Consultation.objects.get(id = pk)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+clinicApp.models.Consultation.DoesNotExist: Consultation matching query does not exist.
+ERROR "GET /details/13/ HTTP/1.1" 500 67912
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Consultation object (2)
+INFO "GET /details/13/ HTTP/1.1" 200 123
+INFO Consultation object (1)
+INFO "GET /details/12/ HTTP/1.1" 200 125
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QuerySet [<Appointments: Appointments object (13)>, <Appointments: Appointments object (12)>, <Appointments: Appointments object (14)>]>
+INFO "GET /home-d/30/ HTTP/1.1" 200 3609
+INFO "GET /home-p/7/ HTTP/1.1" 200 4436
+INFO "GET /home-p/7/ HTTP/1.1" 200 4436
+INFO "GET /details/13/7/ HTTP/1.1" 200 3210
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /details/13/7/ HTTP/1.1" 200 3209
+INFO "GET /home-p/7/ HTTP/1.1" 200 4436
+INFO "GET /details/13/7/ HTTP/1.1" 200 3209
+INFO "GET /details/13/7/ HTTP/1.1" 200 3011
+INFO "GET /details/13/7/ HTTP/1.1" 200 3034
+INFO "GET /details/13/7/ HTTP/1.1" 200 3080
+INFO "GET /details/13/7/ HTTP/1.1" 200 3073
+INFO "GET /details/13/7/ HTTP/1.1" 200 3073
+INFO "GET /details/13/7/ HTTP/1.1" 200 3065
+INFO "GET /details/13/7/ HTTP/1.1" 200 3058
+INFO "GET /home-p/7/ HTTP/1.1" 200 4436
+INFO "GET /home-p/7/ HTTP/1.1" 200 4123
+INFO Watching for file changes with StatReloader
+INFO "GET /home-p/7/ HTTP/1.1" 200 4135
+INFO "GET /home-p/7/ HTTP/1.1" 200 4135
+INFO "GET /home-p/7/ HTTP/1.1" 200 4135
+INFO "GET /home-p/7/ HTTP/1.1" 200 4135
+INFO "GET /home-p/7/ HTTP/1.1" 200 4132
+INFO "GET /home-p/7/ HTTP/1.1" 200 4133
+INFO "GET /home-p/7/ HTTP/1.1" 200 4147
+INFO "GET /home-p/7/ HTTP/1.1" 200 4147
+INFO "GET /home-p/7/ HTTP/1.1" 200 4147
+INFO "GET /home-p/7/ HTTP/1.1" 200 4147
+INFO "GET /home-p/7/ HTTP/1.1" 200 4147
+INFO "GET /home-p/7/ HTTP/1.1" 200 4147
+INFO "GET /home-p/7/ HTTP/1.1" 200 4147
+INFO "GET /home-p/7/ HTTP/1.1" 200 4147
+INFO "GET /home-p/7/ HTTP/1.1" 200 4150
+INFO "GET /home-p/7/ HTTP/1.1" 200 4150
+INFO "GET /home-p/7/ HTTP/1.1" 200 4150
+INFO "GET /home-p/7/ HTTP/1.1" 200 4150
+INFO "GET /home-p/7/ HTTP/1.1" 200 4123
+INFO "GET /details/13/7/ HTTP/1.1" 200 3058
+INFO "GET /home-p/7/ HTTP/1.1" 200 4123
+INFO "GET /details/12/7/ HTTP/1.1" 200 3065

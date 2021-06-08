@@ -1,0 +1,43 @@
+
+{% extends 'baseContainer.html' %}
+
+{% block content %}
+    <style>
+        .column{
+                background: white;
+                border-radius: 30px;
+                box-shadow: 12px 12px 22px grey;
+            }
+    </style>
+
+    <div class="column no-gutters"><!--col no-glutters--> <!--no-gutters to remove paddings in the row-->
+        <center><div  class="col-lg-11 pt-3 px-5"><h1>Take an Appointment</h1></div></center>
+        <hr>
+        <center><div class="col-lg-11 pt-3 px-5">
+        <form method="POST" id="form">
+
+
+              <div class="form-group">
+                <h4>Doctor's Prescription</h4>
+                  <hr>
+                  <p>{{details.prescription}}</p>
+              </div>
+              <div class="form-group">
+                <h4>Assigned Drug Name</h4>
+                  <hr>
+                  <p>{{details.drugName}}</p>
+              </div>
+              <div class="form-group">
+                <h4>Price of Consultation<h4>
+                  <hr>
+                  <p>{{details.price}}</p>
+              </div>
+                <br>
+                <p>return to <a style="color:#ff0000" href="{% url 'p_home' idP %}"><b> my dashboard</b></a></p>
+
+           </form>
+        </div></center>
+    </div>
+
+
+{% endblock %}

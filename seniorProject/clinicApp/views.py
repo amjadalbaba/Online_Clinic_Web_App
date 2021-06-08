@@ -89,8 +89,9 @@ def p_home(request, pk):
     pt = Patient.objects.get(id = pk)
     ptAppointments = Appointments.objects.filter(patient_id =  pk).order_by('day')
 
-    count =  countConsulted = Appointments.objects.filter(patient_id=pk).count()
+    count  = Appointments.objects.filter(patient_id=pk).count()
     countConsulted = Appointments.objects.filter(checkPrescription='yes').count()
+
     context = {'patient' : pt, 'id' : pk, 'appointments' : ptAppointments, 'count' : count, 'countConsulted' : countConsulted}
     return render(request, 'p_dashboard.html', context)
 
@@ -176,7 +177,6 @@ def prescriptionPage(request, pk):
 
     return render(request, "prescription.html", context)
 
-
 def addPrescription(request, pk):
     message = 'OK'
     if request.method == 'POST':
@@ -197,3 +197,10 @@ def addPrescription(request, pk):
             message = "Doctor have an appointment at that time, please choose different time range"
 
     return JsonResponse({"message": message}, safe=False)
+
+def appointmentDetailsPage(request, pk, pk2):
+    appointmentDetails = Consultation.objects.get(appointment_id = pk)
+
+    context = {'idC' : pk, 'idP' : pk2, 'details': appointmentDetails}
+
+    return render(request, "appointmentDetails.html", context)
