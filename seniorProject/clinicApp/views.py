@@ -4,6 +4,7 @@ from .models import *
 from django.contrib import messages
 from django.contrib.auth.hashers import make_password, check_password
 from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.forms import UserCreationForm
 from django.views.decorators.cache import never_cache
 from django.forms import inlineformset_factory
 
@@ -29,6 +30,34 @@ from django.db.models import Count, Case, When, IntegerField
 
 logger = logging.getLogger('django')
 # Create your views here.
+def homeee(request):
+    context = {}
+    return render(request, 'homeee.html', context)
+
+def register(request):
+    if request.method == 'POST':
+        logger.info(request.POST)
+        form = UserCreationForm(request.POST)
+        if form.is_valid():
+            form.save()
+            usern = form.cleaned_data['username']
+            pwd = form.cleaned_data['password1']
+            user = authenticate(username=usern,password=pwd)
+            login(request,user)
+            return redirect('homeee')
+    else:
+        form = UserCreationForm()
+
+    context={'form':form}
+    return render(request, 'register.html', context)
+
+
+
+
+
+
+
+
 
 def welcomePage(request):
     context = {}
@@ -105,7 +134,6 @@ def createSchedule(request, pk):
         # for key in request.POST:
         #     for v in request.POST.getlist(key):
         #           logger.info(v)
-
         idLst  = request.POST.getlist('doctor')
         dayLst  = request.POST.getlist('day')
         lsf = request.POST.getlist('from_hour')

@@ -85,37 +85,50 @@ def getScheduleSlots(doctor, day, date):
 
     l1 = []
     l2 = []
+
+
+    #1: insert in a list all from_hours from appointments table for a certain dr
     for i in range(0,len(drTimeFromApp)):
-        l1.append(drTimeFromApp[i].hour)
+        if drTimeFromApp[i].minute != 0:
+            l1.append(drTimeFromApp[i].hour + 0.5) # if we have for example 20:30
+        else:
+            l1.append(drTimeFromApp[i].hour)
     logger.info(l1)
 
-    for i in range(0,len(drTimeFrom)):
-        l2.append(drTimeFrom[i].hour)
-    logger.info(l2)
 
-    l3 = list(set(l1) - set(l2))
-    logger.info(l3)
+    #insert in a list all from_hours from schedule table for a certain dr
+    # for i in range(0,len(drTimeFrom)):
+    #     l2.append(drTimeFrom[i].hour)
+    # logger.info(l2)
 
-    # l = [x for x in l2 if x not in l1]
-    # logger.info(l)
 
-    # #
-    # # # array_3 = list(drTimeFrom)
-    # # # for x in drTimeFromApp:
-    # # #     try:
-    # # #         array_3.remove(x)
-    # # #     except ValueError:
-    # # #         pass
-    # # #
-    # logger.info(list(drTimeFromApp))
-    # logger.info(drTimeToApp[1].minute)
-    #
-    # myLst = []
-    # #item = {'from': d,  'to': t}
+    #2: convert the list all from_hours from appointments table for a certain dr into halfs
+    for i in range(0,len(l1)):
+        if(((l1[i] + 0.5) in l1)):
+             continue
+        else:
+            l1.append(l1[i] + 0.5)
+    logger.info(l1)
+
 
     slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
     logger.info(slist)
-    timeList = timeListItem(slist)
+
+    array_3 = slist
+    for x in l1:
+        try:
+            array_3.remove(x)
+        except ValueError:
+            pass
+
+    logger.info(array_3)
+
+    if len(array_3) == 0:
+        timeList = {}
+    else:
+        timeList = timeListItem(array_3)
+
+
     return timeList
 
 def getFreeSlots(doctor, day):

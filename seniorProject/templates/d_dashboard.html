@@ -40,7 +40,6 @@
 						<th>To Hour</th>
 						<th>Patient</th>
 						<th>Description</th>
-						<th>Consulted</th>
 						<th>Action</th>
 					</tr>
 					{% for l in Appointments %}
@@ -50,8 +49,11 @@
 									<td>{{ l.to_hour }}</td>
 									<td>{{ l.patient.firstName|title|add:" "|add:l.patient.lastName|title }}</td>
 									<td>{{ l.description }}</td>
-									<td class="text-info">{{ l.checkPrescription }}</td>
-									<td><a class="btn btn-info btn-sm btn-block" href="{% url 'prescription' l.id %}">prescript</a></td>
+									{% if l.checkPrescription %}
+										<td class="text-success">consulted</td>
+									{% else %}
+										<td><a class="btn btn-info btn-sm btn-block" href="{% url 'prescription' l.id %}">prescript</a></td>
+                                    {% endif %}
 								</tr>
 					{% endfor%}
 

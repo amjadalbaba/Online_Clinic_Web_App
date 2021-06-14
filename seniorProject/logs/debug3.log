@@ -21869,3 +21869,1067 @@ INFO "GET /home-p/7/ HTTP/1.1" 200 4123
 INFO "GET /details/13/7/ HTTP/1.1" 200 3058
 INFO "GET /home-p/7/ HTTP/1.1" 200 4123
 INFO "GET /details/12/7/ HTTP/1.1" 200 3065
+INFO Watching for file changes with StatReloader
+INFO <QuerySet [<Appointments: Appointments object (13)>, <Appointments: Appointments object (12)>, <Appointments: Appointments object (14)>]>
+INFO "GET /home-d/30/ HTTP/1.1" 200 3604
+INFO <QuerySet [<Appointments: Appointments object (13)>, <Appointments: Appointments object (12)>, <Appointments: Appointments object (14)>]>
+INFO "GET /home-d/30/ HTTP/1.1" 200 3354
+INFO <QuerySet [<Appointments: Appointments object (13)>, <Appointments: Appointments object (12)>, <Appointments: Appointments object (14)>]>
+INFO "GET /home-d/30/ HTTP/1.1" 200 3450
+INFO <QuerySet [<Appointments: Appointments object (13)>, <Appointments: Appointments object (12)>, <Appointments: Appointments object (14)>]>
+INFO "GET /home-d/30/ HTTP/1.1" 200 3452
+INFO <QuerySet [<Appointments: Appointments object (13)>, <Appointments: Appointments object (12)>, <Appointments: Appointments object (14)>]>
+INFO "GET /home-d/30/ HTTP/1.1" 200 3455
+INFO "GET /home-p/7/ HTTP/1.1" 200 4139
+INFO "GET /details/13/7/ HTTP/1.1" 200 3058
+INFO "GET /home-p/7/ HTTP/1.1" 200 4139
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6121
+INFO "GET /prescription/14/ HTTP/1.1" 200 4961
+INFO <QuerySet [<Appointments: Appointments object (13)>, <Appointments: Appointments object (12)>, <Appointments: Appointments object (14)>]>
+INFO "GET /home-d/30/ HTTP/1.1" 200 3455
+INFO "GET /details/13/7/ HTTP/1.1" 200 3058
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 7293
+INFO "GET /home-p/7/ HTTP/1.1" 200 4138
+INFO "GET /details/13/7/ HTTP/1.1" 200 3058
+INFO "GET /details/13/7/ HTTP/1.1" 200 3058
+INFO "GET /details/13/7/ HTTP/1.1" 200 3058
+INFO "GET /details/13/7/ HTTP/1.1" 200 3058
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 7293
+INFO "GET /home-p/7/ HTTP/1.1" 200 4138
+INFO "GET /home-p/7/ HTTP/1.1" 200 4139
+INFO "GET /details/13/7/ HTTP/1.1" 200 3057
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3537
+INFO "GET /register-doctor/ HTTP/1.1" 200 11506
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 304 0
+INFO "GET /register/ HTTP/1.1" 200 1386
+INFO "GET /register HTTP/1.1" 301 0
+INFO "GET /register/ HTTP/1.1" 200 1386
+INFO "POST /register/ HTTP/1.1" 200 1387
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "POST /register/ HTTP/1.1" 200 1467
+INFO "POST /register/ HTTP/1.1" 200 1403
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /register/ HTTP/1.1" 200 1387
+INFO "GET / HTTP/1.1" 200 3537
+INFO "GET /home-p/7/ HTTP/1.1" 200 4139
+WARNING Not Found: /home/
+WARNING "GET /home/ HTTP/1.1" 404 4287
+INFO "GET /homeee HTTP/1.1" 301 0
+INFO "GET /homeee/ HTTP/1.1" 200 124
+INFO "POST /register/ HTTP/1.1" 200 1480
+INFO "POST /register/ HTTP/1.1" 200 1483
+INFO "POST /register/ HTTP/1.1" 302 0
+INFO "GET /homeee/ HTTP/1.1" 200 124
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 7293
+INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2348
+INFO "GET /static/admin/css/base.css HTTP/1.1" 200 16307
+INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2138
+INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 1360
+INFO "GET /static/admin/css/login.css HTTP/1.1" 200 1185
+INFO "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO "GET /static/admin/css/responsive.css HTTP/1.1" 200 18344
+INFO "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO "GET /admin/ HTTP/1.1" 302 0
+INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2348
+WARNING Forbidden (CSRF token missing or incorrect.): /register/
+WARNING "POST /register/ HTTP/1.1" 403 2513
+INFO "GET /register/ HTTP/1.1" 200 1387
+INFO "POST /register/ HTTP/1.1" 302 0
+INFO "GET /homeee/ HTTP/1.1" 200 135
+ERROR Internal Server Error: /homeee/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endif'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 35, in homeee
+    return render(request, 'homeee.html', context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 9: 'endif'. Did you forget to register or load this tag?
+ERROR "GET /homeee/ HTTP/1.1" 500 116981
+ERROR Internal Server Error: /homeee/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 470, in parse
+    compile_func = self.tags[command]
+KeyError: 'endif'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 35, in homeee
+    return render(request, 'homeee.html', context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loaders/base.py", line 29, in get_template
+    return Template(
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 155, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 193, in compile_nodelist
+    return parser.parse()
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 472, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 531, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 9: 'endif'. Did you forget to register or load this tag?
+ERROR "GET /homeee/ HTTP/1.1" 500 116981
+INFO "GET /homeee/ HTTP/1.1" 200 133
+INFO "GET /homeee/ HTTP/1.1" 200 133
+INFO "GET /homeee/ HTTP/1.1" 200 133
+INFO "GET /homeee/ HTTP/1.1" 200 133
+INFO "GET /homeee/ HTTP/1.1" 200 133
+INFO "GET /homeee/ HTTP/1.1" 200 133
+INFO "GET / HTTP/1.1" 200 3537
+INFO "GET /register/ HTTP/1.1" 200 1387
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET /register/ HTTP/1.1" 200 1387
+INFO "GET /register/ HTTP/1.1" 200 1387
+INFO "GET /register/ HTTP/1.1" 200 1387
+INFO "GET /register/ HTTP/1.1" 200 1387
+INFO "GET /register/ HTTP/1.1" 200 1387
+INFO "GET /register/ HTTP/1.1" 200 1387
+INFO "GET /register/ HTTP/1.1" 200 1387
+INFO "GET /register/ HTTP/1.1" 200 1387
+INFO "GET /register/ HTTP/1.1" 200 1387
+INFO "GET /register/ HTTP/1.1" 200 1387
+INFO "GET /register/ HTTP/1.1" 200 1585
+INFO "GET /register/ HTTP/1.1" 200 1593
+INFO "POST /register/ HTTP/1.1" 302 0
+INFO "GET /homeee/ HTTP/1.1" 200 136
+INFO "GET /homeee/ HTTP/1.1" 200 136
+INFO "GET / HTTP/1.1" 200 3537
+INFO "GET /register/ HTTP/1.1" 200 1636
+ERROR Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.IntegrityError: (1364, "Field 'p' doesn't have a default value")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 41, in register
+    form.save()
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/contrib/auth/forms.py", line 138, in save
+    user.save()
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/contrib/auth/base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 790, in save_base
+    updated = self._save_table(
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 933, in _do_insert
+    return manager._insert(
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 206, in execute
+    res = self._query(query)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/cursors.py", line 319, in _query
+    db.query(q)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/MySQLdb/connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+django.db.utils.IntegrityError: (1364, "Field 'p' doesn't have a default value")
+ERROR "POST /register/ HTTP/1.1" 500 181556
+INFO "GET /register/ HTTP/1.1" 200 1600
+INFO Watching for file changes with StatReloader
+INFO "GET /register/ HTTP/1.1" 200 1642
+INFO "POST /register/ HTTP/1.1" 200 1777
+INFO "POST /register/ HTTP/1.1" 302 0
+INFO "GET /homeee/ HTTP/1.1" 200 136
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Forbidden (CSRF token missing or incorrect.): /register/
+WARNING "POST /register/ HTTP/1.1" 403 2513
+WARNING Forbidden (CSRF token missing or incorrect.): /register/
+WARNING "POST /register/ HTTP/1.1" 403 2513
+INFO "GET /register/ HTTP/1.1" 200 1642
+INFO <QueryDict: {'csrfmiddlewaretoken': ['xH3p22Br5Mv0GGMSNk1dzdozGrIG6pEvnsGDL9BTcrvjpIMmO06AgD9CXhqmcLCd'], 'username': ['newUser6'], 'email': ['qw@h.com'], 'password1': ['p@ssword12345567'], 'password2': ['p@ssword12345567'], 'pa': ['tot']}>
+INFO "POST /register/ HTTP/1.1" 302 0
+INFO "GET /homeee/ HTTP/1.1" 200 136
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3537
+INFO "GET / HTTP/1.1" 200 3537
+INFO "GET /home-p/7/ HTTP/1.1" 200 4139
+WARNING Not Found: /home/
+WARNING "GET /home/ HTTP/1.1" 404 4287
+INFO "GET /homeee/ HTTP/1.1" 200 136
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/7/ HTTP/1.1" 200 7293
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 4368
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 4332
+INFO [20]
+INFO [19]
+INFO [20]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 200 175
+INFO []
+INFO []
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 116, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 307, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 69181
+INFO []
+INFO [12]
+INFO []
+INFO [12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0, 21.5, 22.0, 22.5, 23.0]
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-30 HTTP/1.1" 200 978
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QuerySet []>
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 116, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 307, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-30 HTTP/1.1" 500 69332
+INFO <QuerySet [datetime.time(12, 0)]>
+INFO [12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0, 21.5, 22.0, 22.5, 23.0]
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-30 HTTP/1.1" 200 978
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO []
+INFO []
+INFO <QuerySet []>
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 116, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 307, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 69332
+INFO [20]
+INFO [19]
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 106, in getScheduleSlots
+    array_3.remove(x)
+AttributeError: 'QuerySet' object has no attribute 'remove'
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 500 65782
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO []
+INFO []
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 116, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 307, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 69315
+INFO [20]
+INFO [19]
+INFO [19]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 200 175
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 113, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 307, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 69279
+INFO [20, 20.5]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 200 175
+INFO [20, 20.5]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+INFO 15
+INFO "POST /api/appointment-d/ HTTP/1.1" 200 17
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 113, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 307, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 69425
+INFO [20, 19, 20.5, 19.5]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 200 175
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 112, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 307, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 68992
+INFO [20, 19, 20.5, 19.5]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 115, in getScheduleSlots
+    l3 = list(set(timeList) - set(l1))
+TypeError: unhashable type: 'dict'
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 500 66217
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 112, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 307, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 68982
+INFO [20, 19, 20.5, 19.5]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 115, in getScheduleSlots
+    l3 = list(timeList - l1)
+TypeError: unsupported operand type(s) for -: 'list' and 'list'
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 500 66353
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 112, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 307, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 68973
+INFO [20, 19, 20.5, 19.5]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 116, in getScheduleSlots
+    l3 = list(set(timeList) - set(l1))
+TypeError: unhashable type: 'dict'
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 500 66059
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 112, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 307, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 68967
+INFO [20, 19, 20.5, 19.5]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 116, in getScheduleSlots
+    l3 = set(timeList) - set(l1)
+TypeError: unhashable type: 'dict'
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 500 66047
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 107, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 307, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 68966
+INFO [20, 19, 20.5, 19.5]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [{'idx': 0, 'from': '19:00', 'to': '19:30'}, {'idx': 1, 'from': '20:00', 'to': '20:30'}, {'idx': 2, 'from': '20:30', 'to': '21:00'}]
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 200 175
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 107, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 307, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 68963
+INFO [20, 19, 20.5, 19.5]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [21.0]
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 200 175
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 107, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 307, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 68958
+INFO [20, 19, 20.5, 19.5]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [21.0]
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 118, in getScheduleSlots
+    timeList = timeListItem(array_3)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 23, in timeListItem
+    item1 = {'idx': 0, 'from': '{0:02.0f}:{1:02.0f}'.format(*divmod(Lst[0] * 60, 60)), 'to': '{0:02.0f}:{1:02.0f}'.format(*divmod(Lst[1] * 60, 60))}
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 500 70123
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 107, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 307, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 68959
+INFO [20, 19, 20.5, 19.5]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [21.0]
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 121, in getScheduleSlots
+    timeList = timeListItem(array_3)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 23, in timeListItem
+    item1 = {'idx': 0, 'from': '{0:02.0f}:{1:02.0f}'.format(*divmod(Lst[0] * 60, 60)), 'to': '{0:02.0f}:{1:02.0f}'.format(*divmod(Lst[1] * 60, 60))}
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 500 70149
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 107, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 307, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 68959
+INFO [20, 19, 20.5, 19.5]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [21.0]
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 121, in getScheduleSlots
+    timeList = timeListItem(array_3)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 23, in timeListItem
+    item1 = {'idx': 0, 'from': '{0:02.0f}:{1:02.0f}'.format(*divmod(Lst[0] * 60, 60)), 'to': '{0:02.0f}:{1:02.0f}'.format(*divmod(Lst[1] * 60, 60))}
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 500 70114
+INFO [20, 19, 20.5, 19.5]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [21.0]
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 185, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 121, in getScheduleSlots
+    timeList = timeListItem(array_3)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 23, in timeListItem
+    item1 = {'idx': 0, 'from': '{0:02.0f}:{1:02.0f}'.format(*divmod(Lst[0] * 60, 60)), 'to': '{0:02.0f}:{1:02.0f}'.format(*divmod(Lst[1] * 60, 60))}
+IndexError: list index out of range
+ERROR "POST /api/appointment-d/ HTTP/1.1" 500 71440
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO [20, 19, 20.5, 19.5]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+INFO 16
+INFO "POST /api/appointment-d/ HTTP/1.1" 200 17
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 110, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 307, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 68963
+INFO [20, 19, 20.5]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 200 175
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO []
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 106, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 307, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 68961
+INFO [20, 19, 20.5]
+INFO [20, 19, 20.5, 20.5, 19.5, 21.0]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 200 175
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO []
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 107, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 307, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 68999
+INFO [20, 19, 20.5]
+INFO [20, 19, 20.5, 20.5, 19.5]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 200 175
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO []
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 106, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 307, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 68961
+INFO [20, 19, 20.5]
+INFO [20, 19, 20.5, 20.5, 19.5, 21.0]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 200 175
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO []
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 107, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 307, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 69000
+INFO [20, 19, 20.5]
+INFO [20, 19, 20.5, 20.5, 19.5]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 200 175
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO []
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 109, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 307, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 69004
+INFO [20, 19, 20.5]
+INFO [20, 19, 20.5, 19.5, 21.0]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 200 175
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO []
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 109, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 307, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 69000
+INFO [20, 19, 20.5]
+INFO [20, 19, 20.5, 19.5, 21.0]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 123, in getScheduleSlots
+    timeList = timeListItem(slist)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 23, in timeListItem
+    item1 = {'idx': 0, 'from': '{0:02.0f}:{1:02.0f}'.format(*divmod(Lst[0] * 60, 60)), 'to': '{0:02.0f}:{1:02.0f}'.format(*divmod(Lst[1] * 60, 60))}
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 500 69926
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO []
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 109, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 307, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 69000
+INFO [20, 19, 20.5]
+INFO [20, 19, 20.5, 19.5, 21.0]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 137, in getScheduleSlots
+    return timeList
+NameError: name 'timeList' is not defined
+ERROR "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 500 65785
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO []
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 109, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 307, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 69000
+INFO [20, 19, 20.5]
+INFO [20, 19, 20.5, 19.5, 21.0]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+INFO []
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 200 45
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO []
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 109, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 307, in __getitem__
+    return self._result_cache[k]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 69000
+INFO [20, 19, 20.5]
+INFO [20, 19, 20.5, 19.5, 21.0]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+INFO []
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 200 45
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6121
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+INFO "GET /static/js/main.js HTTP/1.1" 304 0
+INFO <QuerySet [<Appointments: Appointments object (13)>, <Appointments: Appointments object (15)>, <Appointments: Appointments object (16)>, <Appointments: Appointments object (12)>, <Appointments: Appointments object (14)>]>
+INFO "GET /home-d/30/ HTTP/1.1" 200 4127
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6121
+INFO []
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 114, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 69044
+INFO [20, 19, 20.5]
+INFO [20, 19, 20.5, 19.5, 21.0]
+INFO [19.0, 19.5, 20.0, 20.5, 21.0]
+INFO []
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 200 45
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6121
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6121
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6177
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6177
+INFO <QueryDict: {'csrfmiddlewaretoken': ['1dBrmS5hNaib49L2syEJacbWgupOu8BqcPcVvg1Myr1WAc3yXKtTGT685FspAVvP'], 'doctor': ['30', '30', '30', '30', '30', '30', '30'], 'day': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'], 'from_hour': ['17:00', '08:00', '07:00', '09:00', '10:00', '11:00', '12:00'], 'to_hour': ['21:00', '21:00', '21:00', '22:00', '23:00', '23:00', '23:00'], 'submit': ['Edit']}>
+INFO "POST /schedule-d/30/ HTTP/1.1" 200 6107
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6177
+INFO []
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 114, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 69044
+INFO [20, 19, 20.5]
+INFO [20, 19, 20.5, 19.5, 21.0]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 18.5]
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 200 131
+INFO []
+INFO []
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 171, in loadSchedule
+    timeList = getScheduleSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 114, in getScheduleSlots
+    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=19&day=2021-05-31 HTTP/1.1" 500 69044
+INFO [20, 19, 20.5]
+INFO [20, 19, 20.5, 19.5, 21.0]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 18.5]
+INFO "GET /api/appointment-d/?doctor=30&day=2021-05-31 HTTP/1.1" 200 131
+INFO <QuerySet [<Appointments: Appointments object (13)>, <Appointments: Appointments object (15)>, <Appointments: Appointments object (16)>, <Appointments: Appointments object (12)>, <Appointments: Appointments object (14)>]>
+INFO "GET /home-d/30/ HTTP/1.1" 200 4127
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6177
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6126
+INFO "GET /schedule-d/30/ HTTP/1.1" 200 6126
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QuerySet [<Appointments: Appointments object (13)>, <Appointments: Appointments object (15)>, <Appointments: Appointments object (16)>, <Appointments: Appointments object (12)>, <Appointments: Appointments object (14)>]>
+INFO "GET /home-d/30/ HTTP/1.1" 200 4127
