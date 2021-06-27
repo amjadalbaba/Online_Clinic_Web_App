@@ -271,39 +271,55 @@ def loadSchedule(request):
     return JsonResponse({"message" : message}, safe=False)
 
 def prescriptionPage(request, pk):
-    info = Appointments.objects.get(id = pk)
-    doctor = info.doctor.id
-    context = {'id' : pk, 'doctor': doctor}
+    if request.user.is_authenticated:
+        pku = request.user.id
+        doctor_id = Doctor.objects.filter(user_id=pku).values_list('id', flat=True)
 
-    return render(request, "prescription.html", context)
+        try:
+            checkExistance = Appointments.objects.get(id = pk, doctor_id = doctor_id[0])
+            if checkExistance:
+                doctor = checkExistance.doctor.id
+                context = {'id' : pk, 'doctor': doctor}
+                return render(request, "prescription.html", context)
+        except:
+            return HttpResponse("<p>No such appointment</p>")
 
 def addPrescription(request, pk):
-    message = 'OK'
-    if request.method == 'POST':
+     message = 'OK'
+
+     if request.method == 'POST':
         appointmentConsult = Consultation.objects.get(appointment_id = pk)
         appointment = Appointments.objects.get(id = pk)
         logger.info(appointmentConsult)
         if appointmentConsult and appointment:
-            appointmentConsult.prescription = request.POST.get('prescript')
-            appointmentConsult.price = request.POST.get('price')
-            appointmentConsult.drugName = request.POST.get('drugName')
+                appointmentConsult.prescription = request.POST.get('prescript')
+                appointmentConsult.price = request.POST.get('price')
+                appointmentConsult.drugName = request.POST.get('drugName')
 
-            appointment.checkPrescription = 'yes'
+                appointment.checkPrescription = 'yes'
 
-            appointmentConsult.save()
-            appointment.save()
+                appointmentConsult.save()
+                appointment.save()
 
         else:
-            message = "Doctor have an appointment at that time, please choose different time range"
+                message = "Doctor have an appointment at that time, please choose different time range"
 
-    return JsonResponse({"message": message}, safe=False)
+     return JsonResponse({"message": message}, safe=False)
 
 def appointmentDetailsPage(request, pk):
     if request.user.is_authenticated:
-        pk = request.user.id
-        idPatient = Patient.objects.filter(user_id=pk).values_list('id', flat=True)
-        appointmentDetails = Consultation.objects.get(appointment_id = pk)
+        pku = request.user.id
+        idPatient = Patient.objects.filter(user_id=pku).values_list('id', flat=True)
 
-        context = {'idC' : pk, 'details': appointmentDetails}
+        try:
+            checkExistance = Appointments.objects.get(id=pk, patient_id=idPatient[0])
+            if checkExistance:
+                appointmentDetails = Consultation.objects.get(appointment_id = pk)
+                context = {'idC' : pk, 'details': appointmentDetails}
+                return render(request, "appointmentDetails.html", context)
 
-        return render(request, "appointmentDetails.html", context)
+        except:
+            return HttpResponse("<p>No such appointment</p>")
+
+
+
