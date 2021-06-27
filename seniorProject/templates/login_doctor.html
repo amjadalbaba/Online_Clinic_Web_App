@@ -55,41 +55,6 @@
     <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
     <script src="{% static 'js/main.js' %}"></script>
 
-<script>
-        $(document).ready(function(){
-         $("#signup-form").submit(function(e){
 
-                            e.preventDefault();
-
-
-             $.ajaxSetup({
-                        headers: {
-                            'X-CSRFToken': document.querySelector('[name=csrfmiddlewaretoken]').value
-                        }
-            });
-                $.ajax({
-                        type : 'POST',
-                        url : "{% url 'login_d_api' %}",
-                        data : {
-                            email: $('#email').val(),
-                            password: $('#password').val()
-                        },
-                        success : function(resp) {
-                           console.log(resp);
-                            if (resp.message == "OK"){
-                                 window.location.href = "{% url 'd_home' 30 %}";
-                            } else{
-                                 alert(resp.message)
-                            }
-                        },
-                        error: function (resp) {
-                            alert(resp.message)
-                            }
-
-            });
-    });
- });
-
-    </script>
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 </html>

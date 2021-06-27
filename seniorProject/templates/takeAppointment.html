@@ -40,7 +40,7 @@
                 <select  class="form-control" required="required" name="doctor" id="doctor" disabled><br>
                         <option selected>Select a doctor</option>
                       {% for d in doctorList %}
-                        <option value="{{d.id}}">{{d.firstName|title|add:" "|add:d.lastName|title}}</option>
+                        <option value="{{d.id}}">{{d.user.first_name|title|add:" "|add:d.user.last_name|title}}</option>
                      {% endfor %}
                 </select>
               </div>
@@ -63,7 +63,7 @@
               </div>
                <input type="submit" name="submit" value="Add" class="btn btn-info mb-3" id="addButton">
                 <br>
-                <p>return to <a style="color:#ff0000" href="{% url 'p_home' id %}"><b> my dashboard</b></a></p>
+                <p>return to <a style="color:#ff0000" href="{% url 'p_home' %}"><b> my dashboard</b></a></p>
 
            </form>
         </div></center>

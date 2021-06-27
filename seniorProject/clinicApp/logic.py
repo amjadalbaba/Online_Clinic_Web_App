@@ -23,27 +23,46 @@ class days(Enum):
     Saturday    = "Saturday"
     Sunday      = "Sunday"
 
-def Registration(request, formName, modelName):
+def Registration(request):
     if request.method == 'POST':
-        logger.info(request.POST)
         email = request.POST['email']
-        emCheck = modelName.objects.filter(email = email)
-        if not emCheck:
-            form = formName(request.POST)
-            if form.is_valid():
-                password = request.POST['password']
-                f1 = form.save(commit=False)
-                f1.password = make_password(password)
-                f1.re_password = f1.password
-                f1.save()
+        emCheck = User.objects.filter(email = email)
+        logger.info(request.POST['Regtype'])
 
-                id = modelName.objects.filter(email = email).values_list('id', flat=True)
-                for d in days:
-                   crt = DoctorSchedule.objects.create(day=d.value, from_hour='00:00:00', to_hour='00:00:00', doctor_id=id[0])
-                   crt.save()
-                    #doing bulk insert
+        if not emCheck:
+            form = SignUpForm(request.POST)
+            if form.is_valid():
+                form.save()
+                logger.info(request.POST['Regtype'])
+
+                if str(request.POST['Regtype']) == str('dr'):
+                    id = User.objects.filter(email=email).values_list('id', flat=True)
+                    logger.info(id[0])
+                    f1 = Doctor.objects.create(user_id=id[0], gender=request.POST['gender'], address=request.POST['address'], phone=request.POST['phone'], specialityName_id=request.POST['specialityName'])
+                    f1.save()
+                    id = Doctor.objects.filter(user_id=id[0]).values_list('id', flat=True)
+                    for d in days:
+                        crt = DoctorSchedule.objects.create(day=d.value, from_hour='00:00:00', to_hour='00:00:00',
+                                                            doctor_id=id[0])
+                        crt.save()
+                else:
+                    id = User.objects.filter(email=email).values_list('id', flat=True)
+                    f1 = Patient.objects.create(user_id=id[0], gender=request.POST['gender'],
+                                               address=request.POST['address'], phone=request.POST['phone'])
+                    f1.save()
+
+                # usern = form.cleaned_data['username']
+                # pwd = form.cleaned_data['password1']
+                # user = authenticate(username=usern, password=pwd)
+                # login(request, user)
+                # return redirect('p_home')
+            else:
+                messages.info(request,form.errors)
+
+
         else:
             messages.info(request, "email exists")
+
 
 def loginAPI(request, formName):
     if request.is_ajax and request.method == 'POST':
@@ -64,6 +83,7 @@ def loginAPI(request, formName):
             else:
                 userID = formName.objects.filter(email=email).values_list('id', flat=True)
                 message = "OK"
+                request.session['userID'] = userID[0]
 
         except Exception as e:
             http_status_code = 500
@@ -72,6 +92,7 @@ def loginAPI(request, formName):
 
     data = {"message": message, "id": userID[0]}
     return JsonResponse(data, status=http_status_code)
+
 
 def getScheduleSlots(doctor, day, date):
     # get the from,to hour in a certain day in dr schedule

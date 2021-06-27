@@ -25,30 +25,32 @@ urlpatterns = [
     url('register-doctor/', views.registerDoctorPage, name="register-doctor"),
 
     path('login-p/', views.loginPatPage, name="login_p"),
+    path('logout-p/', views.logoutPatientUser, name="logout_p"),
     path('api/login-p/', views.loginPatientPage, name="login_p_api"),
 
-    path('login-d/', views.loginDrPage, name="login_d"),
-    path('api/login-d/', views.loginDoctorPage, name="login_d_api"),
+    path('login-d/', views.loginDoctorPage, name="login_d"),
+    path('logout-d/', views.logoutDoctorUser, name="logout_d"),
+    path('api/login-d/', views.loginDoctorPagee, name="login_d_api"),
 
     #path('api-token-auth/', views.obtain_auth_token, name='api-token-auth'),
 
 
-    path('home-d/<str:pk>/', views.d_home, name="d_home"),
-    path('home-p/<str:pk>/', views.p_home, name="p_home"),
+    path('home-d/', views.d_home, name="d_home"),
+    path('home-p/', views.p_home, name="p_home"),
     path('', views.welcomePage, name="welcome"),
 
-    path('schedule-d/<str:pk>/', views.createSchedule, name="schedule_d"),
-    path('appointment-p/<str:pk>/', views.takeAppointment, name="appointment_d"),
+    path('schedule-d/', views.createSchedule, name="schedule_d"),
+    path('appointment-p/', views.takeAppointment, name="appointment_d"),
     path('api/appointment-d/', views.loadSchedule, name="appointment_api"),
 
     path('prescription/<str:pk>/', views.prescriptionPage, name="prescription"),
     path('api/prescript/<str:pk>/', views.addPrescription, name="prescript_api"),
 
-    path('details/<str:pk>/<str:pk2>/', views.appointmentDetailsPage, name="details"),
+    path('details/<str:pk>/', views.appointmentDetailsPage, name="details"),
 
 
-    path('register/', views.register, name="register"),
-    path('homeee/', views.homeee, name="homeee"),
+    # path('register/', views.register, name="register"),
+    # path('homeee/', views.homeee, name="homeee"),
 
 
 

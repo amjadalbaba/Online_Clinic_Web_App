@@ -1,7 +1,31 @@
 {% extends 'baseContainer2.html' %}
 
 {% block content %}
-    <h1 align="center" style="color:#128496">Welcome {{ patient.firstName|title }}</h1>
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-3 mb-5 bg-white rounded">
+  <a class="navbar-brand" href="{% url 'welcome' %}">Online Clinic</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+<!--      <li class="nav-item active">-->
+<!--		  <h6 style="color:#128496">Dr.{{ doctor.first_name }}</h6>-->
+<!--      </li>-->
+<!--      <li class="nav-item">-->
+<!--        <a class="nav-link" href="#">Features</a>-->
+<!--      </li>-->
+<!--      <li class="nav-item">-->
+<!--        <a class="nav-link" href="#">Pricing</a>-->
+<!--      </li>-->
+    </ul>
+    <span class="navbar-text">
+<!--		<h6 align="center" style="color:#128496"> Dr.{{ doctor.first_name }}</h6>-->
+	  	<button class="btn btn-outline-info my-2 my-sm-0" type="submit"><a style="text-decoration:none" href="{% url 'logout_p' %}" class="link-info">Logout</a></button>
+
+  </span>
+</nav>
+    <h1 align="center" style="color:#128496">Welcome {{ patient.first_name|title }}</h1>
+<!--    <center><span><a href="{% url 'logout_p' %}">Logout</a></span></center>-->
         <hr>
 <div class="row" style="padding:30px;" align="center">
 
@@ -27,7 +51,7 @@
             <h5>Your Appointments List</h5>
 
             <div class="card card-body" style="box-shadow: 0 8px 8px #CCCCCC;">
-                <a class="btn btn-info btn-sm btn-block" href="{% url 'appointment_d' id %}">Take an Appointment</a>
+                <a class="btn btn-info btn-sm btn-block" href="{% url 'appointment_d' %}">Take an Appointment</a>
                 <table class="table table-sm">
                     <tr align="center">
                         <th>Day</th>
@@ -41,10 +65,10 @@
                                     <td>{{ a.day }}</td>
                                     <td>{{ a.from_hour }}</td>
                                     <td>{{ a.to_hour }}</td>
-                                    <td>{{a.doctor.firstName|title|add:" "|add:a.doctor.lastName|title}}</td>
+                                    <td>{{a.doctor.user.first_name|title|add:" "|add:a.doctor.user.last_name|title}}</td>
 
                                     {% if a.checkPrescription %}
-									    <td><a class="btn btn-info btn-sm btn-block" href="{% url 'details' a.id id %}">view details</a></td>
+									    <td><a class="btn btn-info btn-sm btn-block" href="{% url 'details' a.id %}">view details</a></td>
                                     {% else %}
 									    <td class="text-danger">pending</td>
                                     {% endif %}

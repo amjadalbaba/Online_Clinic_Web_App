@@ -116,16 +116,16 @@
                     <form method="POST" id="signup-form" class="signup-form" name="f">
                         {% csrf_token %}
                         <h2 class="form-title">Create account</h2>
+                         <div class="form-group">
+                            <input type="text" class="form-input" name="username" id="username" required="required" placeholder="Your Username"/>
+                        </div>
+                        <div id="d10" style="visibility:hidden; color:red"><i>enter your username</i></div>
                         <div class="form-group">
-                            <input type="text" class="form-input" name="firstName" id="fName" required="required" placeholder="Your First Name"/>
+                            <input type="text" class="form-input" name="first_name" id="fName" required="required" placeholder="Your First Name"/>
                         </div>
                         <div id="d1" style="visibility:hidden; color:red"><i>enter your first name</i></div>
                         <div class="form-group">
-                            <input type="text" class="form-input" name="middleName" id="mName" required="required" placeholder="Your Middle Name"/>
-                        </div>
-                        <div id="d2" style="visibility:hidden; color:red"><i>enter your middle name</i></div>
-                        <div class="form-group">
-                            <input type="text" class="form-input" name="lastName" id="lName" required="required" placeholder="Your Last Name"/>
+                            <input type="text" class="form-input" name="last_name" id="lName" required="required" placeholder="Your Last Name"/>
                         </div>
                         <div id="d3" style="visibility:hidden; color:red"><i>enter your last name</i></div>
                         <div class="form-group">
@@ -160,7 +160,11 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <input class="form-input" name="password" id="password" required="required" placeholder="Password"/>
+                            <input class="form-input" name="password1" id="password1" required="required" placeholder="Password"/>
+                            <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-input" name="password2" id="password2" required="required" placeholder="Repeat Password"/>
                             <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
                         </div>
                         <div id="d8" style="visibility:hidden; color:red"><i>password must contain a number,at least one capital and small letters</i></div>
@@ -169,6 +173,7 @@
 <!--                            <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />-->
 <!--                            <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>-->
 <!--                        </div>-->
+                        <input type="text" value="dr" name="Regtype" hidden>
                         <div class="form-group">
                             <input type="submit" name="submit" id="submitButton" class="form-submit" value="Sign Up" onsubmit="validateMyForm();"/>
                         </div>
@@ -176,9 +181,9 @@
                     {% for message in messages %}
                         <p id="messages" style="color:#ff0000">{{message}}</p>
                     {% endfor %}
-<!--                    <p class="loginhere">-->
-<!--                        Have already an account ? <a href="" class="loginhere-link">Login here</a>-->
-<!--                    </p>-->
+                    <p class="loginhere">
+                        Have already an account ? <a href="{% url 'login_d' %}" class="loginhere-link">Login here</a>
+                    </p>
                 </div>
             </div>
         </section>

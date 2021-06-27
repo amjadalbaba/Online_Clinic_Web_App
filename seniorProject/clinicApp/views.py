@@ -25,31 +25,38 @@ from .logic import *
 import datetime
 from django.contrib.auth.decorators import login_required
 from django.db.models import Count, Case, When, IntegerField
+from django.contrib.auth.models import User
+
 
 
 
 logger = logging.getLogger('django')
 # Create your views here.
-def homeee(request):
-    context = {}
-    return render(request, 'homeee.html', context)
-
-def register(request):
-    if request.method == 'POST':
-        logger.info(request.POST)
-        form = UserCreationForm(request.POST)
-        if form.is_valid():
-            form.save()
-            usern = form.cleaned_data['username']
-            pwd = form.cleaned_data['password1']
-            user = authenticate(username=usern,password=pwd)
-            login(request,user)
-            return redirect('homeee')
-    else:
-        form = UserCreationForm()
-
-    context={'form':form}
-    return render(request, 'register.html', context)
+# def homeee(request):
+#     context = {}
+#     return render(request, 'homeee.html', context)
+#
+# def register(request):
+#     if request.method == 'POST':
+#         form = SignUpForm(request.POST)
+#         if form.is_valid():
+#             form.save()
+#             id = User.objects.filter(username=form.cleaned_data['username']).values_list('id', flat=True)
+#
+#             f1 = Doctor.objects.create(user_id = id[0])
+#             f1.save()
+#             usern = form.cleaned_data['username']
+#             pwd = form.cleaned_data['password1']
+#             user = authenticate(username=usern,password=pwd)
+#             login(request,user)
+#             return redirect('homeee')
+#         else:
+#             logger.info(form.errors)
+#     else:
+#         form = SignUpForm()
+#
+#     context={'form':form}
+#     return render(request, 'register.html', context)
 
 
 
@@ -66,7 +73,7 @@ def welcomePage(request):
 @never_cache
 def registerPatientPage(request):
 
-    Registration(request, PatientForm, Patient)
+    Registration(request)
     context = {}
     return render(request, 'register_patient.html', context)
 
@@ -74,7 +81,7 @@ def registerPatientPage(request):
 @never_cache
 def registerDoctorPage(request):
 
-    Registration(request, DoctorForm, Doctor)
+    Registration(request)
     specialities = Speciality.objects.all()
 
     context = {
@@ -83,13 +90,51 @@ def registerDoctorPage(request):
     return render(request, 'register_doctor.html', context)
 
 def loginPatPage(request):
+
+    if request.method == 'POST':
+        email = request.POST['email']
+
+        username = User.objects.get(email=email).username
+        password = request.POST['password']
+
+        user = authenticate(username=username, password=password)
+        logger.info(user)
+
+        if user is not None:
+
+            login(request, user)
+            return redirect('p_home')
+
+        else:
+            messages.info(request, "Wrong Credentials")
     return render(request, "login_patient.html")
+
+def loginDoctorPage(request):
+
+    if request.method == 'POST':
+        email = request.POST['email']
+
+        username = User.objects.get(email=email).username
+        password = request.POST['password']
+
+        user = authenticate(username=username, password=password)
+        logger.info(user)
+
+        if user is not None:
+
+            login(request, user)
+            return redirect('d_home')
+
+        else:
+            messages.info(request, "Wrong Credentials")
+    return render(request, "login_doctor.html")
 
 def loginDrPage(request):
     return render(request, "login_doctor.html")
 
 
 def loginPatientPage(request):
+
    # TODO: checking why the res.pid is not working
    response = loginAPI(request, Patient)
    # if response.status_code == 200: #we must take the message and decode to redirect
@@ -97,68 +142,95 @@ def loginPatientPage(request):
    return response
 
 
-def loginDoctorPage(request):
+def loginDoctorPagee(request):
     #TODO: checking why the res.pid is not working
     response = loginAPI(request, Doctor)
     return response
 
+def logoutPatientUser(request):
+    logout(request)
+    return redirect('login_p')
+
+def logoutDoctorUser(request):
+    logout(request)
+    return redirect('login_d')
+
 #@login_required(login_url='/login-d/')
-def d_home(request, pk):
-    drl = DoctorSchedule.objects.filter(doctor_id =  pk)
-    drl2 = Doctor.objects.get(id = pk)
-    drApp = Appointments.objects.filter(doctor_id =  pk).order_by('day')
-    logger.info(drApp)
+def d_home(request):
 
 
-    context = {'list' : drl, 'list2' : drl2,'Appointments': drApp ,'id' : pk}
-    return render(request, 'd_dashboard.html', context)
+    #if request.session['userID'] and int(request.session['userID']) == int(pk):
+    #if request.session['userID'] and int(request.session['userID']) == int(pk):
+    if request.user.is_authenticated:
+        pk = request.user.id
+        idDoctor = Doctor.objects.filter(user_id=pk).values_list('id', flat=True)
+        drUser = User.objects.get(id=pk)
+
+        drl = DoctorSchedule.objects.filter(doctor_id =  idDoctor[0])
+        drl2 = Doctor.objects.get(id = idDoctor[0])
+        drApp = Appointments.objects.filter(doctor_id =  idDoctor[0]).order_by('day')
+
+        context = {'list' : drl, 'list2' : drl2, 'Appointments' : drApp , 'idDoctor' : idDoctor[0], 'doctor' : drUser}
+        return render(request, 'd_dashboard.html', context)
+    # else:
+    #     return HttpResponse('unauthenticated')
 
 #@login_required(login_url='/api/login-p/')
-def p_home(request, pk):
-    pt = Patient.objects.get(id = pk)
-    ptAppointments = Appointments.objects.filter(patient_id =  pk).order_by('day')
+def p_home(request):
+    if request.user.is_authenticated:
+        pk = request.user.id
+        idPatient = Patient.objects.filter(user_id=pk).values_list('id', flat=True)
 
-    count  = Appointments.objects.filter(patient_id=pk).count()
-    countConsulted = Appointments.objects.filter(checkPrescription='yes').count()
+        ptUser = User.objects.get(id=pk)
 
-    context = {'patient' : pt, 'id' : pk, 'appointments' : ptAppointments, 'count' : count, 'countConsulted' : countConsulted}
-    return render(request, 'p_dashboard.html', context)
+        ptAppointments = Appointments.objects.filter(patient_id =  idPatient[0]).order_by('day')
+
+        count  = Appointments.objects.filter(patient_id=idPatient[0]).count()
+        countConsulted = Appointments.objects.filter(checkPrescription='yes').count()
+
+        context = {'patient' : ptUser, 'patientId' : idPatient[0],'id' : idPatient, 'appointments' : ptAppointments, 'count' : count, 'countConsulted' : countConsulted}
+        return render(request, 'p_dashboard.html', context)
 
 #@login_required(login_url='login_d')
-def createSchedule(request, pk):
+def createSchedule(request):
+    if request.user.is_authenticated:
+        pk = request.user.id
+        idDoctor = Doctor.objects.filter(user_id=pk).values_list('id', flat=True)
+        drl = DoctorSchedule.objects.raw("SELECT id, doctor_id, TIME_FORMAT(from_hour, '%%H:%%i'), TIME_FORMAT(to_hour, '%%H:%%i'), day FROM clinicApp_doctorschedule WHERE doctor_id = " + str(idDoctor[0]))
 
-    drl = DoctorSchedule.objects.raw("SELECT id, doctor_id, TIME_FORMAT(from_hour, '%%H:%%i'), TIME_FORMAT(to_hour, '%%H:%%i'), day FROM clinicApp_doctorschedule WHERE doctor_id = " + pk)
+        if request.method == "POST":
+            # logger.info(request.POST)
+            # for key in request.POST:
+            #     for v in request.POST.getlist(key):
+            #           logger.info(v)
+            idLst  = request.POST.getlist('doctor')
+            dayLst  = request.POST.getlist('day')
+            lsf = request.POST.getlist('from_hour')
+            lst = request.POST.getlist('to_hour')
 
-    if request.method == "POST":
-        # logger.info(request.POST)
-        # for key in request.POST:
-        #     for v in request.POST.getlist(key):
-        #           logger.info(v)
-        idLst  = request.POST.getlist('doctor')
-        dayLst  = request.POST.getlist('day')
-        lsf = request.POST.getlist('from_hour')
-        lst = request.POST.getlist('to_hour')
+            dict = scheduleInsert(idLst, dayLst, lsf, lst)
 
-        dict = scheduleInsert(idLst, dayLst, lsf, lst)
-
-        for objs,i in zip(drl, range(7)):
-            objs.day = dict[i]['day']
-            objs.doctor_id = dict[i]['id']
-            objs.from_hour = dict[i]['from']
-            objs.to_hour = dict[i]['to']
-            objs.updated_at = datetime.datetime.now()
-            objs.save()
+            for objs,i in zip(drl, range(7)):
+                objs.day = dict[i]['day']
+                objs.doctor_id = dict[i]['id']
+                objs.from_hour = dict[i]['from']
+                objs.to_hour = dict[i]['to']
+                objs.updated_at = datetime.datetime.now()
+                objs.save()
 
 
-    context = {'list' : drl, 'id' : pk}
-    return render(request, 'schedule.html', context)
+        context = {'list' : drl, 'id' : pk}
+        return render(request, 'schedule.html', context)
 
 #@login_required(login_url='/login-d/')
-def takeAppointment(request, pk):
-    drlist = Doctor.objects.all()
+def takeAppointment(request):
+    if request.user.is_authenticated:
+        pk = request.user.id
+        idPatient = Patient.objects.filter(user_id=pk).values_list('id', flat=True)
+        drlist = Doctor.objects.all()
 
-    context = {'doctorList' : drlist,'id' : pk}
-    return render(request, 'takeAppointment.html', context)
+        context = {'doctorList' : drlist,'id' : idPatient[0]}
+        return render(request, 'takeAppointment.html', context)
 
 def loadSchedule(request):
     message = ''
@@ -226,9 +298,12 @@ def addPrescription(request, pk):
 
     return JsonResponse({"message": message}, safe=False)
 
-def appointmentDetailsPage(request, pk, pk2):
-    appointmentDetails = Consultation.objects.get(appointment_id = pk)
+def appointmentDetailsPage(request, pk):
+    if request.user.is_authenticated:
+        pk = request.user.id
+        idPatient = Patient.objects.filter(user_id=pk).values_list('id', flat=True)
+        appointmentDetails = Consultation.objects.get(appointment_id = pk)
 
-    context = {'idC' : pk, 'idP' : pk2, 'details': appointmentDetails}
+        context = {'idC' : pk, 'details': appointmentDetails}
 
-    return render(request, "appointmentDetails.html", context)
+        return render(request, "appointmentDetails.html", context)

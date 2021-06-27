@@ -16,15 +16,12 @@ class Speciality(models.Model):
         return self.specialityName
 
 class Doctor(models.Model):
-    firstName            = models.CharField(max_length=200, null=True) #this will haelp in mapping through db
-    middleName           = models.CharField(max_length=200, null=True) #it can be empty
-    lastName             = models.CharField(max_length=200, null=True)
-    email                = models.CharField(max_length=200, null=True)
+
     address              = models.CharField(max_length=200, null=True)
     phone                = models.CharField(max_length=200, null=True)
     gender               = models.CharField(max_length=200, null=True)
     specialityName       = models.ForeignKey(Speciality, null=True, on_delete=models.SET_NULL)
-    password             = models.CharField(max_length=200, null=True)
+    user                 = models.ForeignKey(User, null=True, on_delete=models.SET_NULL)
     created_at           = models.DateTimeField(auto_now_add=True,  null=True)
     updated_at           = models.DateTimeField(auto_now_add=True,  null=True)
 
@@ -32,14 +29,11 @@ class Doctor(models.Model):
         return self.firstName
 
 class Patient(models.Model):
-    firstName            = models.CharField(max_length=200, null=True) #this will haelp in mapping through db
-    middleName           = models.CharField(max_length=200, null=True) #it can be empty
-    lastName             = models.CharField(max_length=200, null=True)
-    email                = models.CharField(max_length=200, null=True)
+
     address              = models.CharField(max_length=200, null=True)
     phone                = models.CharField(max_length=200, null=True)
     gender               = models.CharField(max_length=200, null=True)
-    password             = models.CharField(max_length=200, null=True)
+    user                 = models.ForeignKey(User, null=True, on_delete=models.SET_NULL)
     created_at           = models.DateTimeField(auto_now_add=True,  null=True)
     updated_at           = models.DateTimeField(auto_now_add=True,  null=True)
 
