@@ -29573,3 +29573,254 @@ WARNING Not Found: /login/
 WARNING "GET /login/ HTTP/1.1" 404 4218
 INFO "GET /login-p/ HTTP/1.1" 200 2433
 INFO "GET / HTTP/1.1" 200 3553
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3553
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO None
+INFO "POST /login-p/ HTTP/1.1" 200 2540
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO ammdd
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO "GET /details/13/ HTTP/1.1" 200 3055
+INFO "GET /details/14/ HTTP/1.1" 200 3063
+INFO "GET /details/20/ HTTP/1.1" 200 26
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO "GET /details/13/ HTTP/1.1" 200 3055
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /details/13/ HTTP/1.1" 200 3055
+INFO "GET /details/20/ HTTP/1.1" 200 26
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO "GET /logout-p/ HTTP/1.1" 302 0
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "GET / HTTP/1.1" 200 3553
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "POST /login-d/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 5542
+INFO "GET /logout-d/ HTTP/1.1" 302 0
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "GET /logout-d/ HTTP/1.1" 302 0
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO ammdd
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO [20, 19, 20.5]
+INFO [20, 19, 20.5, 19.5, 21.0]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 18.5]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-05-31 HTTP/1.1" 200 131
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO [20, 19, 20.5]
+INFO [20, 19, 20.5, 19.5, 21.0]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 18.5]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-05-31 HTTP/1.1" 200 131
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO [20, 19, 20.5]
+INFO [20, 19, 20.5, 19.5, 21.0]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 18.5]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-05-31 HTTP/1.1" 200 131
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO [20, 19, 20.5]
+INFO [19.5, 19, 21.0, 20, 20.5]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 18.5]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-05-31 HTTP/1.1" 200 131
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO [20, 19, 20.5]
+INFO [19.5, 19, 21.0, 20, 20.5]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 18.5]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-05-31 HTTP/1.1" 200 131
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO [20, 19, 20.5]
+INFO [19.5, 19, 21.0, 20, 20.5]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO []
+INFO "GET /api/appointment-d/?doctor=35&day=2021-05-31 HTTP/1.1" 200 45
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO [20, 19, 20.5]
+INFO [19.5, 19, 21.0, 20, 20.5]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [None, None, None, None, None]
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 241, in loadSchedule
+    timeList = getDoctorFreeSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 146, in getDoctorFreeSlots
+    timeList = timeListItem(slist)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 23, in timeListItem
+    item1 = {'idx': 0, 'from': '{0:02.0f}:{1:02.0f}'.format(*divmod(Lst[0] * 60, 60)), 'to': '{0:02.0f}:{1:02.0f}'.format(*divmod(Lst[1] * 60, 60))}
+TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
+ERROR "GET /api/appointment-d/?doctor=35&day=2021-05-31 HTTP/1.1" 500 69494
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO [20, 19, 20.5]
+INFO [19.5, 19, 21.0, 20, 20.5]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO []
+INFO "GET /api/appointment-d/?doctor=35&day=2021-05-31 HTTP/1.1" 200 45
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO [20, 19, 20.5]
+INFO [19.5, 19, 21.0, 20, 20.5]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [2.5, 1.5, 3.0, 1.5, 1.5]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-05-31 HTTP/1.1" 200 175
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO [20, 19, 20.5]
+INFO [19.5, 19, 21.0, 20, 20.5]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 18.5]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-05-31 HTTP/1.1" 200 131
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO I'm working...
+INFO I'm working...
+INFO I'm working...
+INFO Watching for file changes with StatReloader
+INFO I'm working...
+INFO I'm working...
+INFO I'm working...
+INFO I'm working...
+INFO Watching for file changes with StatReloader
+INFO I'm working...
+INFO Watching for file changes with StatReloader
+INFO I'm working...
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3553
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO I'm working...
+INFO I'm working...
+INFO I'm working...
+INFO I'm working...
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3553
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3553
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3553
+INFO "GET /static/js/main.js HTTP/1.1" 304 0
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3553
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 4296
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 4260
+INFO "GET / HTTP/1.1" 200 3553
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3553
+INFO "GET /static/js/main.js HTTP/1.1" 200 353
+INFO "GET /register-doctor/ HTTP/1.1" 200 11900
+INFO "GET /static/fonts/montserrat/Montserrat-Italic.ttf HTTP/1.1" 200 266628
+INFO "GET /register-patient/ HTTP/1.1" 200 6241
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO None
+INFO "POST /login-p/ HTTP/1.1" 200 2540
+INFO ammdd
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO [20, 19, 20.5]
+INFO [19.5, 19, 21.0, 20, 20.5]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 18.5]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-05-31 HTTP/1.1" 200 131
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO [20, 19, 20.5]
+INFO [19.5, 19, 21.0, 20, 20.5]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 18.5]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-05-31 HTTP/1.1" 200 131
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO "GET /logout-p/ HTTP/1.1" 302 0
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "POST /login-d/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 5542
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/ HTTP/1.1" 200 5542
+INFO "GET /schedule-d/ HTTP/1.1" 200 6174
+INFO "GET /home-d/ HTTP/1.1" 200 5542
+INFO "GET /prescription/15/ HTTP/1.1" 200 4962
+INFO "GET /home-d/ HTTP/1.1" 200 5542
+INFO "GET /logout-d/ HTTP/1.1" 302 0
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO ammdd
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO "GET /details/13/ HTTP/1.1" 200 3055
+INFO "GET /details/13/ HTTP/1.1" 200 3071
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO "GET /details/13/ HTTP/1.1" 200 3071
+INFO "GET /details/20/ HTTP/1.1" 200 26
+INFO "GET /home-p/ HTTP/1.1" 200 6271

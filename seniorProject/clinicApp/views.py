@@ -118,7 +118,6 @@ def loginDoctorPage(request):
         password = request.POST['password']
 
         user = authenticate(username=username, password=password)
-        logger.info(user)
 
         if user is not None:
 
@@ -158,8 +157,6 @@ def logoutDoctorUser(request):
 #@login_required(login_url='/login-d/')
 def d_home(request):
 
-
-    #if request.session['userID'] and int(request.session['userID']) == int(pk):
     #if request.session['userID'] and int(request.session['userID']) == int(pk):
     if request.user.is_authenticated:
         pk = request.user.id
@@ -239,7 +236,7 @@ def loadSchedule(request):
         date = request.GET.get('day')
         day = checkDay(date)
 
-        timeList = getScheduleSlots(doctor, day, date)
+        timeList = getDoctorFreeSlots(doctor, day, date)
         return JsonResponse({"doctor": doctor, "day": day, "data": list(timeList)}, safe=False)
 
 
@@ -253,7 +250,7 @@ def loadSchedule(request):
         desc = request.POST.get('description')
         day = checkDay(date)
 
-        timeList = getScheduleSlots(doctor, day, date)
+        timeList = getDoctorFreeSlots(doctor, day, date)
         message = 'OK'
         for i in timeList:
             if str(i['idx']) == request.POST['time']:

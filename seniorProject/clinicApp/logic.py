@@ -13,6 +13,7 @@ from django.http import JsonResponse
 from .utils import *
 
 logger = logging.getLogger('django')
+halfhour = 30
 
 class days(Enum):
     Monday      = "Monday"
@@ -94,64 +95,50 @@ def loginAPI(request, formName):
     return JsonResponse(data, status=http_status_code)
 
 
-def getScheduleSlots(doctor, day, date):
-    # get the from,to hour in a certain day in dr schedule
-    drTimeFrom = DoctorSchedule.objects.filter(doctor_id=doctor).filter(day=day).values_list('from_hour', flat=True)
-    drTimeTo = DoctorSchedule.objects.filter(doctor_id=doctor).filter(day=day).values_list('to_hour', flat=True)
+def getDoctorFreeSlots(doctor, day, date):
+    """
+    :param doctor: doctor_id
+    :param day: day of chosen appointment to take
+    :param date: date of appointment
+    :return: return a list of the remaining free time slots for a patient to take an appointment
+    """
+    doctorStartingHour = DoctorSchedule.objects.filter(doctor_id=doctor).filter(day=day).values_list('from_hour', flat=True)
+    doctorEndHour = DoctorSchedule.objects.filter(doctor_id=doctor).filter(day=day).values_list('to_hour', flat=True)
 
-    # get the from,to hour in a certain day in appointments with a certain dr
-    drTimeFromApp = Appointments.objects.filter(doctor_id=doctor).filter(day=date).values_list('from_hour', flat=True)
-    drTimeToApp = Appointments.objects.filter(doctor_id=doctor).filter(day=date).values_list('to_hour', flat=True)
+    doctorAppointmentStartingHour = Appointments.objects.filter(doctor_id=doctor).filter(day=date).values_list('from_hour', flat=True)
 
 
-    l1 = []
-    l2 = []
+    listOfDoctorStartAppointmentsHour = []
 
-
-    #1: insert in a list all from_hours from appointments table for a certain dr
-    for i in range(0,len(drTimeFromApp)):
-        if drTimeFromApp[i].minute != 0:
-            l1.append(drTimeFromApp[i].hour + 0.5) # if we have for example 20:30
+    for i in range(0,len(doctorAppointmentStartingHour)):
+        if doctorAppointmentStartingHour[i].minute == halfhour:
+            listOfDoctorStartAppointmentsHour.append(doctorAppointmentStartingHour[i].hour + 0.5) # if we have for example 20:30
         else:
-            l1.append(drTimeFromApp[i].hour)
-    logger.info(l1)
+            listOfDoctorStartAppointmentsHour.append(doctorAppointmentStartingHour[i].hour)
+    logger.info(listOfDoctorStartAppointmentsHour)
 
 
-    #insert in a list all from_hours from schedule table for a certain dr
-    # for i in range(0,len(drTimeFrom)):
-    #     l2.append(drTimeFrom[i].hour)
-    # logger.info(l2)
+    for i in range(0,len(listOfDoctorStartAppointmentsHour)):
+            listOfDoctorStartAppointmentsHour.append(listOfDoctorStartAppointmentsHour[i] + 0.5)
+
+    listOfDoctorStartAppointmentsHour = list(set(listOfDoctorStartAppointmentsHour))
+    logger.info(listOfDoctorStartAppointmentsHour)
 
 
-    #2: convert the list all from_hours from appointments table for a certain dr into halfs
-    for i in range(0,len(l1)):
-        if(((l1[i] + 0.5) in l1)):
-             continue
-        else:
-            l1.append(l1[i] + 0.5)
-    logger.info(l1)
-
-
-    slist = halfSplit(drTimeFrom[0].hour, drTimeTo[0].hour)
+    slist = halfSplit(doctorStartingHour[0].hour, doctorEndHour[0].hour)
     logger.info(slist)
 
-    array_3 = slist
-    for x in l1:
-        try:
-            array_3.remove(x)
-        except ValueError:
-            pass
 
-    logger.info(array_3)
+    slist = [x for x in slist if x not in listOfDoctorStartAppointmentsHour]
 
-    if len(array_3) == 0:
+
+    logger.info(slist)
+
+    if len(slist) == 0:
         timeList = {}
     else:
-        timeList = timeListItem(array_3)
-
+        timeList = timeListItem(slist)
 
     return timeList
 
-def getFreeSlots(doctor, day):
-    drTimeFrom = DoctorSchedule.objects.filter(doctor_id=doctor).filter(day=day).values_list('from_hour', flat=True)
-    drTimeFromApp = Appointments.objects.filter(doctor_id=doctor).filter(day=date).values_list('from_hour', flat=True)
+
