@@ -29824,3 +29824,808 @@ INFO "GET /home-p/ HTTP/1.1" 200 6271
 INFO "GET /details/13/ HTTP/1.1" 200 3071
 INFO "GET /details/20/ HTTP/1.1" 200 26
 INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /home-p/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 188, in p_home
+    dayOfAppointment = datetime.today().strftime('%Y-%m-%d')
+AttributeError: module 'datetime' has no attribute 'today'
+ERROR "GET /home-p/ HTTP/1.1" 500 61610
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 4233
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /home-p/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 188, in p_home
+    dayOfAppointment = datetime.datetime.strftime('%Y-%m-%d')
+TypeError: descriptor 'strftime' for 'datetime.date' objects doesn't apply to a 'str' object
+ERROR "GET /home-p/ HTTP/1.1" 500 61798
+ERROR Internal Server Error: /home-p/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 188, in p_home
+    dayOfAppointment = datetime.datetime.strftime('%Y-%m-%d')
+TypeError: descriptor 'strftime' for 'datetime.date' objects doesn't apply to a 'str' object
+ERROR "GET /home-p/ HTTP/1.1" 500 61798
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 2021-07-04
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET /logout-p/ HTTP/1.1" 302 0
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 304 0
+INFO "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+INFO "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 304 0
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 4296
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 4260
+INFO ammdd
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO "GET /details/13/ HTTP/1.1" 200 3071
+INFO "GET /details/20/ HTTP/1.1" 200 26
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO "GET /logout-p/ HTTP/1.1" 302 0
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO ammdd
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO "GET /logout-p/ HTTP/1.1" 302 0
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+ERROR Internal Server Error: /home-p/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view clinicApp.views.p_home didn't return an HttpResponse object. It returned None instead.
+ERROR "GET /home-p/ HTTP/1.1" 500 60691
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO ammdd
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO "GET /logout-p/ HTTP/1.1" 302 0
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "GET /home-p/ HTTP/1.1" 302 0
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO ammdd
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /logout-p/ HTTP/1.1" 302 0
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "POST /login-p/ HTTP/1.1" 200 2433
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Forbidden (CSRF token missing or incorrect.): /login-p/
+WARNING "POST /login-p/ HTTP/1.1" 403 2513
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "POST /login-p/ HTTP/1.1" 200 2433
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "POST /login-p/ HTTP/1.1" 200 2433
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "POST /login-p/ HTTP/1.1" 200 2433
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "POST /login-p/ HTTP/1.1" 200 2433
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "POST /login-p/ HTTP/1.1" 200 2433
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO hh
+INFO "POST /login-p/ HTTP/1.1" 200 2433
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO hh
+INFO "POST /login-p/ HTTP/1.1" 200 2433
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO p_home
+INFO "POST /login-p/ HTTP/1.1" 200 2433
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO p_home
+INFO "POST /login-p/ HTTP/1.1" 200 2433
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO p_home
+INFO "POST /login-p/ HTTP/1.1" 200 2433
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "POST /login-p/ HTTP/1.1" 200 2540
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO "GET /logout-p/ HTTP/1.1" 302 0
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "POST /login-d/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 5542
+INFO "GET /logout-d/ HTTP/1.1" 302 0
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO "GET /logout-p/ HTTP/1.1" 302 0
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "POST /login-p/ HTTP/1.1" 200 2540
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO "GET /logout-p/ HTTP/1.1" 302 0
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+ERROR Internal Server Error: /api/login-p/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 127, in loginPatientPage
+    response = loginAPI(request, Patient)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 99, in loginAPI
+    data = {"message": message, "id": userID[0]}
+UnboundLocalError: local variable 'message' referenced before assignment
+ERROR "GET /api/login-p/?next=/home-p/7/ HTTP/1.1" 500 63897
+ERROR Internal Server Error: /api/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 127, in loginPatientPage
+    response = loginAPI(request, Patient)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 99, in loginAPI
+    data = {"message": message, "id": userID[0]}
+UnboundLocalError: local variable 'message' referenced before assignment
+ERROR "GET /api/ HTTP/1.1" 500 63403
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /api/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 105, in loginPatientPage
+    response = loginAPI(request, Patient)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 99, in loginAPI
+    data = {"message": message, "id": userID[0]}
+UnboundLocalError: local variable 'message' referenced before assignment
+ERROR "GET /api/ HTTP/1.1" 500 63402
+ERROR Internal Server Error: /api/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 105, in loginPatientPage
+    response = loginAPI(request, Patient)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 99, in loginAPI
+    data = {"message": message, "id": userID[0]}
+UnboundLocalError: local variable 'message' referenced before assignment
+ERROR "GET /api/ HTTP/1.1" 500 63402
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+INFO "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO "GET / HTTP/1.1" 200 3553
+INFO "GET /static/images/wel.jpg HTTP/1.1" 304 0
+INFO "GET /static/images/wel.jpg HTTP/1.1" 304 0
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /api/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/renderers.py", line 723, in render
+    template = loader.get_template(self.template)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+ERROR "GET /api/ HTTP/1.1" 500 76605
+ERROR Internal Server Error: /api/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/renderers.py", line 723, in render
+    template = loader.get_template(self.template)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+ERROR "GET /api/ HTTP/1.1" 500 76605
+ERROR Internal Server Error: /api/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/renderers.py", line 723, in render
+    template = loader.get_template(self.template)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+ERROR "GET /api/ HTTP/1.1" 500 76605
+ERROR Internal Server Error: /api/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    response = response.render()
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/response.py", line 105, in render
+    self.content = self.rendered_content
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/renderers.py", line 723, in render
+    template = loader.get_template(self.template)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+ERROR "GET /api/ HTTP/1.1" 500 76605
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Unauthorized: /api/
+WARNING "GET /api/ HTTP/1.1" 401 4983
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /api/ HTTP/1.1" 200 5204
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /api/ HTTP/1.1" 200 5204
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/serializers.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /api/ HTTP/1.1" 200 5204
+INFO "GET /api/drug-list/ HTTP/1.1" 200 5288
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/serializers.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /api/drug-list/ HTTP/1.1" 200 15535
+WARNING Forbidden: /api/drug-list/
+WARNING "GET /api/drug-list/ HTTP/1.1" 403 58
+WARNING Forbidden: /api/drug-list/
+WARNING "GET /api/drug-list/ HTTP/1.1" 403 58
+WARNING Forbidden: /api/drug-list/
+WARNING "GET /api/drug-list/ HTTP/1.1" 403 58
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/serializers.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /api/drug-make HTTP/1.1" 301 0
+INFO "GET /api/drug-make/ HTTP/1.1" 200 5378
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Method Not Allowed: /api/drug-make/
+WARNING "GET /api/drug-make/ HTTP/1.1" 405 5725
+INFO "POST /api/drug-make/ HTTP/1.1" 200 5749
+WARNING Forbidden: /api/drug-make/
+WARNING "GET /api/drug-make/?drugName=test2&description=test2 HTTP/1.1" 403 58
+WARNING Forbidden: /api/drug-make/
+WARNING "GET /api/drug-make/?email=amjad.baba911@gmail.com&password=hAnadi10 HTTP/1.1" 403 58
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /api/drug-list/ HTTP/1.1" 200 14943
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/serializers.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /api/drug-list/ HTTP/1.1" 200 15535
+WARNING Forbidden: /api/drug-list/
+WARNING "GET /api/drug-list/ HTTP/1.1" 403 58
+WARNING Forbidden: /api/drug-list/
+WARNING "GET /api/drug-list/ HTTP/1.1" 403 58
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Unauthorized: /api/drug-list/
+WARNING "GET /api/drug-list/ HTTP/1.1" 401 5149
+WARNING Unauthorized: /api/drug-list/
+WARNING "GET /api/drug-list/ HTTP/1.1" 401 58
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Forbidden: /api/drug-list/
+WARNING "GET /api/drug-list/ HTTP/1.1" 403 58
+WARNING Forbidden: /api/drug-list/
+WARNING "GET /api/drug-list/ HTTP/1.1" 403 58
+INFO "GET /api/drug-list/ HTTP/1.1" 200 15535
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO "GET /details/13/ HTTP/1.1" 200 3071
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO "GET /api/drug-list/ HTTP/1.1" 200 15535
+WARNING Forbidden: /api/drug-list/
+WARNING "GET /api/drug-list/ HTTP/1.1" 403 58
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /api/drug-list/ HTTP/1.1" 200 8443
+INFO "GET /api/drug-list/ HTTP/1.1" 200 15535
+INFO "GET /api/drug-list/ HTTP/1.1" 200 15535
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /api/drug-list/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+AttributeError: 'TokenAuthentication' object has no attribute 'has_permission'
+ERROR "GET /api/drug-list/ HTTP/1.1" 500 90947
+ERROR Internal Server Error: /api/drug-list/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+AttributeError: 'TokenAuthentication' object has no attribute 'has_permission'
+ERROR "GET /api/drug-list/ HTTP/1.1" 500 90947
+ERROR Internal Server Error: /api/drug-list/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+AttributeError: 'TokenAuthentication' object has no attribute 'has_permission'
+ERROR "GET /api/drug-list/ HTTP/1.1" 500 92098
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Forbidden: /api/drug-list/
+WARNING "GET /api/drug-list/ HTTP/1.1" 403 58
+INFO "GET /api/drug-list/ HTTP/1.1" 200 15535
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /api/drug-list/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/permissions.py", line 229, in has_permission
+    queryset = self._queryset(view)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/permissions.py", line 205, in _queryset
+    assert hasattr(view, 'get_queryset') \
+AssertionError: Cannot apply DjangoModelPermissionsOrAnonReadOnly on a view that does not set `.queryset` or have a `.get_queryset()` method.
+ERROR "GET /api/drug-list/ HTTP/1.1" 500 99603
+ERROR Internal Server Error: /api/drug-list/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/permissions.py", line 229, in has_permission
+    queryset = self._queryset(view)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/permissions.py", line 205, in _queryset
+    assert hasattr(view, 'get_queryset') \
+AssertionError: Cannot apply DjangoModelPermissionsOrAnonReadOnly on a view that does not set `.queryset` or have a `.get_queryset()` method.
+ERROR "GET /api/drug-list/ HTTP/1.1" 500 99603
+ERROR Internal Server Error: /api/drug-list/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/permissions.py", line 229, in has_permission
+    queryset = self._queryset(view)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/permissions.py", line 205, in _queryset
+    assert hasattr(view, 'get_queryset') \
+AssertionError: Cannot apply DjangoModelPermissionsOrAnonReadOnly on a view that does not set `.queryset` or have a `.get_queryset()` method.
+ERROR "GET /api/drug-list/ HTTP/1.1" 500 100754
+ERROR Internal Server Error: /api/drug-list/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 415, in initial
+    self.check_permissions(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/permissions.py", line 229, in has_permission
+    queryset = self._queryset(view)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/rest_framework/permissions.py", line 205, in _queryset
+    assert hasattr(view, 'get_queryset') \
+AssertionError: Cannot apply DjangoModelPermissionsOrAnonReadOnly on a view that does not set `.queryset` or have a `.get_queryset()` method.
+ERROR "GET /api/drug-list/ HTTP/1.1" 500 100754
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /api/drug-list/ HTTP/1.1" 200 15535
+INFO "GET /api/drug-list/ HTTP/1.1" 200 8443
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /api/drug-list/ HTTP/1.1" 200 15535
+INFO "GET / HTTP/1.1" 200 3553
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+WARNING Not Found: /login/
+WARNING "GET /login/ HTTP/1.1" 404 4322
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "POST /login-d/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 5542
+INFO "GET /schedule-d/ HTTP/1.1" 200 6174
+INFO "GET /home-d/ HTTP/1.1" 200 5542
+INFO "GET / HTTP/1.1" 200 3553

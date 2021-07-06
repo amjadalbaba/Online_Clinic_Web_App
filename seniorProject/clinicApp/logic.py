@@ -11,9 +11,32 @@ from enum import Enum
 
 from django.http import JsonResponse
 from .utils import *
+from django.contrib.auth.models import User
+
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+from .serializers import *
+
 
 logger = logging.getLogger('django')
 halfhour = 30
+
+#testing
+@api_view(['GET'])
+def res(request):
+    api_urls = {
+        'List' : '/drug-list/',
+        'Create' : '/drug-make/',
+    }
+
+    return Response(api_urls)
+
+@api_view(['GET'])
+def listing(request):
+
+    list = Speciality.objects.all()
+    serializer = SpecialitySerializers(list, many=True)
+    return Response(serializer.data)
 
 class days(Enum):
     Monday      = "Monday"

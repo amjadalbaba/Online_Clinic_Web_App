@@ -8,7 +8,6 @@ from django.contrib.auth.forms import UserCreationForm
 from django.views.decorators.cache import never_cache
 from django.forms import inlineformset_factory
 
-from .serializers import patientLoginSerializers
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
@@ -19,7 +18,6 @@ from django.http import JsonResponse
 
 from rest_framework.authtoken.views import ObtainAuthToken
 from rest_framework.authtoken.models import Token
-from rest_framework.response import Response
 from .utils import scheduleInsert, checkDay, transfromTimeToInt, halfSplit, timeListItem
 from .logic import *
 import datetime
@@ -31,36 +29,24 @@ from django.contrib.auth.models import User
 
 
 logger = logging.getLogger('django')
-# Create your views here.
-# def homeee(request):
-#     context = {}
-#     return render(request, 'homeee.html', context)
-#
-# def register(request):
-#     if request.method == 'POST':
-#         form = SignUpForm(request.POST)
-#         if form.is_valid():
-#             form.save()
-#             id = User.objects.filter(username=form.cleaned_data['username']).values_list('id', flat=True)
-#
-#             f1 = Doctor.objects.create(user_id = id[0])
-#             f1.save()
-#             usern = form.cleaned_data['username']
-#             pwd = form.cleaned_data['password1']
-#             user = authenticate(username=usern,password=pwd)
-#             login(request,user)
-#             return redirect('homeee')
-#         else:
-#             logger.info(form.errors)
-#     else:
-#         form = SignUpForm()
-#
-#     context={'form':form}
-#     return render(request, 'register.html', context)
 
 
 
+def loginCheck(request):
+    if request.method == 'POST':
+        email = request.POST['email']
 
+        username = User.objects.get(email=email).username
+        password = request.POST['password']
+
+        user = authenticate(username=username, password=password)
+
+        if user is not None:
+            login(request, user)
+            return True
+
+        else:
+            messages.info(request, "Wrong Credentials")
 
 
 
@@ -91,41 +77,16 @@ def registerDoctorPage(request):
 
 def loginPatPage(request):
 
-    if request.method == 'POST':
-        email = request.POST['email']
+    checkIfTrueCredentials = loginCheck(request)
+    if checkIfTrueCredentials == True:
+        return redirect('p_home')
 
-        username = User.objects.get(email=email).username
-        password = request.POST['password']
-
-        user = authenticate(username=username, password=password)
-        logger.info(user)
-
-        if user is not None:
-
-            login(request, user)
-            return redirect('p_home')
-
-        else:
-            messages.info(request, "Wrong Credentials")
     return render(request, "login_patient.html")
 
 def loginDoctorPage(request):
-
-    if request.method == 'POST':
-        email = request.POST['email']
-
-        username = User.objects.get(email=email).username
-        password = request.POST['password']
-
-        user = authenticate(username=username, password=password)
-
-        if user is not None:
-
-            login(request, user)
-            return redirect('d_home')
-
-        else:
-            messages.info(request, "Wrong Credentials")
+    checkIfTrueCredentials = loginCheck(request)
+    if checkIfTrueCredentials == True:
+        return redirect('d_home')
     return render(request, "login_doctor.html")
 
 def loginDrPage(request):
@@ -169,8 +130,8 @@ def d_home(request):
 
         context = {'list' : drl, 'list2' : drl2, 'Appointments' : drApp , 'idDoctor' : idDoctor[0], 'doctor' : drUser}
         return render(request, 'd_dashboard.html', context)
-    # else:
-    #     return HttpResponse('unauthenticated')
+    else:
+        return redirect('login_d')
 
 #@login_required(login_url='/api/login-p/')
 def p_home(request):
@@ -187,6 +148,9 @@ def p_home(request):
 
         context = {'patient' : ptUser, 'patientId' : idPatient[0],'id' : idPatient, 'appointments' : ptAppointments, 'count' : count, 'countConsulted' : countConsulted}
         return render(request, 'p_dashboard.html', context)
+
+    else:
+         return redirect('login_p')
 
 #@login_required(login_url='login_d')
 def createSchedule(request):

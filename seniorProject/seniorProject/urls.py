@@ -49,11 +49,6 @@ urlpatterns = [
     path('details/<str:pk>/', views.appointmentDetailsPage, name="details"),
 
 
-    # path('register/', views.register, name="register"),
-    # path('homeee/', views.homeee, name="homeee"),
-
-
-
-    #path('r/', include('clinicApp.urls')),
+    path('api/', include('clinicApp.urls')),
 ]
 

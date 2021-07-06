@@ -1,7 +1,8 @@
-# from django.urls import path
-# from . import views
-#
-# urlpatterns = [
-#     path('', views.loginPatientPage, name='login-p'),
-#     path('api/login-p/', views.loginPatientPage),
-# ]
+from django.urls import path
+from . import logic
+
+urlpatterns = [
+    path('', logic.res, name='resc'),
+    path('drug-list/', logic.listing, name="drugs"),
+
+]

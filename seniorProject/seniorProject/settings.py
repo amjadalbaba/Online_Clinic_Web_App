@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 
 import os
 
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -39,9 +40,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'clinicApp',
+
     'rest_framework',
     'rest_framework.authtoken',
     'django_apscheduler',
+    'django_crontab',
 ]
 
 MIDDLEWARE = [
@@ -75,11 +78,11 @@ TEMPLATES = [
 WSGI_APPLICATION = 'seniorProject.wsgi.application'
 
 REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': (
-        'rest_framework.authentication.TokenAuthentication',
-    ),
+    # 'DEFAULT_AUTHENTICATION_CLASSES': (
+    #     'rest_framework.authentication.TokenAuthentication',
+    # ),
     'DEFAULT_PERMISSION_CLASSES': (
-        'rest_framework.permissions.IsAuthenticated',
+       # 'rest_framework.permissions.IsAuthenticated',
     ),
 }
 
@@ -97,7 +100,11 @@ DATABASES = {
     }
 }
 
+CRONTAB_COMMAND_SUFFIX = '2>&1'
 
+CRONJOBS = [
+    ('*/1 * * * *', 'clinicApp.cron.job')#, '>> /logs/debug3.log'
+]
 
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
