@@ -86,18 +86,16 @@ class Consultation(models.Model):
     created_at          = models.DateTimeField(auto_now_add=True, null=True)
     updated_at          = models.DateTimeField(auto_now_add=True, null=True)
 
-class doctorReminders(models.Model):
+class doctorNotice(models.Model):
     doctor              = models.ForeignKey(Doctor, null=True, on_delete=models.SET_NULL)
     content             = models.CharField(max_length=200, null=True)
     sent_at             = models.DateTimeField(auto_now_add=True, null=True)
-    retry_count         = models.IntegerField(null=True)
     created_at          = models.DateTimeField(auto_now_add=True, null=True)
     updated_at          = models.DateTimeField(auto_now_add=True, null=True)
 
-class patientReminders(models.Model):
+class patientNotice(models.Model):
     patient             = models.ForeignKey(Patient, null=True, on_delete=models.SET_NULL)
     content             = models.CharField(max_length=200, null=True)
     sent_at             = models.DateTimeField(auto_now_add=True, null=True)
-    retry_count         = models.IntegerField(null=True)
     created_at          = models.DateTimeField(auto_now_add=True, null=True)
     updated_at          = models.DateTimeField(auto_now_add=True, null=True)

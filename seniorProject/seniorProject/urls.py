@@ -48,6 +48,12 @@ urlpatterns = [
 
     path('details/<str:pk>/', views.appointmentDetailsPage, name="details"),
 
+    path('delete-app-by-pat/<str:pk>/', views.deleteAppointmentByPatient, name="deleteByPat"),
+    path('delete-app-by-dr/<str:pk>/', views.deleteAppointmentByDoctor, name="deleteByDr"),
+
+    path('delete-notice-by-dr/<str:pk>/', views.deleteNoticeByDoctor, name="deleteNoticeByDr"),
+    path('delete-notice-by-pt/<str:pk>/', views.deleteNoticeByPatient, name="deleteNoticeByPt"),
+
 
     path('api/', include('clinicApp.urls')),
 ]

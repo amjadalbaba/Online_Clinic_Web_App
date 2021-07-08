@@ -30629,3 +30629,1170 @@ INFO "GET /home-d/ HTTP/1.1" 200 5542
 INFO "GET /schedule-d/ HTTP/1.1" 200 6174
 INFO "GET /home-d/ HTTP/1.1" 200 5542
 INFO "GET / HTTP/1.1" 200 3553
+INFO "GET /register-doctor/ HTTP/1.1" 200 11900
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "GET /details/13/ HTTP/1.1" 200 26
+INFO "GET /details/12/ HTTP/1.1" 200 26
+INFO "GET /details/13/ HTTP/1.1" 200 26
+ERROR Internal Server Error: /home-p/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 144, in p_home
+    ptAppointments = Appointments.objects.filter(patient_id =  idPatient[0]).order_by('day')
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /home-p/ HTTP/1.1" 500 64351
+INFO "GET / HTTP/1.1" 200 3553
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO "GET /details/13/ HTTP/1.1" 200 3071
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO [20, 19, 20.5]
+INFO [19.5, 19, 21.0, 20, 20.5]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 18.5]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-05-31 HTTP/1.1" 200 131
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO "GET /logout-p/ HTTP/1.1" 302 0
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "GET /logout-d/ HTTP/1.1" 302 0
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "POST /login-d/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 5542
+INFO "GET /schedule-d/ HTTP/1.1" 200 6174
+INFO "GET /home-d/ HTTP/1.1" 200 5542
+INFO "GET /schedule-d/ HTTP/1.1" 200 6174
+INFO "GET /home-d/ HTTP/1.1" 200 5542
+INFO "GET /prescription/15/ HTTP/1.1" 200 4962
+INFO "GET /home-d/ HTTP/1.1" 200 5542
+INFO "GET /prescription/15/ HTTP/1.1" 200 4962
+INFO "GET /home-d/ HTTP/1.1" 200 5542
+INFO "GET /logout-d/ HTTP/1.1" 302 0
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 6271
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /home-p/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 150, in p_home
+    return render(request, 'p_dashboard.html', context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'delete ' not found. 'delete ' is not a valid view function or pattern name.
+ERROR "GET /home-p/ HTTP/1.1" 500 172896
+INFO "GET /home-p/ HTTP/1.1" 200 7027
+INFO "GET /delete-order/13/ HTTP/1.1" 200 123
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/models.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/admin.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-p/ HTTP/1.1" 200 7027
+INFO Watching for file changes with StatReloader
+INFO "GET /home-p/ HTTP/1.1" 200 7027
+INFO "GET /delete-order/13/ HTTP/1.1" 200 130
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-p/ HTTP/1.1" 200 7027
+INFO "GET /delete-order/13/ HTTP/1.1" 200 882
+INFO "GET /delete-order/13/ HTTP/1.1" 200 907
+INFO "GET /delete-order/13/ HTTP/1.1" 200 926
+INFO "GET /delete-order/13/ HTTP/1.1" 200 1472
+INFO "GET /delete-order/13/ HTTP/1.1" 200 1438
+INFO "GET /delete-order/13/ HTTP/1.1" 200 1455
+INFO "GET /delete-order/13/ HTTP/1.1" 200 1439
+INFO "GET /delete-order/13/ HTTP/1.1" 200 1422
+INFO "GET /home-p/ HTTP/1.1" 200 7027
+INFO "GET /home-p/ HTTP/1.1" 200 7027
+INFO "GET /delete-order/13/ HTTP/1.1" 200 1377
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /delete-order/15/ HTTP/1.1" 200 1377
+INFO "POST /delete-order/15/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 6440
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO [20, 20.5]
+INFO [21.0, 20, 20.5]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-05-31 HTTP/1.1" 200 219
+INFO "GET /home-p/ HTTP/1.1" 200 6440
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /delete-order/13/ HTTP/1.1" 200 1377
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-p/ HTTP/1.1" 200 6440
+ERROR Internal Server Error: /delete-order/13/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 289, in deleteOrder
+    logger.info(appointment[0].doctor)
+TypeError: 'Appointments' object is not subscriptable
+ERROR "GET /delete-order/13/ HTTP/1.1" 500 60384
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-p/ HTTP/1.1" 200 6440
+INFO Appointments object (13)
+INFO "GET /delete-order/13/ HTTP/1.1" 200 1377
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-p/ HTTP/1.1" 200 6440
+INFO "GET /delete-order/13/ HTTP/1.1" 200 1377
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 35
+INFO "GET /delete-order/13/ HTTP/1.1" 200 1377
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-p/ HTTP/1.1" 200 6440
+ERROR Internal Server Error: /delete-order/13/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 289, in deleteOrder
+    logger.info(appointment.patient_id.firstName)
+AttributeError: 'int' object has no attribute 'firstName'
+ERROR "GET /delete-order/13/ HTTP/1.1" 500 60265
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /delete-order/13/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 289, in deleteOrder
+    logger.info(appointment.patient_id.user.first_name)
+AttributeError: 'int' object has no attribute 'user'
+ERROR "GET /delete-order/13/ HTTP/1.1" 500 60106
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 20
+INFO "GET /delete-order/13/ HTTP/1.1" 200 1377
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-p/ HTTP/1.1" 200 6440
+INFO ammdd
+INFO "GET /delete-order/13/ HTTP/1.1" 200 1377
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-p/ HTTP/1.1" 200 6440
+INFO Amjad
+INFO "GET /delete-order/16/ HTTP/1.1" 200 1377
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-p/ HTTP/1.1" 200 6440
+INFO AmjadEl Baba
+INFO "GET /delete-order/13/ HTTP/1.1" 200 1377
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-p/ HTTP/1.1" 200 6440
+INFO Amjad El Baba
+INFO "GET /delete-order/13/ HTTP/1.1" 200 1377
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Amjad El Baba
+INFO "GET /delete-order/13/ HTTP/1.1" 200 1377
+INFO "GET /home-p/ HTTP/1.1" 200 6440
+INFO Amjad El Baba
+INFO "GET /delete-order/13/ HTTP/1.1" 200 1377
+INFO Amjad El Baba
+ERROR Internal Server Error: /delete-order/13/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 295, in deleteOrder
+    doctorNotice.objects.create(doctor=appointment.doctor_id, content='Patient ' + user.first_name + ' ' + user.last_name + "have canceled the appointment at" + str(appointment.from_hour))
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 445, in create
+    obj = self.model(**kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/base.py", line 483, in __init__
+    _setattr(self, field.name, rel_obj)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/fields/related_descriptors.py", line 215, in __set__
+    raise ValueError(
+ValueError: Cannot assign "35": "doctorNotice.doctor" must be a "Doctor" instance.
+ERROR "POST /delete-order/13/ HTTP/1.1" 500 80872
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /delete-order/13/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 288, in deleteOrder
+    appointment = Appointments.objects.get(id = pk)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+clinicApp.models.Appointments.DoesNotExist: Appointments matching query does not exist.
+ERROR "POST /delete-order/13/ HTTP/1.1" 500 70015
+INFO "GET /home-p/ HTTP/1.1" 200 5803
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO [20.5]
+INFO [20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-05-31 HTTP/1.1" 200 263
+INFO [20.5]
+INFO [20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0]
+INFO 18
+INFO "POST /api/appointment-d/ HTTP/1.1" 200 17
+INFO "GET /home-p/ HTTP/1.1" 200 6390
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-p/ HTTP/1.1" 200 6390
+INFO Amjad El Baba
+INFO "GET /delete-order/16/ HTTP/1.1" 200 1377
+INFO Amjad El Baba
+INFO "POST /delete-order/16/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 5803
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-p/ HTTP/1.1" 200 5803
+INFO "GET /delete-order/18/ HTTP/1.1" 200 1377
+INFO "GET /home-p/ HTTP/1.1" 200 5803
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO [18]
+INFO [18, 18.5]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-05-31 HTTP/1.1" 200 263
+INFO [18]
+INFO [18, 18.5]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO 19
+INFO "POST /api/appointment-d/ HTTP/1.1" 200 17
+INFO "GET /home-p/ HTTP/1.1" 200 6390
+INFO "GET /logout-p/ HTTP/1.1" 302 0
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "POST /login-d/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 5300
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /home-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 132, in d_home
+    return render(request, 'd_dashboard.html', context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deleteByDr' with arguments '('',)' not found. 1 pattern(s) tried: ['delete\\-app\\-by\\-dr/(?P<pk>[^/]+)/$']
+ERROR "GET /home-d/ HTTP/1.1" 500 170231
+ERROR Internal Server Error: /home-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 132, in d_home
+    return render(request, 'd_dashboard.html', context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deleteByDr' with arguments '('',)' not found. 1 pattern(s) tried: ['delete\\-app\\-by\\-dr/(?P<pk>[^/]+)/$']
+ERROR "GET /home-d/ HTTP/1.1" 500 170231
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /home-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 132, in d_home
+    return render(request, 'd_dashboard.html', context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deleteByDr' with arguments '('',)' not found. 1 pattern(s) tried: ['delete\\-app\\-by\\-dr/(?P<pk>[^/]+)/$']
+ERROR "GET /home-d/ HTTP/1.1" 500 169937
+ERROR Internal Server Error: /home-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 132, in d_home
+    return render(request, 'd_dashboard.html', context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deleteByDr' with arguments '('',)' not found. 1 pattern(s) tried: ['delete\\-app\\-by\\-dr/(?P<pk>[^/]+)/$']
+ERROR "GET /home-d/ HTTP/1.1" 500 169937
+INFO "GET /home-d/ HTTP/1.1" 200 5815
+INFO "GET /static/css/custom.css HTTP/1.1" 200 212
+INFO "GET /static/js/main.js HTTP/1.1" 200 353
+INFO "GET /static/css/bootstrap.css HTTP/1.1" 200 192348
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 200 93101
+INFO "GET /static/css/bootstrap.min.css HTTP/1.1" 200 155758
+INFO "GET /static/js/bootstrap.min.js HTTP/1.1" 200 58072
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /logout-d/ HTTP/1.1" 302 0
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 6415
+INFO "GET /home-p/ HTTP/1.1" 200 6427
+INFO "GET /delete-app-by-pat/18/ HTTP/1.1" 200 1381
+INFO "GET /home-p/ HTTP/1.1" 200 6427
+INFO "GET /logout-p/ HTTP/1.1" 302 0
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "POST /login-d/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 5815
+INFO "GET /home-d/ HTTP/1.1" 200 5827
+ERROR Internal Server Error: /delete-app-by-dr/18/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 304, in deleteAppointmentByDoctor
+    user = User.objects.get(id = doctorUserID[0])
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /delete-app-by-dr/18/ HTTP/1.1" 500 64669
+INFO "GET /home-d/ HTTP/1.1" 200 5827
+INFO "GET /home-d/ HTTP/1.1" 200 5827
+INFO "GET /home-d/ HTTP/1.1" 200 5827
+INFO "GET /home-d/ HTTP/1.1" 200 5827
+ERROR Internal Server Error: /delete-app-by-dr/18/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 304, in deleteAppointmentByDoctor
+    user = User.objects.get(id = doctorUserID[0])
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /delete-app-by-dr/18/ HTTP/1.1" 500 64669
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/ HTTP/1.1" 200 5827
+ERROR Internal Server Error: /delete-app-by-dr/18/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 304, in deleteAppointmentByDoctor
+    logger.info(doctorUserID[0])
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /delete-app-by-dr/18/ HTTP/1.1" 500 64641
+ERROR Internal Server Error: /delete-app-by-dr/18/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 304, in deleteAppointmentByDoctor
+    logger.info(doctorUserID[0])
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /delete-app-by-dr/18/ HTTP/1.1" 500 64641
+INFO "GET /home-d/ HTTP/1.1" 200 5827
+INFO "GET /home-d/ HTTP/1.1" 200 5618
+INFO "GET /home-d/ HTTP/1.1" 200 5642
+ERROR Internal Server Error: /delete-app-by-dr/18/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 304, in deleteAppointmentByDoctor
+    logger.info(doctorUserID[0])
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /delete-app-by-dr/18/ HTTP/1.1" 500 64641
+INFO "GET /prescription/18/ HTTP/1.1" 200 4962
+INFO "GET /home-d/ HTTP/1.1" 200 5642
+INFO "GET /home-d/ HTTP/1.1" 200 5642
+ERROR Internal Server Error: /delete-app-by-dr/18/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 304, in deleteAppointmentByDoctor
+    logger.info(doctorUserID[0])
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /delete-app-by-dr/18/ HTTP/1.1" 500 64641
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QuerySet []>
+ERROR Internal Server Error: /delete-app-by-dr/18/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 305, in deleteAppointmentByDoctor
+    user = User.objects.get(id = doctorUserID[0])
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /delete-app-by-dr/18/ HTTP/1.1" 500 64698
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QuerySet [52]>
+INFO "GET /delete-app-by-dr/18/ HTTP/1.1" 200 1381
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /home-p/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 144, in p_home
+    ptAppointments = Appointments.objects.filter(patient_id =  idPatient[0]).order_by('day')
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /home-p/ HTTP/1.1" 500 64515
+ERROR Internal Server Error: /home-p/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 144, in p_home
+    ptAppointments = Appointments.objects.filter(patient_id =  idPatient[0]).order_by('day')
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /home-p/ HTTP/1.1" 500 64515
+ERROR Internal Server Error: /home-p/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 144, in p_home
+    ptAppointments = Appointments.objects.filter(patient_id =  idPatient[0]).order_by('day')
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /home-p/ HTTP/1.1" 500 64515
+INFO "GET /delete-app-by-dr/18/ HTTP/1.1" 200 1381
+ERROR Internal Server Error: /home-p/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 144, in p_home
+    ptAppointments = Appointments.objects.filter(patient_id =  idPatient[0]).order_by('day')
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /home-p/ HTTP/1.1" 500 64515
+ERROR Internal Server Error: /home-p/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 144, in p_home
+    ptAppointments = Appointments.objects.filter(patient_id =  idPatient[0]).order_by('day')
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /home-p/ HTTP/1.1" 500 64515
+ERROR Internal Server Error: /home-p/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 144, in p_home
+    ptAppointments = Appointments.objects.filter(patient_id =  idPatient[0]).order_by('day')
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /home-p/ HTTP/1.1" 500 64351
+ERROR Internal Server Error: /home-p/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 144, in p_home
+    ptAppointments = Appointments.objects.filter(patient_id =  idPatient[0]).order_by('day')
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /home-p/ HTTP/1.1" 500 64351
+INFO "GET /home-d/ HTTP/1.1" 200 5642
+INFO "GET /delete-app-by-dr/18/ HTTP/1.1" 200 1381
+ERROR Internal Server Error: /home-p/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 144, in p_home
+    ptAppointments = Appointments.objects.filter(patient_id =  idPatient[0]).order_by('day')
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /home-p/ HTTP/1.1" 500 64515
+INFO "POST /delete-app-by-pat/18/ HTTP/1.1" 302 0
+ERROR Internal Server Error: /home-p/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 144, in p_home
+    ptAppointments = Appointments.objects.filter(patient_id =  idPatient[0]).order_by('day')
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /home-p/ HTTP/1.1" 500 64657
+INFO "GET /home-d/ HTTP/1.1" 200 5196
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/ HTTP/1.1" 200 5196
+INFO "GET /delete-app-by-dr/19/ HTTP/1.1" 200 1381
+ERROR Internal Server Error: /home-p/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 144, in p_home
+    ptAppointments = Appointments.objects.filter(patient_id =  idPatient[0]).order_by('day')
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /home-p/ HTTP/1.1" 500 64515
+INFO "GET /home-d/ HTTP/1.1" 200 5196
+INFO "GET /schedule-d/ HTTP/1.1" 200 6174
+INFO "GET /home-d/ HTTP/1.1" 200 5196
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/ HTTP/1.1" 200 5196
+INFO "GET /delete-app-by-dr/19/ HTTP/1.1" 200 1381
+ERROR Internal Server Error: /home-p/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 144, in p_home
+    ptAppointments = Appointments.objects.filter(patient_id =  idPatient[0]).order_by('day')
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /home-p/ HTTP/1.1" 500 64515
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /home-p/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 144, in p_home
+    ptAppointments = Appointments.objects.filter(patient_id =  idPatient[0]).order_by('day')
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /home-p/ HTTP/1.1" 500 64515
+ERROR Internal Server Error: /home-p/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 144, in p_home
+    ptAppointments = Appointments.objects.filter(patient_id =  idPatient[0]).order_by('day')
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /home-p/ HTTP/1.1" 500 64515
+INFO "GET /home-d/ HTTP/1.1" 200 5196
+INFO "GET /delete-app-by-dr/19/ HTTP/1.1" 200 1380
+INFO "GET /home-d/ HTTP/1.1" 200 5196
+INFO "GET /delete-app-by-dr/19/ HTTP/1.1" 200 1380
+INFO "POST /delete-app-by-dr/19/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 4753
+INFO "GET /logout-d/ HTTP/1.1" 302 0
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 5243
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO []
+INFO []
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-05-31 HTTP/1.1" 200 351
+INFO []
+INFO []
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO 20
+INFO "POST /api/appointment-d/ HTTP/1.1" 200 17
+INFO "GET /home-p/ HTTP/1.1" 200 5835
+INFO "GET /logout-p/ HTTP/1.1" 302 0
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "POST /login-d/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 5196
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/ HTTP/1.1" 200 5602
+INFO "GET /home-d/ HTTP/1.1" 200 5602
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO <QuerySet [<doctorNotice: doctorNotice object (1)>]>
+INFO "GET /home-d/ HTTP/1.1" 200 5602
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Patient Amjad El Baba have canceled the appointment at 20:30:00
+INFO "GET /home-d/ HTTP/1.1" 200 5602
+INFO Patient Amjad El Baba have canceled the appointment at 20:30:00
+INFO "GET /home-d/ HTTP/1.1" 200 5609
+INFO Patient Amjad El Baba have canceled the appointment at 20:30:00
+INFO "GET /home-d/ HTTP/1.1" 200 5609
+INFO Patient Amjad El Baba have canceled the appointment at 20:30:00
+INFO "GET /home-d/ HTTP/1.1" 200 5611
+INFO Patient Amjad El Baba have canceled the appointment at 20:30:00
+INFO "GET /home-d/ HTTP/1.1" 200 5611
+INFO Patient Amjad El Baba have canceled the appointment at 20:30:00
+INFO "GET /home-d/ HTTP/1.1" 200 5611
+INFO Patient Amjad El Baba have canceled the appointment at 20:30:00
+INFO "GET /home-d/ HTTP/1.1" 200 5609
+INFO Patient Amjad El Baba have canceled the appointment at 20:30:00
+INFO "GET /home-d/ HTTP/1.1" 200 5609
+INFO Patient Amjad El Baba have canceled the appointment at 20:30:00
+INFO "GET /home-d/ HTTP/1.1" 200 5609
+INFO Patient Amjad El Baba have canceled the appointment at 20:30:00
+INFO "GET /home-d/ HTTP/1.1" 200 5609
+INFO Patient Amjad El Baba have canceled the appointment at 20:30:00
+INFO "GET /home-d/ HTTP/1.1" 200 5609
+INFO Patient Amjad El Baba have canceled the appointment at 20:30:00
+INFO "GET /home-d/ HTTP/1.1" 200 5609
+INFO Patient Amjad El Baba have canceled the appointment at 20:30:00
+INFO "GET /home-d/ HTTP/1.1" 200 5609
+INFO Patient Amjad El Baba have canceled the appointment at 20:30:00
+INFO "GET /home-d/ HTTP/1.1" 200 5609
+INFO Patient Amjad El Baba have canceled the appointment at 20:30:00
+INFO "GET /home-d/ HTTP/1.1" 200 5609
+INFO Patient Amjad El Baba have canceled the appointment at 20:30:00
+INFO "GET /home-d/ HTTP/1.1" 200 5609
+INFO Patient Amjad El Baba have canceled the appointment at 20:30:00
+INFO "GET /home-d/ HTTP/1.1" 200 5626
+INFO Patient Amjad El Baba have canceled the appointment at 20:30:00
+INFO "GET /home-d/ HTTP/1.1" 200 5626
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/ HTTP/1.1" 200 5659
+INFO "GET /home-d/ HTTP/1.1" 200 5659
+INFO "GET /home-d/ HTTP/1.1" 200 5659
+INFO "GET /home-d/ HTTP/1.1" 200 5659
+INFO "GET /home-d/ HTTP/1.1" 200 5680
+INFO "GET /home-d/ HTTP/1.1" 200 5659
+INFO "GET /home-d/ HTTP/1.1" 200 5659
+INFO "GET /home-d/ HTTP/1.1" 200 6212
+WARNING Not Found: /home-d/...
+WARNING "GET /home-d/... HTTP/1.1" 404 4638
+INFO "GET /home-d/ HTTP/1.1" 200 6212
+WARNING Not Found: /home-d/...
+WARNING "GET /home-d/... HTTP/1.1" 404 4638
+INFO "GET /home-d/ HTTP/1.1" 200 6212
+WARNING Not Found: /home-d/...
+WARNING "GET /home-d/... HTTP/1.1" 404 4638
+INFO "GET /home-d/ HTTP/1.1" 200 6222
+WARNING Not Found: /home-d/...
+WARNING "GET /home-d/... HTTP/1.1" 404 4638
+INFO "GET /home-d/ HTTP/1.1" 200 6222
+WARNING Not Found: /home-d/...
+WARNING "GET /home-d/... HTTP/1.1" 404 4638
+INFO "GET /home-d/ HTTP/1.1" 200 6222
+WARNING Not Found: /home-d/...
+WARNING "GET /home-d/... HTTP/1.1" 404 4638
+INFO "GET /home-d/ HTTP/1.1" 200 5787
+WARNING Not Found: /home-d/...
+WARNING "GET /home-d/... HTTP/1.1" 404 4638
+INFO "GET /home-d/ HTTP/1.1" 200 5527
+INFO "GET /home-d/ HTTP/1.1" 200 5530
+INFO "GET /home-d/ HTTP/1.1" 200 5560
+INFO "GET /home-d/ HTTP/1.1" 200 5560
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/ HTTP/1.1" 200 5560
+INFO "GET /home-d/ HTTP/1.1" 200 5560
+INFO "GET /home-d/ HTTP/1.1" 200 5601
+INFO "GET /home-d/ HTTP/1.1" 200 5601
+INFO "GET /home-d/ HTTP/1.1" 200 5601
+INFO "GET /home-d/ HTTP/1.1" 200 5601
+INFO "GET /home-d/ HTTP/1.1" 200 5601
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/ HTTP/1.1" 200 5601
+INFO "GET /home-d/ HTTP/1.1" 200 5601
+INFO "GET /home-d/ HTTP/1.1" 200 5545
+INFO "GET /home-d/ HTTP/1.1" 200 5545
+INFO "GET /home-d/ HTTP/1.1" 200 5552
+INFO "GET /home-d/ HTTP/1.1" 200 5552
+INFO "GET /home-d/ HTTP/1.1" 200 5552
+INFO "GET /home-d/ HTTP/1.1" 200 5552
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/ HTTP/1.1" 200 5552
+INFO "GET /home-d/ HTTP/1.1" 200 5551
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/ HTTP/1.1" 200 5551
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/ HTTP/1.1" 200 5551
+INFO "GET /home-d/ HTTP/1.1" 200 5551
+INFO "GET /home-d/ HTTP/1.1" 200 5551
+INFO "GET /delete-app-by-dr/20/ HTTP/1.1" 200 1380
+INFO "GET /home-d/ HTTP/1.1" 200 5551
+INFO "GET /schedule-d/ HTTP/1.1" 200 6174
+INFO "GET /home-d/ HTTP/1.1" 200 5551
+INFO "GET /home-d/ HTTP/1.1" 200 5551
+INFO "GET /home-d/ HTTP/1.1" 200 5551
+INFO "GET /home-d/ HTTP/1.1" 200 5551
+INFO "GET /home-d/ HTTP/1.1" 200 5551
+INFO "GET /home-d/ HTTP/1.1" 200 5551
+INFO "GET /home-d/ HTTP/1.1" 200 5551
+INFO "GET /logout-d/ HTTP/1.1" 302 0
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 5835
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-p/ HTTP/1.1" 200 6333
+INFO "GET /home-p/ HTTP/1.1" 200 6333
+INFO "GET /home-p/ HTTP/1.1" 200 6335
+INFO "GET /delete-app-by-pat/20/ HTTP/1.1" 200 1381
+INFO "GET /home-p/ HTTP/1.1" 200 6335
+INFO "GET /logout-p/ HTTP/1.1" 302 0
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "POST /login-d/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 5551
+INFO "GET /home-d/ HTTP/1.1" 200 5551
+INFO "GET /home-d/ HTTP/1.1" 200 5551
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/ HTTP/1.1" 200 5551
+INFO "GET /home-d/ HTTP/1.1" 200 5551
+INFO "GET /home-d/ HTTP/1.1" 200 5551
+INFO "GET /home-d/ HTTP/1.1" 200 5551
+INFO "GET /home-d/ HTTP/1.1" 200 5551
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/ HTTP/1.1" 200 5551
+INFO "GET /home-d/ HTTP/1.1" 200 5551
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/ HTTP/1.1" 200 5595
+INFO "GET /logout-d/ HTTP/1.1" 302 0
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 6335
+INFO "GET /logout-p/ HTTP/1.1" 302 0
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "POST /login-d/ HTTP/1.1" 302 0
+ERROR Internal Server Error: /home-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 127, in d_home
+    drl = DoctorSchedule.objects.filter(doctor_id =  idDoctor[0])
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /home-d/ HTTP/1.1" 500 64637
+WARNING Forbidden (CSRF token missing or incorrect.): /login-d/
+WARNING "POST /login-d/ HTTP/1.1" 403 2513
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+ERROR Internal Server Error: /login-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 87, in loginDoctorPage
+    checkIfTrueCredentials = loginCheck(request)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 39, in loginCheck
+    username = User.objects.get(email=email).username
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+ERROR "POST /login-d/ HTTP/1.1" 500 74043
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "POST /login-d/ HTTP/1.1" 200 2514
+INFO "POST /login-d/ HTTP/1.1" 200 2407
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "POST /login-d/ HTTP/1.1" 200 2514
+INFO "POST /login-d/ HTTP/1.1" 200 2514
+INFO "POST /login-d/ HTTP/1.1" 200 2514
+INFO "POST /login-d/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 5595
+INFO "GET /home-d/ HTTP/1.1" 200 5595
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/ HTTP/1.1" 200 5595
+INFO "GET /home-d/ HTTP/1.1" 200 5595
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/ HTTP/1.1" 200 5572
+INFO "GET /home-d/ HTTP/1.1" 200 5572
+INFO "GET /schedule-d/ HTTP/1.1" 200 6174
+INFO "GET /home-d/ HTTP/1.1" 200 5572
+INFO "GET /prescription/20/ HTTP/1.1" 200 4962
+INFO "GET /home-d/ HTTP/1.1" 200 5572
+INFO "GET /delete-app-by-dr/20/ HTTP/1.1" 200 1380
+INFO "GET /home-d/ HTTP/1.1" 200 5572
+INFO "GET /delete-app-by-dr/20/ HTTP/1.1" 200 1380
+INFO "GET /home-d/ HTTP/1.1" 200 5572
+INFO "GET /home-d/ HTTP/1.1" 200 5572
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/ HTTP/1.1" 200 5572
+INFO "GET /home-d/ HTTP/1.1" 200 5572
+INFO "GET /home-d/ HTTP/1.1" 200 5595
+ERROR Internal Server Error: /home-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 136, in d_home
+    return render(request, 'd_dashboard.html', context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deleteNoticeBDr' not found. 'deleteNoticeBDr' is not a valid view function or pattern name.
+ERROR "GET /home-d/ HTTP/1.1" 500 161389
+INFO "GET /home-d/ HTTP/1.1" 200 5595
+INFO "GET /home-d/ HTTP/1.1" 200 5595
+INFO "GET /home-d/ HTTP/1.1" 200 5595
+INFO "GET /home-d/ HTTP/1.1" 200 5595
+INFO "GET /home-d/ HTTP/1.1" 200 5595

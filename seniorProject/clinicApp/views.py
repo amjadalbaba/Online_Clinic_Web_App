@@ -34,18 +34,21 @@ logger = logging.getLogger('django')
 
 def loginCheck(request):
     if request.method == 'POST':
-        email = request.POST['email']
+        try:
+            email = request.POST['email']
 
-        username = User.objects.get(email=email).username
-        password = request.POST['password']
+            username = User.objects.get(email=email).username
+            password = request.POST['password']
 
-        user = authenticate(username=username, password=password)
+            user = authenticate(username=username, password=password)
 
-        if user is not None:
-            login(request, user)
-            return True
+            if user is not None:
+                login(request, user)
+                return True
+            else:
+                messages.info(request, "Wrong Credentials")
 
-        else:
+        except:
             messages.info(request, "Wrong Credentials")
 
 
@@ -128,7 +131,8 @@ def d_home(request):
         drl2 = Doctor.objects.get(id = idDoctor[0])
         drApp = Appointments.objects.filter(doctor_id =  idDoctor[0]).order_by('day')
 
-        context = {'list' : drl, 'list2' : drl2, 'Appointments' : drApp , 'idDoctor' : idDoctor[0], 'doctor' : drUser}
+        notices = doctorNotice.objects.all()
+        context = {'list' : drl, 'list2' : drl2, 'Appointments' : drApp , 'idDoctor' : idDoctor[0], 'doctor' : drUser, 'notices' : notices}
         return render(request, 'd_dashboard.html', context)
     else:
         return redirect('login_d')
@@ -146,7 +150,9 @@ def p_home(request):
         count  = Appointments.objects.filter(patient_id=idPatient[0]).count()
         countConsulted = Appointments.objects.filter(checkPrescription='yes').count()
 
-        context = {'patient' : ptUser, 'patientId' : idPatient[0],'id' : idPatient, 'appointments' : ptAppointments, 'count' : count, 'countConsulted' : countConsulted}
+        notices = patientNotice.objects.all()
+
+        context = {'patient' : ptUser, 'patientId' : idPatient[0],'id' : idPatient, 'appointments' : ptAppointments, 'count' : count, 'countConsulted' : countConsulted, 'notices' : notices}
         return render(request, 'p_dashboard.html', context)
 
     else:
@@ -284,3 +290,47 @@ def appointmentDetailsPage(request, pk):
 
 
 
+def deleteAppointmentByPatient(request, pk):
+    appointment = Appointments.objects.get(id = pk)
+    patientUserID = Patient.objects.filter(id=appointment.patient_id).values_list('user_id', flat=True)
+    user = User.objects.get(id = patientUserID[0])
+
+    if request.method == "POST":
+        appointment.delete()
+        doctorNotice.objects.create(doctor_id=int(appointment.doctor_id), content='Patient ' + user.first_name + ' ' + user.last_name + " have canceled the appointment at " + str(appointment.from_hour))
+
+        return redirect('p_home')
+
+    context={'appointment' : appointment}
+    return render(request, 'deleteAppointmentByPatient.html', context)
+
+def deleteAppointmentByDoctor(request, pk):
+    appointment = Appointments.objects.get(id = pk)
+    doctorUserID = Doctor.objects.filter(id=appointment.doctor_id).values_list('user_id', flat=True)
+    user = User.objects.get(id = doctorUserID[0])
+
+    if request.method == "POST":
+        appointment.delete()
+        patientNotice.objects.create(patient_id=int(appointment.patient_id), content='Doctor ' + user.first_name + ' ' + user.last_name + " have canceled the appointment at " + str(appointment.from_hour))
+
+        return redirect('d_home')
+
+    context={'appointment' : appointment}
+    return render(request, 'deleteAppointmentByDoctor.html', context)
+
+def deleteNoticeByDoctor(request, pk):
+    logger.info(request)
+    notice = doctorNotice.objects.get(id = pk)
+    if request.method == "POST":
+        notice.delete()
+        return redirect('d_home')
+    return render(request, 'd_dashboard.html')
+
+
+def deleteNoticeByPatient(request, pk):
+    notice = patientNotice.objects.get(id = pk)
+    logger.info(notice)
+    if request.method == "POST":
+        notice.delete()
+        return redirect('p_home')
+    return render(request, 'p_dashboard.html')

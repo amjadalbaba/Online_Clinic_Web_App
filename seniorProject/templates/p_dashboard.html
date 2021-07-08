@@ -27,6 +27,17 @@
     <h1 align="center" style="color:#128496">Welcome {{ patient.first_name|title }}</h1>
 <!--    <center><span><a href="{% url 'logout_p' %}">Logout</a></span></center>-->
         <hr>
+
+            <div>
+                {% for n in notices %}
+                <form method="post" action="{% url 'deleteNoticeByPt' n.id %}">
+                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                      <strong>{{n.content}}</strong>
+                      <input type="submit" class="close" value="x" data-dismiss="alert" aria-label="Close">
+                    </div>
+                </form>
+                {% endfor %}
+            </div>
 <div class="row" style="padding:30px;" align="center">
 
   <div class="col-md " style="padding: 20px 75px 20px 75px;">
@@ -48,6 +59,7 @@
 </div>
     <div class="column no-gutters" align="center">
         <div class="col-md-7">
+
             <h5>Your Appointments List</h5>
 
             <div class="card card-body" style="box-shadow: 0 8px 8px #CCCCCC;">
@@ -58,7 +70,7 @@
                         <th>From Hour</th>
                         <th>To Hour</th>
                         <th>Doctor Name</th>
-						<th>Action</th>
+						<th colspan="2">Action</th>
                     </tr>
                     {% for a in appointments %}
                                 <tr align="center">
@@ -72,6 +84,9 @@
                                     {% else %}
 									    <td class="text-danger">pending</td>
                                     {% endif %}
+
+                                    <td><a class="btn btn-danger btn-sm btn-block" href="{% url 'deleteByPat' a.id %}">cancel</a></td>
+
                                 </tr>
                     {% endfor%}
 

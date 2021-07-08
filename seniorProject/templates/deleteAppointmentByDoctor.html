@@ -1,0 +1,15 @@
+{% extends 'baseContainer2.html' %}
+
+{% block content %}
+    <h3 style="padding-top:10px; padding-left:10px">Are you sure you want to cancel this appointment?</h3>
+    <form method="post" action="{% url 'deleteByDr' appointment.id %}">
+        {% csrf_token %}
+
+        <table cellpadding="10">
+            <tr>
+                <td><a class="btn btn-danger" href="{% url 'd_home' %}">No</a></td>
+                <td><input type="submit" name="confirm" value="Yes" class="btn btn-info "></td>
+            </tr>
+        </table>
+    </form>
+{% endblock %}
