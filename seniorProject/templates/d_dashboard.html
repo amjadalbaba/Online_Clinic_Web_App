@@ -32,9 +32,11 @@
     <div>
 		{% for n in notices %}
 		<form method="post" action="{% url 'deleteNoticeByDr' n.id %}">
+			                {% csrf_token %}
+
 			<div class="alert alert-warning alert-dismissible fade show" role="alert">
 			  <strong>{{n.content}}</strong>
-			  <input type="submit" class="close" value="x" data-dismiss="alert" aria-label="Close">
+			  <input type="submit" class="close" value="x"  aria-label="Close">
 			</div>
 		</form>
 		{% endfor %}

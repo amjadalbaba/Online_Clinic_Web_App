@@ -31796,3 +31796,735 @@ INFO "GET /home-d/ HTTP/1.1" 200 5595
 INFO "GET /home-d/ HTTP/1.1" 200 5595
 INFO "GET /home-d/ HTTP/1.1" 200 5595
 INFO "GET /home-d/ HTTP/1.1" 200 5595
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/ HTTP/1.1" 200 5595
+INFO "GET /home-d/ HTTP/1.1" 200 5595
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3553
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /home-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 139, in d_home
+    return render(request, 'd_dashboard.html', context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deleteNoticeByDr' with arguments '('',)' not found. 1 pattern(s) tried: ['delete\\-notice\\-by\\-dr/(?P<pk>[^/]+)/$']
+ERROR "GET /home-d/ HTTP/1.1" 500 154588
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 5024
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 4961
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 4988
+ERROR Internal Server Error: /home-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 139, in d_home
+    return render(request, 'd_dashboard.html', context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deleteNoticeByDr' with arguments '('',)' not found. 1 pattern(s) tried: ['delete\\-notice\\-by\\-dr/(?P<pk>[^/]+)/$']
+ERROR "GET /home-d/ HTTP/1.1" 500 154588
+ERROR Internal Server Error: /home-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 139, in d_home
+    return render(request, 'd_dashboard.html', context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deleteNoticeByDr' with arguments '('',)' not found. 1 pattern(s) tried: ['delete\\-notice\\-by\\-dr/(?P<pk>[^/]+)/$']
+ERROR "GET /home-d/ HTTP/1.1" 500 154588
+ERROR Internal Server Error: /home-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 139, in d_home
+    return render(request, 'd_dashboard.html', context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deleteNoticeByDr' with arguments '('',)' not found. 1 pattern(s) tried: ['delete\\-notice\\-by\\-dr/(?P<pk>[^/]+)/$']
+ERROR "GET /home-d/ HTTP/1.1" 500 154588
+ERROR Internal Server Error: /home-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 139, in d_home
+    return render(request, 'd_dashboard.html', context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deleteNoticeByDr' with arguments '('',)' not found. 1 pattern(s) tried: ['delete\\-notice\\-by\\-dr/(?P<pk>[^/]+)/$']
+ERROR "GET /home-d/ HTTP/1.1" 500 154588
+ERROR Internal Server Error: /home-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 139, in d_home
+    return render(request, 'd_dashboard.html', context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deleteNoticeByDr' with arguments '('',)' not found. 1 pattern(s) tried: ['delete\\-notice\\-by\\-dr/(?P<pk>[^/]+)/$']
+ERROR "GET /home-d/ HTTP/1.1" 500 154588
+ERROR Internal Server Error: /home-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 139, in d_home
+    return render(request, 'd_dashboard.html', context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deleteNoticeByDr' with arguments '('',)' not found. 1 pattern(s) tried: ['delete\\-notice\\-by\\-dr/(?P<pk>[^/]+)/$']
+ERROR "GET /home-d/ HTTP/1.1" 500 154588
+INFO "GET / HTTP/1.1" 200 3553
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "POST /login-d/ HTTP/1.1" 302 0
+ERROR Internal Server Error: /home-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 139, in d_home
+    return render(request, 'd_dashboard.html', context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deleteNoticeByDr' with arguments '('',)' not found. 1 pattern(s) tried: ['delete\\-notice\\-by\\-dr/(?P<pk>[^/]+)/$']
+ERROR "GET /home-d/ HTTP/1.1" 500 154882
+INFO "GET /home-d/ HTTP/1.1" 200 5567
+INFO "GET /home-d/ HTTP/1.1" 200 5567
+INFO "GET /home-d/ HTTP/1.1" 200 5567
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /home-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 139, in d_home
+    return render(request, 'd_dashboard.html', context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deleteNoticeByDr' with no arguments not found. 1 pattern(s) tried: ['delete\\-notice\\-by\\-dr/(?P<pk>[^/]+)/$']
+ERROR "GET /home-d/ HTTP/1.1" 500 153574
+ERROR Internal Server Error: /home-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 139, in d_home
+    return render(request, 'd_dashboard.html', context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deleteNoticeByDr' with no arguments not found. 1 pattern(s) tried: ['delete\\-notice\\-by\\-dr/(?P<pk>[^/]+)/$']
+ERROR "GET /home-d/ HTTP/1.1" 500 153574
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/ HTTP/1.1" 200 5588
+INFO "GET /home-d/ HTTP/1.1" 200 5588
+INFO "GET /home-d/ HTTP/1.1" 200 5588
+INFO /Users/Admin/Desktop/senior-project/seniorProject/seniorProject/urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/ HTTP/1.1" 200 5595
+INFO "GET /home-d/ HTTP/1.1" 200 5595
+INFO "GET /home-d/ HTTP/1.1" 200 5595
+INFO "GET /static/css/bootstrap.min.css.map HTTP/1.1" 200 625953
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /home-d/ HTTP/1.1" 200 5595
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /home-d/ HTTP/1.1" 200 5575
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /home-d/ HTTP/1.1" 200 5575
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+WARNING Forbidden (CSRF token missing or incorrect.): /delete-notice-by-dr/1/
+WARNING "POST /delete-notice-by-dr/1/ HTTP/1.1" 403 2513
+WARNING Forbidden (CSRF token missing or incorrect.): /delete-notice-by-dr/1/
+WARNING "POST /delete-notice-by-dr/1/ HTTP/1.1" 403 2513
+INFO <WSGIRequest: GET '/delete-notice-by-dr/1/'>
+INFO "GET /delete-notice-by-dr/1/ HTTP/1.1" 200 22
+INFO "GET /home-d/ HTTP/1.1" 200 5717
+INFO "GET /home-d/ HTTP/1.1" 200 5717
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-d/ HTTP/1.1" 200 5717
+INFO "GET /static/css/bootstrap.css HTTP/1.1" 200 192348
+INFO "GET /static/css/custom.css HTTP/1.1" 200 212
+INFO "GET /static/js/main.js HTTP/1.1" 200 353
+INFO "GET /static/js/bootstrap.min.js HTTP/1.1" 200 58072
+INFO "GET /static/css/bootstrap.min.css HTTP/1.1" 200 155758
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 200 93101
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.min.css.map HTTP/1.1" 200 625953
+INFO "GET /static/js/bootstrap.min.js.map HTTP/1.1" 200 190253
+INFO "GET /home-d/ HTTP/1.1" 200 5717
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO <WSGIRequest: POST '/delete-notice-by-dr/1/'>
+INFO "POST /delete-notice-by-dr/1/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 5261
+INFO "GET /home-d/ HTTP/1.1" 200 5261
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /logout-d/ HTTP/1.1" 302 0
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "GET /static/fonts/material-icon/css/material-design-iconic-font.min.css HTTP/1.1" 200 70815
+INFO "GET /static/css/style.css HTTP/1.1" 200 10093
+INFO "GET /static/fonts/montserrat/Montserrat-Regular.ttf HTTP/1.1" 200 263192
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 6497
+INFO "GET /home-p/ HTTP/1.1" 200 6497
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-p/ HTTP/1.1" 200 6497
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /home-p/ HTTP/1.1" 200 6497
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /home-p/ HTTP/1.1" 200 6497
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+ERROR Internal Server Error: /home-p/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 159, in p_home
+    return render(request, 'p_dashboard.html', context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deleteNoticeByP' not found. 'deleteNoticeByP' is not a valid view function or pattern name.
+ERROR "GET /home-p/ HTTP/1.1" 500 169801
+INFO "GET /home-p/ HTTP/1.1" 200 6497
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /home-p/ HTTP/1.1" 200 6497
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /home-p/ HTTP/1.1" 200 6497
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO []
+INFO []
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-07-12 HTTP/1.1" 200 351
+INFO []
+INFO []
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO 21
+INFO "POST /api/appointment-d/ HTTP/1.1" 200 17
+INFO "GET /home-p/ HTTP/1.1" 200 7090
+INFO "GET /delete-app-by-pat/20/ HTTP/1.1" 200 1381
+INFO "POST /delete-app-by-pat/20/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 6498
+INFO "GET /logout-p/ HTTP/1.1" 302 0
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "POST /login-d/ HTTP/1.1" 302 0
+ERROR Internal Server Error: /home-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 133, in d_home
+    drl = DoctorSchedule.objects.filter(doctor_id =  idDoctor[0])
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /home-d/ HTTP/1.1" 500 64637
+ERROR Internal Server Error: /home-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 133, in d_home
+    drl = DoctorSchedule.objects.filter(doctor_id =  idDoctor[0])
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /home-d/ HTTP/1.1" 500 64343
+ERROR Internal Server Error: /home-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 133, in d_home
+    drl = DoctorSchedule.objects.filter(doctor_id =  idDoctor[0])
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/db/models/query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+ERROR "GET /home-d/ HTTP/1.1" 500 64343
+INFO "GET /home-p/ HTTP/1.1" 200 6498
+INFO "GET / HTTP/1.1" 200 3553
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "POST /login-d/ HTTP/1.1" 200 2514
+INFO "POST /login-d/ HTTP/1.1" 200 2514
+INFO "POST /login-d/ HTTP/1.1" 200 2514
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "POST /login-d/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 5709
+INFO "GET /logout-d/ HTTP/1.1" 302 0
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "POST /login-d/ HTTP/1.1" 200 2514
+INFO "POST /login-d/ HTTP/1.1" 200 2514
+INFO "POST /login-d/ HTTP/1.1" 200 2514
+INFO "POST /login-d/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 5709
+INFO "POST /delete-notice-by-dr/3/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 5253
+INFO "GET /home-d/ HTTP/1.1" 200 5253
+INFO "GET /logout-d/ HTTP/1.1" 302 0
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "POST /login-p/ HTTP/1.1" 200 2540
+INFO "POST /login-p/ HTTP/1.1" 200 2540
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 6498
+INFO "GET /home-p/ HTTP/1.1" 200 6498
+INFO "GET /home-p/ HTTP/1.1" 200 6478
+INFO <WSGIRequest: POST '/delete-notice-by-pt/1/'>
+INFO "POST /delete-notice-by-pt/1/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 5892
+INFO "GET /home-p/ HTTP/1.1" 200 5892
+INFO "GET /home-p/ HTTP/1.1" 200 5892
+INFO "GET /logout-p/ HTTP/1.1" 302 0
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3553
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "POST /login-d/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 5253
+INFO "GET /delete-app-by-dr/17/ HTTP/1.1" 200 1380
+INFO "GET /home-d/ HTTP/1.1" 200 5253
+INFO "GET /delete-app-by-dr/17/ HTTP/1.1" 200 1380
+INFO "POST /delete-app-by-dr/17/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 4805
+INFO "GET /logout-d/ HTTP/1.1" 302 0
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+WARNING Not Found: /login-dp
+WARNING "GET /login-dp HTTP/1.1" 404 4952
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "GET /login-p HTTP/1.1" 301 0
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 5885
+INFO <WSGIRequest: POST '/delete-notice-by-pt/2/'>
+INFO "POST /delete-notice-by-pt/2/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 5299
+INFO "GET /home-p/ HTTP/1.1" 200 5299
+INFO "GET /logout-p/ HTTP/1.1" 302 0
+INFO "GET /login-p/ HTTP/1.1" 200 2433

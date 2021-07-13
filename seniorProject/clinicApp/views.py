@@ -25,6 +25,8 @@ from django.contrib.auth.decorators import login_required
 from django.db.models import Count, Case, When, IntegerField
 from django.contrib.auth.models import User
 
+from django.forms.models import model_to_dict   #this converts a query result of a model into a dict
+
 
 
 
@@ -123,6 +125,7 @@ def d_home(request):
 
     #if request.session['userID'] and int(request.session['userID']) == int(pk):
     if request.user.is_authenticated:
+
         pk = request.user.id
         idDoctor = Doctor.objects.filter(user_id=pk).values_list('id', flat=True)
         drUser = User.objects.get(id=pk)
@@ -319,18 +322,15 @@ def deleteAppointmentByDoctor(request, pk):
     return render(request, 'deleteAppointmentByDoctor.html', context)
 
 def deleteNoticeByDoctor(request, pk):
-    logger.info(request)
     notice = doctorNotice.objects.get(id = pk)
     if request.method == "POST":
         notice.delete()
         return redirect('d_home')
-    return render(request, 'd_dashboard.html')
 
 
 def deleteNoticeByPatient(request, pk):
     notice = patientNotice.objects.get(id = pk)
-    logger.info(notice)
+    logger.info(request)
     if request.method == "POST":
         notice.delete()
         return redirect('p_home')
-    return render(request, 'p_dashboard.html')

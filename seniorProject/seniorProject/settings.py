@@ -103,7 +103,7 @@ DATABASES = {
 CRONTAB_COMMAND_SUFFIX = '2>&1'
 
 CRONJOBS = [
-    ('*/1 * * * *', 'clinicApp.cron.job')#, '>> /logs/debug3.log'
+    ('*/1 * * * *', 'clinicApp.cron.job')
 ]
 
 # Password validation
