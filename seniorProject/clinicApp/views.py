@@ -20,7 +20,7 @@ from rest_framework.authtoken.views import ObtainAuthToken
 from rest_framework.authtoken.models import Token
 from .utils import scheduleInsert, checkDay, transfromTimeToInt, halfSplit, timeListItem
 from .logic import *
-import datetime
+from datetime import datetime
 from django.contrib.auth.decorators import login_required
 from django.db.models import Count, Case, When, IntegerField
 from django.contrib.auth.models import User
@@ -199,6 +199,8 @@ def takeAppointment(request):
         idPatient = Patient.objects.filter(user_id=pk).values_list('id', flat=True)
         drlist = Doctor.objects.all()
 
+
+
         context = {'doctorList' : drlist,'id' : idPatient[0]}
         return render(request, 'takeAppointment.html', context)
 
@@ -227,13 +229,13 @@ def loadSchedule(request):
         message = 'OK'
         for i in timeList:
             if str(i['idx']) == request.POST['time']:
+                 logger.info(request.POST)
                  checkTime = Appointments.objects.filter(day=appDay,from_hour=str(i['from']), to_hour=str(i['to']), doctor_id=doctor)
                  if not checkTime:
                      crt = Appointments.objects.create(day=appDay, description=desc, from_hour=str(i['from']), to_hour=str(i['to']), doctor_id=doctor, patient_id= patient)
                      crt.save()
                      crt2 = Consultation.objects.create(appointment_id = crt.id)
                      crt2.save()
-                     logger.info(crt.id)
                      message = 'OK'
                  else:
                      message = "Doctor have an appointment at that time, please choose different time range"

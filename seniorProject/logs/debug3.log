@@ -32528,3 +32528,427 @@ INFO "GET /home-p/ HTTP/1.1" 200 5299
 INFO "GET /home-p/ HTTP/1.1" 200 5299
 INFO "GET /logout-p/ HTTP/1.1" 302 0
 INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO Watching for file changes with StatReloader
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "POST /login-p/ HTTP/1.1" 200 2540
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 5299
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO []
+INFO []
+INFO [8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-07-13 HTTP/1.1" 200 1159
+INFO []
+INFO []
+INFO [0.0]
+INFO [0.0]
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 212, in loadSchedule
+    timeList = getDoctorFreeSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 163, in getDoctorFreeSlots
+    timeList = timeListItem(slist)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 23, in timeListItem
+    item1 = {'idx': 0, 'from': '{0:02.0f}:{1:02.0f}'.format(*divmod(Lst[0] * 60, 60)), 'to': '{0:02.0f}:{1:02.0f}'.format(*divmod(Lst[1] * 60, 60))}
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=34&day=2021-07-13 HTTP/1.1" 500 69452
+INFO []
+INFO []
+INFO [8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-07-13 HTTP/1.1" 200 1159
+INFO []
+INFO []
+INFO [0.0]
+INFO [0.0]
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 212, in loadSchedule
+    timeList = getDoctorFreeSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 163, in getDoctorFreeSlots
+    timeList = timeListItem(slist)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 23, in timeListItem
+    item1 = {'idx': 0, 'from': '{0:02.0f}:{1:02.0f}'.format(*divmod(Lst[0] * 60, 60)), 'to': '{0:02.0f}:{1:02.0f}'.format(*divmod(Lst[1] * 60, 60))}
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=34&day=2021-07-13 HTTP/1.1" 500 69452
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO []
+INFO []
+INFO [0.0]
+INFO [0.0]
+ERROR Internal Server Error: /api/appointment-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 212, in loadSchedule
+    timeList = getDoctorFreeSlots(doctor, day, date)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/logic.py", line 163, in getDoctorFreeSlots
+    timeList = timeListItem(slist)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/utils.py", line 23, in timeListItem
+    item1 = {'idx': 0, 'from': '{0:02.0f}:{1:02.0f}'.format(*divmod(Lst[0] * 60, 60)), 'to': '{0:02.0f}:{1:02.0f}'.format(*divmod(Lst[1] * 60, 60))}
+IndexError: list index out of range
+ERROR "GET /api/appointment-d/?doctor=34&day=2021-07-13 HTTP/1.1" 500 69452
+INFO []
+INFO []
+INFO [8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-07-13 HTTP/1.1" 200 1159
+INFO []
+INFO []
+INFO [8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO <QueryDict: {'day': ['2021-07-13'], 'doctor': ['35'], 'time': ['0'], 'description': ['Testing'], 'patient': ['20']}>
+INFO 22
+INFO "POST /api/appointment-d/ HTTP/1.1" 200 17
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-p/ HTTP/1.1" 200 5892
+INFO 2021-07-13
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-p/ HTTP/1.1" 200 5892
+INFO <class 'str'>
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO [8]
+INFO [8, 8.5]
+INFO [8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-07-13 HTTP/1.1" 200 1069
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO [18.5]
+INFO [18.5, 19.0]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 19.5, 20.0, 20.5, 21.0]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-07-12 HTTP/1.1" 200 263
+INFO [18.5]
+INFO [18.5, 19.0]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 19.5, 20.0, 20.5, 21.0]
+INFO <QueryDict: {'day': ['2021-07-12'], 'doctor': ['35'], 'time': ['1'], 'description': ['hh'], 'patient': ['20']}>
+INFO "POST /api/appointment-d/ HTTP/1.1" 200 17
+INFO "GET /home-p/ HTTP/1.1" 200 6485
+INFO "GET /delete-app-by-pat/23/ HTTP/1.1" 200 1381
+INFO "POST /delete-app-by-pat/23/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 5892
+INFO "GET /delete-app-by-pat/22/ HTTP/1.1" 200 1381
+INFO "POST /delete-app-by-pat/22/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 5299
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO []
+INFO []
+INFO [8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-07-13 HTTP/1.1" 200 1159
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /appointment-p/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 203, in takeAppointment
+    nowAsDate = datetime.datetime.strptime(now, "%Y-%m-%d")
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+ERROR "GET /appointment-p/ HTTP/1.1" 500 60698
+ERROR Internal Server Error: /appointment-p/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 203, in takeAppointment
+    nowAsDate = datetime.datetime.strptime(now, "%Y-%m-%d")
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+ERROR "GET /appointment-p/ HTTP/1.1" 500 60698
+ERROR Internal Server Error: /appointment-p/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 203, in takeAppointment
+    nowAsDate = datetime.datetime.strptime(now, "%Y-%m-%d")
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+ERROR "GET /appointment-p/ HTTP/1.1" 500 60698
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO 2021-07-13 00:00:00
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO []
+INFO []
+INFO [8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-07-13 HTTP/1.1" 200 1159
+INFO []
+INFO []
+INFO [8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO 2021-07-13 00:00:00
+INFO "POST /api/appointment-d/ HTTP/1.1" 200 17
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO [8]
+INFO [8, 8.5]
+INFO [8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-07-13 HTTP/1.1" 200 1069
+INFO [18.5]
+INFO [18.5, 19.0]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 19.5, 20.0, 20.5, 21.0]
+INFO 2021-07-12 00:00:00
+INFO "POST /api/appointment-d/ HTTP/1.1" 200 17
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-p/ HTTP/1.1" 200 6485
+INFO "GET /delete-app-by-pat/24/ HTTP/1.1" 200 1381
+INFO "POST /delete-app-by-pat/24/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 5892
+INFO "GET /delete-app-by-pat/25/ HTTP/1.1" 200 1381
+INFO "POST /delete-app-by-pat/25/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 5299
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO [18.5]
+INFO [18.5, 19.0]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 19.5, 20.0, 20.5, 21.0]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-07-12 HTTP/1.1" 200 263
+INFO [18.5]
+INFO [18.5, 19.0]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 19.5, 20.0, 20.5, 21.0]
+INFO True
+INFO "POST /api/appointment-d/ HTTP/1.1" 200 17
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO [18.5, 18]
+INFO [19.0, 18.5, 18]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 19.5, 20.0, 20.5, 21.0]
+INFO True
+INFO "POST /api/appointment-d/ HTTP/1.1" 200 90
+INFO "GET /home-p/ HTTP/1.1" 200 5892
+INFO "GET /delete-app-by-pat/26/ HTTP/1.1" 200 1381
+INFO "POST /delete-app-by-pat/26/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 5299
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO [18.5]
+INFO [18.5, 19.0]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 19.5, 20.0, 20.5, 21.0]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-07-12 HTTP/1.1" 200 263
+INFO [18.5]
+INFO [18.5, 19.0]
+INFO [17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [17.0, 17.5, 18.0, 19.5, 20.0, 20.5, 21.0]
+INFO True
+INFO "POST /api/appointment-d/ HTTP/1.1" 200 90
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO /Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET /home-p/ HTTP/1.1" 200 5299
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO []
+INFO []
+INFO [8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-07-13 HTTP/1.1" 200 1159
+INFO []
+INFO []
+INFO [8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO <QueryDict: {'day': ['2021-07-13'], 'doctor': ['35'], 'time': ['1'], 'description': ['dd'], 'patient': ['20']}>
+INFO "POST /api/appointment-d/ HTTP/1.1" 200 17
+INFO "GET /home-p/ HTTP/1.1" 200 5892
+INFO "GET /delete-app-by-pat/27/ HTTP/1.1" 200 1381
+INFO "POST /delete-app-by-pat/27/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 5299
+INFO "GET /logout-p/ HTTP/1.1" 302 0
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "POST /login-d/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 7547
+INFO "POST /delete-notice-by-dr/4/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 7091
+INFO "POST /delete-notice-by-dr/5/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 6635
+INFO "POST /delete-notice-by-dr/6/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 6179
+INFO "POST /delete-notice-by-dr/7/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 5723
+INFO "POST /delete-notice-by-dr/8/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 5267
+INFO "POST /delete-notice-by-dr/9/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 4811
+INFO "GET /logout-d/ HTTP/1.1" 302 0
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO Watching for file changes with StatReloader
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "GET / HTTP/1.1" 200 3553
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "POST /login-p/ HTTP/1.1" 200 2540
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 5299
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO "GET /home-p/ HTTP/1.1" 200 5299
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO []
+INFO []
+INFO [7.0, 7.5, 8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO [7.0, 7.5, 8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-07-14 HTTP/1.1" 200 1251
+INFO "GET /home-p/ HTTP/1.1" 200 5299
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3553
+INFO "GET /static/css/style.css HTTP/1.1" 200 10093
+INFO "GET /static/css/custom.css HTTP/1.1" 304 0
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 304 0
+INFO "GET /static/images/wel.jpg HTTP/1.1" 304 0
+INFO "GET /static/images/wel.jpg HTTP/1.1" 304 0
+WARNING Not Found: /favicon.ico
+WARNING Not Found: /apple-touch-icon-precomposed.png
+WARNING "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 5024
+WARNING "GET /favicon.ico HTTP/1.1" 404 4961
+WARNING Not Found: /apple-touch-icon.png
+WARNING "GET /apple-touch-icon.png HTTP/1.1" 404 4988
+INFO "GET / HTTP/1.1" 200 3553
+INFO "GET /static/css/style.css HTTP/1.1" 200 10093
+INFO "GET /static/css/custom.css HTTP/1.1" 200 212
+INFO "GET /static/fonts/material-icon/css/material-design-iconic-font.min.css HTTP/1.1" 200 70815
+INFO "GET /static/css/bootstrap.css HTTP/1.1" 200 192348
+INFO "GET /static/js/jquery.min.js HTTP/1.1" 200 93101
+INFO "GET /static/css/bootstrap.min.css HTTP/1.1" 200 155758
+INFO "GET /static/css/bootstrap.css.map HTTP/1.1" 200 492048
+INFO "GET /static/js/bootstrap.min.js HTTP/1.1" 200 58072
+INFO "GET /static/js/main.js HTTP/1.1" 200 353
+INFO "GET /static/images/wel.jpg HTTP/1.1" 200 2319473
+INFO "GET /static/fonts/montserrat/Montserrat-Regular.ttf HTTP/1.1" 200 263192
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 4961
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 304 0
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 304 0
+INFO "POST /login-d/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 4811
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "GET /static/vendor/jquery/jquery.min.js HTTP/1.1" 200 86929
+INFO "GET /static/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff2?v=2.2.0 HTTP/1.1" 200 38384
+INFO "GET /static/images/blur-hospital.jpg HTTP/1.1" 200 3114963
+INFO "POST /login-p/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 5299
+INFO "GET /schedule-d/ HTTP/1.1" 200 6174
+ERROR Internal Server Error: /schedule-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 188, in createSchedule
+    objs.updated_at = datetime.datetime.now()
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+ERROR "POST /schedule-d/ HTTP/1.1" 500 64507
+ERROR Internal Server Error: /schedule-d/
+Traceback (most recent call last):
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/Admin/Desktop/senProject/project/senior-project/sword/sword/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/Admin/Desktop/senior-project/seniorProject/clinicApp/views.py", line 188, in createSchedule
+    objs.updated_at = datetime.datetime.now()
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+ERROR "POST /schedule-d/ HTTP/1.1" 500 64507
+INFO "GET /home-d/ HTTP/1.1" 200 4811
+INFO "GET /schedule-d/ HTTP/1.1" 200 6174
+INFO "GET /home-d/ HTTP/1.1" 200 4811
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO []
+INFO []
+INFO [9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0, 21.5, 22.0]
+INFO [9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0, 21.5, 22.0]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-07-22 HTTP/1.1" 200 1160
+INFO []
+INFO []
+INFO [9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0, 21.5, 22.0]
+INFO [9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0, 21.5, 22.0]
+INFO <QueryDict: {'day': ['2021-07-22'], 'doctor': ['35'], 'time': ['0'], 'description': ['My head is hurting me so much'], 'patient': ['20']}>
+INFO "POST /api/appointment-d/ HTTP/1.1" 200 17
+INFO "GET /home-p/ HTTP/1.1" 200 5892
+INFO "GET /home-d/ HTTP/1.1" 200 5272
+INFO "GET /appointment-p/ HTTP/1.1" 200 6954
+INFO [9]
+INFO [9, 9.5]
+INFO [9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0, 21.5, 22.0]
+INFO [10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 16.0, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.0, 20.5, 21.0, 21.5, 22.0]
+INFO "GET /api/appointment-d/?doctor=35&day=2021-07-22 HTTP/1.1" 200 1070
+INFO "GET /home-p/ HTTP/1.1" 200 5892
+INFO "GET /delete-app-by-pat/28/ HTTP/1.1" 200 1381
+INFO "POST /delete-app-by-pat/28/ HTTP/1.1" 302 0
+INFO "GET /home-p/ HTTP/1.1" 200 5299
+INFO "GET /home-d/ HTTP/1.1" 200 5268
+INFO "POST /delete-notice-by-dr/10/ HTTP/1.1" 302 0
+INFO "GET /home-d/ HTTP/1.1" 200 4811
+INFO "GET /prescription/21/ HTTP/1.1" 200 4962
+INFO "GET /home-d/ HTTP/1.1" 200 4811
+INFO "GET /prescription/21/ HTTP/1.1" 200 4962
+INFO Consultation object (10)
+INFO "POST /api/prescript/21/ HTTP/1.1" 200 17
+INFO "GET /home-d/ HTTP/1.1" 200 4645
+INFO "GET /home-p/ HTTP/1.1" 200 5349
+INFO "GET /details/21/ HTTP/1.1" 200 3083
+INFO "GET /home-p/ HTTP/1.1" 200 5349
+INFO "GET /logout-p/ HTTP/1.1" 302 0
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "GET /logout-d/ HTTP/1.1" 302 0
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "GET / HTTP/1.1" 200 3553
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 3553
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "GET /login-p/ HTTP/1.1" 200 2433
+INFO "GET /register-doctor/ HTTP/1.1" 200 11900
+INFO "GET /login-d/ HTTP/1.1" 200 2407
+INFO "GET / HTTP/1.1" 200 3553
+INFO "GET /register-patient/ HTTP/1.1" 200 6241
+INFO "GET /login-p/ HTTP/1.1" 200 2433
