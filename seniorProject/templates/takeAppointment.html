@@ -1,0 +1,146 @@
+
+{% extends 'baseContainer.html' %}
+
+{% block content %}
+    <style>
+        .column{
+                background: white;
+                border-radius: 30px;
+                box-shadow: 12px 12px 22px grey;
+            }
+    </style>
+    <div class="alert alert-info" role="alert" style="display: none;" id="sAlert">
+        Appointment Successfully Reserved!
+    </div>
+    <div class="column no-gutters"><!--col no-glutters--> <!--no-gutters to remove paddings in the row-->
+        <center><div  class="col-lg-11 pt-3 px-5"><h1>Take an Appointment</h1></div></center>
+        <hr>
+        <center><div class="col-lg-11 pt-3 px-5">
+        {% for message in messages %}
+           <p id="messages" style="color:#ff0000">{{message}}</p>
+        {% endfor %}
+        <form method="POST" id="form">
+                {% csrf_token %}
+
+
+              <div class="form-group">
+                <label >Choose a Day</label>
+                <input type="date" required="required"  name="day" id="day"  class="form-control" >
+              </div>
+<!--               <div class="form-group">-->
+<!--                <label >From Hour</label>-->
+<!--                <input type="time" required="required"  name="from_hour" id="from_hour" class="form-control">-->
+<!--              </div>-->
+<!--              <div class="form-group">-->
+<!--                <label>To Hour</label>-->
+<!--                <input type="time" required="required"  name="to_hour" id="to_hour" class="form-control">-->
+<!--              </div>-->
+              <div class="form-group">
+                <label>Choose a Doctor</label>
+                <select  class="form-control" required="required" name="doctor" id="doctor" disabled><br>
+                        <option selected>Select a doctor</option>
+                      {% for d in doctorList %}
+                        <option value="{{d.id}}">{{d.user.first_name|title|add:" "|add:d.user.last_name|title}}</option>
+                     {% endfor %}
+                </select>
+              </div>
+
+
+            <div class="form-group">
+                <label>Choose a time</label>
+                <select  class="form-control" required="required" name="time" id="time" disabled><br>
+                        <option selected>Select a time</option>
+                </select>
+              </div>
+
+
+              <div class="form-group">
+                <label>Brief Description</label>
+                <input type="text" required="required"  name="description" id="description"  class="form-control">
+              </div>
+              <div class="form-group">
+                <input type="hidden" required="required" name="patient" id="patient" value="{{ id }}">
+              </div>
+               <input type="submit" name="submit" value="Add" class="btn btn-info mb-3" id="addButton">
+                <br>
+                <p>return to <a style="color:#ff0000" href="{% url 'p_home' %}"><b> my dashboard</b></a></p>
+
+           </form>
+        </div></center>
+    </div>
+
+<script>
+ $(document).ready(function(){
+
+    $("#day").change(function () {
+       $("#doctor").prop('disabled', false);
+    });
+
+    $("#doctor").change(function () {
+       $("#time").prop('disabled', false);
+    });
+
+    $("#doctor").change(function () {
+        var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
+        $.ajax({
+            url: "{% url 'appointment_api' %}",
+            data: {
+                doctor : $("#doctor").val(),
+                day :  $("#day").val()
+            },
+            success: function (resp) {
+
+                let html_data = '<option value="">---------</option>';
+                resp.data.forEach(function (d) {
+                    html_data += "<option value='" + d.idx + "'>" + d.from + "-" + d.to + "</option>";
+                });
+                console.log(html_data);
+                $("#time").html(html_data);
+
+            }
+        });
+
+    });
+
+
+         $("#form").submit(function(e){
+
+                            e.preventDefault();
+
+
+             $.ajaxSetup({
+                        headers: {
+                            'X-CSRFToken': document.querySelector('[name=csrfmiddlewaretoken]').value
+                        }
+            });
+                $.ajax({
+                        type : 'POST',
+                        url : "{% url 'appointment_api' %}",
+                        data : {
+                            day: $('#day').val(),
+                            doctor: $('#doctor').val(),
+                            time: $('#time').val(),
+                            description: $('#description').val(),
+                            patient: $('#patient').val()
+                        },
+                        success : function(resp) {
+                            if (resp.message == "OK"){
+                                $("#sAlert").show();
+                            }
+
+                            else{
+                                $("#sAlert").show();
+                                $("#sAlert").html(resp.message);
+                            }
+                        },
+
+
+            });
+
+
+    });
+ });
+</script>
+
+{% endblock %}

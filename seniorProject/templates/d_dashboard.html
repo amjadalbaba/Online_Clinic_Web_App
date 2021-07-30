@@ -1,0 +1,106 @@
+{% extends 'baseContainer2.html' %}
+
+{% block content %}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-3 mb-5 bg-white rounded">
+  <a class="navbar-brand" href="{% url 'welcome' %}">Online Clinic</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+<!--      <li class="nav-item active">-->
+<!--		  <h6 style="color:#128496">Dr.{{ doctor.first_name }}</h6>-->
+<!--      </li>-->
+<!--      <li class="nav-item">-->
+<!--        <a class="nav-link" href="#">Features</a>-->
+<!--      </li>-->
+<!--      <li class="nav-item">-->
+<!--        <a class="nav-link" href="#">Pricing</a>-->
+<!--      </li>-->
+    </ul>
+    <span class="navbar-text">
+<!--		<h6 align="center" style="color:#128496"> Dr.{{ doctor.first_name }}</h6>-->
+	  	<button class="btn btn-outline-info my-2 my-sm-0" type="submit"><a style="text-decoration:none" href="{% url 'logout_d' %}" class="link-info">Logout</a></button>
+
+  </span>
+</nav>
+        <h1 align="center" style="color:#128496">Welcome Dr.{{ doctor.first_name }}</h1>
+<!--    	<center><span><a href="{% url 'logout_p' %}">Logout</a></span></center>-->
+
+        <hr>
+    <div>
+		{% for n in notices %}
+		<form method="post" action="{% url 'deleteNoticeByDr' n.id %}">
+			                {% csrf_token %}
+
+			<div class="alert alert-warning alert-dismissible fade show" role="alert">
+			  <strong>{{n.content}}</strong>
+			  <input type="submit" class="close" value="x"  aria-label="Close">
+			</div>
+		</form>
+		{% endfor %}
+	</div>
+	<div class="column no-gutters"  align="center">
+		<div class="col-md-7">
+			<h5>Your Weekly Schedule</h5>
+
+			<div class="card card-body" style="box-shadow: 0 8px 8px #CCCCCC">
+				<a class="btn btn-info btn-sm btn-block" href="{% url 'schedule_d' %}">Edit Schedule</a>
+				<table class="table table-sm" style="border-radius:10px;">
+					<tr>
+						<th>Day</th>
+						<th>From Hour</th>
+						<th>To Hour</th>
+					</tr>
+					{% for l in list %}
+								<tr>
+									<td>{{ l.day }}</td>
+									<td>{{ l.from_hour }}</td>
+									<td>{{ l.to_hour }}</td>
+								</tr>
+					{% endfor %}
+
+				</table>
+			</div>
+	</div>
+   </div>
+	<br>
+	<div class="column no-gutters"  align="center">
+		<div class="col-md-7">
+			<h5>List of Appointments</h5>
+
+			<div class="card card-body" style="box-shadow: 0 8px 8px #CCCCCC">
+				<table class="table table-sm" style="border-radius:10px;">
+					<tr align="center">
+						<th>Day</th>
+						<th>From Hour</th>
+						<th>To Hour</th>
+						<th>Patient</th>
+						<th>Description</th>
+						<th colspan="2">Action</th>
+					</tr>
+					{% for l in Appointments %}
+								<tr align="center">
+									<td>{{ l.day }}</td>
+									<td>{{ l.from_hour }}</td>
+									<td>{{ l.to_hour }}</td>
+									<td>{{ l.patient.user.first_name|title|add:" "|add:l.patient.user.last_name|title }}</td>
+									<td>{{ l.description }}</td>
+									{% if l.checkPrescription %}
+										<td class="text-success" colspan="2">consulted</td>
+									{% else %}
+										<td><a class="btn btn-info btn-sm btn-block" href="{% url 'prescription' l.id %}">prescript</a></td>
+										<td><a class="btn btn-danger btn-sm btn-block" href="{% url 'deleteByDr' l.id %}">cancel</a></td>
+                                    {% endif %}
+								</tr>
+					{% endfor%}
+
+				</table>
+			</div>
+	</div>
+   </div>
+
+{% endblock %}
+
+

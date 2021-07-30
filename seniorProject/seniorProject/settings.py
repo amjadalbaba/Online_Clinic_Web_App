@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 
 import os
 
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -39,6 +40,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'clinicApp',
+
+    'rest_framework',
+    'rest_framework.authtoken',
+    'django_apscheduler',
+    'django_crontab',
 ]
 
 MIDDLEWARE = [
@@ -56,7 +62,7 @@ ROOT_URLCONF = 'seniorProject.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR,"templates")],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -71,6 +77,14 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'seniorProject.wsgi.application'
 
+REST_FRAMEWORK = {
+    # 'DEFAULT_AUTHENTICATION_CLASSES': (
+    #     'rest_framework.authentication.TokenAuthentication',
+    # ),
+    'DEFAULT_PERMISSION_CLASSES': (
+       # 'rest_framework.permissions.IsAuthenticated',
+    ),
+}
 
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
@@ -86,9 +100,16 @@ DATABASES = {
     }
 }
 
+CRONTAB_COMMAND_SUFFIX = '2>&1'
+
+CRONJOBS = [
+    ('*/1 * * * *', 'clinicApp.cron.job')
+]
 
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
+
+
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -119,8 +140,38 @@ USE_L10N = True
 
 USE_TZ = True
 
+TIME_FORMAT = "H:M"
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+MEDIA_URL = '/images/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
+    '/var/www/static/',
+]
+
+LOGGING= {
+    'version' : 1,
+    'loggers' : {
+        'django' : {
+            'handlers' : ['file'],
+            'level' : 'DEBUG'
+        }
+    },
+    'handlers' : {
+        'file': {
+            'level': 'INFO',
+            'class': 'logging.FileHandler',
+            'filename': './logs/debug3.log',
+            'formatter' : 'simple',
+        }
+    },
+    'formatters' : {
+        'simple' : {
+            'format' : '{levelname} {message}',
+            'style' : '{',
+        }
+    }
+}

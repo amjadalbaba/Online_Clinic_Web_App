@@ -1,0 +1,34 @@
+{% extends 'baseContainer.html' %}
+
+{% block content %}
+            <div class="row no-gutters"><!--col no-glutters--> <!--no-gutters to remove paddings in the row-->
+
+                <div class="col-lg-5">
+                    <img src="../static/images/wel.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="col-lg-7 pt-3 px-5"><!--row-lg-7-->
+                    <h1 class="font-weight-bold py-3" align="center">WELCOME</h1>
+                    <hr>
+                    <center><form>
+                        <div class="form-row">
+                           <div class="col-md-6">
+                            <a href="{% url 'register-doctor' %}" class="btn btn-outline-info btn-block my-2 p-3">Register as a Doctor</a>
+                           </div>
+                           <div class="col-md-6">
+
+                               <a href="{% url 'register-patient' %}" class="btn btn-outline-info btn-block my-2 p-3">Register as a Patient</a>
+                           </div>
+                        </div>
+                         <div class="form-row">
+                           <div class="col-md-6">
+                                <a href="{% url 'login_d' %}" class="btn btn-info btn-block my-2 p-3"> Login as a Doctor</a>
+                           </div>
+                           <div class="col-md-6">
+                                <a href="{% url 'login_p' %}" class="btn btn-info btn-block my-2 p-3">Login as a Patient</a>
+                           </div>
+                        </div>
+                    </form></center>
+                    <h6 class="font-weight-bold py-2" align="center">ENJOY YOUR HEALTHY JOURNEY</h6>
+                </div>
+            </div>
+{% endblock %}
