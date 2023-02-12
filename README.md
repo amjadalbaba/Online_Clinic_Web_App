@@ -2,13 +2,6 @@
 
 Repo demomnstarting an online clinic portal web app developed Django 
 
-Online Clinic Portal Web Application Project 
-
-BY:
-
-Amjad El-Baba
-
-
 CONTENTS
 
 1) Project Main Purpose							      
