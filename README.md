@@ -1,8 +1,7 @@
 # Online_Clinic_Portal_Web_Application
-
 Repo demomnstarting an online clinic portal web app developed Django 
 
-CONTENTS
+## CONTENTS
 
 1) Project Main Purpose							      
 2) Web Applications Frameworks					      
@@ -23,7 +22,7 @@ CONTENTS
 
 
 
-Project Main Purpose
+## Project Main Purpose
 
    As the world moves onto a digital space in a wider aspect, the need for physical presence for consultation will become redundant. From meetings to classes, most interpersonal interactions can take place online through video conferencing. In fact, recently even court hearings have moved online. This sets the stage for adapting a critical aspect of our lives to web portals; healthcare.
 
@@ -34,7 +33,7 @@ Project Main Purpose
 The main purpose is to make people's life easier in a way of transforming our life into a totally digital life and way of living.
 
 
-Web Applications Frameworks
+## Web Applications Frameworks
 
    Starting from the very beginning, we will dive into the subject gradually step-by-step. So the first of such steps is to understand what framework means. Framework is a tool, which makes developer life much easier. We will explain why. Imagine you have to generate application or software, how are you going to start? You will probably need some structure, tools and components. That is what a framework about.
 
@@ -60,7 +59,7 @@ There are several server-side web application frameworks such as:
    By using either of these server-side web application frameworks, you let it handle HTTP requests, database control and management, as well as URL mapping. You can also render view data with a server.
 
 
-Intro to Django Backend Framework
+## Intro to Django Backend Framework
 
    Web development became popular due to the widespread accessibility of the web, especially for commerce. Once businesses quickly realized they could offer their products and services on the web, this created a demand for web development that has never slowed down.
 
@@ -77,7 +76,7 @@ Web development can be divided into three major parts:
    Django is an open-source framework for backend web applications based on Python Ñ one of the top web development languages. Its main goals are simplicity, flexibility, reliability, and scalability.
 
 
-Django Essential Components:
+## Django Essential Components:
 
    * App.py: Where app configurations are defined.
    * Admin.py: Where model configurations are defined in relation to the project admin page.
@@ -96,18 +95,18 @@ Also, Django is one of the frameworks that allows a developer to deal with diffe
 As a conclusion, Django is one of the most popular frameworks nowadays, since it gives a wide range of services considering different fields.
 
 
-Definition of a DBMS
+## Definition of a DBMS
 
    A database management system (DBMS) is system software for creating and managing databases. A DBMS makes it possible for end users to create, protect, read, update and delete data in a database. The most prevalent type of data management platform, the DBMS essentially serves as an interface between databases and end users or application programs, ensuring that data is consistently organized and remains easily accessible.
 
-What does a DMBS do?
+## What does a DMBS do?
 
    The DBMS manages the data; the database engine allows data to be accessed, locked and modified; and the database schema defines the database's logical structure. These three foundational elements help provide concurrency, security, data integrity and uniform data administration procedures. Typical database administration tasks the DBMS supports include change management, performance monitoring and tuning, security, and backup and recovery. Most database management systems are also responsible for automated rollbacks and restarts as well as logging and auditing of activity in databases and the applications that access them.
 The DBMS provides a centralized view of data that can be accessed by multiple users, from multiple locations, in a controlled manner. A DBMS can limit what data the end user sees, as well as how that end user can view the data, providing many views of a single database schema. End users and software programs are free from having to understand where the data is physically located or on what type of storage media it resides because the DBMS handles all requests.
 The DBMS can offer both logical and physical data independence. This means it can protect users and applications from needing to know where data is stored or being concerned about changes to the physical structure of data. As long as programs use the application programming interface (API) for the database that the DBMS provides, developers won't have to modify programs just because changes have been made to the database.
 
 
-Database Structure Explanation
+## Database Structure Explanation
 
 1. User:
 Here we have the common fields between the two doctor and patient models, so we can simplify and create a well, cleaned and organized database.
@@ -171,7 +170,7 @@ Plus, this model is a main part of the Django authentication system, so any user
       * When a message was sent described as: SENT_AT.
 
 
-Application Pages and Functionalities
+## Application Pages and Functionalities
 
    This application contains different pages each having its own functionalities and its own way of dealing with databases models and backend implementations that will be discussed in details.
 
@@ -180,7 +179,7 @@ Application Pages and Functionalities
 And every page has its own route that is assigned in urls.py.
 
 
-Welcome Page
+## Welcome Page
 
 First of all, a welcome page is displayed to the user with a welcome message and 4 different options:
 
@@ -194,7 +193,7 @@ First of all, a welcome page is displayed to the user with a welcome message and
    * Register as a Patient: Here when a user don't have an account and he is a new patient. 
 
 
-Doctor's Sign-Up Page
+## Doctor's Sign-Up Page
 
 In the registration page, the doctor should enter his private information such as: 
 
@@ -229,7 +228,7 @@ In the registration page of a patient, same fields appears except the speciality
    * And lastly the password and confirmation password
 
 
-Doctor and Patient Sign-In Pages
+## Doctor and Patient Sign-In Pages
 
 Regardless the user is a doctor or a patient must enter a correct credentials in order to access the dashboard, which are:
 
@@ -239,7 +238,7 @@ Regardless the user is a doctor or a patient must enter a correct credentials in
 A request is sent into the back-end and here is the rule of Django Authentication System which checks the email if it exists and if the existing password in the database matched the entered password after applying the necessary built-in algorithm.
 
 
-Patient's Dashboard
+## Patient's Dashboard
 
 
 The following dashboard is composed of 5 main parts:
@@ -262,7 +261,7 @@ After the Add button is pressed a success message will appear to the patient reg
 When the patient wants to view his appointment info by pressing the View Details button a form will appear to the patient in order to view all the info related as the prescription, drug(s) name and the consultation price.
 
 
-Doctor's Dashboard
+## Doctor's Dashboard
 
 This is the main dashboard setup for each doctor in the clinic.
 
@@ -295,7 +294,7 @@ The following form contains:
    * Price field: the pricing of an appointment prescription is in $, so after the doctor check-up, he will assign a suitable price
 
 
-Security Restrictions
+## Security Restrictions
 
    Web application security is a central component of any web-based business. The global nature of the Internet exposes web properties to attack from different locations and various levels of scale and complexity. Web application security deals specifically with the security surrounding websites, web applications and web services such as APIs.
 
@@ -308,7 +307,7 @@ Security Restrictions
    If he chose to view an appointment, the url will appear as follows: http://127.0.0.1:8000/details/13/, the 13 here is the appointment id, and if the patient changes it to another id (20 if we want to say) and this appointment is not set to this patient in the database but related to another patient, an error message will occur: No Such Appointment
 
 
-Summary
+## Summary
 
    Any company willing to achieve maximum success in its industry should have its own online representation. And healthcare organizations are no exception to this rule.
    A medical web resource plays a significant part: it affects the reputation of the clinic, the effectiveness of treatment, and much more.
