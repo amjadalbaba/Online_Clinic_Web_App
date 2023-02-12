@@ -1,12 +1,6 @@
-     
-Topic:
+# Online_Clinic_Portal_Web_Application
 
-Online Clinic Portal Web Application Project 
-
-BY:
-
-Amjad El-Baba
-
+Repo demomnstarting an online clinic portal web app developed Django 
 
 CONTENTS
 
