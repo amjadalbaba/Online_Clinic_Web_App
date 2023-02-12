@@ -1,5 +1,6 @@
-     
-Topic:
+# Online_Clinic_Portal_Web_Application
+
+Repo demomnstarting an online clinic portal web app developed Django 
 
 Online Clinic Portal Web Application Project 
 
