@@ -228,7 +228,7 @@ In the registration page of a patient, same fields appears except the speciality
    * And lastly the password and confirmation password
 
 
-## Doctor's and Patient's Sign-In Pages
+## Doctor's & Patient's Sign-In Pages
 
 Regardless the user is a doctor or a patient must enter a correct credentials in order to access the dashboard, which are:
 
