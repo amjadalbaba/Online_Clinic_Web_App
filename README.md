@@ -193,7 +193,7 @@ First of all, a welcome page is displayed to the user with a welcome message and
    * Register as a Patient: Here when a user don't have an account and he is a new patient. 
 
 
-## Doctor's Sign-Up Page
+## Doctor's & Patient's Sign-Up Page
 
 In the registration page, the doctor should enter his private information such as: 
 
@@ -228,7 +228,7 @@ In the registration page of a patient, same fields appears except the speciality
    * And lastly the password and confirmation password
 
 
-## Doctor and Patient Sign-In Pages
+## Doctor's and Patient's Sign-In Pages
 
 Regardless the user is a doctor or a patient must enter a correct credentials in order to access the dashboard, which are:
 
